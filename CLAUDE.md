@@ -1201,6 +1201,24 @@ first run…" and "Map points":
 - Not ported: the Windows Forms window (the Mac has its own), the Windows recorder (the Mac
   had one first), PrintWindow capture (ScreenCaptureKit already reads the window itself).
 
+## 30 Sep 2026, 10:13: "still bullshit, had me going around in circles" — a nightmare dungeon's slay objective
+
+Grinning Labyrinth, "Destroy the Demonic Corruption: 2". `slayWords` has "destroy", so the
+intent was slay and the navigator led to the **red marks** — 82 s of `to mark`, "Marked
+enemy east, close. 10 marked." — ten monster dots that move about the player. Following moving
+dots is going round in circles by construction. The corruption nodes themselves are drawn on
+the minimap as the **gold ring objective icon** (measured on the live window: Y ≈ 124,
+Cb ≈ 93, Cr ≈ 155, 180–200 pixels inside `OrangeIcons`' window), which the reader was not
+using outside the Undercity.
+
+- **Fix:** orange icons are searched in every run; in a non-timed run the nearest gold icon is
+  the objective marker (routed like the Undercity's cyan one — on the map or pinned), and red
+  marks lead a slay objective only when no gold icon is showing. Swift, C#, both MapLabs. Also
+  a `fits nowhere` reset at 10:14:10 (floor 9 %, busy 0.32) — unexplained, one occurrence.
+- The gold icon also marks events (the entrance's "Grinning One" interact ring is drawn the
+  same way): leading to an event first is a possible new failure; the objective count will
+  say whether the lead was the objective.
+
 ## 30 Sep 2026, 10:00: the game's own settings, read live (Options → Accessibility)
 
 Read from window captures while the owner scrolled (he cannot answer while playing; the Mac's

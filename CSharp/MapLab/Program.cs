@@ -159,12 +159,21 @@ while (ReadFrame())
             timeIcons = (leadToBeacons ? BlueIcons.find(frame, 0, cropW, frame, lumaBytes, cropW, outer, inset).Select(p => (p, "beacon")) : Enumerable.Empty<(Pt, string)>())
                 .Concat(OrangeIcons.find(frame, 0, cropW, frame, lumaBytes, cropW, outer, inset).Select(p => (p, "afflicted"))).ToList();
         }
-        else timeIcons.Clear();
+        else
+        {
+            timeIcons.Clear();
+            // An ordinary dungeon: the objective marker is the nearest gold ring icon (30 Sep 2026).
+            var gold = OrangeIcons.find(frame, 0, cropW, frame, lumaBytes, cropW, outer, inset);
+            var centre = new Pt((double)rect.width / 2, (double)rect.height / 2);
+            Pt? nearestGold = null; double bestGold = double.PositiveInfinity;
+            foreach (var goldIcon in gold) { double goldDistance = M.Hypot(goldIcon.x - centre.x, goldIcon.y - centre.y); if (goldDistance < bestGold) { bestGold = goldDistance; nearestGold = goldIcon; } }
+            marker = nearestGold;
+        }
     }
 
     var reading = MinimapReader.read(gray);
     reading.marks = marks;
-    if (!intent.timed) marker = null;
+    // (An ordinary dungeon's marker is the gold objective icon, chosen above.)
     if (marker is Pt m0 && reading.arrow is Pt arrow0 && time - objectiveSaid >= 5)
     {
         objectiveSaid = time;
@@ -248,7 +257,7 @@ while (ReadFrame())
         rule = AreaRule.goTo(di, intent.leave is string l2 ? stitcher.areaIndex(l2) : null);
     Pt? markerPoint = null;
     if (markerInBox is Pt mib && reading.arrow is Pt a3 && stitcher.player is Pt p3) markerPoint = new Pt(p3.x + mib.x - a3.x, p3.y + mib.y - a3.y);
-    var guidance = navigator.plan(stitcher, toMarks: leadToMarks || intent.slay, toSpot: backToSpot,
+    var guidance = navigator.plan(stitcher, toMarks: (leadToMarks || intent.slay) && (intent.timed || marker == null), toSpot: backToSpot,
                                   toArches: leadToArches || (intent.travel && !intent.timed), areaRule: rule,
                                   marker: noMarker ? null : markerBearing, markerPoint: markerPoint, timed: intent.timed);
     lastGuidance = guidance;

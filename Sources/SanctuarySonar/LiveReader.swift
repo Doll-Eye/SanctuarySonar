@@ -287,10 +287,13 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
                 blue = BlueIcons.find(luma: base, lumaRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 0),
                                       cbcr: chroma, cbcrRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 1),
                                       outer: (0, 0, width, height), inset: inset)
-                orange = OrangeIcons.find(luma: base, lumaRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 0),
-                                          cbcr: chroma, cbcrRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 1),
-                                          outer: (0, 0, width, height), inset: inset)
             }
+            // Orange in every run: the Undercity's afflicted packs, and in an ordinary dungeon
+            // the objective's own gold ring icon (measured 30 Sep 2026 on "Destroy the Demonic
+            // Corruption": Y ≈ 124, Cb ≈ 93, Cr ≈ 155 — inside this finder's window).
+            orange = OrangeIcons.find(luma: base, lumaRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 0),
+                                      cbcr: chroma, cbcrRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 1),
+                                      outer: (0, 0, width, height), inset: inset)
         }
         CVPixelBufferUnlockBaseAddress(pixels, .readOnly)
 
@@ -354,7 +357,17 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
         // The cyan objective marker is an Undercity thing. In ordinary dungeons the only cyan
         // seen so far is a chest icon at the entrance (Forbidden City, 27 Sep replay), which
         // pulled the lead for the first minute; until a recording shows a real one, none.
-        if !wantNow.timed { marker = nil }
+        if !wantNow.timed {
+            // An ordinary dungeon: the objective marker is the gold ring icon, the nearest one
+            // when several show. Never the cyan finder here (a chest icon fooled it, 27 Sep),
+            // and never the red monster dots while a gold icon is showing — on 30 Sep 2026 the
+            // guide chased ten moving dots for "Destroy the Demonic Corruption" and took the
+            // owner round in circles while the corruption's own icon sat on the minimap.
+            marker = nil
+            if let arrow = reading.arrow, !orange.isEmpty {
+                marker = orange.min { hypot($0.x - arrow.x, $0.y - arrow.y) < hypot($1.x - arrow.x, $1.y - arrow.y) }
+            }
+        }
         var markerInBox: CGPoint?
         if let marker, let arrow = reading.arrow {
             markerBearing = atan2(marker.x - arrow.x, -(marker.y - arrow.y))
@@ -420,7 +433,9 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
         if let m = markerInBox, let a = reading.arrow, let player = stitcher.player {
             markerPoint = CGPoint(x: player.x + m.x - a.x, y: player.y + m.y - a.y)
         }
-        var guidance = navigator.plan(stitcher, toMarks: want.slay, toSpot: leadToSpot.withLock { $0 },
+        // Red marks lead a slay objective only when no objective icon is showing (see above).
+        let toMarks = want.slay && (want.timed || marker == nil)
+        var guidance = navigator.plan(stitcher, toMarks: toMarks, toSpot: leadToSpot.withLock { $0 },
                                       toArches: want.travel && !want.timed, areaRule: rule, marker: markerBearing,
                                       markerPoint: markerPoint, timed: want.timed)
         // A time target whose route is a long way round is not worth it: plan again for the
@@ -433,7 +448,7 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
                 beaconLead = false
                 lastTimeTarget = nil
                 let objective: Double? = objectiveMarker.flatMap { o in reading.arrow.map { Double(atan2(o.x - $0.x, -(o.y - $0.y))) } }
-                guidance = navigator.plan(stitcher, toMarks: want.slay, toSpot: leadToSpot.withLock { $0 },
+                guidance = navigator.plan(stitcher, toMarks: toMarks, toSpot: leadToSpot.withLock { $0 },
                                           toArches: want.travel && !want.timed, areaRule: rule, marker: objective, markerPoint: nil, timed: want.timed)
             }
         }

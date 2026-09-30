@@ -256,10 +256,11 @@ public sealed class LiveReader
                 blue = BlueIcons.find(frame.nv12, 0, frame.rowBytes,
                                       frame.nv12, chromaOffset, frame.rowBytes,
                                       outer, frame.inset);
-                orange = OrangeIcons.find(frame.nv12, 0, frame.rowBytes,
-                                          frame.nv12, chromaOffset, frame.rowBytes,
-                                          outer, frame.inset);
             }
+            // Orange in every run: afflicted packs in the Undercity, the objective's gold ring icon elsewhere (30 Sep 2026).
+            orange = OrangeIcons.find(frame.nv12, 0, frame.rowBytes,
+                                      frame.nv12, chromaOffset, frame.rowBytes,
+                                      outer, frame.inset);
         }
 
         var began = Stopwatch.StartNew();
@@ -336,7 +337,22 @@ public sealed class LiveReader
         // The cyan objective marker is an Undercity thing. In ordinary dungeons the only cyan
         // seen so far is a chest icon at the entrance (Forbidden City, 27 Sep replay), which
         // pulled the lead for the first minute; until a recording shows a real one, none.
-        if (!wantNow.timed) marker = null;
+        if (!wantNow.timed)
+        {
+            // An ordinary dungeon: the objective marker is the nearest gold ring icon; never the red
+            // monster dots while one is showing (30 Sep 2026: ten moving dots led the owner in circles).
+            marker = null;
+            if (reading.arrow is Pt goldArrow && orange.Length > 0)
+            {
+                Pt bestGold = orange[0]; double bestGoldDistance = double.PositiveInfinity;
+                foreach (var goldIcon in orange)
+                {
+                    double goldDistance = M.Hypot(goldIcon.x - goldArrow.x, goldIcon.y - goldArrow.y);
+                    if (goldDistance < bestGoldDistance) { bestGoldDistance = goldDistance; bestGold = goldIcon; }
+                }
+                marker = bestGold;
+            }
+        }
         Pt? markerInBox = null;
         if (marker.HasValue && reading.arrow.HasValue)
         {
@@ -404,7 +420,8 @@ public sealed class LiveReader
             Pt m = markerInBox.Value, a = reading.arrow.Value, player = stitcher.player.Value;
             markerPoint = new Pt(player.x + m.x - a.x, player.y + m.y - a.y);
         }
-        var guidance = navigator.plan(stitcher, toMarks: want.slay, toSpot: leadToSpot,
+        bool toMarks = want.slay && (want.timed || marker == null);   // red marks only with no objective icon showing
+        var guidance = navigator.plan(stitcher, toMarks: toMarks, toSpot: leadToSpot,
                                       toArches: want.travel && !want.timed, areaRule: rule, marker: markerBearing,
                                       markerPoint: markerPoint, timed: want.timed);
         // A time target whose route is a long way round is not worth it: plan again for the
@@ -422,7 +439,7 @@ public sealed class LiveReader
                 double? objective = (objectiveMarker.HasValue && reading.arrow.HasValue)
                     ? M.Atan2(objectiveMarker.Value.x - reading.arrow.Value.x, -(objectiveMarker.Value.y - reading.arrow.Value.y))
                     : null;
-                guidance = navigator.plan(stitcher, toMarks: want.slay, toSpot: leadToSpot,
+                guidance = navigator.plan(stitcher, toMarks: toMarks, toSpot: leadToSpot,
                                           toArches: want.travel && !want.timed, areaRule: rule, marker: objective, markerPoint: null, timed: want.timed);
             }
         }

@@ -210,6 +210,14 @@ while let buffer = output.copyNextSampleBuffer() {
         marker = ObjectiveMarker.find(luma: base, lumaRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 0),
                                       cbcr: chroma, cbcrRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 1),
                                       outer: outer, inset: inset)
+        if !intent.timed {
+            // An ordinary dungeon: the objective marker is the nearest gold ring icon (30 Sep 2026).
+            let gold = OrangeIcons.find(luma: base, lumaRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 0),
+                                        cbcr: chroma, cbcrRowBytes: CVPixelBufferGetBytesPerRowOfPlane(pixels, 1),
+                                        outer: outer, inset: inset)
+            let centre = CGPoint(x: Double(rect.width) / 2, y: Double(rect.height) / 2)
+            marker = gold.min { hypot($0.x - centre.x, $0.y - centre.y) < hypot($1.x - centre.x, $1.y - centre.y) }
+        }
         // MAPLAB_BLUE=1: where the blue icons are, every 5 s — how often a beacon was near.
         if ProcessInfo.processInfo.environment["MAPLAB_BLUE"] == "1", time - blueSaid >= 5 {
             blueSaid = time
@@ -240,7 +248,7 @@ while let buffer = output.copyNextSampleBuffer() {
 
     var reading = MinimapReader.read(gray)
     reading.marks = marks
-    if !intent.timed { marker = nil }
+    // (An ordinary dungeon's marker is the gold objective icon, chosen above.)
     if let m = marker, let arrow = reading.arrow, time - objectiveSaid >= 5 {
         objectiveSaid = time
         print(String(format: "%7.2f s  OBJECTIVE MARKER at (%.0f,%.0f), %@ of the player", time, m.x, m.y, Compass.word(atan2(m.x - arrow.x, -(m.y - arrow.y)))))
@@ -320,7 +328,7 @@ while let buffer = output.copyNextSampleBuffer() {
     if let d = intent.destination, let i = stitcher.areaMatching(d), i != stitcher.currentArea {
         rule = .goTo(area: i, from: intent.leave.flatMap { stitcher.areaIndex($0) })
     }
-    let guidance = navigator.plan(stitcher, toMarks: leadToMarks || intent.slay, toSpot: backToSpot,
+    let guidance = navigator.plan(stitcher, toMarks: (leadToMarks || intent.slay) && (intent.timed || marker == nil), toSpot: backToSpot,
                                   toArches: leadToArches || (intent.travel && !intent.timed), areaRule: rule,
                                   marker: ProcessInfo.processInfo.environment["MAPLAB_NOMARKER"] == "1" ? nil : markerBearing,
                                   markerPoint: markerInBox.flatMap { m in
