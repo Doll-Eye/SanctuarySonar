@@ -520,14 +520,14 @@
   67.29 s  contrast 19.0  shift  +1, -1 score 0.91 placed   moving east  go south (179°), 157 px, 4 openings, 3 marks (nearest 215 px) TO MARKER
   67.49 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go south (179°), 157 px, 3 openings, 3 marks (nearest 214 px) TO MARKER
   67.70 s  FACING 43 42
-  67.70 s  contrast 19.2  shift  +0, -4 score 0.91 placed   moving north-east  no opening
+  67.70 s  contrast 19.2  shift  +0, -4 score 0.91 placed   moving north-east  go south-east (155°), 60 px, 0 openings, 3 marks (nearest 208 px) BEELINE
   67.91 s  FACING 41 34
-  67.91 s  contrast 19.0  shift  +0, -1 score 0.92 placed   moving north-east  no opening
+  67.91 s  contrast 19.0  shift  +0, -1 score 0.92 placed   moving north-east  go south-east (156°), 60 px, 0 openings, 3 marks (nearest 206 px) BEELINE
   68.11 s  FACING -140 30
-  68.11 s  contrast 19.0  shift  -1, +0 score 0.93 placed   moving north-east  no opening
+  68.11 s  contrast 19.0  shift  -1, +0 score 0.93 placed   moving north-east  go south-east (157°), 60 px, 0 openings, 3 marks (nearest 210 px) BEELINE
   68.33 s  TIMER 119
-  68.33 s  contrast 19.2  shift  +0, -1 score 0.92 placed   moving still  no opening
-  68.53 s  contrast 19.1  shift  +0, +0 score 0.92 placed   moving still  no opening
+  68.33 s  contrast 19.2  shift  +0, -1 score 0.92 placed   moving still  go south (159°), 60 px, 0 openings, 3 marks (nearest 210 px) BEELINE
+  68.53 s  contrast 19.1  shift  +0, +0 score 0.92 placed   moving still  go south (160°), 60 px, 0 openings, 3 marks (nearest 208 px) BEELINE
   68.75 s  FACING 68 -133
   68.75 s  contrast 19.1  shift  -1, +0 score 0.92 placed   moving south-west  go south (174°), 163 px, 5 openings, 3 marks (nearest 216 px) TO MARKER
   68.97 s  FACING 69 -133
@@ -595,7 +595,7 @@
   75.99 s  contrast 18.2  shift  -1, -1 score 0.93 placed   moving still  go south (-179°), 152 px, 4 openings, 3 marks (nearest 175 px) TO MARKER
   76.20 s  FACING 44 43
   76.20 s  contrast 18.2  shift  +0, +0 score 0.93 placed   moving north-east  go south (-180°), 152 px, 4 openings, 3 marks (nearest 176 px) TO MARKER
-  76.41 s  contrast 18.6  shift  +0, +0 score 0.92 placed   moving still  no opening
+  76.41 s  contrast 18.6  shift  +0, +0 score 0.92 placed   moving still  go south (162°), 60 px, 0 openings, 3 marks (nearest 177 px) BEELINE
   76.63 s  contrast 18.5  shift  +0, +0 score 0.93 placed   moving still  go south (-179°), 152 px, 5 openings, 3 marks (nearest 175 px) TO MARKER
   76.85 s  contrast 19.1  shift  -1, -1 score 0.94 placed   moving still  go south (-172°), 167 px, 1 openings, 3 marks (nearest 183 px) TO MARKER
   77.06 s  TIMER 110
@@ -1618,11 +1618,11 @@
  214.59 s  FACING 121 132
  214.59 s  contrast 19.4  shift  +5, +3 score 0.88 placed   moving south-east  go south-east (137°), 148 px, 2 openings, 0 marks TO MARKER
  214.82 s  FACING -125 81
- 214.82 s  contrast 19.5  shift  +4, -2 score 0.88 placed   moving east  no opening
+ 214.82 s  contrast 19.5  shift  +4, -2 score 0.88 placed   moving east  go north-west (-32°), 60 px, 0 openings, 0 marks BEELINE
  215.03 s  FACING -150 62
- 215.03 s  contrast 19.5  shift  +1, +0 score 0.88 placed   moving north-east  no opening
+ 215.03 s  contrast 19.5  shift  +1, +0 score 0.88 placed   moving north-east  go north-west (-32°), 60 px, 0 openings, 0 marks BEELINE
  215.23 s  FACING -155 43
- 215.23 s  contrast 19.4  shift  +2, -2 score 0.89 placed   moving north-east  no opening
+ 215.23 s  contrast 19.4  shift  +2, -2 score 0.89 placed   moving north-east  go north-west (-33°), 60 px, 0 openings, 0 marks BEELINE
  215.44 s  FACING 103 -129
  215.44 s  contrast 19.5  shift  +1, +2 score 0.87 placed   moving south-west  go south (173°), 152 px, 3 openings, 0 marks TO MARKER
  215.65 s  FACING 155 -153
@@ -1876,7 +1876,7 @@
  244.91 s  FACING -132 -144
  244.91 s  contrast 16.6  shift  -4, +5 score 0.78 placed   moving south-west  go south-west (-113°), 48 px, 3 openings, 6 marks TO MARKER
  245.12 s  FACING -121 -163
- 245.12 s  contrast 16.6  shift  -4, +3 score 0.80 placed   moving south  no opening
+ 245.12 s  contrast 16.6  shift  -4, +3 score 0.80 placed   moving south  go north-west (-33°), 60 px, 0 openings, 6 marks BEELINE
  245.33 s  FACING -58 -108
  245.33 s  contrast 17.3  shift  -5, +1 score 0.84 placed   moving west  go south (-172°), 37 px, 1 openings, 6 marks TO MARKER
  245.54 s  FACING -61 -97
@@ -1934,375 +1934,375 @@
  252.09 s  contrast 17.0  shift  -7, +7 score 0.86 placed   moving south  go south (-164°), 35 px, 2 openings, 5 marks TO MARKER
  252.30 s  TIMER 66
  252.30 s  FACING -142 168
- 252.30 s  contrast 17.2  shift  +0, +5 score 0.87 placed   moving south  no opening
+ 252.30 s  contrast 17.2  shift  +0, +5 score 0.87 placed   moving south  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  252.53 s  FACING -151 154
- 252.53 s  contrast 17.4  shift  +1, +1 score 0.89 placed   moving south-east  no opening
- 252.75 s  contrast 17.3  shift  +2, +1 score 0.90 placed   moving still  no opening
- 253.00 s  contrast 17.8  shift  +3, +3 score 0.90 placed   moving still  no opening
+ 252.53 s  contrast 17.4  shift  +1, +1 score 0.89 placed   moving south-east  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
+ 252.75 s  contrast 17.3  shift  +2, +1 score 0.90 placed   moving still  go north-west (-29°), 60 px, 0 openings, 5 marks (nearest 239 px) BEELINE
+ 253.00 s  contrast 17.8  shift  +3, +3 score 0.90 placed   moving still  go north-west (-29°), 60 px, 0 openings, 5 marks (nearest 237 px) BEELINE
  253.20 s  FACING -161 135
- 253.20 s  contrast 18.4  shift  +2, +2 score 0.90 placed   moving south-east  no opening
+ 253.20 s  contrast 18.4  shift  +2, +2 score 0.90 placed   moving south-east  go north-west (-29°), 60 px, 0 openings, 5 marks (nearest 234 px) BEELINE
  253.41 s  TIMER 65
  253.41 s  FACING -158 139
- 253.41 s  contrast 18.5  shift  +1, +2 score 0.91 placed   moving south-east  no opening
- 253.62 s  contrast 18.8  shift  +2, +1 score 0.92 placed   moving still  no opening
- 253.83 s  contrast 18.7  shift  +2, +2 score 0.90 placed   moving still  no opening
- 254.04 s  contrast 19.1  shift  +1, +1 score 0.91 placed   moving still  no opening
+ 253.41 s  contrast 18.5  shift  +1, +2 score 0.91 placed   moving south-east  go north-west (-29°), 60 px, 0 openings, 5 marks (nearest 233 px) BEELINE
+ 253.62 s  contrast 18.8  shift  +2, +1 score 0.92 placed   moving still  go north-west (-30°), 199 px, 0 openings, 5 marks (nearest 230 px) TO MARKER IN VIEW
+ 253.83 s  contrast 18.7  shift  +2, +2 score 0.90 placed   moving still  go north-west (-29°), 60 px, 0 openings, 5 marks (nearest 227 px) BEELINE
+ 254.04 s  contrast 19.1  shift  +1, +1 score 0.91 placed   moving still  go north-west (-30°), 60 px, 0 openings, 5 marks (nearest 225 px) BEELINE
  254.24 s  FACING 118 -59
- 254.24 s  contrast 18.6  shift  -4, -3 score 0.93 placed   moving north-west  no opening
+ 254.24 s  contrast 18.6  shift  -4, -3 score 0.93 placed   moving north-west  go north-west (-29°), 60 px, 0 openings, 5 marks (nearest 243 px) BEELINE
  254.46 s  TIMER 64
  254.46 s  FACING 128 -47
- 254.46 s  contrast 17.5  shift  -6, -6 score 0.91 placed   moving north-west  no opening
+ 254.46 s  contrast 17.5  shift  -6, -6 score 0.91 placed   moving north-west  go north-west (-29°), 60 px, 0 openings, 5 marks (nearest 251 px) BEELINE
  254.72 s  FACING -47 -46
- 254.72 s  contrast 17.0  shift  -5, -6 score 0.89 placed   moving north-west  no opening
+ 254.72 s  contrast 17.0  shift  -5, -6 score 0.89 placed   moving north-west  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  254.92 s  OBJECTIVE MARKER at (164,31), north-west of the player
  254.92 s  MARKER at (164,31) in the box, north-west of the player
  254.92 s  FACING -47 -30
- 254.92 s  contrast 17.1  shift  +1, -2 score 0.90 placed   moving north-west  no opening
+ 254.92 s  contrast 17.1  shift  +1, -2 score 0.90 placed   moving north-west  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  255.13 s  FACING 128 -32
- 255.13 s  contrast 17.1  shift  -1, -1 score 0.90 placed   moving north-west  no opening
- 255.34 s  contrast 17.1  shift  +1, +1 score 0.89 placed   moving still  no opening
+ 255.13 s  contrast 17.1  shift  -1, -1 score 0.90 placed   moving north-west  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
+ 255.34 s  contrast 17.1  shift  +1, +1 score 0.89 placed   moving still  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  255.56 s  TIMER 63
- 255.56 s  contrast 17.1  shift  -1, -1 score 0.90 placed   moving still  no opening
- 255.77 s  contrast 17.1  shift  +1, +1 score 0.89 placed   moving still  no opening
- 255.98 s  contrast 17.1  shift  +0, +0 score 0.91 placed   moving still  no opening
+ 255.56 s  contrast 17.1  shift  -1, -1 score 0.90 placed   moving still  go north-west (-28°), 60 px, 0 openings, 5 marks BEELINE
+ 255.77 s  contrast 17.1  shift  +1, +1 score 0.89 placed   moving still  go north-west (-28°), 60 px, 0 openings, 5 marks BEELINE
+ 255.98 s  contrast 17.1  shift  +0, +0 score 0.91 placed   moving still  go north-west (-28°), 60 px, 0 openings, 5 marks BEELINE
  256.19 s  FACING 93 -161
- 256.19 s  contrast 16.9  shift  +0, +0 score 0.90 placed   moving south  no opening
+ 256.19 s  contrast 16.9  shift  +0, +0 score 0.90 placed   moving south  go north-west (-27°), 60 px, 0 openings, 5 marks BEELINE
  256.41 s  FACING 93 -153
- 256.41 s  contrast 16.9  shift  +0, +0 score 0.90 placed   moving south-west  no opening
+ 256.41 s  contrast 16.9  shift  +0, +0 score 0.90 placed   moving south-west  go north-west (-27°), 60 px, 0 openings, 5 marks BEELINE
  256.61 s  TIMER 62
  256.61 s  FACING -123 107
- 256.61 s  contrast 16.9  shift  -1, +2 score 0.89 placed   moving east  no opening
+ 256.61 s  contrast 16.9  shift  -1, +2 score 0.89 placed   moving east  go north-west (-27°), 60 px, 0 openings, 5 marks BEELINE
  256.84 s  FACING -125 103
- 256.84 s  contrast 16.9  shift  +0, +1 score 0.89 placed   moving east  no opening
+ 256.84 s  contrast 16.9  shift  +0, +1 score 0.89 placed   moving east  go north-west (-27°), 60 px, 0 openings, 5 marks BEELINE
  257.04 s  FACING -125 102
- 257.04 s  contrast 16.9  shift  +0, +0 score 0.89 placed   moving east  no opening
+ 257.04 s  contrast 16.9  shift  +0, +0 score 0.89 placed   moving east  go north-west (-28°), 60 px, 0 openings, 5 marks BEELINE
  257.25 s  FACING 136 -34
- 257.25 s  contrast 16.7  shift  +1, -3 score 0.89 placed   moving north-west  no opening
+ 257.25 s  contrast 16.7  shift  +1, -3 score 0.89 placed   moving north-west  go north-west (-28°), 60 px, 0 openings, 5 marks BEELINE
  257.47 s  FACING 145 -23
- 257.47 s  contrast 17.0  shift  +0, -1 score 0.90 placed   moving north-west  no opening
+ 257.47 s  contrast 17.0  shift  +0, -1 score 0.90 placed   moving north-west  go north-west (-28°), 60 px, 0 openings, 5 marks BEELINE
  257.69 s  TIMER 61
  257.69 s  FACING 145 -22
- 257.69 s  contrast 16.9  shift  +0, -1 score 0.89 placed   moving north  no opening
- 257.92 s  contrast 16.9  shift  +1, +0 score 0.90 placed   moving still  no opening
- 258.12 s  contrast 16.8  shift  +0, +0 score 0.90 placed   moving still  no opening
+ 257.69 s  contrast 16.9  shift  +0, -1 score 0.89 placed   moving north  go north-west (-28°), 60 px, 0 openings, 5 marks BEELINE
+ 257.92 s  contrast 16.9  shift  +1, +0 score 0.90 placed   moving still  go north-west (-28°), 60 px, 0 openings, 5 marks BEELINE
+ 258.12 s  contrast 16.8  shift  +0, +0 score 0.90 placed   moving still  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  258.33 s  FACING -132 155
- 258.33 s  contrast 17.1  shift  -2, +3 score 0.89 placed   moving south-east  no opening
+ 258.33 s  contrast 17.1  shift  -2, +3 score 0.89 placed   moving south-east  go north-west (-31°), 186 px, 0 openings, 5 marks TO MARKER IN VIEW
  258.58 s  FACING -174 162
- 258.58 s  contrast 17.8  shift  +2, +4 score 0.90 placed   moving south  no opening
+ 258.58 s  contrast 17.8  shift  +2, +4 score 0.90 placed   moving south  go north-west (-31°), 187 px, 0 openings, 5 marks TO MARKER IN VIEW
  258.80 s  TIMER 60
  258.80 s  FACING 176 155
- 258.80 s  contrast 17.9  shift  +5, +5 score 0.92 placed   moving south-east  no opening
+ 258.80 s  contrast 17.9  shift  +5, +5 score 0.92 placed   moving south-east  go north-west (-30°), 60 px, 0 openings, 5 marks (nearest 235 px) BEELINE
  259.00 s  FACING 176 146
- 259.00 s  contrast 18.6  shift  +4, +4 score 0.92 placed   moving south-east  no opening
+ 259.00 s  contrast 18.6  shift  +4, +4 score 0.92 placed   moving south-east  go north-west (-30°), 60 px, 0 openings, 5 marks (nearest 230 px) BEELINE
  259.21 s  FACING -162 132
- 259.21 s  contrast 19.1  shift  +4, +3 score 0.91 placed   moving south-east  no opening
+ 259.21 s  contrast 19.1  shift  +4, +3 score 0.91 placed   moving south-east  go north-west (-30°), 60 px, 0 openings, 5 marks (nearest 225 px) BEELINE
  259.42 s  FACING -146 125
- 259.42 s  contrast 19.3  shift  +1, +1 score 0.90 placed   moving south-east  no opening
+ 259.42 s  contrast 19.3  shift  +1, +1 score 0.90 placed   moving south-east  go north-west (-30°), 60 px, 0 openings, 5 marks (nearest 223 px) BEELINE
  259.65 s  FACING 84 -98
- 259.65 s  contrast 18.6  shift  -2, -2 score 0.90 placed   moving west  no opening
+ 259.65 s  contrast 18.6  shift  -2, -2 score 0.90 placed   moving west  go north-west (-28°), 181 px, 0 openings, 5 marks (nearest 238 px) TO MARKER IN VIEW
  259.85 s  TIMER 59
  259.85 s  FACING 102 -69
- 259.85 s  contrast 18.4  shift  -5, -4 score 0.93 placed   moving west  no opening
+ 259.85 s  contrast 18.4  shift  -5, -4 score 0.93 placed   moving west  go north-west (-30°), 60 px, 0 openings, 5 marks (nearest 245 px) BEELINE
  260.06 s  OBJECTIVE MARKER at (165,31), north-west of the player
  260.06 s  MARKER at (165,31) in the box, north-west of the player
  260.06 s  FACING 124 -51
- 260.06 s  contrast 17.4  shift  -4, -4 score 0.90 placed   moving north-west  no opening
+ 260.06 s  contrast 17.4  shift  -4, -4 score 0.90 placed   moving north-west  go north-west (-29°), 60 px, 0 openings, 5 marks (nearest 252 px) BEELINE
  260.27 s  FACING 127 -23
- 260.27 s  contrast 17.0  shift  -4, -4 score 0.91 placed   moving north-west  no opening
+ 260.27 s  contrast 17.0  shift  -4, -4 score 0.91 placed   moving north-west  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  260.53 s  FACING 147 -1
- 260.53 s  contrast 17.3  shift  +0, -5 score 0.90 placed   moving north  no opening
+ 260.53 s  contrast 17.3  shift  +0, -5 score 0.90 placed   moving north  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  260.75 s  FACING 154 14
- 260.75 s  contrast 17.0  shift  +1, -1 score 0.90 placed   moving north  no opening
+ 260.75 s  contrast 17.0  shift  +1, -1 score 0.90 placed   moving north  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  260.95 s  TIMER 58
  260.95 s  FACING 159 41
- 260.95 s  contrast 16.6  shift  +1, -1 score 0.90 placed   moving north-east  no opening
+ 260.95 s  contrast 16.6  shift  +1, -1 score 0.90 placed   moving north-east  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  261.17 s  FACING 171 61
- 261.17 s  contrast 16.1  shift  +3, -3 score 0.91 placed   moving north-east  no opening
+ 261.17 s  contrast 16.1  shift  +3, -3 score 0.91 placed   moving north-east  go north-west (-29°), 60 px, 0 openings, 5 marks BEELINE
  261.38 s  FACING -167 65
- 261.38 s  contrast 16.4  shift  +3, -3 score 0.87 placed   moving north-east  no opening
+ 261.38 s  contrast 16.4  shift  +3, -3 score 0.87 placed   moving north-east  go north-west (-30°), 60 px, 0 openings, 5 marks BEELINE
  261.59 s  FACING 33 64
- 261.59 s  contrast 16.8  shift  +4, -4 score 0.84 placed   moving north-east  no opening
+ 261.59 s  contrast 16.8  shift  +4, -4 score 0.84 placed   moving north-east  go north-west (-30°), 60 px, 0 openings, 5 marks BEELINE
  261.83 s  FACING 34 65
- 261.83 s  contrast 16.8  shift  +2, -1 score 0.85 placed   moving north-east  no opening
+ 261.83 s  contrast 16.8  shift  +2, -1 score 0.85 placed   moving north-east  go north-west (-31°), 60 px, 0 openings, 5 marks BEELINE
  262.05 s  TIMER 56
  262.05 s  FACING -155 72
- 262.05 s  contrast 16.8  shift  +1, +0 score 0.85 placed   moving east  no opening
- 262.26 s  contrast 16.6  shift  +2, +0 score 0.85 placed   moving still  no opening
- 262.47 s  contrast 16.6  shift  +0, +0 score 0.86 placed   moving still  no opening
- 262.70 s  contrast 16.6  shift  +0, +0 score 0.86 placed   moving still  no opening
- 262.92 s  contrast 16.6  shift  +0, +0 score 0.86 placed   moving still  no opening
+ 262.05 s  contrast 16.8  shift  +1, +0 score 0.85 placed   moving east  go north-west (-32°), 60 px, 0 openings, 5 marks BEELINE
+ 262.26 s  contrast 16.6  shift  +2, +0 score 0.85 placed   moving still  go north-west (-33°), 60 px, 0 openings, 5 marks BEELINE
+ 262.47 s  contrast 16.6  shift  +0, +0 score 0.86 placed   moving still  go north-west (-33°), 60 px, 0 openings, 5 marks BEELINE
+ 262.70 s  contrast 16.6  shift  +0, +0 score 0.86 placed   moving still  go north-west (-34°), 60 px, 0 openings, 5 marks BEELINE
+ 262.92 s  contrast 16.6  shift  +0, +0 score 0.86 placed   moving still  go north-west (-35°), 60 px, 0 openings, 5 marks BEELINE
  263.13 s  TIMER 55
- 263.13 s  contrast 16.6  shift  +0, +0 score 0.87 placed   moving still  no opening
- 263.35 s  contrast 16.5  shift  +0, +0 score 0.87 placed   moving still  no opening
- 263.56 s  contrast 17.1  shift  +0, +0 score 0.87 placed   moving still  no opening
- 263.80 s  contrast 16.7  shift  +0, +0 score 0.88 placed   moving still  no opening
- 264.02 s  contrast 16.6  shift  +0, +0 score 0.87 placed   moving still  no opening
+ 263.13 s  contrast 16.6  shift  +0, +0 score 0.87 placed   moving still  go north-west (-35°), 60 px, 0 openings, 5 marks BEELINE
+ 263.35 s  contrast 16.5  shift  +0, +0 score 0.87 placed   moving still  go north-west (-35°), 60 px, 0 openings, 5 marks BEELINE
+ 263.56 s  contrast 17.1  shift  +0, +0 score 0.87 placed   moving still  go north-west (-35°), 60 px, 0 openings, 5 marks BEELINE
+ 263.80 s  contrast 16.7  shift  +0, +0 score 0.88 placed   moving still  go north-west (-35°), 60 px, 0 openings, 4 marks BEELINE
+ 264.02 s  contrast 16.6  shift  +0, +0 score 0.87 placed   moving still  go north-west (-35°), 60 px, 0 openings, 4 marks BEELINE
  264.22 s  TIMER 54
- 264.22 s  contrast 16.6  shift  +0, +0 score 0.88 placed   moving still  no opening
- 264.44 s  contrast 16.7  shift  +0, +0 score 0.88 placed   moving still  no opening
- 264.65 s  contrast 16.7  shift  +0, +0 score 0.88 placed   moving still  no opening
- 264.86 s  contrast 16.6  shift  +0, +0 score 0.88 placed   moving still  no opening
+ 264.22 s  contrast 16.6  shift  +0, +0 score 0.88 placed   moving still  go north-west (-35°), 60 px, 0 openings, 4 marks BEELINE
+ 264.44 s  contrast 16.7  shift  +0, +0 score 0.88 placed   moving still  go north-west (-35°), 60 px, 0 openings, 4 marks BEELINE
+ 264.65 s  contrast 16.7  shift  +0, +0 score 0.88 placed   moving still  go north-west (-35°), 60 px, 0 openings, 4 marks BEELINE
+ 264.86 s  contrast 16.6  shift  +0, +0 score 0.88 placed   moving still  go north-west (-35°), 60 px, 0 openings, 4 marks BEELINE
  265.08 s  OBJECTIVE MARKER at (156,35), north-west of the player
  265.08 s  MARKER at (156,35) in the box, north-west of the player
- 265.08 s  contrast 16.7  shift  +0, +0 score 0.88 placed   moving still  no opening
+ 265.08 s  contrast 16.7  shift  +0, +0 score 0.88 placed   moving still  go north-west (-35°), 60 px, 0 openings, 4 marks BEELINE
  265.29 s  TIMER 53
- 265.29 s  contrast 16.7  shift  +0, +0 score 0.90 placed   moving still  no opening
+ 265.29 s  contrast 16.7  shift  +0, +0 score 0.90 placed   moving still  go north-west (-35°), 60 px, 0 openings, 4 marks BEELINE
  265.50 s  FACING 64 -173
- 265.50 s  contrast 16.7  shift  +1, +1 score 0.89 placed   moving south  no opening
+ 265.50 s  contrast 16.7  shift  +1, +1 score 0.89 placed   moving south  go north-west (-34°), 60 px, 0 openings, 4 marks BEELINE
  265.71 s  FACING 99 175
- 265.71 s  contrast 17.1  shift  +5, +5 score 0.89 placed   moving south  no opening
+ 265.71 s  contrast 17.1  shift  +5, +5 score 0.89 placed   moving south  go north-west (-34°), 60 px, 0 openings, 4 marks BEELINE
  265.92 s  FACING 100 168
- 265.92 s  contrast 18.4  shift  +5, +5 score 0.90 placed   moving south  no opening
+ 265.92 s  contrast 18.4  shift  +5, +5 score 0.90 placed   moving south  go north-west (-34°), 60 px, 0 openings, 4 marks BEELINE
  266.13 s  FACING -149 74
- 266.13 s  contrast 18.5  shift  -1, -1 score 0.90 placed   moving east  no opening
+ 266.13 s  contrast 18.5  shift  -1, -1 score 0.90 placed   moving east  go north-west (-34°), 60 px, 0 openings, 4 marks BEELINE
  266.36 s  TIMER 52
  266.36 s  FACING 165 -6
- 266.36 s  contrast 17.7  shift  -4, -4 score 0.90 placed   moving north  no opening
+ 266.36 s  contrast 17.7  shift  -4, -4 score 0.90 placed   moving north  go north-west (-34°), 60 px, 0 openings, 4 marks BEELINE
  266.60 s  FACING 125 -48
- 266.60 s  contrast 16.5  shift  -7, -5 score 0.89 placed   moving north-west  no opening
+ 266.60 s  contrast 16.5  shift  -7, -5 score 0.89 placed   moving north-west  go north-west (-33°), 60 px, 0 openings, 4 marks BEELINE
  266.83 s  FACING 115 -80
- 266.83 s  contrast 16.8  shift  -4, -1 score 0.91 placed   moving west  no opening
+ 266.83 s  contrast 16.8  shift  -4, -1 score 0.91 placed   moving west  go north-west (-33°), 60 px, 0 openings, 4 marks BEELINE
  267.04 s  FACING 118 -95
- 267.04 s  contrast 16.9  shift  -1, +2 score 0.91 placed   moving west  no opening
+ 267.04 s  contrast 16.9  shift  -1, +2 score 0.91 placed   moving west  go north-west (-32°), 60 px, 0 openings, 4 marks BEELINE
  267.24 s  FACING -146 162
- 267.24 s  contrast 16.9  shift  -2, +5 score 0.90 placed   moving south  no opening
+ 267.24 s  contrast 16.9  shift  -2, +5 score 0.90 placed   moving south  go north-west (-32°), 60 px, 0 openings, 4 marks BEELINE
  267.46 s  TIMER 51
  267.46 s  FACING -159 166
- 267.46 s  contrast 16.7  shift  -3, +7 score 0.90 placed   moving south  no opening
+ 267.46 s  contrast 16.7  shift  -3, +7 score 0.90 placed   moving south  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  267.67 s  FACING 48 171
- 267.67 s  contrast 17.4  shift  -3, +6 score 0.92 placed   moving south  no opening
+ 267.67 s  contrast 17.4  shift  -3, +6 score 0.92 placed   moving south  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  267.88 s  FACING 83 -114
- 267.88 s  contrast 17.1  shift  -3, -2 score 0.89 placed   moving south-west  no opening
+ 267.88 s  contrast 17.1  shift  -3, -2 score 0.89 placed   moving south-west  go north-west (-30°), 60 px, 0 openings, 4 marks BEELINE
  268.09 s  FACING 129 -58
- 268.09 s  contrast 17.1  shift  -1, -4 score 0.91 placed   moving north-west  no opening
+ 268.09 s  contrast 17.1  shift  -1, -4 score 0.91 placed   moving north-west  go north-west (-30°), 60 px, 0 openings, 4 marks BEELINE
  268.31 s  FACING 165 -5
- 268.31 s  contrast 16.9  shift  +2, -3 score 0.93 placed   moving north  no opening
+ 268.31 s  contrast 16.9  shift  +2, -3 score 0.93 placed   moving north  go north-west (-29°), 60 px, 0 openings, 4 marks BEELINE
  268.53 s  TIMER 50
  268.53 s  FACING -172 46
- 268.53 s  contrast 16.8  shift  +5, -4 score 0.92 placed   moving north-east  no opening
+ 268.53 s  contrast 16.8  shift  +5, -4 score 0.92 placed   moving north-east  go north-west (-35°), 182 px, 0 openings, 4 marks TO MARKER IN VIEW
  268.74 s  FACING -172 60
- 268.74 s  contrast 16.7  shift  +4, -4 score 0.88 placed   moving north-east  no opening
+ 268.74 s  contrast 16.7  shift  +4, -4 score 0.88 placed   moving north-east  go north-west (-30°), 60 px, 0 openings, 4 marks BEELINE
  268.95 s  FACING -154 66
- 268.95 s  contrast 16.8  shift  +3, -3 score 0.88 placed   moving north-east  no opening
+ 268.95 s  contrast 16.8  shift  +3, -3 score 0.88 placed   moving north-east  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  269.18 s  FACING 64 161
- 269.18 s  contrast 16.7  shift  +0, +0 score 0.90 placed   moving south  no opening
+ 269.18 s  contrast 16.7  shift  +0, +0 score 0.90 placed   moving south  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  269.38 s  FACING -59 -119
- 269.38 s  contrast 16.8  shift  -2, +2 score 0.93 placed   moving south-west  no opening
+ 269.38 s  contrast 16.8  shift  -2, +2 score 0.93 placed   moving south-west  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  269.62 s  TIMER 49
  269.62 s  FACING -112 -144
- 269.62 s  contrast 16.8  shift  -4, +4 score 0.91 placed   moving south-west  no opening
+ 269.62 s  contrast 16.8  shift  -4, +4 score 0.91 placed   moving south-west  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  269.84 s  FACING -112 -129
- 269.84 s  contrast 16.3  shift  -4, +4 score 0.92 placed   moving south-west  no opening
+ 269.84 s  contrast 16.3  shift  -4, +4 score 0.92 placed   moving south-west  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  270.05 s  FACING -111 164
- 270.05 s  contrast 17.1  shift  -3, +4 score 0.92 placed   moving south  no opening
+ 270.05 s  contrast 17.1  shift  -3, +4 score 0.92 placed   moving south  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  270.25 s  OBJECTIVE MARKER at (163,34), north-west of the player
  270.25 s  MARKER at (163,34) in the box, north-west of the player
  270.25 s  FACING -159 -143
- 270.25 s  contrast 17.5  shift  +0, +4 score 0.92 placed   moving south-west  no opening
+ 270.25 s  contrast 17.5  shift  +0, +4 score 0.92 placed   moving south-west  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  270.48 s  FACING -162 -164
- 270.48 s  contrast 17.6  shift  +2, +2 score 0.93 placed   moving south  no opening
+ 270.48 s  contrast 17.6  shift  +2, +2 score 0.93 placed   moving south  go north-west (-31°), 60 px, 0 openings, 4 marks BEELINE
  270.70 s  TIMER 48
  270.70 s  FACING -161 165
- 270.70 s  contrast 17.4  shift  +2, +2 score 0.93 placed   moving south  no opening
- 270.92 s  contrast 17.7  shift  +1, +1 score 0.93 placed   moving still  no opening
- 271.12 s  contrast 18.2  shift  +2, +2 score 0.91 placed   moving still  no opening
+ 270.70 s  contrast 17.4  shift  +2, +2 score 0.93 placed   moving south  go north-west (-30°), 60 px, 0 openings, 4 marks (nearest 239 px) BEELINE
+ 270.92 s  contrast 17.7  shift  +1, +1 score 0.93 placed   moving still  go north-west (-30°), 60 px, 0 openings, 4 marks (nearest 237 px) BEELINE
+ 271.12 s  contrast 18.2  shift  +2, +2 score 0.91 placed   moving still  go north-west (-30°), 60 px, 0 openings, 4 marks (nearest 234 px) BEELINE
  271.37 s  FACING -166 135
- 271.37 s  contrast 18.5  shift  +3, +3 score 0.92 placed   moving south-east  no opening
+ 271.37 s  contrast 18.5  shift  +3, +3 score 0.92 placed   moving south-east  go north-west (-29°), 60 px, 0 openings, 4 marks (nearest 230 px) BEELINE
  271.58 s  FACING 175 138
- 271.58 s  contrast 18.6  shift  +2, +2 score 0.90 placed   moving south-east  no opening
+ 271.58 s  contrast 18.6  shift  +2, +2 score 0.90 placed   moving south-east  go north-west (-30°), 60 px, 0 openings, 4 marks (nearest 226 px) BEELINE
  271.79 s  TIMER 47
  271.79 s  FACING 134 139
- 271.79 s  contrast 19.8  shift  +5, +5 score 0.89 placed   moving south-east  no opening
+ 271.79 s  contrast 19.8  shift  +5, +5 score 0.89 placed   moving south-east  go north-west (-30°), 60 px, 0 openings, 4 marks (nearest 220 px) BEELINE
  272.00 s  FACING -45 132
- 272.00 s  contrast 19.7  shift  +6, +2 score 0.90 placed   moving south-east  no opening
+ 272.00 s  contrast 19.7  shift  +6, +2 score 0.90 placed   moving south-east  go north-west (-29°), 60 px, 0 openings, 4 marks (nearest 213 px) BEELINE
  272.22 s  FACING 116 127
- 272.22 s  contrast 19.5  shift  +5, +3 score 0.91 placed   moving south-east  no opening
+ 272.22 s  contrast 19.5  shift  +5, +3 score 0.91 placed   moving south-east  go north-west (-31°), 203 px, 0 openings, 4 marks (nearest 209 px) TO MARKER IN VIEW
  272.44 s  FACING 116 111
- 272.44 s  contrast 19.2  shift  +4, +0 score 0.87 placed   moving east  no opening
+ 272.44 s  contrast 19.2  shift  +4, +0 score 0.87 placed   moving east  go north-west (-30°), 60 px, 0 openings, 4 marks (nearest 206 px) BEELINE
  272.64 s  FACING 116 108
- 272.64 s  contrast 18.5  shift  +5, +2 score 0.90 placed   moving east  no opening
+ 272.64 s  contrast 18.5  shift  +5, +2 score 0.90 placed   moving east  go north-west (-30°), 60 px, 0 openings, 3 marks (nearest 199 px) BEELINE
  272.86 s  TIMER 46
  272.86 s  FACING 64 88
- 272.86 s  contrast 18.5  shift  +5, -3 score 0.92 placed   moving east  no opening
+ 272.86 s  contrast 18.5  shift  +5, -3 score 0.92 placed   moving east  go north-west (-30°), 60 px, 0 openings, 3 marks (nearest 194 px) BEELINE
  273.07 s  FACING 62 85
- 273.07 s  contrast 19.7  shift  +4, -1 score 0.90 placed   moving east  no opening
+ 273.07 s  contrast 19.7  shift  +4, -1 score 0.90 placed   moving east  go north-west (-31°), 60 px, 0 openings, 3 marks (nearest 195 px) BEELINE
  273.28 s  FACING -126 67
- 273.28 s  contrast 19.8  shift  +1, +1 score 0.90 placed   moving north-east  no opening
- 273.49 s  contrast 19.4  shift  +1, +1 score 0.91 placed   moving still  no opening
- 273.70 s  contrast 19.7  shift  +4, +3 score 0.89 placed   moving still  no opening
+ 273.28 s  contrast 19.8  shift  +1, +1 score 0.90 placed   moving north-east  go north-west (-31°), 60 px, 0 openings, 3 marks (nearest 190 px) BEELINE
+ 273.49 s  contrast 19.4  shift  +1, +1 score 0.91 placed   moving still  go north-west (-32°), 60 px, 0 openings, 3 marks (nearest 192 px) BEELINE
+ 273.70 s  contrast 19.7  shift  +4, +3 score 0.89 placed   moving still  go north-west (-32°), 60 px, 0 openings, 3 marks (nearest 188 px) BEELINE
  273.90 s  TIMER 45
  273.90 s  FACING 164 -148
- 273.90 s  contrast 19.4  shift  +0, +5 score 0.91 placed   moving south-west  no opening
+ 273.90 s  contrast 19.4  shift  +0, +5 score 0.91 placed   moving south-west  go north-west (-32°), 60 px, 0 openings, 4 marks (nearest 186 px) BEELINE
  274.11 s  FACING 176 159
- 274.11 s  contrast 18.8  shift  +1, +6 score 0.92 placed   moving south  no opening
+ 274.11 s  contrast 18.8  shift  +1, +6 score 0.92 placed   moving south  go north-west (-32°), 60 px, 0 openings, 4 marks (nearest 180 px) BEELINE
  274.32 s  FACING 171 174
- 274.32 s  contrast 18.9  shift  +0, +5 score 0.91 placed   moving south  no opening
+ 274.32 s  contrast 18.9  shift  +0, +5 score 0.91 placed   moving south  go north-west (-32°), 60 px, 0 openings, 5 marks (nearest 176 px) BEELINE
  274.53 s  FACING 178 176
- 274.53 s  contrast 18.6  shift  +0, +5 score 0.89 placed   moving south  no opening
+ 274.53 s  contrast 18.6  shift  +0, +5 score 0.89 placed   moving south  go north-west (-33°), 60 px, 0 openings, 5 marks (nearest 173 px) BEELINE
  274.74 s  FACING -162 -180
- 274.74 s  contrast 18.8  shift  +0, +5 score 0.89 placed   moving south  no opening
+ 274.74 s  contrast 18.8  shift  +0, +5 score 0.89 placed   moving south  go north-west (-33°), 60 px, 0 openings, 5 marks (nearest 170 px) BEELINE
  274.96 s  TIMER 44
  274.96 s  FACING -150 -172
- 274.96 s  contrast 22.5  shift  -3, +6 score 0.76 placed   moving south  no opening
+ 274.96 s  contrast 22.5  shift  -3, +6 score 0.76 placed   moving south  go north-west (-33°), 60 px, 0 openings, 5 marks (nearest 169 px) BEELINE
  275.17 s  FACING -125 -155
- 275.17 s  contrast 22.6  shift  -4, +3 score 0.74 placed   moving south-west  no opening
+ 275.17 s  contrast 22.6  shift  -4, +3 score 0.74 placed   moving south-west  go north-west (-33°), 60 px, 0 openings, 5 marks (nearest 171 px) BEELINE
  275.38 s  OBJECTIVE MARKER at (160,39), north-west of the player
  275.38 s  MARKER at (160,39) in the box, north-west of the player
  275.38 s  FACING -125 -145
- 275.38 s  contrast 22.7  shift  +0, +0 score 0.75 placed   moving south-west  no opening
- 275.63 s  contrast 21.5  shift  +0, +2 score 0.74 placed   moving still  no opening
+ 275.38 s  contrast 22.7  shift  +0, +0 score 0.75 placed   moving south-west  go north-west (-32°), 60 px, 0 openings, 5 marks (nearest 171 px) BEELINE
+ 275.63 s  contrast 21.5  shift  +0, +2 score 0.74 placed   moving still  go north-west (-32°), 60 px, 0 openings, 5 marks (nearest 170 px) BEELINE
  275.85 s  FACING -161 -149
- 275.85 s  contrast 18.3  shift  -4, +6 score 0.85 placed   moving south-west  no opening
+ 275.85 s  contrast 18.3  shift  -4, +6 score 0.85 placed   moving south-west  go north-west (-32°), 60 px, 0 openings, 5 marks (nearest 171 px) BEELINE
  276.06 s  TIMER 42
  276.06 s  FACING 159 -167
- 276.06 s  contrast 19.3  shift  +2, +6 score 0.91 placed   moving south  no opening
+ 276.06 s  contrast 19.3  shift  +2, +6 score 0.91 placed   moving south  go north-west (-31°), 60 px, 0 openings, 5 marks (nearest 167 px) BEELINE
  276.27 s  FACING 117 178
- 276.27 s  contrast 19.4  shift  +4, +2 score 0.88 placed   moving south  no opening
+ 276.27 s  contrast 19.4  shift  +4, +2 score 0.88 placed   moving south  go north-west (-31°), 60 px, 0 openings, 6 marks (nearest 161 px) BEELINE
  276.50 s  FACING 62 124
- 276.50 s  contrast 18.6  shift  +6, -2 score 0.91 placed   moving south-east  no opening
+ 276.50 s  contrast 18.6  shift  +6, -2 score 0.91 placed   moving south-east  go north-west (-31°), 60 px, 0 openings, 6 marks (nearest 156 px) BEELINE
  276.71 s  FACING 65 87
- 276.71 s  contrast 18.5  shift  +5, -3 score 0.89 placed   moving east  no opening
+ 276.71 s  contrast 18.5  shift  +5, -3 score 0.89 placed   moving east  go north-west (-31°), 60 px, 0 openings, 6 marks (nearest 152 px) BEELINE
  276.92 s  FACING 99 75
- 276.92 s  contrast 18.0  shift  +5, +0 score 0.87 placed   moving east  no opening
+ 276.92 s  contrast 18.0  shift  +5, +0 score 0.87 placed   moving east  go north-west (-31°), 60 px, 0 openings, 6 marks (nearest 148 px) BEELINE
  277.12 s  TIMER 41
  277.12 s  FACING -160 77
- 277.12 s  contrast 18.3  shift  +2, +3 score 0.84 placed   moving east  no opening
+ 277.12 s  contrast 18.3  shift  +2, +3 score 0.84 placed   moving east  go north-west (-31°), 60 px, 0 openings, 6 marks (nearest 143 px) BEELINE
  277.33 s  FACING 106 -72
- 277.33 s  contrast 18.8  shift  -5, +0 score 0.90 placed   moving west  no opening
+ 277.33 s  contrast 18.8  shift  -5, +0 score 0.90 placed   moving west  go north-west (-30°), 60 px, 0 openings, 6 marks (nearest 167 px) BEELINE
  277.55 s  FACING 148 -37
- 277.55 s  contrast 18.8  shift  -3, -4 score 0.92 placed   moving north-west  no opening
+ 277.55 s  contrast 18.8  shift  -3, -4 score 0.92 placed   moving north-west  go north-west (-30°), 60 px, 0 openings, 7 marks (nearest 167 px) BEELINE
  277.79 s  FACING 178 -17
- 277.79 s  contrast 18.8  shift  -1, -7 score 0.92 placed   moving north  no opening
+ 277.79 s  contrast 18.8  shift  -1, -7 score 0.92 placed   moving north  go north-west (-31°), 60 px, 0 openings, 5 marks (nearest 167 px) BEELINE
  278.00 s  FACING -174 23
- 278.00 s  contrast 18.9  shift  +0, -6 score 0.91 placed   moving north-east  no opening
+ 278.00 s  contrast 18.9  shift  +0, -6 score 0.91 placed   moving north-east  go north-west (-31°), 60 px, 0 openings, 5 marks (nearest 170 px) BEELINE
  278.22 s  TIMER 40
  278.22 s  TIME TARGET afflicted at (393,315), 11 icons, 40 s left
  278.22 s  FACING -174 23
  278.22 s  contrast 18.4  shift  +1, -5 score 0.90 placed   moving north-east  go south-east (136°), 172 px, 0 openings, 5 marks (nearest 174 px) TO MARKER IN VIEW
  278.43 s  FACING 171 -2
- 278.43 s  contrast 18.4  shift  -1, -6 score 0.92 placed   moving north  no opening
+ 278.43 s  contrast 18.4  shift  -1, -6 score 0.92 placed   moving north  go north-west (-27°), 60 px, 0 openings, 5 marks (nearest 179 px) BEELINE
  278.64 s  FACING 173 -10
- 278.64 s  contrast 19.1  shift  -1, -5 score 0.91 placed   moving north  no opening
+ 278.64 s  contrast 19.1  shift  -1, -5 score 0.91 placed   moving north  go north-west (-23°), 60 px, 0 openings, 5 marks (nearest 185 px) BEELINE
  278.85 s  FACING 172 -16
- 278.85 s  contrast 18.2  shift  -1, -6 score 0.91 placed   moving north  no opening
+ 278.85 s  contrast 18.2  shift  -1, -6 score 0.91 placed   moving north  go north (-11°), 60 px, 0 openings, 5 marks (nearest 186 px) BEELINE
  279.06 s  FACING 172 -8
- 279.06 s  contrast 19.0  shift  -1, -7 score 0.89 placed   moving north  no opening
+ 279.06 s  contrast 19.0  shift  -1, -7 score 0.89 placed   moving north  go north-east (52°), 60 px, 0 openings, 5 marks (nearest 192 px) BEELINE
  279.27 s  TIMER 39
  279.27 s  FACING 174 5
- 279.27 s  contrast 19.8  shift  +1, -2 score 0.89 placed   moving north  no opening
+ 279.27 s  contrast 19.8  shift  +1, -2 score 0.89 placed   moving north  go south-east (120°), 60 px, 0 openings, 5 marks (nearest 194 px) BEELINE
  279.47 s  FACING -175 8
- 279.47 s  contrast 19.9  shift  -1, -1 score 0.89 placed   moving north  no opening
- 279.68 s  contrast 19.9  shift  +0, +1 score 0.89 placed   moving still  no opening
+ 279.47 s  contrast 19.9  shift  -1, -1 score 0.89 placed   moving north  go south-east (132°), 60 px, 0 openings, 5 marks (nearest 194 px) BEELINE
+ 279.68 s  contrast 19.9  shift  +0, +1 score 0.89 placed   moving still  go south-east (135°), 60 px, 0 openings, 5 marks (nearest 195 px) BEELINE
  279.89 s  FACING 144 -96
- 279.89 s  contrast 19.8  shift  -3, -1 score 0.90 placed   moving west  no opening
+ 279.89 s  contrast 19.8  shift  -3, -1 score 0.90 placed   moving west  go south-east (137°), 60 px, 0 openings, 5 marks (nearest 201 px) BEELINE
  280.10 s  FACING 110 -104
- 280.10 s  contrast 19.2  shift  -6, -3 score 0.93 placed   moving west  no opening
+ 280.10 s  contrast 19.2  shift  -6, -3 score 0.93 placed   moving west  go north-west (-32°), 185 px, 0 openings, 5 marks (nearest 213 px) TO MARKER IN VIEW
  280.31 s  TIMER 38
  280.31 s  FACING -53 -97
- 280.31 s  contrast 19.2  shift  -4, -1 score 0.94 placed   moving west  no opening
+ 280.31 s  contrast 19.2  shift  -4, -1 score 0.94 placed   moving west  go south-east (137°), 60 px, 0 openings, 5 marks (nearest 212 px) BEELINE
  280.52 s  OBJECTIVE MARKER at (154,32), north-west of the player
  280.52 s  MARKER at (413,351) in the box, south-east of the player
  280.52 s  FACING 161 -42
- 280.52 s  contrast 19.6  shift  -3, -5 score 0.92 placed   moving north-west  no opening
+ 280.52 s  contrast 19.6  shift  -3, -5 score 0.92 placed   moving north-west  go south-east (137°), 60 px, 0 openings, 5 marks (nearest 217 px) BEELINE
  280.77 s  FACING 173 22
- 280.77 s  contrast 19.6  shift  +0, -6 score 0.90 placed   moving north  no opening
+ 280.77 s  contrast 19.6  shift  +0, -6 score 0.90 placed   moving north  go south-east (136°), 60 px, 0 openings, 5 marks (nearest 218 px) BEELINE
  280.99 s  FACING -166 32
- 280.99 s  contrast 19.7  shift  +1, -6 score 0.89 placed   moving north-east  no opening
- 281.19 s  contrast 19.8  shift  +3, -4 score 0.90 placed   moving still  no opening
+ 280.99 s  contrast 19.7  shift  +1, -6 score 0.89 placed   moving north-east  go south-east (137°), 60 px, 0 openings, 5 marks (nearest 220 px) BEELINE
+ 281.19 s  contrast 19.8  shift  +3, -4 score 0.90 placed   moving still  go south-east (136°), 60 px, 0 openings, 5 marks BEELINE
  281.40 s  TIMER 37
  281.40 s  FACING 134 151
- 281.40 s  contrast 19.8  shift  +5, +4 score 0.89 placed   moving south-east  no opening
+ 281.40 s  contrast 19.8  shift  +5, +4 score 0.89 placed   moving south-east  go south-east (136°), 60 px, 0 openings, 5 marks (nearest 207 px) BEELINE
  281.63 s  FACING 136 170
- 281.63 s  contrast 19.8  shift  +0, +0 score 0.89 placed   moving south  no opening
- 281.85 s  contrast 19.8  shift  +0, +0 score 0.89 placed   moving still  no opening
- 282.07 s  contrast 19.7  shift  -2, +2 score 0.92 placed   moving still  no opening
- 282.29 s  contrast 19.7  shift  -3, +4 score 0.92 placed   moving still  no opening
+ 281.63 s  contrast 19.8  shift  +0, +0 score 0.89 placed   moving south  go south-east (136°), 60 px, 0 openings, 5 marks (nearest 207 px) BEELINE
+ 281.85 s  contrast 19.8  shift  +0, +0 score 0.89 placed   moving still  go south-east (136°), 60 px, 0 openings, 5 marks (nearest 208 px) BEELINE
+ 282.07 s  contrast 19.7  shift  -2, +2 score 0.92 placed   moving still  go south-east (136°), 60 px, 0 openings, 5 marks (nearest 207 px) BEELINE
+ 282.29 s  contrast 19.7  shift  -3, +4 score 0.92 placed   moving still  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 207 px) BEELINE
  282.52 s  TIMER 36
  282.52 s  FACING -170 -141
- 282.52 s  contrast 19.7  shift  -3, +4 score 0.89 placed   moving south-west  no opening
+ 282.52 s  contrast 19.7  shift  -3, +4 score 0.89 placed   moving south-west  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 206 px) BEELINE
  282.73 s  FACING 165 -144
- 282.73 s  contrast 19.6  shift  +0, +0 score 0.90 placed   moving south-west  no opening
- 282.99 s  contrast 19.6  shift  +0, +0 score 0.90 placed   moving still  no opening
- 283.20 s  contrast 19.8  shift  +0, +4 score 0.92 placed   moving still  no opening
+ 282.73 s  contrast 19.6  shift  +0, +0 score 0.90 placed   moving south-west  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 206 px) BEELINE
+ 282.99 s  contrast 19.6  shift  +0, +0 score 0.90 placed   moving still  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 206 px) BEELINE
+ 283.20 s  contrast 19.8  shift  +0, +4 score 0.92 placed   moving still  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 204 px) BEELINE
  283.42 s  TIME TARGET afflicted at (405,351), 11 icons, 36 s left
  283.42 s  FACING -160 -169
- 283.42 s  contrast 19.3  shift  -2, +6 score 0.92 placed   moving south  no opening
+ 283.42 s  contrast 19.3  shift  -2, +6 score 0.92 placed   moving south  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 201 px) BEELINE
  283.63 s  TIMER 35
  283.63 s  FACING -150 -175
- 283.63 s  contrast 19.1  shift  +0, +4 score 0.92 placed   moving south  no opening
+ 283.63 s  contrast 19.1  shift  +0, +4 score 0.92 placed   moving south  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 198 px) BEELINE
  283.85 s  FACING -125 -174
- 283.85 s  contrast 19.1  shift  +0, +0 score 0.91 placed   moving south  no opening
- 284.07 s  contrast 19.1  shift  -2, -2 score 0.91 placed   moving still  no opening
+ 283.85 s  contrast 19.1  shift  +0, +0 score 0.91 placed   moving south  go south-east (137°), 60 px, 0 openings, 5 marks (nearest 198 px) BEELINE
+ 284.07 s  contrast 19.1  shift  -2, -2 score 0.91 placed   moving still  go south-east (136°), 60 px, 0 openings, 5 marks (nearest 199 px) BEELINE
  284.29 s  FACING 102 -68
- 284.29 s  contrast 19.5  shift  -5, -4 score 0.88 placed   moving west  no opening
+ 284.29 s  contrast 19.5  shift  -5, -4 score 0.88 placed   moving west  go south-east (135°), 60 px, 0 openings, 5 marks (nearest 219 px) BEELINE
  284.50 s  FACING 115 -60
- 284.50 s  contrast 19.7  shift  -5, -3 score 0.92 placed   moving north-west  no opening
+ 284.50 s  contrast 19.7  shift  -5, -3 score 0.92 placed   moving north-west  go south-east (135°), 60 px, 0 openings, 5 marks (nearest 225 px) BEELINE
  284.75 s  TIMER 34
  284.75 s  FACING -117 -67
- 284.75 s  contrast 19.7  shift  -4, +1 score 0.89 placed   moving north-west  no opening
- 284.97 s  contrast 20.0  shift  +2, +3 score 0.92 placed   moving still  no opening
+ 284.75 s  contrast 19.7  shift  -4, +1 score 0.89 placed   moving north-west  go south-east (134°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 284.97 s  contrast 20.0  shift  +2, +3 score 0.92 placed   moving still  go south-east (134°), 60 px, 0 openings, 5 marks (nearest 211 px) BEELINE
  285.17 s  FACING 86 129
- 285.17 s  contrast 19.6  shift  +5, -1 score 0.94 placed   moving south-east  no opening
+ 285.17 s  contrast 19.6  shift  +5, -1 score 0.94 placed   moving south-east  go south-east (133°), 60 px, 0 openings, 5 marks (nearest 208 px) BEELINE
  285.38 s  FACING 63 107
- 285.38 s  contrast 19.4  shift  +4, -2 score 0.90 placed   moving east  no opening
+ 285.38 s  contrast 19.4  shift  +4, -2 score 0.90 placed   moving east  go south-east (133°), 60 px, 0 openings, 5 marks (nearest 205 px) BEELINE
  285.63 s  OBJECTIVE MARKER at (154,31), north-west of the player
  285.63 s  MARKER at (405,358) in the box, south-east of the player
  285.63 s  FACING 60 77
- 285.63 s  contrast 19.6  shift  +6, -3 score 0.90 placed   moving east  no opening
+ 285.63 s  contrast 19.6  shift  +6, -3 score 0.90 placed   moving east  go south-east (133°), 60 px, 0 openings, 5 marks (nearest 202 px) BEELINE
  285.85 s  TIMER 33
  285.85 s  FACING -127 60
- 285.85 s  contrast 19.6  shift  +2, -2 score 0.93 placed   moving north-east  no opening
+ 285.85 s  contrast 19.6  shift  +2, -2 score 0.93 placed   moving north-east  go north-west (-37°), 208 px, 0 openings, 5 marks (nearest 198 px) TO MARKER IN VIEW
  286.07 s  FACING 68 70
- 286.07 s  contrast 19.3  shift  +3, +1 score 0.92 placed   moving east  no opening
- 286.30 s  contrast 19.7  shift  +2, +2 score 0.92 placed   moving still  no opening
+ 286.07 s  contrast 19.3  shift  +3, +1 score 0.92 placed   moving east  go south-east (132°), 60 px, 0 openings, 5 marks (nearest 199 px) BEELINE
+ 286.30 s  contrast 19.7  shift  +2, +2 score 0.92 placed   moving still  go south-east (132°), 60 px, 0 openings, 5 marks (nearest 197 px) BEELINE
  286.52 s  FACING 64 -144
- 286.52 s  contrast 19.6  shift  +0, +1 score 0.93 placed   moving south-west  no opening
- 286.73 s  contrast 19.7  shift  +4, +4 score 0.92 placed   moving still  no opening
+ 286.52 s  contrast 19.6  shift  +0, +1 score 0.93 placed   moving south-west  go south-east (133°), 60 px, 0 openings, 5 marks (nearest 197 px) BEELINE
+ 286.73 s  contrast 19.7  shift  +4, +4 score 0.92 placed   moving still  go south-east (134°), 60 px, 0 openings, 5 marks (nearest 194 px) BEELINE
  286.95 s  TIMER 32
  286.95 s  FACING 122 131
- 286.95 s  contrast 19.6  shift  +5, +3 score 0.92 placed   moving south-east  no opening
+ 286.95 s  contrast 19.6  shift  +5, +3 score 0.92 placed   moving south-east  go south-east (134°), 60 px, 0 openings, 5 marks (nearest 186 px) BEELINE
  287.15 s  FACING 65 123
- 287.15 s  contrast 19.3  shift  +2, +0 score 0.91 placed   moving south-east  no opening
+ 287.15 s  contrast 19.3  shift  +2, +0 score 0.91 placed   moving south-east  go south-east (134°), 60 px, 0 openings, 5 marks (nearest 183 px) BEELINE
  287.37 s  FACING -145 64
- 287.37 s  contrast 19.6  shift  +0, +0 score 0.91 placed   moving north-east  no opening
+ 287.37 s  contrast 19.6  shift  +0, +0 score 0.91 placed   moving north-east  go south-east (135°), 60 px, 0 openings, 5 marks (nearest 186 px) BEELINE
  287.62 s  FACING -162 33
- 287.62 s  contrast 19.6  shift  +0, +0 score 0.91 placed   moving north-east  no opening
+ 287.62 s  contrast 19.6  shift  +0, +0 score 0.91 placed   moving north-east  go south-east (136°), 60 px, 0 openings, 5 marks (nearest 190 px) BEELINE
  287.82 s  FACING -162 21
- 287.82 s  contrast 19.7  shift  +0, +0 score 0.91 placed   moving north  no opening
+ 287.82 s  contrast 19.7  shift  +0, +0 score 0.91 placed   moving north  go south-east (137°), 60 px, 0 openings, 5 marks (nearest 191 px) BEELINE
  288.03 s  TIMER 30
- 288.03 s  contrast 19.7  shift  +0, +0 score 0.91 placed   moving still  no opening
- 288.23 s  contrast 19.6  shift  +0, +0 score 0.89 placed   moving still  no opening
+ 288.03 s  contrast 19.7  shift  +0, +0 score 0.91 placed   moving still  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 192 px) BEELINE
+ 288.23 s  contrast 19.6  shift  +0, +0 score 0.89 placed   moving still  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 193 px) BEELINE
  288.43 s  TIME TARGET afflicted at (394,342), 10 icons, 30 s left
- 288.43 s  contrast 19.7  shift  +0, +0 score 0.90 placed   moving still  no opening
- 288.65 s  contrast 19.7  shift  +0, +0 score 0.90 placed   moving still  no opening
- 288.86 s  contrast 19.7  shift  +0, +0 score 0.90 placed   moving still  no opening
+ 288.43 s  contrast 19.7  shift  +0, +0 score 0.90 placed   moving still  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 194 px) BEELINE
+ 288.65 s  contrast 19.7  shift  +0, +0 score 0.90 placed   moving still  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 193 px) BEELINE
+ 288.86 s  contrast 19.7  shift  +0, +0 score 0.90 placed   moving still  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 193 px) BEELINE
  289.06 s  TIMER 29
- 289.06 s  contrast 19.7  shift  +0, +0 score 0.90 placed   moving still  no opening
- 289.27 s  contrast 19.7  shift  -1, +0 score 0.91 placed   moving still  no opening
+ 289.06 s  contrast 19.7  shift  +0, +0 score 0.90 placed   moving still  go south-east (139°), 60 px, 0 openings, 5 marks (nearest 193 px) BEELINE
+ 289.27 s  contrast 19.7  shift  -1, +0 score 0.91 placed   moving still  go south-east (139°), 60 px, 0 openings, 5 marks (nearest 194 px) BEELINE
  289.52 s  FACING 119 -101
- 289.52 s  contrast 19.7  shift  -6, -2 score 0.93 placed   moving west  no opening
+ 289.52 s  contrast 19.7  shift  -6, -2 score 0.93 placed   moving west  go south-east (139°), 60 px, 0 openings, 5 marks (nearest 205 px) BEELINE
  289.75 s  FACING 124 -92
- 289.75 s  contrast 19.1  shift  -6, -3 score 0.94 placed   moving west  no opening
+ 289.75 s  contrast 19.1  shift  -6, -3 score 0.94 placed   moving west  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 210 px) BEELINE
  289.97 s  FACING 126 -88
- 289.97 s  contrast 19.2  shift  -2, -1 score 0.96 placed   moving west  no opening
+ 289.97 s  contrast 19.2  shift  -2, -1 score 0.96 placed   moving west  go south-east (138°), 60 px, 0 openings, 5 marks (nearest 213 px) BEELINE
  290.19 s  TIMER 28
  290.19 s  FACING 127 -52
  290.19 s  LANDMARK Arch north-west of the player, 203 px
- 290.19 s  contrast 19.2  shift  +0, +0 score 0.96 placed   moving north-west  no opening
- 290.40 s  contrast 19.3  shift  +0, +0 score 0.95 placed   moving still  no opening
- 290.62 s  contrast 19.3  shift  +0, +0 score 0.95 placed   moving still  no opening
+ 290.19 s  contrast 19.2  shift  +0, +0 score 0.96 placed   moving north-west  go south-east (137°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 290.40 s  contrast 19.3  shift  +0, +0 score 0.95 placed   moving still  go south-east (137°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 290.62 s  contrast 19.3  shift  +0, +0 score 0.95 placed   moving still  go south-east (136°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
  290.82 s  OBJECTIVE MARKER at (152,34), north-west of the player
  290.82 s  MARKER at (411,346) in the box, south-east of the player
- 290.82 s  contrast 19.3  shift  +0, +0 score 0.96 placed   moving still  no opening
- 291.04 s  contrast 19.3  shift  +0, +0 score 0.96 placed   moving still  no opening
+ 290.82 s  contrast 19.3  shift  +0, +0 score 0.96 placed   moving still  go south-east (135°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 291.04 s  contrast 19.3  shift  +0, +0 score 0.96 placed   moving still  go south-east (135°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
  291.27 s  TIMER 27
- 291.27 s  contrast 19.0  shift  +0, +0 score 0.93 placed   moving still  no opening
- 291.47 s  contrast 19.0  shift  +0, +0 score 0.93 placed   moving still  no opening
- 291.68 s  contrast 19.0  shift  +0, +0 score 0.93 placed   moving still  no opening
- 291.89 s  contrast 19.0  shift  +0, +0 score 0.93 placed   moving still  no opening
- 292.10 s  contrast 19.0  shift  +0, +0 score 0.94 placed   moving still  no opening
+ 291.27 s  contrast 19.0  shift  +0, +0 score 0.93 placed   moving still  go south-east (134°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 291.47 s  contrast 19.0  shift  +0, +0 score 0.93 placed   moving still  go south-east (133°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 291.68 s  contrast 19.0  shift  +0, +0 score 0.93 placed   moving still  go south-east (133°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 291.89 s  contrast 19.0  shift  +0, +0 score 0.93 placed   moving still  go south-east (133°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 292.10 s  contrast 19.0  shift  +0, +0 score 0.94 placed   moving still  go south-east (132°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
  292.30 s  TIMER 26
- 292.30 s  contrast 19.0  shift  +0, +0 score 0.94 placed   moving still  no opening
- 292.52 s  contrast 19.1  shift  +0, +0 score 0.94 placed   moving still  no opening
- 292.73 s  contrast 19.1  shift  +0, +0 score 0.94 placed   moving still  no opening
+ 292.30 s  contrast 19.0  shift  +0, +0 score 0.94 placed   moving still  go south-east (132°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 292.52 s  contrast 19.1  shift  +0, +0 score 0.94 placed   moving still  go south-east (132°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
+ 292.73 s  contrast 19.1  shift  +0, +0 score 0.94 placed   moving still  go south-east (132°), 60 px, 0 openings, 5 marks (nearest 214 px) BEELINE
 1346 samples, 1279 placed, 61 illegible, 1 re-centres. Output in ~/Desktop/XCode Projects/D4 Dungeon Guide/Reference/2026-09-30-0521

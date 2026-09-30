@@ -151,7 +151,8 @@ public sealed class Guide
     public static readonly double noOpeningRepeat = 30;
     public static readonly double holdGap = 2;
     /// <summary>An opening that disappears while its route is shorter than this was a dead end.</summary>
-    public static readonly double deadEndNear = 150.0;
+    // 80 since 30 Sep 2026: on the native render openings close at 110–150 px before the player is there.
+    public static readonly double deadEndNear = 80;
     /// <summary>How closely the direction of travel must match the route to count as on course.</summary>
     public static readonly double onCourseAngle = 25.0 * Math.PI / 180;
     public static readonly double nearAngle = 60.0 * Math.PI / 180;

@@ -1,12 +1,12 @@
 #!/bin/sh
-# Build Dungeon Guide, wrap it as an app, sign it, install it to /Applications and relaunch.
-# Read ~/Library/Application Support/Dungeon Guide/logs/ afterwards.
+# Build Sanctuary Sonar, wrap it as an app, sign it, install it to /Applications and relaunch.
+# Read ~/Library/Application Support/Sanctuary Sonar/logs/ afterwards.
 set -e
 cd "$(dirname "$0")"
 
 # Build outside ~/Desktop: iCloud Drive syncs it, and the file provider's extended
 # attributes make codesign reject the bundle (see Muteny's README, "Building").
-OUT="${DUNGEONGUIDE_BUILD:-$HOME/Library/Developer/DungeonGuide}"
+OUT="${SANCTUARYSONAR_BUILD:-$HOME/Library/Developer/SanctuarySonar}"
 mkdir -p "$OUT"
 LOG="$OUT/last-build.log"
 
@@ -25,7 +25,7 @@ fi
 # unoptimised. The debug build took ~3 s a frame on a large map on 25 Sep, so the owner's
 # guidance lagged seconds behind them, and stopping the guide hung behind the backlog.
 CONFIG=release
-echo "Building Dungeon Guide…"
+echo "Building Sanctuary Sonar…"
 set +e
 swift build -c $CONFIG --scratch-path "$OUT/spm" > "$LOG" 2>&1
 STATUS=$?
@@ -36,22 +36,25 @@ if [ $STATUS -ne 0 ]; then
   exit 1
 fi
 
-BIN="$(swift build -c $CONFIG --scratch-path "$OUT/spm" --show-bin-path)/DungeonGuide"
-APP="$OUT/Dungeon Guide.app"
+BIN="$(swift build -c $CONFIG --scratch-path "$OUT/spm" --show-bin-path)/SanctuarySonar"
+APP="$OUT/Sanctuary Sonar.app"
 rm -rf "$APP"
 mkdir -p "$APP/Contents/MacOS"
-cp "$BIN" "$APP/Contents/MacOS/DungeonGuide"
+cp "$BIN" "$APP/Contents/MacOS/SanctuarySonar"
 cp Info.plist "$APP/Contents/Info.plist"
 
 # Signed with the same Apple Development certificate as Muteny, so the Screen Recording
 # grant is tied to a stable identity and survives rebuilds.
 codesign --force --sign "Apple Development" --identifier com.doll-eye.DungeonGuide "$APP" >> "$LOG" 2>&1
 
-pkill -x DungeonGuide 2>/dev/null || true
+pkill -x SanctuarySonar 2>/dev/null || true
+pkill -x DungeonGuide 2>/dev/null || true   # the app's old name, until 30 Sep 2026
 sleep 0.5
-rm -rf "/Applications/Dungeon Guide.app"
-/usr/bin/ditto "$APP" "/Applications/Dungeon Guide.app"
-open "/Applications/Dungeon Guide.app"
-echo "Installed to /Applications/Dungeon Guide.app and launched."
+rm -rf "/Applications/Sanctuary Sonar.app"
+# The old bundle goes to the Trash, not away: it was there until 30 Sep 2026.
+[ -d "/Applications/Dungeon Guide.app" ] && mv "/Applications/Dungeon Guide.app" "$HOME/.Trash/Dungeon Guide.app" 2>/dev/null || true
+/usr/bin/ditto "$APP" "/Applications/Sanctuary Sonar.app"
+open "/Applications/Sanctuary Sonar.app"
+echo "Installed to /Applications/Sanctuary Sonar.app and launched."
 echo "Build log: $LOG"
-echo "App logs: $HOME/Library/Application Support/Dungeon Guide/logs"
+echo "App logs: $HOME/Library/Application Support/Sanctuary Sonar/logs"

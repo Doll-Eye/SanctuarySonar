@@ -20,7 +20,7 @@ final class Recorder: NSObject, SCStreamOutput, SCStreamDelegate {
     /// Called on the main queue once the file is finished — or abandoned, with the reason.
     var onStopped: ((URL?, Error?) -> Void)?
 
-    private let queue = DispatchQueue(label: "dungeonguide.capture")
+    private let queue = DispatchQueue(label: "sanctuarysonar.capture")
     private var stream: SCStream?
     private var writer: AVAssetWriter?
     private var videoInput: AVAssetWriterInput?

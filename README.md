@@ -39,8 +39,11 @@ not a product. Everything learned along the way, including every dead end, is in
     ./build.sh
 
 builds a Release app, signs it with your Apple Development identity, installs it to
-/Applications as "Dungeon Guide" (the name in code has not caught up with the project's
-yet) and launches it. Build outside iCloud-synced folders; the script does. The package
+/Applications as "Sanctuary Sonar" and launches it. (Until 30 Sep 2026 the Mac app was called
+"Dungeon Guide"; its logs moved from `~/Library/Application Support/Dungeon Guide` to
+`…/Sanctuary Sonar` and its recordings from `~/Movies/Dungeon Guide` to `~/Movies/Sanctuary
+Sonar`. The bundle identifier is still `com.doll-eye.DungeonGuide`, on purpose: the Screen
+Recording, Accessibility and VoiceOver grants are tied to it.) Build outside iCloud-synced folders; the script does. The package
 depends on [Keel](https://github.com/Doll-Eye/Keel), fetched automatically.
 
 ## Using it

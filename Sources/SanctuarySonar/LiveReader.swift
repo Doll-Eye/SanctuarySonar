@@ -46,7 +46,7 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
     var onSnapshot: ((Snapshot) -> Void)?
     var onStopped: ((Error?) -> Void)?
 
-    private let queue = DispatchQueue(label: "dungeonguide.reader")
+    private let queue = DispatchQueue(label: "sanctuarysonar.reader")
     /// Touched only on the main queue: start and stop never wait on `queue`, which may be
     /// busy with a frame.
     private var stream: SCStream?

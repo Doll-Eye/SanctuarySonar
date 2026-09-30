@@ -4,9 +4,9 @@ import Carbon.HIToolbox
 import Keel
 import Cartography
 
-// The log goes to ~/Library/Application Support/Dungeon Guide/logs. Set before anything
+// The log goes to ~/Library/Application Support/Sanctuary Sonar/logs. Set before anything
 // logs: Keel's log reads it once, on first use.
-AppLog.appName = "Dungeon Guide"
+AppLog.appName = "Sanctuary Sonar"
 
 /// Plain AppKit rather than a SwiftUI App: a SwiftUI Window scene opens and reopens itself
 /// on its own terms (Muteny's trap list), and this app wants one window it controls plus a
@@ -20,13 +20,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     private var statusItem: NSStatusItem?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        log("Dungeon Guide pid \(ProcessInfo.processInfo.processIdentifier), recordings in \(RecorderModel.folder.path)")
+        log("Sanctuary Sonar pid \(ProcessInfo.processInfo.processIdentifier), recordings in \(RecorderModel.folder.path)")
         buildMainMenu()
         buildStatusItem()
         model.onChange = { [weak self] in self?.updateStatusTitle() }
         guide.onChange = { [weak self] in self?.updateStatusTitle() }
 
-        // `Dungeon Guide --map-points <png>…`: runs the map-screen icon finder on pictures of
+        // `Sanctuary Sonar --map-points <png>…`: runs the map-screen icon finder on pictures of
         // the game window, logs what it finds, writes a ringed copy beside each, and quits.
         if let flag = CommandLine.arguments.firstIndex(of: "--map-points") {
             for path in CommandLine.arguments.dropFirst(flag + 1) {
@@ -91,7 +91,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         Task { await model.refresh() }
     }
 
-    /// `Dungeon Guide --guide-test [seconds]`: runs the guide on the remembered window with
+    /// `Sanctuary Sonar --guide-test [seconds]`: runs the guide on the remembered window with
     /// no sound at all, logs what it reads, saves its map to the log folder, and quits.
     /// For checking the live path from outside without talking over the player.
     private func runGuideTest(seconds: Double) {
@@ -135,7 +135,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 520, height: 420),
                                   styleMask: [.titled, .closable, .miniaturizable],
                                   backing: .buffered, defer: false)
-            window.title = "Dungeon Guide"
+            window.title = "Sanctuary Sonar"
             window.isReleasedWhenClosed = false
             window.contentView = NSHostingView(rootView: ContentView(model: model, guide: guide, mapPoints: mapPoints))
             window.center()
@@ -151,7 +151,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         let main = NSMenu()
         let appItem = NSMenuItem()
         let appMenu = NSMenu()
-        appMenu.addItem(withTitle: "Quit Dungeon Guide", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
+        appMenu.addItem(withTitle: "Quit Sanctuary Sonar", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
         appItem.submenu = appMenu
         main.addItem(appItem)
         let windowItem = NSMenuItem()
@@ -166,7 +166,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     private func buildStatusItem() {
         let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         item.button?.title = "DG"
-        item.button?.setAccessibilityLabel("Dungeon Guide")
+        item.button?.setAccessibilityLabel("Sanctuary Sonar")
         let menu = NSMenu()
         menu.delegate = self
         item.menu = menu
@@ -199,10 +199,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         let info = NSMenuItem(title: "Window: \(chosen)", action: nil, keyEquivalent: "")
         info.isEnabled = false
         menu.addItem(info)
-        menu.addItem(NSMenuItem(title: "Show Dungeon Guide", action: #selector(showWindow), keyEquivalent: ""))
+        menu.addItem(NSMenuItem(title: "Show Sanctuary Sonar", action: #selector(showWindow), keyEquivalent: ""))
         menu.addItem(NSMenuItem(title: "Open the recordings folder", action: #selector(openFolder), keyEquivalent: ""))
         menu.addItem(.separator())
-        menu.addItem(NSMenuItem(title: "Quit Dungeon Guide", action: #selector(NSApplication.terminate(_:)), keyEquivalent: ""))
+        menu.addItem(NSMenuItem(title: "Quit Sanctuary Sonar", action: #selector(NSApplication.terminate(_:)), keyEquivalent: ""))
         for item in menu.items where item.action != #selector(NSApplication.terminate(_:)) { item.target = self }
     }
 

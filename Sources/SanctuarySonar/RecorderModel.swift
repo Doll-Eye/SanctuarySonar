@@ -37,7 +37,7 @@ final class RecorderModel: ObservableObject {
 
     static var folder: URL {
         FileManager.default.homeDirectoryForCurrentUser
-            .appendingPathComponent("Movies/Dungeon Guide", isDirectory: true)
+            .appendingPathComponent("Movies/Sanctuary Sonar", isDirectory: true)
     }
 
     init() {

@@ -1,3 +1,11 @@
+> **Renamed 30 Sep 2026: the Mac app, target and folders are "Sanctuary Sonar" everywhere**
+> (`Sources/SanctuarySonar`, `/Applications/Sanctuary Sonar.app`, logs in
+> `~/Library/Application Support/Sanctuary Sonar/logs` as `sanctuary-sonar-*.log`, recordings
+> in `~/Movies/Sanctuary Sonar`, the project folder `../Sanctuary Sonar`, builds in
+> `~/Library/Developer/SanctuarySonar`). The bundle identifier stays `com.doll-eye.DungeonGuide`
+> so the Screen Recording / Accessibility / VoiceOver grants survive; change it only when the
+> owner can re-grant all three. Everything below that says "Dungeon Guide" is history.
+
 # Working on Dungeon Guide
 
 A navigation aid for Diablo IV dungeons, for a blind player who streams the game (Shadow PC,

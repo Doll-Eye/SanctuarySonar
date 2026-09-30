@@ -71,7 +71,7 @@ final class ObjectiveWatcher: NSObject, SCStreamOutput, SCStreamDelegate {
     private var emptyReads = 0
     var onTextTrouble: (() -> Void)?
 
-    private let queue = DispatchQueue(label: "dungeonguide.objective")
+    private let queue = DispatchQueue(label: "sanctuarysonar.objective")
     private var stream: SCStream?
     private let running = OSAllocatedUnfairLock(initialState: false)
     /// Set by the guide: false while the minimap is unreadable — the inventory, the map or

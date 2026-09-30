@@ -196,7 +196,7 @@ enum MapIcons {
     }
 }
 
-/// The mouse pointer: the one thing Dungeon Guide sends to the game, and only at the owner's
+/// The mouse pointer: the one thing Sanctuary Sonar sends to the game, and only at the owner's
 /// request (28 Sep 2026: "no mouse in vicinity", so the click comes from here too). Moves the
 /// pointer to a screen point, and clicks. Nothing else is ever sent. Posting events needs the
 /// Accessibility permission; without it the pointer is only warped, which the game may not
@@ -317,7 +317,7 @@ final class MapPointsController: ObservableObject {
         if !Pointer.isTrusted {
             log("Map points: Accessibility not granted — prompting")
             Pointer.requestTrust()
-            say("Allow Dungeon Guide in Accessibility settings to move the pointer, then try again.")
+            say("Allow Sanctuary Sonar in Accessibility settings to move the pointer, then try again.")
             return
         }
         let p = points[index]

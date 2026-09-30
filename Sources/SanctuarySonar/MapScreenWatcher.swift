@@ -17,7 +17,7 @@ final class MapScreenWatcher: NSObject, SCStreamOutput, SCStreamDelegate {
     /// Called on the main queue with the area names read from the panel, when the map opens.
     var onMapOpened: (([String]) -> Void)?
 
-    private let queue = DispatchQueue(label: "dungeonguide.mapscreen")
+    private let queue = DispatchQueue(label: "sanctuarysonar.mapscreen")
     private var stream: SCStream?
     private let running = OSAllocatedUnfairLock(initialState: false)
     /// True while the minimap is unreadable — the only time the map can be up.

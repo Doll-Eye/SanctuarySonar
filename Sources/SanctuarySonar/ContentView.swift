@@ -21,10 +21,10 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             if model.permissionMissing {
-                Text("Screen Recording is not allowed yet. Allow Dungeon Guide in Privacy and Security, then reopen it.")
+                Text("Screen Recording is not allowed yet. Allow Sanctuary Sonar in Privacy and Security, then reopen it.")
                     .fixedSize(horizontal: false, vertical: true)
                 Button("Open Screen Recording settings") { model.openScreenRecordingSettings() }
-                Button("Quit Dungeon Guide") { NSApp.terminate(nil) }
+                Button("Quit Sanctuary Sonar") { NSApp.terminate(nil) }
             }
 
             Picker("Game window", selection: $model.selectedID) {

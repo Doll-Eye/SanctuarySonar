@@ -1,10 +1,10 @@
 // swift-tools-version: 5.9
-// Sanctuary Sonar (working title in code: Dungeon Guide): reads the Diablo IV dungeon map out of a streamed game window and turns it
+// Sanctuary Sonar: reads the Diablo IV dungeon map out of a streamed game window and turns it
 // into sound. Stage 0 is the recorder — see DESIGN.md. Built into an app bundle by build.sh.
 import PackageDescription
 
 let package = Package(
-    name: "DungeonGuide",
+    name: "SanctuarySonar",
     platforms: [.macOS("27.0")],   // Keel's floor
     dependencies: [
         // Keel: the controller, speech, sound and log package shared with Muteny. Fetched
@@ -13,7 +13,7 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "DungeonGuide",
+            name: "SanctuarySonar",
             dependencies: [.product(name: "Keel", package: "Keel"), "Cartography"],
             linkerSettings: [
                 .linkedFramework("ScreenCaptureKit"),

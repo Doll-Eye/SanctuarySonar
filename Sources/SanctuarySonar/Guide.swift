@@ -164,7 +164,11 @@ final class Guide: ObservableObject {
     static let noOpeningRepeat: TimeInterval = 30
     static let holdGap: TimeInterval = 2
     /// An opening that disappears while its route is shorter than this was a dead end.
-    static let deadEndNear = 150.0
+    /// 80, not 150, since 30 Sep 2026: on the native render openings close at 110–150 px as
+    /// the fog fills in and the hatching settles, long before the player is at them, and the
+    /// 05:43 run heard "Dead end" three times at 113–147 px with eight openings about. A dead
+    /// end is something you have reached.
+    static let deadEndNear = 80.0
     /// How closely the direction of travel must match the route to count as on course.
     static let onCourseAngle = 25.0 * .pi / 180
     static let nearAngle = 60.0 * .pi / 180
