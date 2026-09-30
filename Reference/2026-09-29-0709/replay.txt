@@ -1,0 +1,1291 @@
+   0.00 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   0.20 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   0.44 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   0.65 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   0.85 s  illegible: contrast 0.0 floor 0% arrow no busy 0.00
+   1.09 s  illegible: contrast 0.0 floor 0% arrow no busy 0.00
+   1.29 s  illegible: contrast 0.0 floor 0% arrow no busy 0.00
+   2.02 s  illegible: contrast -2.4 floor 0% arrow no busy 0.00
+   2.23 s  illegible: contrast 5.9 floor 19% arrow no busy 0.04
+   2.64 s  contrast 18.1  shift  +0, +0 score 1.00 placed   moving still  no opening
+   2.85 s  contrast 18.6  shift  +0, +0 score 0.91 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   3.09 s  contrast 18.6  shift  +0, +0 score 0.98 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   3.29 s  contrast 18.6  shift  +0, +0 score 0.99 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   3.50 s  contrast 18.6  shift  +0, +0 score 0.99 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   3.71 s  TIMER 150
+   3.71 s  FLOOR 1 of 3
+   3.71 s  contrast 18.6  shift  +0, +0 score 0.99 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   3.94 s  contrast 18.6  shift  +0, +0 score 1.00 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   4.15 s  contrast 18.6  shift  +0, +0 score 1.00 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   4.38 s  contrast 18.6  shift  +0, +0 score 1.00 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   4.58 s  contrast 18.6  shift  +0, +0 score 1.00 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   4.79 s  AREA Temple District
+   4.79 s  OBJECTIVE Reach District Boss before time expires
+   4.79 s  INTENT slay no travel yes stay - leave - to District Boss
+   4.79 s  contrast 18.6  shift  +0, +0 score 1.00 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   4.99 s  contrast 18.6  shift  +0, +0 score 1.00 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   5.20 s  contrast 18.6  shift  +0, +0 score 1.00 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   5.42 s  contrast 18.6  shift  +0, +0 score 1.00 placed   moving still  go north-east (49°), 151 px, 1 openings, 0 marks
+   5.62 s  FACING 80 -139
+   5.62 s  contrast 18.6  shift  +3, +0 score 0.94 placed   moving south-west  go north-east (48°), 162 px, 1 openings, 0 marks
+   5.83 s  FACING 66 -160
+   5.83 s  contrast 18.7  shift  +6, -2 score 0.91 placed   moving south  go north-east (47°), 157 px, 1 openings, 0 marks
+   6.04 s  FACING -130 74
+   6.04 s  contrast 16.7  shift  +5, -4 score 0.86 placed   moving east  go north-east (43°), 134 px, 1 openings, 0 marks
+   6.24 s  FACING 62 62
+   6.24 s  contrast 14.6  shift  +6, -3 score 0.91 placed   moving north-east  go north-east (42°), 157 px, 1 openings, 0 marks
+   6.44 s  FACING -134 53
+   6.44 s  contrast 14.9  shift  +5, -3 score 0.90 placed   moving north-east  go north-east (43°), 136 px, 1 openings, 0 marks
+   6.64 s  FACING -147 37
+   6.64 s  contrast 14.9  shift  +3, -5 score 0.90 placed   moving north-east  go north-east (41°), 145 px, 1 openings, 0 marks
+   6.85 s  FACING 99 55
+   6.85 s  contrast 15.2  shift  +6, -2 score 0.90 placed   moving north-east  go north-east (44°), 158 px, 1 openings, 0 marks
+   7.09 s  contrast 15.9  shift  +5, +4 score 0.91 placed   moving still  go north-east (39°), 161 px, 1 openings, 0 marks
+   7.30 s  FACING 133 169
+   7.30 s  contrast 16.8  shift  +4, +4 score 0.89 placed   moving south  go north-east (33°), 163 px, 1 openings, 0 marks
+   7.51 s  FACING 63 114
+   7.51 s  contrast 16.7  shift  +6, -1 score 0.88 placed   moving south-east  go north-east (28°), 160 px, 1 openings, 0 marks
+   7.71 s  FACING -141 66
+   7.71 s  contrast 16.5  shift  +5, -5 score 0.89 placed   moving north-east  go north-east (28°), 137 px, 1 openings, 0 marks
+   7.92 s  TIMER 149
+   7.92 s  FACING -154 47
+   7.92 s  contrast 17.2  shift  +4, -5 score 0.91 placed   moving north-east  go north-east (33°), 148 px, 3 openings, 0 marks
+   8.12 s  FACING -154 34
+   8.12 s  contrast 16.7  shift  +3, -6 score 0.92 placed   moving north-east  go north-east (34°), 146 px, 3 openings, 0 marks
+   8.32 s  FACING -134 33
+   8.32 s  contrast 16.8  shift  +3, -6 score 0.90 placed   moving north-east  go north-east (36°), 142 px, 3 openings, 0 marks
+   8.53 s  contrast 16.7  shift  +2, -1 score 0.89 placed   moving still  go north-east (31°), 167 px, 3 openings, 0 marks
+   8.73 s  contrast 16.9  shift  +0, +1 score 0.89 placed   moving still  go north-east (31°), 167 px, 3 openings, 0 marks
+   8.94 s  TIMER 148
+   8.94 s  FACING 160 -133
+   8.94 s  contrast 17.2  shift  +0, +1 score 0.89 placed   moving south-west  go north-east (31°), 167 px, 3 openings, 0 marks
+   9.14 s  contrast 17.1  shift  -1, +0 score 0.91 placed   moving still  go north-east (31°), 167 px, 3 openings, 0 marks
+   9.39 s  contrast 17.0  shift  +0, +0 score 0.91 placed   moving still  go north-east (31°), 167 px, 3 openings, 0 marks
+   9.60 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (32°), 171 px, 3 openings, 0 marks
+   9.80 s  contrast 16.8  shift  +0, +0 score 0.91 placed   moving still  go north-east (32°), 171 px, 3 openings, 0 marks
+  10.01 s  TIMER 147
+  10.01 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 171 px, 3 openings, 0 marks
+  10.21 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 171 px, 3 openings, 0 marks
+  10.42 s  contrast 16.8  shift  +0, +0 score 0.93 placed   moving still  go north-east (32°), 171 px, 3 openings, 0 marks
+  10.62 s  contrast 16.8  shift  +0, +0 score 0.93 placed   moving still  go north-east (32°), 171 px, 3 openings, 0 marks
+  10.83 s  contrast 16.8  shift  +0, +0 score 0.93 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  11.04 s  TIMER 146
+  11.04 s  contrast 16.8  shift  +0, +0 score 0.93 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  11.24 s  contrast 16.8  shift  +0, +0 score 0.94 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  11.47 s  contrast 16.8  shift  +0, +0 score 0.94 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  11.72 s  contrast 16.9  shift  +0, +0 score 0.94 placed   moving still  go north-east (31°), 167 px, 3 openings, 0 marks
+  11.93 s  contrast 17.2  shift  +0, +1 score 0.93 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  12.13 s  TIMER 144
+  12.13 s  contrast 17.0  shift  +0, +0 score 0.94 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  12.36 s  contrast 16.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  12.56 s  contrast 16.8  shift  -1, +1 score 0.93 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  12.76 s  contrast 16.8  shift  +1, -1 score 0.92 placed   moving still  go north-east (33°), 171 px, 3 openings, 0 marks
+  12.97 s  contrast 16.7  shift  +1, -2 score 0.94 placed   moving still  go north-east (30°), 167 px, 3 openings, 0 marks
+  13.18 s  TIMER 143
+  13.18 s  FACING 68 55
+  13.18 s  contrast 17.5  shift  +5, -4 score 0.92 placed   moving north-east  go north-east (33°), 161 px, 3 openings, 0 marks
+  13.38 s  FACING -131 50
+  13.38 s  contrast 17.1  shift  +5, -5 score 0.90 placed   moving north-east  go north-east (29°), 133 px, 3 openings, 0 marks
+  13.61 s  FACING -149 40
+  13.61 s  contrast 16.4  shift  +2, -6 score 0.91 placed   moving north-east  go north-east (40°), 144 px, 3 openings, 0 marks
+  13.82 s  FACING -155 33
+  13.82 s  contrast 16.0  shift  +0, -1 score 0.87 placed   moving north-east  go north-east (41°), 149 px, 3 openings, 0 marks
+  14.06 s  contrast 16.0  shift  +0, +0 score 0.87 placed   moving still  go north-east (32°), 150 px, 1 openings, 0 marks
+  14.26 s  TIMER 142
+  14.26 s  FACING 174 -59
+  14.26 s  contrast 16.0  shift  +0, +0 score 0.89 placed   moving north-west  go north-east (42°), 151 px, 1 openings, 0 marks
+  14.47 s  FACING 132 -93
+  14.47 s  contrast 16.0  shift  +0, +0 score 0.89 placed   moving west  go north-east (42°), 162 px, 1 openings, 0 marks
+  14.68 s  FACING 133 -87
+  14.68 s  contrast 16.1  shift  -1, +1 score 0.92 placed   moving west  go north-east (42°), 162 px, 1 openings, 0 marks
+  14.88 s  FACING 133 -108
+  14.88 s  contrast 16.0  shift  +1, -1 score 0.89 placed   moving west  go north-east (42°), 162 px, 1 openings, 0 marks
+  15.09 s  contrast 16.2  shift  -1, +1 score 0.93 placed   moving still  go north-east (42°), 162 px, 1 openings, 0 marks
+  15.29 s  TIMER 141
+  15.29 s  contrast 16.2  shift  +0, +0 score 0.93 placed   moving still  go north-east (42°), 162 px, 1 openings, 0 marks
+  15.52 s  FACING -145 92
+  15.52 s  contrast 16.2  shift  +0, +0 score 0.94 placed   moving east  go north-east (38°), 152 px, 1 openings, 0 marks
+  15.72 s  FACING -124 100
+  15.72 s  contrast 16.2  shift  +0, +0 score 0.93 placed   moving east  go north-east (33°), 152 px, 1 openings, 0 marks
+  15.96 s  contrast 16.0  shift  +1, -1 score 0.89 placed   moving still  go north-east (47°), 158 px, 1 openings, 0 marks
+  16.19 s  FACING 137 -91
+  16.19 s  contrast 16.1  shift  -1, +1 score 0.94 placed   moving west  go north-east (42°), 162 px, 1 openings, 0 marks
+  16.41 s  TIMER 140
+  16.41 s  FACING 137 -77
+  16.41 s  contrast 16.0  shift  +1, -1 score 0.90 placed   moving west  go north-east (42°), 162 px, 1 openings, 0 marks
+  16.62 s  contrast 16.1  shift  -1, +1 score 0.94 placed   moving still  go north-east (42°), 162 px, 1 openings, 0 marks
+  16.85 s  FACING 80 146
+  16.85 s  contrast 16.2  shift  +0, +0 score 0.93 placed   moving south-east  go north-east (36°), 169 px, 1 openings, 0 marks
+  17.05 s  FACING 100 152
+  17.05 s  contrast 16.1  shift  +0, +0 score 0.94 placed   moving south-east  go north-east (33°), 173 px, 1 openings, 0 marks
+  17.30 s  FACING 138 144
+  17.30 s  contrast 16.1  shift  +0, +0 score 0.94 placed   moving south-east  go north-east (37°), 169 px, 1 openings, 0 marks
+  17.51 s  TIMER 139
+  17.51 s  contrast 16.2  shift  +0, +0 score 0.94 placed   moving still  go north-east (37°), 169 px, 1 openings, 0 marks
+  17.72 s  contrast 16.1  shift  +0, +0 score 0.94 placed   moving still  go north-east (37°), 169 px, 1 openings, 0 marks
+  17.92 s  contrast 16.1  shift  +0, +0 score 0.95 placed   moving still  go north-east (37°), 169 px, 1 openings, 0 marks
+  18.14 s  contrast 16.1  shift  +0, +0 score 0.95 placed   moving still  go north-east (37°), 169 px, 1 openings, 0 marks
+  18.34 s  contrast 16.9  shift  +0, +4 score 0.92 placed   moving still  go north-east (32°), 173 px, 1 openings, 0 marks
+  18.55 s  TIMER 138
+  18.55 s  contrast 17.1  shift  +0, +0 score 0.94 placed   moving still  go north-east (32°), 173 px, 1 openings, 0 marks
+  18.80 s  contrast 17.1  shift  +0, +0 score 0.94 placed   moving still  go north-east (32°), 173 px, 1 openings, 0 marks
+  19.01 s  contrast 17.1  shift  -1, +2 score 0.93 placed   moving still  go north-east (31°), 177 px, 1 openings, 0 marks
+  19.21 s  contrast 17.1  shift  +0, +0 score 0.94 placed   moving still  go north-east (30°), 177 px, 1 openings, 0 marks
+  19.42 s  contrast 17.0  shift  +1, -2 score 0.94 placed   moving still  go north-east (31°), 173 px, 1 openings, 0 marks
+  19.62 s  TIMER 137
+  19.62 s  FACING 60 57
+  19.62 s  contrast 16.6  shift  +0, -2 score 0.93 placed   moving north-east  go north-east (28°), 156 px, 1 openings, 0 marks
+  19.84 s  FACING -124 50
+  19.84 s  contrast 16.1  shift  +1, -2 score 0.91 placed   moving north-east  go north-east (30°), 150 px, 1 openings, 0 marks
+  20.04 s  FACING -124 50
+  20.04 s  contrast 16.1  shift  +0, +0 score 0.92 placed   moving north-east  go north-east (30°), 150 px, 1 openings, 0 marks
+  20.25 s  contrast 16.1  shift  +0, +1 score 0.92 placed   moving still  go north-east (30°), 150 px, 1 openings, 0 marks
+  20.45 s  contrast 16.1  shift  +0, -1 score 0.91 placed   moving still  go north-east (30°), 150 px, 1 openings, 0 marks
+  20.66 s  TIMER 136
+  20.66 s  contrast 16.3  shift  +0, +1 score 0.94 placed   moving still  go north-east (30°), 150 px, 1 openings, 0 marks
+  20.86 s  contrast 16.0  shift  -1, -1 score 0.92 placed   moving still  go north-east (33°), 152 px, 1 openings, 0 marks
+  21.07 s  FACING -155 -40
+  21.07 s  contrast 16.0  shift  +0, -2 score 0.93 placed   moving north-west  go north-east (42°), 151 px, 1 openings, 0 marks
+  21.30 s  FACING -153 -41
+  21.30 s  contrast 15.9  shift  -4, -3 score 0.93 placed   moving north-west  go north-east (42°), 151 px, 1 openings, 0 marks
+  21.51 s  FACING -162 -36
+  21.51 s  contrast 16.4  shift  -1, -6 score 0.93 placed   moving north-west  go north-east (41°), 145 px, 1 openings, 0 marks
+  21.75 s  TIMER 135
+  21.75 s  FACING -171 -26
+  21.75 s  contrast 16.9  shift  +1, -6 score 0.93 placed   moving north-west  go north-east (47°), 145 px, 1 openings, 0 marks
+  21.99 s  FACING -156 -0
+  21.99 s  contrast 17.1  shift  +2, -7 score 0.90 placed   moving north  go north-east (43°), 141 px, 1 openings, 0 marks
+  22.19 s  contrast 19.3  shift  +6, -2 score 0.86 placed   moving still  go north-east (45°), 158 px, 1 openings, 0 marks
+  22.40 s  FACING 136 140
+  22.40 s  contrast 18.3  shift  +5, +4 score 0.90 placed   moving south-east  go north-east (48°), 157 px, 1 openings, 0 marks
+  22.61 s  FACING -49 173
+  22.61 s  contrast 18.4  shift  -1, +2 score 0.91 placed   moving south  go north-east (47°), 157 px, 1 openings, 0 marks
+  22.81 s  TIMER 134
+  22.81 s  contrast 18.6  shift  -1, +0 score 0.91 placed   moving still  go north-east (48°), 157 px, 1 openings, 0 marks
+  23.02 s  contrast 18.7  shift  -2, +2 score 0.91 placed   moving still  go north-east (48°), 162 px, 1 openings, 0 marks
+  23.26 s  contrast 18.5  shift  -1, +2 score 0.90 placed   moving still  go north-east (47°), 162 px, 1 openings, 0 marks
+  23.47 s  contrast 18.6  shift  +0, -1 score 0.91 placed   moving still  go north-east (48°), 162 px, 1 openings, 0 marks
+  23.68 s  contrast 18.7  shift  +1, -1 score 0.91 placed   moving still  go north-east (47°), 162 px, 1 openings, 0 marks
+  23.90 s  TIMER 133
+  23.90 s  contrast 18.7  shift  +0, +1 score 0.91 placed   moving still  go north-east (47°), 162 px, 1 openings, 0 marks
+  24.11 s  contrast 18.7  shift  +0, +0 score 0.91 placed   moving still  go north-east (47°), 162 px, 1 openings, 0 marks
+  24.30 s  contrast 18.6  shift  +3, -3 score 0.90 placed   moving still  go north-east (46°), 158 px, 1 openings, 0 marks
+  24.51 s  FACING 68 56
+  24.51 s  contrast 17.5  shift  +6, -5 score 0.92 placed   moving north-east  go north-east (45°), 147 px, 1 openings, 1 marks
+  24.71 s  FACING 62 62
+  24.71 s  contrast 16.9  shift  +4, -1 score 0.92 placed   moving north-east  go east (82°), 143 px, 1 openings, 2 marks
+  24.92 s  TIMER 132
+  24.92 s  FACING -125 58
+  24.92 s  contrast 16.9  shift  +0, +0 score 0.92 placed   moving north-east  go east (90°), 132 px, 1 openings, 2 marks
+  25.18 s  contrast 16.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (43°), 162 px, 1 openings, 2 marks
+  25.39 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (44°), 164 px, 1 openings, 2 marks
+  25.59 s  FACING -43 -119
+  25.59 s  contrast 17.0  shift  +0, +0 score 0.91 placed   moving south-west  go north-east (44°), 164 px, 1 openings, 2 marks
+  25.80 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (44°), 164 px, 1 openings, 3 marks
+  26.01 s  TIMER 131
+  26.01 s  contrast 17.0  shift  +3, -2 score 0.90 placed   moving still  go north (-1°), 156 px, 1 openings, 3 marks
+  26.22 s  FACING 79 64
+  26.22 s  contrast 16.9  shift  +7, -4 score 0.92 placed   moving north-east  go north-east (44°), 153 px, 1 openings, 2 marks
+  26.49 s  FACING 68 67
+  26.49 s  contrast 16.2  shift  +6, -2 score 0.94 placed   moving north-east  go east (89°), 144 px, 1 openings, 1 marks
+  26.70 s  FACING 67 67
+  26.70 s  contrast 15.9  shift  +7, -3 score 0.93 placed   moving north-east  go north-east (43°), 141 px, 1 openings, 1 marks
+  26.93 s  FACING 43 56
+  26.93 s  contrast 15.8  shift  +5, -4 score 0.92 placed   moving north-east  go north-east (45°), 124 px, 1 openings, 1 marks
+  27.16 s  TIMER 129
+  27.16 s  FACING 41 48
+  27.16 s  contrast 16.2  shift  +4, -5 score 0.93 placed   moving north-east  go north-east (44°), 141 px, 2 openings, 1 marks
+  27.36 s  FACING -154 35
+  27.36 s  contrast 15.8  shift  +3, -6 score 0.94 placed   moving north-east  go north-east (42°), 145 px, 3 openings, 1 marks
+  27.57 s  FACING 41 40
+  27.57 s  contrast 15.8  shift  +4, +0 score 0.94 placed   moving north-east  go north-east (42°), 148 px, 3 openings, 1 marks
+  27.79 s  contrast 16.0  shift  +6, +0 score 0.93 placed   moving still  go north-east (43°), 163 px, 3 openings, 1 marks
+  27.99 s  FACING -42 163
+  27.99 s  contrast 16.2  shift  +5, +5 score 0.93 placed   moving south  go north-east (42°), 165 px, 3 openings, 1 marks
+  28.21 s  TIMER 128
+  28.21 s  FACING 134 166
+  28.21 s  contrast 16.4  shift  +6, +4 score 0.89 placed   moving south  go north-east (23°), 168 px, 3 openings, 1 marks
+  28.42 s  FACING 134 128
+  28.42 s  contrast 16.1  shift  +4, +3 score 0.87 placed   moving south-east  go north-east (24°), 170 px, 3 openings, 1 marks
+  28.64 s  FACING 134 123
+  28.64 s  contrast 16.1  shift  -1, -1 score 0.88 placed   moving south-east  go north-east (25°), 170 px, 3 openings, 1 marks
+  28.86 s  contrast 16.1  shift  +1, +1 score 0.88 placed   moving still  go north-east (24°), 170 px, 3 openings, 1 marks
+  29.11 s  contrast 16.1  shift  -1, -1 score 0.89 placed   moving still  go north-east (25°), 170 px, 3 openings, 1 marks
+  29.32 s  TIMER 127
+  29.32 s  contrast 16.1  shift  +1, +1 score 0.89 placed   moving still  go north-east (24°), 170 px, 3 openings, 1 marks
+  29.53 s  contrast 16.2  shift  +0, +0 score 0.89 placed   moving still  go north-east (23°), 170 px, 3 openings, 1 marks
+  29.73 s  contrast 16.3  shift  +0, +0 score 0.89 placed   moving still  go north-east (23°), 170 px, 3 openings, 1 marks
+  29.97 s  contrast 16.3  shift  +0, +0 score 0.89 placed   moving still  go north-east (23°), 170 px, 3 openings, 1 marks
+  30.18 s  contrast 16.3  shift  +7, +2 score 0.94 placed   moving still  go north-east (25°), 168 px, 3 openings, 1 marks
+  30.39 s  TIMER 126
+  30.39 s  FACING 103 103
+  30.39 s  contrast 16.2  shift  +5, +1 score 0.93 placed   moving east  go north (11°), 169 px, 3 openings, 1 marks
+  30.60 s  FACING 117 105
+  30.60 s  contrast 16.3  shift  +7, +2 score 0.93 placed   moving east  go north-east (41°), 163 px, 3 openings, 1 marks
+  30.81 s  FACING 118 103
+  30.81 s  contrast 16.5  shift  +6, +1 score 0.93 placed   moving east  go north-east (45°), 167 px, 3 openings, 1 marks
+  31.01 s  FACING 112 107
+  31.01 s  contrast 16.6  shift  +7, +3 score 0.92 placed   moving east  go north-east (30°), 165 px, 3 openings, 1 marks
+  31.23 s  FACING 116 111
+  31.23 s  contrast 16.7  shift  +5, +3 score 0.93 placed   moving east  go north-east (26°), 166 px, 4 openings, 1 marks
+  31.49 s  TIMER 125
+  31.49 s  FACING 116 113
+  31.49 s  contrast 16.2  shift  +7, +2 score 0.92 placed   moving south-east  go north (15°), 168 px, 4 openings, 1 marks
+  31.71 s  FACING 117 114
+  31.71 s  contrast 16.1  shift  +6, +3 score 0.93 placed   moving south-east  go north (13°), 165 px, 3 openings, 1 marks
+  31.94 s  FACING 116 112
+  31.94 s  contrast 16.4  shift  +7, +3 score 0.92 placed   moving east  go north (6°), 165 px, 3 openings, 1 marks
+  32.18 s  FACING 103 109
+  32.18 s  contrast 16.4  shift  +7, +1 score 0.95 placed   moving east  go north (2°), 164 px, 3 openings, 1 marks
+  32.40 s  FACING 61 94
+  32.40 s  contrast 16.4  shift  +7, -3 score 0.96 placed   moving east  go north (-1°), 160 px, 3 openings, 1 marks
+  32.61 s  TIMER 124
+  32.61 s  FACING -134 63
+  32.61 s  contrast 16.5  shift  +4, -4 score 0.95 placed   moving north-east  go north (-1°), 146 px, 3 openings, 1 marks
+  32.82 s  FACING -145 46
+  32.82 s  contrast 16.4  shift  +4, -6 score 0.95 placed   moving north-east  go north (0°), 147 px, 4 openings, 1 marks
+  33.02 s  FACING -149 37
+  33.02 s  contrast 16.3  shift  +3, -4 score 0.95 placed   moving north-east  go north (-2°), 151 px, 4 openings, 1 marks
+  33.23 s  FACING -144 25
+  33.23 s  contrast 16.3  shift  +2, -2 score 0.95 placed   moving north-east  go north (-12°), 153 px, 3 openings, 1 marks
+  33.45 s  contrast 16.3  shift  +0, +0 score 0.96 placed   moving still  go north (-4°), 154 px, 3 openings, 1 marks
+  33.66 s  TIMER 123
+  33.66 s  contrast 16.2  shift  +2, +2 score 0.96 placed   moving still  go north (-3°), 160 px, 3 openings, 1 marks
+  33.87 s  contrast 16.2  shift  -1, -1 score 0.96 placed   moving still  go north (-5°), 154 px, 3 openings, 1 marks
+  34.08 s  contrast 16.2  shift  +0, +0 score 0.96 placed   moving still  go north (-5°), 154 px, 3 openings, 1 marks
+  34.29 s  contrast 16.2  shift  +0, +0 score 0.96 placed   moving still  go north (-5°), 154 px, 3 openings, 1 marks
+  34.49 s  contrast 16.2  shift  +0, +0 score 0.96 placed   moving still  go north (-5°), 154 px, 3 openings, 1 marks
+  34.70 s  TIMER 122
+  34.70 s  contrast 16.2  shift  +0, +0 score 0.96 placed   moving still  go north (-5°), 154 px, 3 openings, 1 marks
+  34.92 s  contrast 16.2  shift  +4, +0 score 0.96 placed   moving still  go north (-5°), 160 px, 3 openings, 1 marks
+  35.13 s  FACING -57 58
+  35.13 s  contrast 16.2  shift  +4, -5 score 0.96 placed   moving north-east  go north (-12°), 153 px, 3 openings, 1 marks
+  35.34 s  FACING -154 43
+  35.34 s  contrast 16.2  shift  +2, -4 score 0.96 placed   moving north-east  go north (-13°), 153 px, 4 openings, 1 marks
+  35.55 s  FACING -159 16
+  35.55 s  contrast 16.1  shift  +2, -7 score 0.96 placed   moving north  go north (-10°), 149 px, 3 openings, 1 marks
+  35.81 s  TIMER 121
+  35.81 s  FACING -173 1
+  35.81 s  contrast 16.0  shift  +1, -6 score 0.94 placed   moving north  go north-west (-25°), 150 px, 3 openings, 1 marks
+  36.01 s  FACING 174 -4
+  36.01 s  contrast 15.9  shift  +1, -9 score 0.95 placed   moving north  go north (-19°), 147 px, 3 openings, 1 marks
+  36.22 s  FACING 172 -11
+  36.22 s  contrast 15.8  shift  +0, -5 score 0.95 placed   moving north  go north-west (-44°), 150 px, 3 openings, 1 marks
+  36.43 s  FACING 165 -4
+  36.43 s  contrast 15.4  shift  +2, -5 score 0.94 placed   moving north  go north-west (-41°), 152 px, 4 openings, 1 marks
+  36.64 s  FACING 172 -3
+  36.64 s  contrast 15.4  shift  -1, -7 score 0.95 placed   moving north  go north-west (-41°), 146 px, 4 openings, 1 marks
+  36.85 s  TIMER 120
+  36.85 s  FACING -167 21
+  36.85 s  contrast 15.2  shift  +1, -5 score 0.95 placed   moving north  go north-west (-41°), 149 px, 3 openings, 1 marks
+  37.11 s  FACING -156 31
+  37.11 s  contrast 15.2  shift  +0, +0 score 0.95 placed   moving north-east  go north-west (-43°), 149 px, 3 openings, 1 marks
+  37.34 s  contrast 15.2  shift  +0, +0 score 0.96 placed   moving still  go north-west (-43°), 149 px, 3 openings, 1 marks
+  37.59 s  contrast 15.2  shift  +0, +0 score 0.96 placed   moving still  go north-west (-43°), 149 px, 3 openings, 1 marks
+  37.80 s  FACING 138 -76
+  37.80 s  contrast 15.3  shift  -3, -6 score 0.95 placed   moving west  go north-west (-43°), 140 px, 3 openings, 1 marks
+  38.00 s  TIMER 119
+  38.00 s  FACING 93 -102
+  38.00 s  contrast 15.5  shift  -5, +0 score 0.95 placed   moving west  go north-west (-42°), 152 px, 3 openings, 1 marks
+  38.21 s  FACING -100 -116
+  38.21 s  contrast 15.8  shift  -4, +2 score 0.95 placed   moving south-west  go north-west (-43°), 161 px, 2 openings, 1 marks
+  38.42 s  FACING 99 -126
+  38.42 s  contrast 15.9  shift  -4, +2 score 0.96 placed   moving south-west  go north-west (-42°), 152 px, 3 openings, 1 marks
+  38.63 s  FACING 101 -96
+  38.63 s  contrast 15.9  shift  -8, +0 score 0.94 placed   moving west  go north-west (-44°), 149 px, 3 openings, 1 marks
+  38.87 s  FACING 111 -81
+  38.87 s  contrast 15.9  shift  -8, -3 score 0.94 placed   moving west  go north-west (-42°), 148 px, 3 openings, 1 marks
+  39.10 s  TIMER 117
+  39.10 s  FACING 113 -62
+  39.10 s  contrast 15.7  shift  -5, -2 score 0.92 placed   moving north-west  go north-west (-43°), 148 px, 2 openings, 2 marks
+  39.34 s  FACING 92 -82
+  39.34 s  contrast 16.0  shift  -7, +0 score 0.92 placed   moving west  go north (-1°), 155 px, 2 openings, 3 marks
+  39.54 s  contrast 16.0  shift  -6, +2 score 0.92 placed   moving still  go north-west (-41°), 161 px, 2 openings, 1 marks
+  39.79 s  contrast 15.9  shift  -1, -1 score 0.93 placed   moving still  go north-west (-30°), 160 px, 2 openings, 1 marks
+  40.02 s  contrast 15.9  shift  -1, -1 score 0.93 placed   moving still  go north-west (-30°), 160 px, 2 openings, 1 marks
+  40.23 s  TIMER 116
+  40.23 s  FACING 85 -76
+  40.23 s  contrast 15.9  shift  -4, -4 score 0.93 placed   moving west  go north-west (-26°), 147 px, 2 openings, 1 marks
+  40.44 s  FACING 93 -77
+  40.44 s  contrast 15.8  shift  -6, -1 score 0.93 placed   moving west  go north (1°), 144 px, 2 openings, 1 marks
+  40.65 s  FACING 92 -77
+  40.65 s  contrast 15.8  shift  +0, +0 score 0.94 placed   moving west  go north (1°), 147 px, 1 openings, 1 marks
+  40.85 s  contrast 15.9  shift  +0, +0 score 0.94 placed   moving still  go north (1°), 148 px, 1 openings, 1 marks
+  41.06 s  contrast 15.9  shift  +0, +0 score 0.94 placed   moving still  go north (1°), 148 px, 1 openings, 1 marks
+  41.27 s  TIMER 115
+  41.27 s  contrast 15.8  shift  +0, +0 score 0.94 placed   moving still  go north (1°), 148 px, 1 openings, 1 marks
+  41.52 s  contrast 15.8  shift  -5, +0 score 0.94 placed   moving still  go north (2°), 148 px, 1 openings, 1 marks
+  41.78 s  contrast 15.8  shift  -2, -1 score 0.94 placed   moving still  go north (-0°), 147 px, 1 openings, 1 marks
+  42.05 s  contrast 15.8  shift  -6, +2 score 0.93 placed   moving still  go north (-2°), 152 px, 1 openings, 1 marks
+  42.27 s  TIMER 114
+  42.27 s  contrast 15.8  shift  -7, +3 score 0.93 placed   moving still  go north (2°), 156 px, 1 openings, 1 marks
+  42.48 s  FACING 45 -164
+  42.48 s  contrast 15.9  shift  -5, +4 score 0.93 placed   moving south  go north (-1°), 160 px, 1 openings, 1 marks
+  42.70 s  FACING 85 -104
+  42.70 s  contrast 15.9  shift  -7, +1 score 0.93 placed   moving west  go north-west (-60°), 143 px, 1 openings, 2 marks
+  42.91 s  FACING 151 -63
+  42.91 s  contrast 16.1  shift  -1, -3 score 0.92 placed   moving north-west  go north (13°), 149 px, 1 openings, 2 marks
+  43.16 s  FACING 172 -23
+  43.16 s  contrast 16.1  shift  +1, -2 score 0.92 placed   moving north-west  go north (10°), 145 px, 1 openings, 2 marks
+  43.41 s  TIMER 113
+  43.41 s  FACING 176 41
+  43.41 s  contrast 15.9  shift  +2, -2 score 0.93 placed   moving north-east  go north (7°), 151 px, 1 openings, 2 marks
+  43.64 s  FACING -174 62
+  43.64 s  contrast 15.9  shift  +0, +0 score 0.93 placed   moving north-east  go north (2°), 150 px, 1 openings, 2 marks
+  43.86 s  contrast 16.0  shift  +0, +0 score 0.92 placed   moving still  go north (2°), 150 px, 1 openings, 2 marks
+  44.06 s  FACING 130 -116
+  44.06 s  contrast 15.9  shift  -1, +1 score 0.93 placed   moving south-west  go west (-78°), 154 px, 1 openings, 2 marks
+  44.31 s  FACING 102 -125
+  44.31 s  contrast 15.8  shift  +0, +0 score 0.93 placed   moving south-west  go west (-70°), 156 px, 1 openings, 2 marks
+  44.52 s  TIMER 112
+  44.52 s  FACING 101 -126
+  44.52 s  contrast 15.8  shift  +0, +0 score 0.93 placed   moving south-west  go west (-69°), 156 px, 2 openings, 2 marks
+  44.73 s  contrast 15.9  shift  -1, -1 score 0.93 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  44.96 s  contrast 15.9  shift  +1, +1 score 0.93 placed   moving still  go west (-69°), 156 px, 2 openings, 2 marks
+  45.22 s  contrast 15.8  shift  -1, -1 score 0.94 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  45.44 s  contrast 16.0  shift  +1, +0 score 0.94 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  45.65 s  TIMER 111
+  45.65 s  contrast 15.9  shift  +0, +0 score 0.93 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  45.87 s  contrast 15.9  shift  +0, +0 score 0.94 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  46.10 s  contrast 15.9  shift  +0, +1 score 0.94 placed   moving still  go west (-69°), 156 px, 1 openings, 2 marks
+  46.31 s  contrast 15.9  shift  -1, -1 score 0.94 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  46.54 s  contrast 15.8  shift  +1, +1 score 0.94 placed   moving still  go west (-69°), 156 px, 1 openings, 2 marks
+  46.78 s  TIMER 110
+  46.78 s  contrast 15.9  shift  -1, -1 score 0.94 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  47.00 s  contrast 15.9  shift  +1, +1 score 0.94 placed   moving still  go west (-69°), 156 px, 1 openings, 2 marks
+  47.21 s  contrast 15.9  shift  +0, +0 score 0.94 placed   moving still  go west (-69°), 156 px, 1 openings, 2 marks
+  47.48 s  contrast 15.9  shift  -1, -1 score 0.94 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  47.72 s  contrast 15.9  shift  +1, +1 score 0.94 placed   moving still  go west (-69°), 156 px, 1 openings, 2 marks
+  47.95 s  TIMER 109
+  47.95 s  contrast 15.9  shift  +0, +0 score 0.95 placed   moving still  go west (-69°), 156 px, 1 openings, 2 marks
+  48.17 s  contrast 15.8  shift  -1, -1 score 0.95 placed   moving still  go west (-70°), 156 px, 1 openings, 2 marks
+  48.46 s  contrast 15.8  shift  +1, +1 score 0.95 placed   moving still  go west (-69°), 156 px, 1 openings, 2 marks
+  48.67 s  contrast 15.8  shift  +0, +0 score 0.95 placed   moving still  go west (-69°), 156 px, 2 openings, 2 marks
+  48.87 s  contrast 15.8  shift  +0, +0 score 0.95 placed   moving still  go west (-69°), 156 px, 2 openings, 2 marks
+  49.09 s  TIMER 107
+  49.09 s  contrast 15.8  shift  +0, +0 score 0.95 placed   moving still  go west (-69°), 156 px, 2 openings, 2 marks
+  49.29 s  contrast 15.9  shift  +0, +0 score 0.95 placed   moving still  go west (-69°), 156 px, 2 openings, 2 marks
+  49.51 s  contrast 15.9  shift  +0, +0 score 0.95 placed   moving still  go west (-69°), 156 px, 2 openings, 2 marks
+  49.76 s  contrast 15.9  shift  +0, +0 score 0.95 placed   moving still  go west (-69°), 156 px, 2 openings, 2 marks
+  50.01 s  FACING -131 96
+  50.01 s  contrast 16.0  shift  +0, +0 score 0.95 placed   moving east  go west (-77°), 172 px, 2 openings, 2 marks
+  50.22 s  TIMER 106
+  50.22 s  FACING -133 97
+  50.22 s  contrast 15.8  shift  +0, +0 score 0.96 placed   moving east  go west (-77°), 172 px, 2 openings, 2 marks
+  50.45 s  FACING -50 106
+  50.45 s  contrast 16.0  shift  +0, +0 score 0.96 placed   moving east  go west (-75°), 170 px, 2 openings, 2 marks
+  50.65 s  contrast 16.2  shift  +0, +0 score 0.96 placed   moving still  go west (-75°), 170 px, 2 openings, 2 marks
+  50.86 s  contrast 16.2  shift  +0, +0 score 0.96 placed   moving still  go west (-77°), 172 px, 2 openings, 2 marks
+  51.10 s  FACING 81 -90
+  51.10 s  contrast 15.7  shift  +0, +0 score 0.93 placed   moving west  go north-west (-66°), 158 px, 2 openings, 2 marks
+  51.36 s  TIMER 105
+  51.36 s  FACING 81 -90
+  51.36 s  contrast 15.5  shift  +0, +0 score 0.95 placed   moving west  go north-west (-66°), 158 px, 2 openings, 4 marks
+  51.59 s  FACING 81 -96
+  51.59 s  contrast 15.8  shift  +0, +0 score 0.96 placed   moving west  go north-west (-66°), 158 px, 2 openings, 4 marks
+  51.80 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-66°), 158 px, 2 openings, 4 marks
+  52.04 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-65°), 158 px, 2 openings, 4 marks
+  52.27 s  FACING -98 86
+  52.27 s  contrast 15.9  shift  +0, +0 score 0.97 placed   moving east  go west (-80°), 174 px, 2 openings, 4 marks
+  52.48 s  TIMER 104
+  52.48 s  contrast 15.8  shift  +0, +0 score 0.96 placed   moving still  go west (-68°), 156 px, 2 openings, 4 marks
+  52.69 s  FACING 119 12
+  52.69 s  contrast 15.4  shift  +0, +0 score 0.95 placed   moving north  go west (-74°), 159 px, 2 openings, 4 marks
+  52.92 s  FACING 119 -63
+  52.92 s  contrast 15.2  shift  +0, +0 score 0.95 placed   moving north-west  go west (-74°), 159 px, 2 openings, 4 marks
+  53.15 s  contrast 15.8  shift  -1, +1 score 0.96 placed   moving still  go west (-69°), 155 px, 2 openings, 4 marks
+  53.44 s  FACING 92 -141
+  53.44 s  contrast 15.6  shift  -6, +4 score 0.94 placed   moving south-west  go north-west (-58°), 152 px, 2 openings, 3 marks
+  53.64 s  TIMER 103
+  53.64 s  FACING -124 -179
+  53.64 s  contrast 16.6  shift  -6, +1 score 0.94 placed   moving south  go north-west (-63°), 160 px, 2 openings, 2 marks
+  53.85 s  FACING -160 -178
+  53.85 s  contrast 17.0  shift  -1, +8 score 0.90 placed   moving south  go north-west (-56°), 163 px, 2 openings, 2 marks
+  54.11 s  FACING -161 162
+  54.11 s  contrast 16.8  shift  -2, +5 score 0.92 placed   moving south  go north-west (-50°), 161 px, 2 openings, 2 marks
+  54.34 s  FACING -161 -161
+  54.34 s  contrast 16.9  shift  -3, +7 score 0.93 placed   moving south  go north-west (-44°), 164 px, 2 openings, 2 marks
+  54.56 s  FACING -161 -162
+  54.56 s  contrast 16.8  shift  -1, +7 score 0.95 placed   moving south  go north-west (-44°), 168 px, 2 openings, 1 marks
+  54.79 s  TIMER 102
+  54.79 s  FACING -162 -166
+  54.79 s  contrast 16.7  shift  -1, +6 score 0.95 placed   moving south  go north-west (-40°), 172 px, 2 openings, 1 marks
+  55.00 s  FACING -142 -167
+  55.00 s  contrast 16.7  shift  -3, +7 score 0.95 placed   moving south  go north-west (-33°), 180 px, 2 openings, 1 marks
+  55.27 s  FACING -112 -152
+  55.27 s  contrast 16.9  shift  -7, +5 score 0.96 placed   moving south-west  go north-west (-25°), 181 px, 2 openings, 1 marks
+  55.47 s  FACING 93 -112
+  55.47 s  contrast 17.0  shift  -5, +0 score 0.95 placed   moving west  go north (-11°), 172 px, 2 openings, 1 marks
+  55.67 s  FACING 106 -92
+  55.67 s  contrast 16.8  shift  -2, -1 score 0.94 placed   moving west  go north (-11°), 168 px, 2 openings, 1 marks
+  55.91 s  TIMER 101
+  55.91 s  FACING 125 -62
+  55.91 s  contrast 16.5  shift  -2, -3 score 0.95 placed   moving north-west  go north (-19°), 160 px, 2 openings, 1 marks
+  56.11 s  FACING 146 9
+  56.11 s  contrast 16.4  shift  -2, +0 score 0.94 placed   moving north  go north-west (-23°), 158 px, 2 openings, 1 marks
+  56.31 s  FACING 161 26
+  56.31 s  contrast 16.3  shift  +0, +0 score 0.95 placed   moving north-east  go north-west (-26°), 158 px, 2 openings, 1 marks
+  56.58 s  FACING 167 55
+  56.58 s  contrast 16.6  shift  +0, +0 score 0.95 placed   moving north-east  go north-west (-28°), 160 px, 2 openings, 1 marks
+  56.79 s  contrast 16.4  shift  -1, +0 score 0.95 placed   moving still  go north-west (-25°), 158 px, 2 openings, 1 marks
+  56.99 s  TIMER 100
+  56.99 s  contrast 16.4  shift  -1, +0 score 0.95 placed   moving still  go north-west (-26°), 158 px, 2 openings, 1 marks
+  57.20 s  FACING 146 -78
+  57.20 s  contrast 16.8  shift  -6, -4 score 0.94 placed   moving west  go north (-19°), 151 px, 2 openings, 1 marks
+  57.47 s  FACING 144 -70
+  57.47 s  contrast 17.3  shift  -5, -3 score 0.94 placed   moving west  go north (-18°), 153 px, 2 openings, 1 marks
+  57.69 s  FACING 124 -80
+  57.69 s  contrast 17.9  shift  -7, -3 score 0.93 placed   moving west  go north (-2°), 159 px, 2 openings, 1 marks
+  57.92 s  FACING 120 -81
+  57.92 s  contrast 17.5  shift  -7, -3 score 0.93 placed   moving west  go north (6°), 162 px, 2 openings, 1 marks
+  58.14 s  TIMER 98
+  58.14 s  FACING 136 -70
+  58.14 s  contrast 16.8  shift  -6, -4 score 0.94 placed   moving west  go north (6°), 159 px, 2 openings, 1 marks
+  58.35 s  FACING 165 -14
+  58.35 s  contrast 17.5  shift  +0, -5 score 0.94 placed   moving north  go north (-10°), 159 px, 3 openings, 1 marks
+  58.55 s  FACING 161 13
+  58.55 s  contrast 17.7  shift  +1, -6 score 0.93 placed   moving north  go north (-12°), 157 px, 3 openings, 1 marks
+  58.77 s  FACING 166 25
+  58.77 s  contrast 17.9  shift  +0, -6 score 0.93 placed   moving north-east  go north (-19°), 151 px, 3 openings, 1 marks
+  58.97 s  FACING 164 17
+  58.97 s  contrast 18.2  shift  +1, -3 score 0.94 placed   moving north  go north (-22°), 151 px, 2 openings, 1 marks
+  59.18 s  TIMER 97
+  59.18 s  FACING 165 15
+  59.18 s  contrast 18.1  shift  +0, +0 score 0.94 placed   moving north  go north (-22°), 151 px, 2 openings, 1 marks
+  59.45 s  contrast 18.4  shift  +1, -1 score 0.92 placed   moving still  go north-west (-30°), 149 px, 2 openings, 1 marks
+  59.67 s  contrast 18.4  shift  +0, +0 score 0.93 placed   moving still  go north-west (-30°), 149 px, 2 openings, 1 marks
+  59.88 s  contrast 18.2  shift  -1, +1 score 0.94 placed   moving still  go north (-21°), 147 px, 2 openings, 1 marks
+  60.10 s  contrast 18.2  shift  +0, +0 score 0.94 placed   moving still  go north (-21°), 147 px, 2 openings, 1 marks
+  60.32 s  TIMER 96
+  60.32 s  FACING 120 -170
+  60.32 s  contrast 18.0  shift  -1, +1 score 0.93 placed   moving south  go north (-17°), 174 px, 2 openings, 1 marks
+  60.58 s  FACING 117 -175
+  60.58 s  contrast 18.2  shift  +1, -1 score 0.92 placed   moving south  go north (-18°), 174 px, 2 openings, 1 marks
+  60.80 s  FACING 118 -176
+  60.80 s  contrast 18.8  shift  +0, +0 score 0.92 placed   moving south  go north (7°), 199 px, 2 openings, 1 marks
+  61.00 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (7°), 199 px, 2 openings, 1 marks
+  61.22 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (7°), 199 px, 2 openings, 1 marks
+  61.42 s  TIMER 95
+  61.42 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (4°), 175 px, 1 openings, 1 marks
+  61.63 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (4°), 175 px, 1 openings, 1 marks
+  61.84 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (4°), 175 px, 1 openings, 1 marks
+  62.05 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (4°), 175 px, 1 openings, 1 marks
+  62.30 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (4°), 175 px, 1 openings, 1 marks
+  62.53 s  TIMER 94
+  62.53 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (4°), 175 px, 1 openings, 1 marks
+  62.73 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north (4°), 175 px, 1 openings, 1 marks
+  62.97 s  FACING 35 27
+  62.97 s  contrast 18.9  shift  +0, +0 score 0.94 placed   moving north-east  go north (-4°), 155 px, 1 openings, 1 marks
+  63.18 s  FACING -171 16
+  63.18 s  contrast 18.9  shift  +0, +0 score 0.94 placed   moving north  go north (-1°), 154 px, 1 openings, 1 marks
+  63.39 s  FACING -170 16
+  63.39 s  contrast 18.9  shift  +0, +0 score 0.94 placed   moving north  go north (-1°), 154 px, 1 openings, 1 marks
+  63.62 s  TIMER 93
+  63.62 s  contrast 18.9  shift  +0, +0 score 0.94 placed   moving still  go north (-1°), 154 px, 1 openings, 1 marks
+  63.85 s  contrast 18.9  shift  +0, +0 score 0.94 placed   moving still  go north (-1°), 154 px, 1 openings, 1 marks
+  64.06 s  contrast 18.9  shift  +0, +0 score 0.94 placed   moving still  go north (-1°), 154 px, 1 openings, 1 marks
+  64.30 s  contrast 18.9  shift  +0, +0 score 0.94 placed   moving still  go north (-1°), 154 px, 1 openings, 1 marks
+  64.52 s  contrast 19.1  shift  +1, -2 score 0.94 placed   moving still  go north (0°), 150 px, 1 openings, 1 marks
+  64.77 s  TIMER 92
+  64.77 s  contrast 19.2  shift  +3, -2 score 0.94 placed   moving still  go north (-3°), 151 px, 1 openings, 1 marks
+  64.97 s  FACING 171 29
+  64.97 s  contrast 16.2  shift  +4, -5 score 0.95 placed   moving north-east  go north (-6°), 143 px, 1 openings, 1 marks
+  65.17 s  FACING 177 44
+  65.17 s  contrast 16.6  shift  +0, +0 score 0.86 placed   moving north-east  go north (-6°), 151 px, 1 openings, 1 marks
+  65.39 s  contrast 16.7  shift  +1, -1 score 0.86 placed   moving still  go north (-7°), 151 px, 1 openings, 1 marks
+  65.59 s  contrast 16.7  shift  +0, +0 score 0.86 placed   moving still  go north (-11°), 153 px, 1 openings, 1 marks
+  65.80 s  TIMER 91
+  65.80 s  FACING -136 108
+  65.80 s  contrast 15.8  shift  +2, -1 score 0.92 placed   moving east  go north-west (-23°), 164 px, 1 openings, 1 marks
+  66.05 s  FACING 62 152
+  66.05 s  contrast 15.9  shift  +6, -3 score 0.90 placed   moving south-east  go north (-14°), 167 px, 1 openings, 1 marks
+  66.27 s  FACING 70 149
+  66.27 s  contrast 15.4  shift  +3, -1 score 0.93 placed   moving south-east  go north (-17°), 167 px, 1 openings, 1 marks
+  66.51 s  contrast 16.4  shift  +9, -2 score 0.95 placed   moving still  go north-west (-30°), 172 px, 1 openings, 1 marks
+  66.75 s  FACING -134 58
+  66.75 s  contrast 16.8  shift  +6, -5 score 0.92 placed   moving north-east  go north-east (46°), 175 px, 1 openings, 1 marks
+  66.99 s  TIMER 90
+  66.99 s  FACING -156 46
+  66.99 s  contrast 16.7  shift  +2, -4 score 0.92 placed   moving north-east  go north-east (63°), 176 px, 1 openings, 1 marks
+  67.20 s  FACING -166 24
+  67.20 s  contrast 16.8  shift  -1, -1 score 0.92 placed   moving north-east  go north-west (-61°), 179 px, 1 openings, 1 marks
+  67.40 s  FACING -153 -22
+  67.40 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving north  go north-west (-61°), 184 px, 1 openings, 1 marks
+  67.60 s  contrast 16.8  shift  +0, +0 score 0.91 placed   moving still  go north-west (-61°), 184 px, 1 openings, 1 marks
+  67.82 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving still  go north-west (-61°), 184 px, 1 openings, 1 marks
+  68.04 s  TIMER 89
+  68.04 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving still  go north-west (-61°), 184 px, 1 openings, 1 marks
+  68.25 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving still  go north-east (62°), 184 px, 1 openings, 1 marks
+  68.49 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving still  go north-east (63°), 184 px, 1 openings, 1 marks
+  68.69 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving still  go north-east (63°), 184 px, 1 openings, 1 marks
+  68.91 s  contrast 16.8  shift  +0, +0 score 0.92 placed   moving still  go north-east (63°), 184 px, 1 openings, 1 marks
+  69.17 s  TIMER 87
+  69.17 s  FACING 105 -104
+  69.17 s  contrast 16.9  shift  -3, +0 score 0.94 placed   moving west  go north (-18°), 159 px, 1 openings, 1 marks
+  69.38 s  FACING -98 -132
+  69.38 s  contrast 16.9  shift  -1, +0 score 0.92 placed   moving south-west  go north-west (-39°), 179 px, 1 openings, 1 marks
+  69.58 s  FACING -99 -132
+  69.58 s  contrast 16.9  shift  +0, +0 score 0.93 placed   moving south-west  go north-west (-39°), 180 px, 1 openings, 1 marks
+  69.80 s  FACING -176 57
+  69.80 s  contrast 16.9  shift  +0, +0 score 0.93 placed   moving north-east  go north-west (-53°), 180 px, 1 openings, 1 marks
+  70.06 s  FACING -163 21
+  70.06 s  contrast 17.2  shift  +1, -1 score 0.92 placed   moving north  go north (-3°), 142 px, 1 openings, 1 marks
+  70.29 s  TIMER 86
+  70.29 s  FACING -163 27
+  70.29 s  contrast 17.4  shift  +1, +1 score 0.92 placed   moving north-east  go north-west (-64°), 188 px, 1 openings, 1 marks
+  70.56 s  contrast 17.1  shift  +1, +0 score 0.93 placed   moving still  go north-east (64°), 187 px, 1 openings, 1 marks
+  70.78 s  contrast 17.1  shift  +0, +0 score 0.93 placed   moving still  go north-east (64°), 187 px, 1 openings, 1 marks
+  71.00 s  contrast 17.0  shift  +0, +0 score 0.93 placed   moving still  go west (-69°), 192 px, 1 openings, 1 marks
+  71.25 s  contrast 17.0  shift  +0, +0 score 0.93 placed   moving still  go west (-69°), 192 px, 1 openings, 1 marks
+  71.48 s  TIMER 85
+  71.48 s  contrast 17.1  shift  +0, +0 score 0.93 placed   moving still  go west (-69°), 192 px, 1 openings, 1 marks
+  71.69 s  FACING 106 -113
+  71.69 s  contrast 17.1  shift  -4, +1 score 0.94 placed   moving south-west  go north (-16°), 164 px, 1 openings, 1 marks
+  71.90 s  FACING -98 -136
+  71.90 s  contrast 16.2  shift  -7, +2 score 0.95 placed   moving south-west  go north-west (-26°), 178 px, 1 openings, 1 marks
+  72.12 s  FACING -121 -133
+  72.12 s  contrast 16.0  shift  -4, +3 score 0.95 placed   moving south-west  go north (-19°), 174 px, 1 openings, 1 marks
+  72.33 s  FACING -124 -170
+  72.33 s  contrast 16.2  shift  -5, +3 score 0.95 placed   moving south  go north (-13°), 172 px, 1 openings, 1 marks
+  72.56 s  TIMER 84
+  72.56 s  FACING -124 -120
+  72.56 s  contrast 16.7  shift  -7, +4 score 0.93 placed   moving south-west  go north (-6°), 175 px, 1 openings, 1 marks
+  72.89 s  FACING -125 -125
+  72.89 s  contrast 17.3  shift  -1, +2 score 0.87 placed   moving south-west  go north (-5°), 173 px, 1 openings, 1 marks
+  73.11 s  FACING -125 -127
+  73.11 s  contrast 17.3  shift  +0, +0 score 0.88 placed   moving south-west  go north (-5°), 173 px, 1 openings, 1 marks
+  73.31 s  FACING 117 -63
+  73.31 s  contrast 17.1  shift  -1, -2 score 0.94 placed   moving north-west  go north (4°), 163 px, 1 openings, 1 marks
+  73.52 s  FACING 166 -6
+  73.52 s  contrast 17.0  shift  -1, -7 score 0.95 placed   moving north  go north (-3°), 153 px, 1 openings, 1 marks
+  73.73 s  TIMER 83
+  73.73 s  FACING 172 -6
+  73.73 s  contrast 16.4  shift  -1, -6 score 0.93 placed   moving north  go north (-2°), 143 px, 1 openings, 1 marks
+  73.94 s  FACING -26 21
+  73.94 s  contrast 16.1  shift  +0, -7 score 0.93 placed   moving north  go north (-2°), 142 px, 1 openings, 1 marks
+  74.22 s  FACING 171 -2
+  74.22 s  contrast 16.5  shift  +0, -5 score 0.94 placed   moving north  go north (-2°), 144 px, 1 openings, 1 marks
+  74.45 s  FACING 164 -14
+  74.45 s  contrast 17.4  shift  -2, -8 score 0.94 placed   moving north  go north (-1°), 142 px, 1 openings, 1 marks
+  74.65 s  FACING 160 -20
+  74.65 s  contrast 17.4  shift  +1, +0 score 0.94 placed   moving north  go north (-1°), 150 px, 1 openings, 1 marks
+  74.86 s  TIMER 82
+  74.86 s  FACING 156 -36
+  74.86 s  contrast 17.7  shift  +0, +0 score 0.94 placed   moving north-west  go north (-0°), 150 px, 1 openings, 1 marks
+  75.07 s  contrast 17.2  shift  -1, -1 score 0.94 placed   moving still  go north (1°), 148 px, 1 openings, 1 marks
+  75.28 s  contrast 17.1  shift  +1, +0 score 0.94 placed   moving still  go north (-0°), 148 px, 1 openings, 1 marks
+  75.50 s  contrast 17.0  shift  +0, +0 score 0.94 placed   moving still  go north (-0°), 148 px, 1 openings, 1 marks
+  75.71 s  contrast 16.9  shift  +0, +0 score 0.95 placed   moving still  go north (-0°), 148 px, 1 openings, 1 marks
+  75.92 s  TIMER 81
+  75.92 s  contrast 16.9  shift  +0, +0 score 0.95 placed   moving still  go north (-0°), 148 px, 1 openings, 1 marks
+  76.15 s  contrast 16.9  shift  +0, +0 score 0.95 placed   moving still  go north (-0°), 148 px, 1 openings, 1 marks
+  76.36 s  contrast 16.9  shift  +0, +0 score 0.95 placed   moving still  go north (-0°), 150 px, 1 openings, 1 marks
+  76.62 s  contrast 16.8  shift  +0, +0 score 0.95 placed   moving still  go north (-0°), 150 px, 1 openings, 1 marks
+  76.85 s  contrast 16.8  shift  +0, +0 score 0.95 placed   moving still  go north (-0°), 150 px, 1 openings, 1 marks
+  77.06 s  TIMER 80
+  77.06 s  contrast 16.8  shift  +0, +0 score 0.95 placed   moving still  go north (-0°), 150 px, 1 openings, 1 marks
+  77.30 s  contrast 16.8  shift  +0, +0 score 0.95 placed   moving still  go north (-0°), 150 px, 1 openings, 1 marks
+  77.56 s  contrast 16.7  shift  +0, +0 score 0.95 placed   moving still  go north (-1°), 155 px, 1 openings, 1 marks
+  77.77 s  contrast 16.7  shift  +0, +0 score 0.95 placed   moving still  go north (-1°), 155 px, 1 openings, 1 marks
+  77.99 s  contrast 16.7  shift  +0, +0 score 0.95 placed   moving still  go north (-1°), 155 px, 1 openings, 1 marks
+  78.19 s  TIMER 78
+  78.19 s  contrast 16.7  shift  +0, +0 score 0.95 placed   moving still  go north (-1°), 155 px, 1 openings, 1 marks
+  78.40 s  contrast 16.7  shift  +0, +0 score 0.95 placed   moving still  go north (0°), 148 px, 1 openings, 1 marks
+  78.61 s  FACING -170 57
+  78.61 s  contrast 16.4  shift  +1, -5 score 0.94 placed   moving north-east  go north-east (41°), 145 px, 1 openings, 1 marks
+  78.82 s  FACING -168 49
+  78.82 s  contrast 16.5  shift  +1, -6 score 0.93 placed   moving north-east  go north-east (45°), 141 px, 1 openings, 1 marks
+  79.04 s  FACING -163 29
+  79.04 s  contrast 16.2  shift  +1, -6 score 0.93 placed   moving north-east  go north-east (41°), 144 px, 1 openings, 1 marks
+  79.25 s  TIMER 77
+  79.25 s  FACING 160 -16
+  79.25 s  contrast 16.2  shift  -1, -7 score 0.94 placed   moving north  go north (1°), 140 px, 1 openings, 1 marks
+  79.46 s  FACING 138 -47
+  79.46 s  contrast 16.2  shift  -3, -4 score 0.94 placed   moving north-west  go north (1°), 151 px, 1 openings, 1 marks
+  79.67 s  FACING 142 -54
+  79.67 s  contrast 16.2  shift  -4, -6 score 0.94 placed   moving north-west  go north (0°), 149 px, 1 openings, 1 marks
+  79.88 s  FACING 151 -42
+  79.88 s  contrast 16.2  shift  -4, -6 score 0.95 placed   moving north-west  go north-east (39°), 148 px, 1 openings, 1 marks
+  80.10 s  FACING -128 53
+  80.10 s  contrast 16.2  shift  +3, -4 score 0.94 placed   moving north-east  go north-east (49°), 134 px, 2 openings, 1 marks
+  80.31 s  TIMER 76
+  80.31 s  FACING 68 105
+  80.31 s  contrast 16.1  shift  +5, -1 score 0.94 placed   moving east  go north-east (50°), 161 px, 2 openings, 1 marks
+  80.52 s  FACING 66 109
+  80.52 s  contrast 16.2  shift  +6, -3 score 0.93 placed   moving east  go north-east (46°), 155 px, 2 openings, 1 marks
+  80.76 s  FACING -166 17
+  80.76 s  contrast 16.2  shift  +3, -7 score 0.93 placed   moving north  go north-east (41°), 132 px, 1 openings, 1 marks
+  80.97 s  FACING 165 14
+  80.97 s  contrast 16.1  shift  -2, -4 score 0.94 placed   moving north  go north-east (46°), 147 px, 1 openings, 1 marks
+  81.19 s  FACING 172 1
+  81.19 s  contrast 16.1  shift  -1, +0 score 0.94 placed   moving north  go north-east (41°), 151 px, 1 openings, 1 marks
+  81.40 s  TIMER 75
+  81.40 s  contrast 16.1  shift  +1, +0 score 0.94 placed   moving still  go north-east (44°), 145 px, 1 openings, 1 marks
+  81.62 s  FACING 65 166
+  81.62 s  contrast 16.2  shift  +5, +2 score 0.93 placed   moving south  go north-east (49°), 165 px, 1 openings, 1 marks
+  81.83 s  FACING 66 147
+  81.83 s  contrast 16.1  shift  +6, -1 score 0.92 placed   moving south-east  go north-east (48°), 161 px, 1 openings, 1 marks
+  82.03 s  FACING 68 156
+  82.03 s  LANDMARK Arch north-east of the player, 265 px
+  82.03 s  contrast 16.1  shift  +6, -2 score 0.92 placed   moving south-east  go north-east (42°), 151 px, 1 openings, 1 marks
+  82.24 s  FACING 64 75
+  82.24 s  contrast 16.1  shift  +6, -2 score 0.92 placed   moving east  go north-east (41°), 149 px, 2 openings, 1 marks
+  82.47 s  TIMER 74
+  82.47 s  FACING -135 57
+  82.47 s  contrast 16.0  shift  +6, -5 score 0.94 placed   moving north-east  go north-east (46°), 124 px, 2 openings, 1 marks
+  82.68 s  FACING -129 56
+  82.68 s  contrast 16.1  shift  +5, -4 score 0.93 placed   moving north-east  go north-east (44°), 119 px, 1 openings, 1 marks
+  82.89 s  FACING 99 59
+  82.89 s  contrast 16.1  shift  +6, -1 score 0.90 placed   moving north-east  go north-east (43°), 128 px, 1 openings, 1 marks
+  83.09 s  contrast 16.4  shift  +5, +2 score 0.91 placed   moving still  go north-east (45°), 131 px, 1 openings, 1 marks
+  83.30 s  FACING 121 167
+  83.30 s  contrast 16.4  shift  +6, +3 score 0.91 placed   moving south  go north-east (41°), 129 px, 1 openings, 2 marks
+  83.50 s  TIMER 73
+  83.50 s  FACING 122 115
+  83.50 s  contrast 16.7  shift  +6, +3 score 0.91 placed   moving south-east  go north-east (43°), 130 px, 1 openings, 1 marks
+  83.71 s  FACING 117 115
+  83.71 s  contrast 16.7  shift  +5, +2 score 0.91 placed   moving south-east  go north-east (44°), 132 px, 1 openings, 2 marks
+  83.92 s  FACING 117 111
+  83.92 s  contrast 16.5  shift  +7, +2 score 0.92 placed   moving east  go north-east (43°), 129 px, 1 openings, 2 marks
+  84.15 s  FACING 124 108
+  84.15 s  contrast 16.2  shift  +6, +2 score 0.91 placed   moving east  go north-east (43°), 131 px, 1 openings, 2 marks
+  84.36 s  FACING 139 114
+  84.36 s  contrast 16.3  shift  +5, +5 score 0.91 placed   moving south-east  go north-east (48°), 159 px, 1 openings, 2 marks
+  84.57 s  TIMER 72
+  84.57 s  FACING 142 125
+  84.57 s  contrast 15.8  shift  +5, +5 score 0.92 placed   moving south-east  go north-east (49°), 155 px, 1 openings, 2 marks
+  84.78 s  FACING 156 137
+  84.78 s  contrast 15.6  shift  +3, +5 score 0.91 placed   moving south-east  go north-east (46°), 159 px, 1 openings, 2 marks
+  84.99 s  FACING 156 146
+  84.99 s  contrast 15.7  shift  +2, +5 score 0.91 placed   moving south-east  go north-east (47°), 157 px, 1 openings, 2 marks
+  85.19 s  FACING -43 150
+  85.19 s  contrast 15.9  shift  +4, +6 score 0.92 placed   moving south-east  go north-east (46°), 156 px, 1 openings, 2 marks
+  85.40 s  FACING 116 144
+  85.40 s  contrast 16.7  shift  +6, +4 score 0.94 placed   moving south-east  go north-east (39°), 159 px, 1 openings, 2 marks
+  85.64 s  TIMER 71
+  85.64 s  FACING 101 124
+  85.64 s  contrast 17.1  shift  +5, -1 score 0.94 placed   moving south-east  go north-east (35°), 155 px, 1 openings, 2 marks
+  85.86 s  FACING 84 107
+  85.86 s  contrast 17.8  shift  +8, +1 score 0.93 placed   moving east  go north-east (29°), 155 px, 1 openings, 2 marks
+  86.06 s  FACING 98 89
+  86.06 s  contrast 17.9  shift  +5, -1 score 0.92 placed   moving east  go north-east (25°), 159 px, 1 openings, 2 marks
+  86.27 s  FACING 99 90
+  86.27 s  contrast 16.7  shift  +8, -1 score 0.94 placed   moving east  go north (20°), 160 px, 1 openings, 1 marks
+  86.47 s  FACING 98 81
+  86.47 s  contrast 15.0  shift  +8, -1 score 0.90 placed   moving east  go north (19°), 158 px, 1 openings, 1 marks
+  86.68 s  TIMER 70
+  86.68 s  FACING 102 73
+  86.68 s  contrast 15.0  shift  +2, -3 score 0.90 placed   moving east  go north (20°), 165 px, 1 openings, 0 marks
+  86.94 s  FACING 103 65
+  86.94 s  contrast 15.0  shift  +0, +0 score 0.90 placed   moving north-east  go north (20°), 169 px, 1 openings, 0 marks
+  87.15 s  FACING -131 39
+  87.15 s  contrast 14.9  shift  +0, -5 score 0.88 placed   moving north-east  go north-east (38°), 132 px, 1 openings, 1 marks
+  87.36 s  FACING -141 30
+  87.36 s  contrast 15.1  shift  +1, -6 score 0.89 placed   moving north-east  go north-east (40°), 144 px, 1 openings, 1 marks
+  87.57 s  FACING -154 17
+  87.57 s  contrast 15.2  shift  -1, -3 score 0.91 placed   moving north  go north-east (47°), 141 px, 1 openings, 0 marks
+  87.82 s  TIMER 69
+  87.82 s  FACING 34 -28
+  87.82 s  contrast 15.2  shift  -2, -1 score 0.91 placed   moving north-west  go north-east (51°), 152 px, 1 openings, 1 marks
+  88.03 s  FACING -177 -50
+  88.03 s  contrast 15.3  shift  +0, -1 score 0.92 placed   moving north-west  go north-east (49°), 158 px, 1 openings, 1 marks
+  88.24 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (45°), 144 px, 1 openings, 1 marks
+  88.49 s  FACING 164 -79
+  88.49 s  LANDMARK Arch north-east of the player, 205 px
+  88.49 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving west  go north-east (58°), 164 px, 1 openings, 1 marks
+  88.73 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (54°), 168 px, 1 openings, 1 marks
+  88.94 s  TIMER 68
+  88.94 s  FACING 157 -74
+  88.94 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving west  go north-east (54°), 165 px, 1 openings, 1 marks
+  89.15 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (53°), 165 px, 1 openings, 1 marks
+  89.39 s  contrast 15.3  shift  +0, +0 score 0.93 placed   moving still  go north-east (54°), 165 px, 1 openings, 1 marks
+  89.65 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (53°), 165 px, 1 openings, 1 marks
+  89.86 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (54°), 165 px, 1 openings, 1 marks
+  90.06 s  TIMER 67
+  90.06 s  FACING -168 86
+  90.06 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving east  go north-east (47°), 157 px, 1 openings, 1 marks
+  90.28 s  FACING 79 165
+  90.28 s  contrast 15.4  shift  +0, +0 score 0.92 placed   moving south  go north-east (32°), 177 px, 1 openings, 1 marks
+  90.50 s  FACING 83 167
+  90.50 s  contrast 15.4  shift  +0, +0 score 0.92 placed   moving south  go north-east (32°), 177 px, 1 openings, 1 marks
+  90.70 s  FACING 99 -161
+  90.70 s  contrast 15.4  shift  +0, +0 score 0.92 placed   moving south  go north-east (32°), 177 px, 1 openings, 1 marks
+  90.92 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (37°), 173 px, 1 openings, 1 marks
+  91.12 s  TIMER 65
+  91.12 s  contrast 15.3  shift  +0, +0 score 0.93 placed   moving still  go north-east (37°), 173 px, 1 openings, 1 marks
+  91.35 s  contrast 15.3  shift  +0, +0 score 0.93 placed   moving still  go north-east (37°), 173 px, 1 openings, 1 marks
+  91.58 s  contrast 15.3  shift  +0, +0 score 0.93 placed   moving still  go north-east (37°), 173 px, 1 openings, 1 marks
+  91.79 s  contrast 15.4  shift  +0, +0 score 0.93 placed   moving still  go north-east (36°), 173 px, 1 openings, 1 marks
+  92.00 s  contrast 15.4  shift  +0, +0 score 0.92 placed   moving still  go north-east (36°), 173 px, 1 openings, 1 marks
+  92.20 s  TIMER 64
+  92.20 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (33°), 177 px, 1 openings, 1 marks
+  92.47 s  contrast 15.4  shift  +0, +0 score 0.92 placed   moving still  go north-east (33°), 177 px, 1 openings, 1 marks
+  92.68 s  contrast 15.2  shift  +2, +5 score 0.91 placed   moving still  go north-east (39°), 174 px, 1 openings, 1 marks
+  92.92 s  contrast 15.2  shift  +0, +2 score 0.91 placed   moving still  go north-east (37°), 174 px, 1 openings, 1 marks
+  93.14 s  FACING 102 163
+  93.14 s  contrast 15.2  shift  +0, +1 score 0.91 placed   moving south  go north-east (36°), 176 px, 1 openings, 1 marks
+  93.34 s  TIMER 63
+  93.34 s  contrast 15.2  shift  +0, +0 score 0.91 placed   moving still  go north-east (36°), 174 px, 1 openings, 1 marks
+  93.55 s  contrast 15.2  shift  +0, -1 score 0.91 placed   moving still  go north-east (37°), 170 px, 1 openings, 1 marks
+  93.77 s  contrast 15.2  shift  +0, -1 score 0.91 placed   moving still  go north-east (37°), 170 px, 1 openings, 1 marks
+  93.98 s  contrast 15.1  shift  +1, -2 score 0.91 placed   moving still  go north-east (38°), 170 px, 1 openings, 0 marks
+  94.24 s  contrast 15.1  shift  -1, +0 score 0.91 placed   moving still  go north-east (39°), 170 px, 1 openings, 1 marks
+  94.45 s  TIMER 62
+  94.45 s  contrast 15.1  shift  +0, +0 score 0.91 placed   moving still  go north-east (39°), 170 px, 1 openings, 1 marks
+  94.69 s  contrast 15.1  shift  +0, +0 score 0.91 placed   moving still  go north-east (39°), 170 px, 1 openings, 1 marks
+  94.91 s  contrast 15.1  shift  +0, +0 score 0.91 placed   moving still  go north-east (39°), 170 px, 1 openings, 1 marks
+  95.12 s  contrast 15.1  shift  +1, +1 score 0.91 placed   moving still  go north-east (38°), 170 px, 1 openings, 1 marks
+  95.34 s  contrast 15.2  shift  +0, +0 score 0.92 placed   moving still  go north-east (39°), 170 px, 1 openings, 1 marks
+  95.58 s  TIMER 61
+  95.58 s  contrast 15.2  shift  -1, +2 score 0.91 placed   moving still  go north-east (37°), 174 px, 1 openings, 1 marks
+  95.78 s  contrast 15.0  shift  +1, +4 score 0.91 placed   moving still  go north-east (35°), 174 px, 1 openings, 1 marks
+  95.99 s  contrast 15.0  shift  -1, +2 score 0.91 placed   moving still  go north-east (33°), 180 px, 1 openings, 1 marks
+  96.21 s  contrast 14.9  shift  +0, +2 score 0.90 placed   moving still  go north-east (32°), 180 px, 1 openings, 0 marks
+  96.41 s  contrast 14.8  shift  +1, +0 score 0.91 placed   moving still  go north-east (33°), 178 px, 1 openings, 0 marks
+  96.62 s  TIMER 60
+  96.62 s  contrast 14.9  shift  +0, +1 score 0.91 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  96.83 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  97.04 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  97.25 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  97.47 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  97.71 s  TIMER 59
+  97.71 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  97.92 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  98.16 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  98.37 s  contrast 14.8  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  98.57 s  contrast 14.8  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  98.77 s  TIMER 58
+  98.77 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (30°), 182 px, 1 openings, 0 marks
+  98.98 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (30°), 182 px, 1 openings, 0 marks
+  99.22 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (30°), 182 px, 1 openings, 0 marks
+  99.43 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (30°), 182 px, 1 openings, 0 marks
+  99.64 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+  99.87 s  TIMER 57
+  99.87 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+ 100.08 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+ 100.29 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (32°), 178 px, 1 openings, 0 marks
+ 100.49 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north (17°), 191 px, 1 openings, 0 marks
+ 100.71 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north (17°), 191 px, 1 openings, 0 marks
+ 100.92 s  TIMER 56
+ 100.92 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north (17°), 191 px, 1 openings, 0 marks
+ 101.13 s  FACING 138 -40
+ 101.13 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving north-west  go north-east (33°), 181 px, 1 openings, 0 marks
+ 101.34 s  FACING 141 -37
+ 101.34 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving north-west  go north-east (33°), 181 px, 1 openings, 0 marks
+ 101.56 s  FACING 141 -36
+ 101.56 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving north-west  go north-east (33°), 181 px, 1 openings, 0 marks
+ 101.76 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (33°), 181 px, 1 openings, 0 marks
+ 101.97 s  TIMER 55
+ 101.97 s  FACING 100 154
+ 101.97 s  contrast 15.0  shift  +0, +0 score 0.93 placed   moving south-east  go north (20°), 195 px, 1 openings, 0 marks
+ 102.18 s  FACING 104 155
+ 102.18 s  contrast 15.0  shift  +0, +0 score 0.92 placed   moving south-east  go north-east (36°), 180 px, 1 openings, 0 marks
+ 102.42 s  FACING 104 155
+ 102.42 s  contrast 15.0  shift  +0, +0 score 0.93 placed   moving south-east  go north-east (36°), 180 px, 1 openings, 0 marks
+ 102.65 s  contrast 15.0  shift  +0, -1 score 0.93 placed   moving still  go north-east (37°), 176 px, 1 openings, 0 marks
+ 102.87 s  contrast 14.9  shift  +0, +0 score 0.93 placed   moving still  go north-east (37°), 176 px, 1 openings, 0 marks
+ 103.11 s  TIMER 53
+ 103.11 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (36°), 180 px, 1 openings, 1 marks
+ 103.31 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (36°), 180 px, 1 openings, 1 marks
+ 103.53 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (37°), 176 px, 1 openings, 1 marks
+ 103.74 s  FACING -146 29
+ 103.74 s  contrast 14.9  shift  +0, -6 score 0.91 placed   moving north-east  go north-east (42°), 157 px, 1 openings, 1 marks
+ 103.95 s  FACING -156 12
+ 103.95 s  contrast 15.2  shift  -1, -6 score 0.93 placed   moving north  go north-east (42°), 164 px, 1 openings, 1 marks
+ 104.17 s  TIMER 52
+ 104.17 s  FACING 34 10
+ 104.17 s  contrast 15.2  shift  -1, -1 score 0.93 placed   moving north  go north-east (49°), 154 px, 1 openings, 1 marks
+ 104.40 s  FACING -159 -33
+ 104.40 s  contrast 15.3  shift  -1, -1 score 0.93 placed   moving north-west  go north-east (50°), 154 px, 1 openings, 1 marks
+ 104.61 s  FACING 156 -71
+ 104.61 s  contrast 15.2  shift  +0, -1 score 0.93 placed   moving west  go north-east (54°), 168 px, 1 openings, 1 marks
+ 104.82 s  FACING 63 -151
+ 104.82 s  contrast 15.3  shift  +0, +1 score 0.93 placed   moving south-west  go north-east (32°), 180 px, 1 openings, 1 marks
+ 105.03 s  FACING 120 -162
+ 105.03 s  contrast 15.3  shift  +2, +2 score 0.93 placed   moving south  go north-east (30°), 180 px, 1 openings, 1 marks
+ 105.28 s  TIMER 51
+ 105.28 s  FACING 120 165
+ 105.28 s  contrast 15.3  shift  +0, +1 score 0.93 placed   moving south  go north-east (32°), 184 px, 1 openings, 1 marks
+ 105.52 s  FACING -170 28
+ 105.52 s  contrast 15.1  shift  +1, +0 score 0.93 placed   moving north-east  go north-east (44°), 164 px, 1 openings, 1 marks
+ 105.72 s  FACING 177 14
+ 105.72 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving north  go north-east (45°), 164 px, 1 openings, 1 marks
+ 105.92 s  FACING 177 13
+ 105.92 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving north  go north-east (45°), 164 px, 1 openings, 1 marks
+ 106.13 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving still  go north-east (45°), 164 px, 1 openings, 1 marks
+ 106.36 s  TIMER 50
+ 106.36 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving still  go north-east (45°), 164 px, 1 openings, 1 marks
+ 106.57 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving still  go north-east (45°), 164 px, 1 openings, 1 marks
+ 106.78 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving still  go north-east (45°), 164 px, 1 openings, 1 marks
+ 106.98 s  FACING -131 118
+ 106.98 s  contrast 15.2  shift  +0, +0 score 0.93 placed   moving south-east  go north-east (42°), 151 px, 1 openings, 1 marks
+ 107.22 s  FACING 63 -174
+ 107.22 s  contrast 15.2  shift  +0, +0 score 0.93 placed   moving south  go north-east (44°), 168 px, 1 openings, 1 marks
+ 107.44 s  TIMER 49
+ 107.44 s  FACING 134 -171
+ 107.44 s  contrast 15.2  shift  +0, +3 score 0.93 placed   moving south  go north-east (43°), 168 px, 1 openings, 1 marks
+ 107.69 s  FACING -48 -144
+ 107.69 s  contrast 14.9  shift  +0, +7 score 0.92 placed   moving south-west  go north-east (39°), 176 px, 1 openings, 1 marks
+ 107.89 s  FACING 159 -166
+ 107.89 s  contrast 15.0  shift  -2, +3 score 0.92 placed   moving south  go north-east (38°), 178 px, 1 openings, 1 marks
+ 108.11 s  FACING 159 -169
+ 108.11 s  contrast 15.0  shift  +0, +1 score 0.93 placed   moving south  go north-east (37°), 182 px, 1 openings, 0 marks
+ 108.31 s  contrast 15.0  shift  +0, +0 score 0.92 placed   moving still  go north-east (37°), 182 px, 1 openings, 0 marks
+ 108.53 s  TIMER 48
+ 108.53 s  contrast 14.9  shift  +2, -2 score 0.93 placed   moving still  go north-east (35°), 180 px, 1 openings, 1 marks
+ 108.74 s  FACING 59 54
+ 108.74 s  contrast 14.9  shift  +0, -3 score 0.91 placed   moving north-east  go north-east (33°), 165 px, 1 openings, 1 marks
+ 108.95 s  FACING -140 34
+ 108.95 s  contrast 15.0  shift  +0, -6 score 0.91 placed   moving north-east  go north-east (42°), 155 px, 1 openings, 1 marks
+ 109.17 s  FACING -159 10
+ 109.17 s  contrast 15.2  shift  -2, -4 score 0.93 placed   moving north  go north-east (43°), 164 px, 1 openings, 1 marks
+ 109.37 s  FACING 35 -28
+ 109.37 s  contrast 15.2  shift  -1, -2 score 0.93 placed   moving north-west  go north-east (50°), 154 px, 1 openings, 1 marks
+ 109.61 s  TIMER 47
+ 109.61 s  FACING -155 -38
+ 109.61 s  contrast 15.3  shift  -1, -1 score 0.93 placed   moving north-west  go north-east (50°), 154 px, 1 openings, 1 marks
+ 109.83 s  contrast 15.3  shift  +0, +0 score 0.93 placed   moving still  go north-east (48°), 147 px, 1 openings, 1 marks
+ 110.04 s  FACING 67 -161
+ 110.04 s  contrast 15.3  shift  +2, +2 score 0.93 placed   moving south  go north-east (46°), 170 px, 1 openings, 1 marks
+ 110.24 s  FACING 97 -165
+ 110.24 s  contrast 15.3  shift  +2, +2 score 0.93 placed   moving south  go north-east (44°), 168 px, 1 openings, 1 marks
+ 110.47 s  FACING 135 -152
+ 110.47 s  contrast 15.2  shift  +0, +4 score 0.93 placed   moving south-west  go north-east (42°), 168 px, 1 openings, 1 marks
+ 110.67 s  TIMER 46
+ 110.67 s  FACING 159 173
+ 110.67 s  contrast 14.9  shift  +0, +5 score 0.93 placed   moving south  go north-east (40°), 172 px, 1 openings, 1 marks
+ 110.88 s  FACING -178 -172
+ 110.88 s  contrast 14.9  shift  -2, +5 score 0.93 placed   moving south  go north-east (37°), 182 px, 1 openings, 0 marks
+ 111.08 s  FACING -173 -159
+ 111.08 s  contrast 15.1  shift  -4, +5 score 0.94 placed   moving south  go north-east (36°), 187 px, 1 openings, 1 marks
+ 111.32 s  FACING 177 -141
+ 111.32 s  contrast 15.7  shift  -4, +2 score 0.94 placed   moving south-west  go north-east (38°), 189 px, 1 openings, 1 marks
+ 111.53 s  FACING 157 -139
+ 111.53 s  contrast 16.7  shift  -2, +5 score 0.93 placed   moving south-west  go north-east (35°), 197 px, 1 openings, 0 marks
+ 111.73 s  TIMER 45
+ 111.73 s  FACING 102 -169
+ 111.73 s  contrast 17.0  shift  +4, +5 score 0.94 placed   moving south  go north-east (29°), 199 px, 1 openings, 0 marks
+ 111.98 s  FACING -135 95
+ 111.98 s  contrast 17.0  shift  +1, +0 score 0.94 placed   moving east  go north-east (24°), 190 px, 1 openings, 0 marks
+ 112.20 s  FACING -148 60
+ 112.20 s  contrast 16.9  shift  -1, -1 score 0.94 placed   moving north-east  go north-east (32°), 184 px, 1 openings, 0 marks
+ 112.43 s  FACING -162 18
+ 112.43 s  contrast 16.6  shift  -1, -1 score 0.95 placed   moving north  go north-east (37°), 182 px, 1 openings, 0 marks
+ 112.65 s  FACING -148 -37
+ 112.65 s  contrast 16.2  shift  -3, -6 score 0.93 placed   moving north-west  go north-east (39°), 178 px, 1 openings, 0 marks
+ 112.86 s  TIMER 44
+ 112.86 s  FACING 60 -115
+ 112.86 s  contrast 16.9  shift  +4, -3 score 0.94 placed   moving south-west  go north-east (34°), 191 px, 1 openings, 1 marks
+ 113.06 s  contrast 16.3  shift  +5, -4 score 0.93 placed   moving still  go north-east (34°), 186 px, 1 openings, 1 marks
+ 113.29 s  contrast 14.7  shift  +2, -4 score 0.92 placed   moving still  go north-east (35°), 180 px, 1 openings, 0 marks
+ 113.50 s  FACING 68 37
+ 113.50 s  contrast 14.8  shift  +1, -2 score 0.93 placed   moving north-east  go north-east (37°), 176 px, 1 openings, 1 marks
+ 113.72 s  contrast 14.8  shift  +0, -1 score 0.91 placed   moving still  go north-east (37°), 176 px, 1 openings, 1 marks
+ 113.94 s  TIMER 43
+ 113.94 s  contrast 14.8  shift  -1, -2 score 0.92 placed   moving still  go north-east (39°), 176 px, 1 openings, 1 marks
+ 114.14 s  FACING -159 18
+ 114.14 s  contrast 14.9  shift  +1, -5 score 0.92 placed   moving north  go north-east (47°), 155 px, 1 openings, 1 marks
+ 114.35 s  FACING -165 5
+ 114.35 s  contrast 15.2  shift  -2, -4 score 0.93 placed   moving north  go north-east (46°), 160 px, 1 openings, 1 marks
+ 114.57 s  FACING -172 -0
+ 114.57 s  contrast 15.2  shift  -3, -4 score 0.93 placed   moving north  go north-east (53°), 156 px, 1 openings, 1 marks
+ 114.84 s  FACING -167 -29
+ 114.84 s  contrast 15.2  shift  -2, -8 score 0.93 placed   moving north-west  go north-east (64°), 156 px, 1 openings, 1 marks
+ 115.04 s  TIMER 42
+ 115.04 s  FACING -140 16
+ 115.04 s  contrast 15.3  shift  +2, -5 score 0.91 placed   moving north  go north-east (58°), 148 px, 1 openings, 1 marks
+ 115.25 s  contrast 15.2  shift  +1, -1 score 0.92 placed   moving still  go north-east (58°), 169 px, 1 openings, 1 marks
+ 115.47 s  FACING 135 -159
+ 115.47 s  contrast 15.3  shift  -1, +2 score 0.92 placed   moving south  go north-east (53°), 173 px, 1 openings, 1 marks
+ 115.67 s  FACING -169 -133
+ 115.67 s  contrast 15.2  shift  +0, +0 score 0.92 placed   moving south-west  go north-east (53°), 173 px, 1 openings, 1 marks
+ 115.89 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (52°), 173 px, 1 openings, 1 marks
+ 116.09 s  TIMER 40
+ 116.09 s  contrast 15.3  shift  -1, +0 score 0.92 placed   moving still  go north-east (53°), 173 px, 1 openings, 1 marks
+ 116.34 s  contrast 15.4  shift  -1, +6 score 0.92 placed   moving still  go north-east (47°), 177 px, 1 openings, 1 marks
+ 116.55 s  FACING 160 -176
+ 116.55 s  contrast 15.3  shift  +1, +7 score 0.93 placed   moving south  go north-east (39°), 185 px, 1 openings, 1 marks
+ 116.75 s  FACING 159 174
+ 116.75 s  contrast 15.3  shift  +2, +6 score 0.94 placed   moving south  go north-east (48°), 176 px, 1 openings, 1 marks
+ 116.97 s  FACING 137 159
+ 116.97 s  contrast 15.2  shift  +4, +5 score 0.92 placed   moving south  go north-east (41°), 178 px, 1 openings, 1 marks
+ 117.18 s  TIMER 39
+ 117.18 s  FACING 98 153
+ 117.18 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving south-east  go north-east (40°), 178 px, 1 openings, 1 marks
+ 117.41 s  FACING -131 71
+ 117.41 s  contrast 15.2  shift  +0, -3 score 0.92 placed   moving east  go north-east (40°), 161 px, 1 openings, 1 marks
+ 117.62 s  FACING -135 42
+ 117.62 s  contrast 15.1  shift  +0, -3 score 0.93 placed   moving north-east  go north-east (42°), 157 px, 1 openings, 1 marks
+ 117.82 s  FACING -140 31
+ 117.82 s  contrast 15.1  shift  -1, +0 score 0.93 placed   moving north-east  go north-east (45°), 161 px, 1 openings, 1 marks
+ 118.08 s  FACING -159 -42
+ 118.08 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving north-west  go north-east (42°), 169 px, 1 openings, 1 marks
+ 118.28 s  TIMER 38
+ 118.28 s  contrast 15.2  shift  +0, +0 score 0.93 placed   moving still  go north-east (41°), 161 px, 1 openings, 1 marks
+ 118.50 s  FACING 60 -138
+ 118.50 s  contrast 15.2  shift  +0, +0 score 0.93 placed   moving south-west  go north-east (44°), 174 px, 1 openings, 1 marks
+ 118.75 s  FACING 63 -158
+ 118.75 s  contrast 15.2  shift  +0, +0 score 0.94 placed   moving south  go north-east (44°), 174 px, 1 openings, 1 marks
+ 119.00 s  contrast 15.3  shift  +0, -1 score 0.94 placed   moving still  go north-east (42°), 157 px, 1 openings, 1 marks
+ 119.20 s  FACING -173 6
+ 119.20 s  contrast 15.3  shift  -2, -2 score 0.94 placed   moving north  go north-east (47°), 165 px, 1 openings, 0 marks
+ 119.41 s  TIMER 37
+ 119.41 s  FACING -171 -6
+ 119.41 s  contrast 15.2  shift  -4, -4 score 0.93 placed   moving north  go north-east (62°), 165 px, 1 openings, 1 marks
+ 119.63 s  FACING -163 -33
+ 119.63 s  contrast 15.3  shift  +0, -9 score 0.93 placed   moving north-west  go north-east (67°), 158 px, 1 openings, 1 marks
+ 119.84 s  contrast 15.3  shift  +2, -3 score 0.92 placed   moving still  go north-east (57°), 169 px, 1 openings, 1 marks
+ 120.06 s  contrast 15.3  shift  +0, +0 score 0.93 placed   moving still  go north-east (52°), 173 px, 1 openings, 1 marks
+ 120.27 s  FACING 102 -159
+ 120.27 s  contrast 15.4  shift  +0, +0 score 0.93 placed   moving south  go north-east (53°), 173 px, 1 openings, 1 marks
+ 120.47 s  TIMER 36
+ 120.47 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (52°), 173 px, 1 openings, 1 marks
+ 120.68 s  contrast 15.3  shift  +0, +0 score 0.93 placed   moving still  go north-east (57°), 169 px, 1 openings, 1 marks
+ 120.93 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (57°), 169 px, 1 openings, 1 marks
+ 121.17 s  contrast 15.3  shift  +0, -1 score 0.92 placed   moving still  go north-east (53°), 173 px, 1 openings, 1 marks
+ 121.38 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (53°), 173 px, 1 openings, 1 marks
+ 121.58 s  TIMER 35
+ 121.58 s  contrast 15.3  shift  +0, -1 score 0.92 placed   moving still  go north-east (61°), 165 px, 1 openings, 1 marks
+ 121.81 s  contrast 15.5  shift  +0, -1 score 0.93 placed   moving still  go north-east (62°), 165 px, 1 openings, 1 marks
+ 122.03 s  contrast 15.5  shift  +0, +0 score 0.93 placed   moving still  go north-east (62°), 165 px, 1 openings, 1 marks
+ 122.24 s  contrast 15.5  shift  +0, +0 score 0.93 placed   moving still  go north-east (62°), 165 px, 1 openings, 1 marks
+ 122.45 s  contrast 15.5  shift  +0, +0 score 0.93 placed   moving still  go north-east (62°), 165 px, 1 openings, 1 marks
+ 122.67 s  TIMER 34
+ 122.67 s  contrast 15.5  shift  +0, +0 score 0.93 placed   moving still  go north-east (62°), 165 px, 1 openings, 1 marks
+ 122.95 s  contrast 15.4  shift  +0, +0 score 0.92 placed   moving still  go north-east (62°), 165 px, 1 openings, 1 marks
+ 123.16 s  contrast 15.3  shift  +0, +1 score 0.93 placed   moving still  go north-east (57°), 169 px, 1 openings, 1 marks
+ 123.38 s  contrast 15.3  shift  +0, +3 score 0.92 placed   moving still  go north-east (53°), 173 px, 1 openings, 1 marks
+ 123.60 s  contrast 15.3  shift  +0, -1 score 0.92 placed   moving still  go north-east (53°), 173 px, 1 openings, 1 marks
+ 123.82 s  TIMER 33
+ 123.82 s  contrast 15.3  shift  +0, +1 score 0.93 placed   moving still  go north-east (52°), 173 px, 1 openings, 1 marks
+ 124.09 s  contrast 15.4  shift  -1, +0 score 0.92 placed   moving still  go north-east (53°), 173 px, 1 openings, 1 marks
+ 124.30 s  contrast 15.4  shift  -1, +5 score 0.93 placed   moving still  go north-east (48°), 177 px, 1 openings, 1 marks
+ 124.50 s  FACING 142 -168
+ 124.50 s  contrast 15.4  shift  +0, +6 score 0.94 placed   moving south  go north-east (41°), 185 px, 1 openings, 1 marks
+ 124.70 s  FACING -45 168
+ 124.70 s  contrast 15.3  shift  +5, +5 score 0.93 placed   moving south  go north-east (47°), 176 px, 1 openings, 1 marks
+ 124.91 s  TIMER 32
+ 124.91 s  FACING 122 155
+ 124.91 s  contrast 15.2  shift  +2, +3 score 0.94 placed   moving south-east  go north-east (44°), 174 px, 1 openings, 1 marks
+ 125.12 s  FACING 123 148
+ 125.12 s  contrast 15.3  shift  +0, +2 score 0.94 placed   moving south-east  go north-east (42°), 174 px, 1 openings, 1 marks
+ 125.33 s  contrast 15.1  shift  +0, +2 score 0.93 placed   moving still  go north-east (41°), 178 px, 1 openings, 1 marks
+ 125.63 s  contrast 15.1  shift  -1, +2 score 0.93 placed   moving still  go north-east (40°), 179 px, 1 openings, 1 marks
+ 125.84 s  contrast 15.0  shift  +1, +2 score 0.93 placed   moving still  go north-east (38°), 182 px, 1 openings, 1 marks
+ 126.05 s  TIMER 31
+ 126.05 s  FACING -146 40
+ 126.05 s  contrast 15.0  shift  +0, -5 score 0.92 placed   moving north-east  go north-east (43°), 161 px, 1 openings, 1 marks
+ 126.27 s  FACING -163 17
+ 126.27 s  contrast 15.1  shift  -1, -4 score 0.94 placed   moving north  go north-east (42°), 169 px, 1 openings, 1 marks
+ 126.47 s  FACING -167 8
+ 126.47 s  contrast 15.2  shift  -1, -3 score 0.94 placed   moving north  go north-east (54°), 160 px, 1 openings, 1 marks
+ 126.69 s  FACING -167 -43
+ 126.69 s  contrast 15.2  shift  -3, -2 score 0.94 placed   moving north-west  go north-east (50°), 165 px, 1 openings, 1 marks
+ 126.91 s  FACING -155 -29
+ 126.91 s  contrast 15.3  shift  -2, -5 score 0.93 placed   moving north-west  go north-east (61°), 160 px, 1 openings, 1 marks
+ 127.12 s  TIMER 29
+ 127.12 s  contrast 15.3  shift  +0, -6 score 0.93 placed   moving still  go north-east (56°), 156 px, 1 openings, 1 marks
+ 127.32 s  contrast 15.3  shift  +2, -3 score 0.93 placed   moving still  go north-east (57°), 169 px, 1 openings, 1 marks
+ 127.54 s  contrast 15.3  shift  +0, -2 score 0.93 placed   moving still  go north-east (61°), 165 px, 1 openings, 1 marks
+ 127.74 s  FACING 62 -105
+ 127.74 s  contrast 15.5  shift  +0, -1 score 0.93 placed   moving west  go north-east (62°), 165 px, 1 openings, 1 marks
+ 127.97 s  FACING -125 48
+ 127.97 s  contrast 15.4  shift  +0, +0 score 0.93 placed   moving north-east  go north-east (59°), 150 px, 1 openings, 1 marks
+ 128.22 s  TIMER 28
+ 128.22 s  FACING -125 54
+ 128.22 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving north-east  go north-east (57°), 152 px, 1 openings, 1 marks
+ 128.43 s  FACING -125 55
+ 128.43 s  contrast 15.5  shift  -1, +0 score 0.91 placed   moving north-east  go north-east (57°), 152 px, 1 openings, 1 marks
+ 128.63 s  FACING -125 -47
+ 128.63 s  contrast 16.2  shift -29,-28 score 0.59 placed   moving north-west  go east (82°), 171 px, 1 openings, 1 marks
+ 128.83 s  FACING -124 -47
+ 128.83 s  contrast 14.8  shift  -1, -1 score 0.64 placed   moving north-west  go east (82°), 171 px, 1 openings, 1 marks
+ 129.04 s  FACING -124 -43
+ 129.04 s  contrast 14.9  shift  +2, -1 score 0.64 placed   moving north-west  go east (86°), 168 px, 1 openings, 1 marks
+ 129.24 s  TIMER 27
+ 129.24 s  FACING 43 22
+ 129.24 s  contrast 14.9  shift  +4, -5 score 0.65 placed   moving north  go east (88°), 163 px, 1 openings, 1 marks
+ 129.45 s  FACING -134 38
+ 129.45 s  contrast 15.0  shift  +5, -5 score 0.65 placed   moving north-east  go east (92°), 157 px, 1 openings, 1 marks
+ 129.66 s  FACING -134 37
+ 129.66 s  contrast 15.1  shift  +7, -8 score 0.67 placed   moving north-east  go east (100°), 155 px, 1 openings, 1 marks
+ 129.88 s  FACING -134 44
+ 129.88 s  contrast 15.3  shift  +6, -6 score 0.65 placed   moving north-east  go east (109°), 155 px, 1 openings, 1 marks
+ 130.12 s  FACING -134 45
+ 130.12 s  contrast 15.7  shift  +6, -5 score 0.67 placed   moving north-east  go south-east (115°), 154 px, 1 openings, 1 marks
+ 130.33 s  TIMER 26
+ 130.33 s  FACING -141 32
+ 130.33 s  contrast 16.6  shift  +3, -6 score 0.66 placed   moving north-east  go south-east (134°), 167 px, 1 openings, 1 marks
+ 130.55 s  FACING -140 14
+ 130.55 s  contrast 16.3  shift  +0, +0 score 0.67 placed   moving north  go south-east (133°), 167 px, 1 openings, 1 marks
+ 130.75 s  FACING -142 -9
+ 130.75 s  contrast 16.2  shift  +1, +0 score 0.68 placed   moving north  go south-east (137°), 169 px, 1 openings, 1 marks
+ 131.02 s  contrast 16.3  shift  +0, +0 score 0.67 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 131.22 s  contrast 16.2  shift  +0, +0 score 0.68 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 131.42 s  TIMER 25
+ 131.42 s  contrast 16.3  shift  +0, +0 score 0.69 placed   moving still  go south-east (134°), 167 px, 1 openings, 1 marks
+ 131.62 s  contrast 16.3  shift  +0, +0 score 0.69 placed   moving still  go south-east (134°), 167 px, 1 openings, 1 marks
+ 131.85 s  contrast 16.4  shift  +0, +0 score 0.70 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 132.06 s  contrast 16.5  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 132.28 s  contrast 16.6  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 132.48 s  AREA Egg Cluster
+ 132.48 s  TIMER 24
+ 132.48 s  contrast 16.6  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 132.68 s  contrast 16.7  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 132.89 s  contrast 16.9  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 133.10 s  contrast 17.1  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 133.36 s  contrast 17.4  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 133.56 s  TIMER 23
+ 133.56 s  contrast 17.4  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 133.80 s  contrast 17.4  shift  +0, +0 score 0.71 placed   moving still  go south-east (137°), 169 px, 1 openings, 1 marks
+ 134.02 s  contrast 17.2  shift  +0, +0 score 0.71 placed   moving still  go south-east (133°), 167 px, 1 openings, 1 marks
+ 134.25 s  contrast 17.0  shift  +0, +0 score 0.71 placed   moving still  go south-east (133°), 167 px, 1 openings, 1 marks
+ 134.47 s  contrast 16.9  shift  +0, +0 score 0.71 placed   moving still  go south-east (134°), 167 px, 1 openings, 1 marks
+ 134.69 s  TIMER 22
+ 134.69 s  contrast 16.9  shift  +0, +0 score 0.71 placed   moving still  go south-east (134°), 167 px, 1 openings, 1 marks
+ 134.89 s  contrast 16.8  shift  +0, +0 score 0.71 placed   moving still  go south-east (134°), 167 px, 1 openings, 1 marks
+ 135.09 s  contrast 16.7  shift  +0, +0 score 0.71 placed   moving still  go south-east (134°), 167 px, 1 openings, 1 marks
+ 135.30 s  contrast 16.6  shift  +0, +0 score 0.71 placed   moving still  go south-east (131°), 163 px, 1 openings, 1 marks
+ 135.53 s  contrast 16.2  shift  +0, +0 score 0.70 placed   moving still  go south-east (131°), 163 px, 1 openings, 1 marks
+ 135.77 s  TIMER 21
+ 135.77 s  contrast 16.1  shift  +0, +0 score 0.70 placed   moving still  go south-east (124°), 156 px, 1 openings, 1 marks
+ 135.99 s  contrast 16.0  shift  +0, +0 score 0.70 placed   moving still  go south-east (124°), 156 px, 1 openings, 1 marks
+ 136.19 s  contrast 16.0  shift  +0, +0 score 0.70 placed   moving still  go south-east (124°), 156 px, 1 openings, 1 marks
+ 136.41 s  contrast 16.0  shift  +0, +0 score 0.70 placed   moving still  go south-east (124°), 156 px, 1 openings, 1 marks
+ 136.64 s  contrast 16.3  shift  +0, +0 score 0.70 placed   moving still  go south-east (124°), 156 px, 1 openings, 1 marks
+ 136.84 s  TIMER 20
+ 136.84 s  contrast 16.7  shift  +0, +0 score 0.70 placed   moving still  go south-east (124°), 156 px, 1 openings, 1 marks
+ 137.13 s  contrast 17.0  shift  +0, +0 score 0.71 placed   moving still  go south-east (131°), 163 px, 1 openings, 1 marks
+ 137.33 s  contrast 17.2  shift  +0, +0 score 0.71 placed   moving still  go south-east (131°), 163 px, 1 openings, 1 marks
+ 137.54 s  contrast 17.5  shift  +0, +0 score 0.70 placed   moving still  go south-east (131°), 163 px, 1 openings, 1 marks
+ 137.74 s  contrast 17.4  shift  +0, +0 score 0.70 placed   moving still  go south-east (131°), 163 px, 1 openings, 1 marks
+ 137.98 s  TIMER 19
+ 137.98 s  contrast 17.3  shift  +0, +0 score 0.70 placed   moving still  go south-east (131°), 163 px, 1 openings, 1 marks
+ 138.19 s  FACING 100 -138
+ 138.19 s  contrast 17.2  shift  +0, +0 score 0.64 placed   moving south-west  go east (105°), 154 px, 1 openings, 1 marks
+ 138.47 s  FACING 103 -136
+ 138.47 s  contrast 17.2  shift  +0, +0 score 0.64 placed   moving south-west  go east (106°), 154 px, 1 openings, 1 marks
+ 138.69 s  FACING -152 21
+ 138.69 s  contrast 18.3  shift  +5, +0 score 0.66 placed   moving north  go north (2°), 137 px, 1 openings, 1 marks
+ 138.89 s  FACING -39 36
+ 138.89 s  contrast 18.6  shift  +2, -1 score 0.64 placed   moving north-east  go north (-1°), 161 px, 1 openings, 1 marks
+ 139.10 s  illegible: contrast 44.3 floor 4% arrow yes busy 0.23
+ 139.33 s  TIMER 17
+ 139.33 s  FACING 47 36
+ 139.33 s  contrast 40.1  shift +27, +4 score -0.37 REFUSED  moving north-east  go north (-1°), 161 px, 1 openings, 1 marks
+ 139.54 s  FACING 49 36
+ 139.54 s  contrast 41.8  shift +27, +2 score -0.37 REFUSED  moving north-east  go north (-1°), 161 px, 1 openings, 1 marks
+ 139.76 s  FACING 44 36
+ 139.76 s  contrast 37.5  shift +28, -1 score -0.35 REFUSED  moving north-east  go north (-1°), 161 px, 1 openings, 1 marks
+ 139.97 s  FACING -39 36
+ 139.97 s  contrast 42.0  shift +26, -1 score -0.39 REFUSED  moving north-east  go north (-1°), 161 px, 1 openings, 1 marks
+ 140.18 s  illegible: contrast 43.8 floor 5% arrow yes busy 0.23
+ 140.38 s  illegible: contrast 46.1 floor 2% arrow yes busy 0.22
+ 140.62 s  AREA Temple District
+ 140.62 s  TIMER 16
+ 140.62 s  contrast 15.8  shift +20, -6 score 0.68 placed   moving still  go north (0°), 158 px, 2 openings, 1 marks
+ 140.85 s  contrast 16.6  shift  +3, +5 score 0.69 placed   moving still  go north (-1°), 158 px, 2 openings, 1 marks
+ 141.06 s  contrast 16.5  shift  +2, +2 score 0.70 placed   moving still  go north (1°), 160 px, 2 openings, 1 marks
+ 141.27 s  contrast 16.5  shift  +0, +0 score 0.70 placed   moving still  go north (-2°), 159 px, 1 openings, 1 marks
+ 141.51 s  contrast 16.5  shift  +0, +0 score 0.71 placed   moving still  go north (-2°), 159 px, 1 openings, 1 marks
+ 141.72 s  TIMER 15
+ 141.72 s  contrast 16.5  shift  +0, +0 score 0.72 placed   moving still  go north (-2°), 162 px, 1 openings, 1 marks
+ 141.93 s  contrast 16.5  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 162 px, 1 openings, 1 marks
+ 142.13 s  contrast 16.5  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 142.34 s  contrast 16.5  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 142.55 s  contrast 16.5  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 142.76 s  TIMER 14
+ 142.76 s  contrast 16.5  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 142.97 s  contrast 16.5  shift  +0, +0 score 0.74 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 143.19 s  contrast 16.5  shift  +0, +0 score 0.74 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 143.41 s  contrast 16.5  shift  +0, +0 score 0.74 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 143.61 s  contrast 16.5  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 143.82 s  TIMER 13
+ 143.82 s  contrast 16.5  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 144.05 s  contrast 16.5  shift  +0, +0 score 0.74 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 144.29 s  contrast 16.6  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 144.50 s  contrast 16.5  shift  +0, +0 score 0.73 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 144.72 s  contrast 16.5  shift  -1, -1 score 0.72 placed   moving still  go north (-1°), 169 px, 1 openings, 1 marks
+ 144.94 s  TIMER 12
+ 144.94 s  contrast 16.2  shift  -1, -7 score 0.71 placed   moving still  go north (2°), 176 px, 1 openings, 1 marks
+ 145.16 s  contrast 16.7  shift  -2, -6 score 0.70 placed   moving still  go north (0°), 169 px, 1 openings, 1 marks
+ 145.36 s  contrast 35.2  shift +22, +9 score -0.34 REFUSED  moving still  go north (0°), 169 px, 1 openings, 1 marks
+ 145.59 s  contrast 32.8  shift +12,+13 score -0.35 REFUSED  moving still  go north (0°), 169 px, 1 openings, 1 marks
+ 145.79 s  contrast 33.8  shift +18, -5 score -0.36 REFUSED  moving still  go north (0°), 169 px, 1 openings, 1 marks
+ 146.05 s  TIMER 11
+ 146.05 s  FACING -146 1
+ 146.05 s  contrast 18.6  shift  -7,-26 score 0.65 placed   moving north  go north (-12°), 151 px, 1 openings, 1 marks
+ 146.28 s  FACING -140 -1
+ 146.28 s  contrast 16.7  shift  -1, -4 score 0.65 placed   moving north  go north (-11°), 158 px, 1 openings, 1 marks
+ 146.50 s  FACING -141 2
+ 146.50 s  contrast 16.4  shift  +1, +0 score 0.65 placed   moving north  go north (-12°), 162 px, 1 openings, 1 marks
+ 146.71 s  contrast 15.8  shift  -1, -1 score 0.70 placed   moving still  go north (-13°), 160 px, 1 openings, 1 marks
+ 146.91 s  contrast 15.9  shift  +0, +0 score 0.69 placed   moving still  go north (-13°), 160 px, 1 openings, 1 marks
+ 147.17 s  TIMER 9
+ 147.17 s  FACING 139 -162
+ 147.17 s  contrast 15.8  shift  +0, +0 score 0.68 placed   moving south  go north (-2°), 170 px, 1 openings, 1 marks
+ 147.38 s  FACING 136 -159
+ 147.38 s  contrast 15.8  shift  +0, +0 score 0.68 placed   moving south  go north (-2°), 170 px, 1 openings, 1 marks
+ 147.59 s  FACING 136 -161
+ 147.59 s  contrast 15.7  shift  +0, +1 score 0.68 placed   moving south  go north (-2°), 170 px, 1 openings, 1 marks
+ 147.79 s  contrast 15.7  shift  +1, +0 score 0.68 placed   moving still  go north (-2°), 172 px, 1 openings, 1 marks
+ 148.04 s  contrast 15.7  shift  -1, -1 score 0.69 placed   moving still  go north (-1°), 170 px, 1 openings, 1 marks
+ 148.24 s  contrast 15.7  shift  +1, +1 score 0.68 placed   moving still  go north (-2°), 172 px, 1 openings, 1 marks
+ 148.49 s  contrast 15.8  shift  -1, -1 score 0.69 placed   moving still  go north (-2°), 171 px, 1 openings, 1 marks
+ 148.70 s  contrast 15.8  shift  +1, +1 score 0.68 placed   moving still  go north (-3°), 172 px, 1 openings, 1 marks
+ 148.94 s  contrast 15.9  shift  -1, -1 score 0.70 placed   moving still  go north (-1°), 171 px, 1 openings, 1 marks
+ 149.17 s  contrast 15.8  shift  +1, +1 score 0.69 placed   moving still  go north (-2°), 169 px, 1 openings, 1 marks
+ 149.37 s  contrast 15.9  shift  -1, -1 score 0.72 placed   moving still  go north (-1°), 167 px, 1 openings, 1 marks
+ 149.63 s  contrast 16.0  shift  +0, +0 score 0.71 placed   moving still  go north (-3°), 174 px, 1 openings, 1 marks
+ 149.84 s  contrast 16.0  shift  +0, +0 score 0.71 placed   moving still  go north (-2°), 170 px, 1 openings, 1 marks
+ 150.05 s  contrast 15.9  shift  +0, +0 score 0.71 placed   moving still  go north (-2°), 167 px, 1 openings, 1 marks
+ 150.25 s  contrast 15.9  shift  +0, +0 score 0.71 placed   moving still  go north (-1°), 167 px, 1 openings, 1 marks
+ 150.50 s  contrast 16.0  shift  +0, +0 score 0.71 placed   moving still  go north (-4°), 174 px, 1 openings, 1 marks
+ 150.72 s  contrast 16.0  shift  +0, +0 score 0.71 placed   moving still  go north (-4°), 174 px, 1 openings, 1 marks
+ 150.92 s  contrast 16.0  shift  +0, +0 score 0.72 placed   moving still  go north (-2°), 167 px, 1 openings, 1 marks
+ 151.13 s  contrast 15.9  shift  +0, +0 score 0.72 placed   moving still  go north (-1°), 167 px, 1 openings, 1 marks
+ 151.34 s  contrast 15.9  shift  +0, +0 score 0.72 placed   moving still  go north (-1°), 167 px, 1 openings, 1 marks
+ 151.55 s  contrast 15.9  shift  +0, +0 score 0.72 placed   moving still  go north (-3°), 174 px, 1 openings, 1 marks
+ 151.77 s  contrast 15.9  shift  +0, +0 score 0.72 placed   moving still  go north (-4°), 174 px, 1 openings, 1 marks
+ 152.02 s  contrast 15.9  shift  +0, +0 score 0.72 placed   moving still  go north (-2°), 167 px, 1 openings, 1 marks
+ 152.22 s  contrast 15.9  shift  +0, +0 score 0.73 placed   moving still  go north (-1°), 167 px, 1 openings, 1 marks
+ 152.44 s  contrast 15.9  shift  +0, +0 score 0.73 placed   moving still  go north (-1°), 167 px, 1 openings, 1 marks
+ 152.69 s  TIMER 4
+ 152.69 s  contrast 15.9  shift  +0, +0 score 0.72 placed   moving still  go north (-3°), 174 px, 1 openings, 1 marks
+ 152.94 s  contrast 16.0  shift  +0, +0 score 0.73 placed   moving still  go north (-4°), 174 px, 1 openings, 1 marks
+ 153.15 s  contrast 15.5  shift  -1, -1 score 0.73 placed   moving still  go north (-2°), 166 px, 1 openings, 1 marks
+ 153.36 s  FACING 147 -25
+ 153.36 s  contrast 15.6  shift  -1, -4 score 0.73 placed   moving north-west  go north (-8°), 154 px, 1 openings, 1 marks
+ 153.57 s  FACING -51 -22
+ 153.57 s  contrast 14.3  shift  -1, -8 score 0.72 placed   moving north  go north (-12°), 148 px, 1 openings, 1 marks
+ 153.77 s  TIMER 3
+ 153.77 s  FACING -53 -4
+ 153.77 s  contrast 14.4  shift  +1, -7 score 0.73 placed   moving north  go north (-11°), 152 px, 1 openings, 1 marks
+ 154.06 s  FACING -167 4
+ 154.06 s  contrast 15.3  shift  +2, -8 score 0.71 placed   moving north  go north-west (-23°), 150 px, 1 openings, 1 marks
+ 154.27 s  FACING -172 12
+ 154.27 s  contrast 15.0  shift  +0, -9 score 0.75 placed   moving north  go north-west (-26°), 148 px, 1 openings, 1 marks
+ 154.48 s  FACING -171 6
+ 154.48 s  contrast 15.1  shift  +1, -6 score 0.76 placed   moving north  go north-west (-33°), 150 px, 1 openings, 1 marks
+ 154.69 s  FACING -170 3
+ 154.69 s  contrast 15.5  shift  +1, -6 score 0.77 placed   moving north  go north-west (-36°), 151 px, 1 openings, 1 marks
+ 154.91 s  FACING -169 4
+ 154.91 s  contrast 16.0  shift  +0, -6 score 0.79 placed   moving north  go north-west (-41°), 152 px, 1 openings, 1 marks
+ 155.16 s  FACING 149 -27
+ 155.16 s  contrast 16.0  shift  -2, -7 score 0.80 placed   moving north-west  go north-west (-33°), 146 px, 1 openings, 1 marks
+ 155.36 s  FACING 153 -35
+ 155.36 s  contrast 16.5  shift  -5, -5 score 0.85 placed   moving north-west  go north (-14°), 119 px, 1 openings, 1 marks
+ 155.60 s  FACING -14 -37
+ 155.60 s  contrast 16.2  shift  -5, -5 score 0.85 placed   moving north-west  no opening
+ 155.85 s  FACING -28 -31
+ 155.85 s  contrast 16.1  shift  -6, -6 score 0.83 placed   moving north-west  no opening
+ 156.05 s  TIMER 2
+ 156.05 s  contrast 16.2  shift  -5, -5 score 0.83 placed   moving still  go north (-10°), 164 px, 1 openings, 1 marks
+ 156.26 s  FACING -41 -85
+ 156.26 s  contrast 16.2  shift  -4, -4 score 0.85 placed   moving west  go north (10°), 162 px, 1 openings, 1 marks
+ 156.47 s  FACING 50 -41
+ 156.47 s  contrast 16.1  shift  -2, -2 score 0.88 placed   moving north-west  go north (10°), 145 px, 1 openings, 1 marks
+ 156.67 s  FACING -41 -74
+ 156.67 s  contrast 15.9  shift  -1, -1 score 0.84 placed   moving west  go north (5°), 175 px, 1 openings, 1 marks
+ 156.89 s  contrast 15.8  shift  -2, -1 score 0.83 placed   moving still  go north (11°), 176 px, 1 openings, 1 marks
+ 157.10 s  FACING -44 170
+ 157.10 s  contrast 15.6  shift  -2, -6 score 0.83 placed   moving south  go north (7°), 167 px, 1 openings, 1 marks
+ 157.34 s  FACING 55 -1
+ 157.34 s  contrast 15.3  shift  +1, -7 score 0.80 placed   moving north  go north (14°), 160 px, 1 openings, 1 marks
+ 157.55 s  FACING 51 20
+ 157.55 s  contrast 16.0  shift  +0, -7 score 0.83 placed   moving north  go north (5°), 159 px, 1 openings, 1 marks
+ 158.23 s  TIMER 1
+ 158.23 s  contrast 16.4  shift  -1, -7 score 0.81 placed   moving still  go north (3°), 167 px, 1 openings, 1 marks
+ 158.49 s  contrast 17.2  shift  +2,-11 score 0.86 placed   moving still  go north (3°), 155 px, 1 openings, 1 marks
+ 158.70 s  contrast 17.4  shift  +0, -2 score 0.86 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 158.91 s  FACING -151 16
+ 158.91 s  contrast 17.5  shift  +0, +0 score 0.87 placed   moving north  go north (3°), 159 px, 1 openings, 1 marks
+ 159.11 s  contrast 17.2  shift  +0, +0 score 0.86 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 159.35 s  contrast 17.2  shift  +0, +0 score 0.87 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 159.57 s  contrast 17.2  shift  +0, +0 score 0.87 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 159.77 s  contrast 17.2  shift  +0, +0 score 0.88 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 159.99 s  contrast 17.3  shift  -1, -1 score 0.87 placed   moving still  go north (4°), 159 px, 1 openings, 1 marks
+ 160.20 s  contrast 17.3  shift  +1, +1 score 0.88 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 160.41 s  contrast 17.3  shift  +0, +0 score 0.89 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 160.61 s  contrast 17.3  shift  +0, +0 score 0.89 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 160.81 s  contrast 17.3  shift  +0, +0 score 0.90 placed   moving still  go north (3°), 159 px, 1 openings, 1 marks
+ 161.05 s  contrast 17.3  shift  +0, +0 score 0.90 placed   moving still  go north (3°), 164 px, 1 openings, 1 marks
+ 161.29 s  contrast 17.3  shift  +0, +0 score 0.90 placed   moving still  go north (3°), 164 px, 1 openings, 1 marks
+ 161.50 s  contrast 17.3  shift  +0, +0 score 0.90 placed   moving still  go north (3°), 164 px, 1 openings, 1 marks
+ 161.70 s  contrast 17.1  shift  -2, -1 score 0.89 placed   moving still  go north (5°), 172 px, 1 openings, 1 marks
+ 161.90 s  contrast 17.2  shift  -7, -1 score 0.91 placed   moving still  go north (13°), 165 px, 1 openings, 1 marks
+ 162.12 s  FACING 120 -79
+ 162.12 s  contrast 16.8  shift  -7, -2 score 0.89 placed   moving west  go north (12°), 164 px, 1 openings, 1 marks
+ 162.32 s  FACING 122 -43
+ 162.32 s  contrast 16.8  shift  -5, -3 score 0.90 placed   moving north-west  go north-east (27°), 158 px, 1 openings, 1 marks
+ 162.55 s  FACING -45 -44
+ 162.55 s  contrast 16.9  shift  -6, -4 score 0.91 placed   moving north-west  go north-east (34°), 152 px, 1 openings, 1 marks
+ 162.76 s  FACING 133 -40
+ 162.76 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving north-west  go north-east (34°), 152 px, 1 openings, 1 marks
+ 162.96 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (34°), 152 px, 1 openings, 1 marks
+ 163.17 s  FACING -50 36
+ 163.17 s  contrast 16.8  shift  -1, -4 score 0.91 placed   moving north-east  go north-east (36°), 142 px, 1 openings, 1 marks
+ 163.37 s  FACING 168 22
+ 163.37 s  contrast 15.9  shift  -1, -7 score 0.89 placed   moving north  go north-east (41°), 144 px, 1 openings, 1 marks
+ 163.59 s  FACING 166 16
+ 163.59 s  contrast 15.4  shift  -1, -6 score 0.90 placed   moving north  go north-east (41°), 145 px, 1 openings, 1 marks
+ 163.79 s  FACING 175 1
+ 163.79 s  contrast 15.6  shift  -1, -7 score 0.90 placed   moving north  go north-east (44°), 145 px, 1 openings, 1 marks
+ 164.03 s  FACING -162 19
+ 164.03 s  contrast 15.4  shift  +2, -6 score 0.89 placed   moving north  go north-east (44°), 140 px, 1 openings, 1 marks
+ 164.25 s  FACING -149 41
+ 164.25 s  contrast 15.1  shift  +4, -7 score 0.90 placed   moving north-east  go north-east (42°), 140 px, 1 openings, 1 marks
+ 164.45 s  FACING 41 54
+ 164.45 s  contrast 15.1  shift  +3, -5 score 0.92 placed   moving north-east  go north-east (44°), 141 px, 1 openings, 1 marks
+ 164.67 s  FACING 41 49
+ 164.67 s  contrast 15.0  shift  +5, -6 score 0.91 placed   moving north-east  go north-east (44°), 141 px, 1 openings, 1 marks
+ 164.92 s  FACING -153 27
+ 164.92 s  contrast 14.9  shift  +3, -6 score 0.91 placed   moving north-east  go north-east (48°), 145 px, 1 openings, 1 marks
+ 165.12 s  FACING -158 14
+ 165.12 s  contrast 15.1  shift  +2, -8 score 0.89 placed   moving north  go north-east (53°), 142 px, 1 openings, 1 marks
+ 165.33 s  FACING -154 13
+ 165.33 s  contrast 15.1  shift  +2, -4 score 0.89 placed   moving north  go north-east (59°), 150 px, 2 openings, 1 marks
+ 165.53 s  FACING -148 26
+ 165.53 s  contrast 15.0  shift  +4, -8 score 0.90 placed   moving north-east  go north-east (54°), 142 px, 1 openings, 1 marks
+ 165.74 s  FACING 42 44
+ 165.74 s  contrast 15.0  shift  +4, -6 score 0.90 placed   moving north-east  go north-east (53°), 146 px, 2 openings, 1 marks
+ 165.94 s  FACING -129 53
+ 165.94 s  contrast 14.9  shift  +2, -2 score 0.90 placed   moving north-east  go north-east (50°), 149 px, 3 openings, 1 marks
+ 166.15 s  FACING -125 73
+ 166.15 s  contrast 14.9  shift  +0, +0 score 0.91 placed   moving east  go north-east (47°), 153 px, 2 openings, 1 marks
+ 166.35 s  contrast 14.9  shift  +0, +0 score 0.92 placed   moving still  go north-east (47°), 153 px, 2 openings, 1 marks
+ 166.56 s  contrast 14.9  shift  +0, +0 score 0.93 placed   moving still  go north-east (47°), 153 px, 2 openings, 1 marks
+ 166.77 s  contrast 14.9  shift  +0, +0 score 0.93 placed   moving still  go north-east (47°), 153 px, 2 openings, 1 marks
+ 166.97 s  contrast 14.9  shift  +0, +0 score 0.93 placed   moving still  go north-east (47°), 153 px, 2 openings, 1 marks
+ 167.18 s  FACING 68 -126
+ 167.18 s  contrast 15.0  shift  +1, +0 score 0.90 placed   moving south-west  go north-east (52°), 169 px, 2 openings, 1 marks
+ 167.39 s  FACING 139 -138
+ 167.39 s  contrast 15.1  shift  +3, +4 score 0.90 placed   moving south-west  go north-east (49°), 166 px, 2 openings, 1 marks
+ 167.60 s  FACING 159 -157
+ 167.60 s  contrast 15.4  shift  +2, +9 score 0.89 placed   moving south-west  go north-east (45°), 170 px, 2 openings, 1 marks
+ 167.80 s  FACING 159 159
+ 167.80 s  contrast 16.5  shift  +2, +5 score 0.89 placed   moving south  go north-east (43°), 170 px, 2 openings, 1 marks
+ 168.01 s  FACING 163 164
+ 168.01 s  contrast 16.6  shift  +2, +7 score 0.91 placed   moving south  go north-east (42°), 178 px, 2 openings, 1 marks
+ 168.21 s  FACING 159 164
+ 168.21 s  contrast 17.7  shift  +1, +6 score 0.91 placed   moving south  go north-east (35°), 182 px, 2 openings, 1 marks
+ 168.42 s  FACING 134 171
+ 168.42 s  contrast 18.2  shift  +0, +4 score 0.90 placed   moving south  go north-east (28°), 190 px, 2 openings, 1 marks
+ 168.63 s  FACING 100 173
+ 168.63 s  contrast 18.3  shift  +0, +1 score 0.91 placed   moving south  go north-east (26°), 190 px, 2 openings, 1 marks
+ 168.83 s  FACING -129 70
+ 168.83 s  contrast 18.1  shift  +0, -3 score 0.92 placed   moving east  go north-east (30°), 169 px, 2 openings, 1 marks
+ 169.04 s  FACING -150 34
+ 169.04 s  contrast 17.3  shift  +2, -5 score 0.93 placed   moving north-east  go north-east (35°), 161 px, 2 openings, 1 marks
+ 169.25 s  FACING 165 5
+ 169.25 s  contrast 16.8  shift  +0, -6 score 0.90 placed   moving north  go north-east (49°), 161 px, 2 openings, 1 marks
+ 169.45 s  FACING 162 -35
+ 169.45 s  contrast 16.8  shift  +0, +0 score 0.90 placed   moving north-west  go north-east (49°), 161 px, 2 openings, 1 marks
+ 169.65 s  FACING 162 -52
+ 169.65 s  contrast 16.8  shift  +0, +0 score 0.90 placed   moving north-west  go north-east (49°), 161 px, 2 openings, 1 marks
+ 169.87 s  contrast 16.9  shift  +0, +0 score 0.90 placed   moving still  go north-east (49°), 161 px, 2 openings, 1 marks
+ 170.08 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (49°), 161 px, 2 openings, 1 marks
+ 170.32 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (49°), 161 px, 2 openings, 1 marks
+ 170.52 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (49°), 161 px, 2 openings, 1 marks
+ 170.73 s  contrast 16.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (49°), 161 px, 2 openings, 1 marks
+778 samples, 759 placed, 12 illegible, 0 re-centres. Output in ~/Desktop/XCode Projects/D4 Dungeon Guide/Reference/2026-09-29-0709

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "keel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Doll-Eye/Keel.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "27f238c87727d6c9f50f9dde7498e793d3b13162"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,1767 @@
+   0.00 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   0.21 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   0.41 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   0.62 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   0.82 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   1.03 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   1.25 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   1.45 s  illegible: contrast -0.0 floor 0% arrow no busy 0.00
+   1.66 s  illegible: contrast 0.0 floor 0% arrow no busy 0.00
+   1.86 s  illegible: contrast 0.0 floor 0% arrow no busy 0.00
+   2.41 s  illegible: contrast 16.2 floor 31% arrow no busy 0.01
+   2.67 s  contrast 23.6  shift  +0, +0 score 1.00 placed   moving still  no opening
+   2.94 s  contrast 19.9  shift  +0, -2 score 0.82 placed   moving still  no opening
+   3.15 s  contrast 20.5  shift  +1, +0 score 0.87 placed   moving still  go north (3°), 166 px, 2 openings, 0 marks
+   3.36 s  contrast 20.6  shift  -1, +0 score 0.91 placed   moving still  go north (-0°), 163 px, 2 openings, 0 marks
+   3.56 s  contrast 20.6  shift  +0, +0 score 0.95 placed   moving still  go north (4°), 163 px, 2 openings, 0 marks
+   3.77 s  contrast 20.6  shift  +0, +0 score 0.97 placed   moving still  go north (4°), 163 px, 2 openings, 0 marks
+   3.97 s  contrast 20.6  shift  +0, +0 score 1.00 placed   moving still  go north (4°), 163 px, 2 openings, 0 marks
+   4.18 s  contrast 20.2  shift  +0, +0 score 0.95 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks
+   4.38 s  contrast 20.1  shift  +0, +0 score 0.95 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks
+   4.63 s  contrast 19.8  shift  +0, +0 score 0.96 placed   moving still  go north (-0°), 167 px, 2 openings, 0 marks
+   4.83 s  AREA Ziggurat District
+   4.83 s  OBJECTIVE Reach District Boss before time expires
+   4.83 s  TIMER 150
+   4.83 s  FLOOR 1 of 3
+   4.83 s  INTENT slay no travel yes stay - leave - to District Boss timed yes
+   4.83 s  OBJECTIVE MARKER at (-1,63), north-west of the player
+   4.83 s  MARKER at (-1,63) in the box, north-west of the player
+   4.83 s  contrast 19.9  shift  +0, +0 score 0.97 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   5.03 s  contrast 20.2  shift  +0, +0 score 0.96 placed   moving still  go north (-0°), 167 px, 2 openings, 0 marks TO MARKER
+   5.24 s  contrast 20.3  shift  +0, +0 score 0.97 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   5.45 s  contrast 20.8  shift  +0, +0 score 0.98 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   5.65 s  contrast 20.8  shift  +0, +0 score 0.99 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   5.88 s  contrast 20.3  shift  +0, +0 score 0.96 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   6.08 s  contrast 20.2  shift  +0, +0 score 0.96 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   6.29 s  contrast 20.1  shift  +0, +0 score 0.97 placed   moving still  go north (-0°), 167 px, 2 openings, 0 marks TO MARKER
+   6.49 s  contrast 20.6  shift  +0, +0 score 0.97 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   6.69 s  contrast 20.2  shift  +0, +0 score 0.97 placed   moving still  go north (-0°), 167 px, 2 openings, 0 marks TO MARKER
+   6.90 s  contrast 20.2  shift  +0, +0 score 0.98 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   7.10 s  contrast 20.1  shift  +0, +0 score 0.99 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   7.31 s  contrast 20.1  shift  +0, +0 score 0.99 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   7.51 s  contrast 20.2  shift  +0, +0 score 0.99 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   7.73 s  contrast 20.2  shift  +0, +0 score 1.00 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   7.93 s  contrast 20.1  shift  +0, +0 score 1.00 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   8.13 s  contrast 20.1  shift  +0, +0 score 1.00 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   8.35 s  contrast 20.0  shift  +0, +0 score 1.00 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   8.55 s  contrast 20.1  shift  +0, +0 score 1.00 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   8.75 s  contrast 20.0  shift  +0, +0 score 1.00 placed   moving still  go north (4°), 167 px, 2 openings, 0 marks TO MARKER
+   8.96 s  illegible: contrast 34.4 floor 3% arrow yes busy 0.17
+   9.16 s  FACING -166 -10
+   9.16 s  contrast 19.0  shift  +2,-12 score 0.90 placed   moving north  go north (14°), 157 px, 2 openings, 0 marks TO MARKER
+   9.41 s  FACING -166 -4
+   9.41 s  contrast 19.4  shift  +1, -5 score 0.90 placed   moving north  go north (20°), 161 px, 2 openings, 0 marks TO MARKER
+   9.62 s  FACING 39 16
+   9.62 s  contrast 19.5  shift  +3, -6 score 0.91 placed   moving north  go north (13°), 158 px, 2 openings, 0 marks TO MARKER
+   9.83 s  FACING -140 49
+   9.83 s  contrast 18.7  shift  +3, -5 score 0.85 placed   moving north-east  go north (12°), 162 px, 2 openings, 0 marks TO MARKER
+  10.03 s  OBJECTIVE MARKER at (4,58), north-west of the player
+  10.03 s  MARKER at (4,58) in the box, north-west of the player
+  10.03 s  FACING -149 46
+  10.03 s  contrast 18.1  shift  +2, -4 score 0.85 placed   moving north-east  go north (16°), 158 px, 2 openings, 0 marks TO MARKER
+  10.24 s  FACING -127 60
+  10.24 s  contrast 17.8  shift  +5, -5 score 0.81 placed   moving north-east  go north (11°), 163 px, 2 openings, 0 marks TO MARKER
+  10.45 s  contrast 18.1  shift  +4, -2 score 0.80 placed   moving still  go north (13°), 167 px, 2 openings, 0 marks TO MARKER
+  10.67 s  FACING -129 71
+  10.67 s  contrast 19.3  shift  +5, -3 score 0.76 placed   moving east  go north (3°), 160 px, 2 openings, 0 marks TO MARKER
+  10.88 s  FACING 34 11
+  10.88 s  contrast 18.5  shift  +2, -7 score 0.75 placed   moving north  go north (12°), 149 px, 2 openings, 0 marks TO MARKER
+  11.08 s  FACING -162 25
+  11.08 s  contrast 18.2  shift  +1, -4 score 0.80 placed   moving north-east  go north (16°), 162 px, 2 openings, 0 marks TO MARKER
+  11.29 s  FACING -162 -7
+  11.29 s  contrast 17.7  shift  +2, -6 score 0.82 placed   moving north  go north (10°), 153 px, 2 openings, 0 marks TO MARKER
+  11.49 s  FACING -140 42
+  11.49 s  contrast 18.8  shift  +3, -5 score 0.80 placed   moving north-east  go north (5°), 155 px, 1 openings, 0 marks TO MARKER
+  11.71 s  contrast 18.1  shift  +6, -1 score 0.82 placed   moving still  go north (7°), 174 px, 1 openings, 0 marks TO MARKER
+  11.91 s  FACING 102 150
+  11.91 s  contrast 17.6  shift  +4, +3 score 0.78 placed   moving south-east  go north (3°), 182 px, 1 openings, 0 marks TO MARKER
+  12.12 s  FACING -130 111
+  12.12 s  contrast 17.9  shift  +1, +1 score 0.80 placed   moving east  go north-west (-25°), 186 px, 1 openings, 0 marks TO MARKER
+  12.36 s  TIMER 149
+  12.36 s  FACING -168 32
+  12.36 s  contrast 18.3  shift  -2, -2 score 0.81 placed   moving north-east  go north (-4°), 177 px, 1 openings, 0 marks TO MARKER
+  12.57 s  FACING -167 8
+  12.57 s  contrast 18.2  shift  -2, -2 score 0.79 placed   moving north  go north (4°), 161 px, 1 openings, 0 marks TO MARKER
+  12.78 s  FACING -140 -44
+  12.78 s  LANDMARK Arch north-west of the player, 285 px
+  12.78 s  contrast 18.2  shift  -1, -1 score 0.80 placed   moving north-west  go north (-2°), 161 px, 1 openings, 0 marks TO MARKER
+  12.98 s  FACING 111 -159
+  12.98 s  contrast 17.9  shift  +3, +3 score 0.80 placed   moving south  go north (4°), 188 px, 1 openings, 0 marks TO MARKER
+  13.18 s  FACING 117 178
+  13.18 s  contrast 19.1  shift  +5, +5 score 0.84 placed   moving south  go north (-1°), 194 px, 1 openings, 0 marks TO MARKER
+  13.39 s  TIMER 148
+  13.39 s  FACING 60 -168
+  13.39 s  contrast 19.0  shift  -1, -1 score 0.82 placed   moving south  go north (-2°), 194 px, 1 openings, 0 marks TO MARKER
+  13.60 s  FACING -170 25
+  13.60 s  contrast 18.3  shift  -2, -2 score 0.80 placed   moving north-east  go north (-4°), 182 px, 1 openings, 0 marks TO MARKER
+  13.80 s  FACING 177 -12
+  13.80 s  contrast 18.1  shift  -4, -4 score 0.80 placed   moving north  go north (8°), 161 px, 1 openings, 0 marks TO MARKER
+  14.05 s  FACING 171 -17
+  14.05 s  contrast 18.3  shift  -2, -2 score 0.82 placed   moving north  go north (6°), 157 px, 1 openings, 0 marks TO MARKER
+  14.26 s  FACING 172 -62
+  14.26 s  contrast 18.5  shift  -1, +1 score 0.81 placed   moving north-west  go north (7°), 162 px, 1 openings, 0 marks TO MARKER
+  14.47 s  TIMER 147
+  14.47 s  contrast 18.7  shift  -1, -1 score 0.83 placed   moving still  go north (9°), 162 px, 1 openings, 0 marks TO MARKER
+  14.69 s  contrast 18.9  shift  +0, +0 score 0.83 placed   moving still  go north (9°), 162 px, 1 openings, 0 marks TO MARKER
+  14.89 s  contrast 19.1  shift  +0, +0 score 0.83 placed   moving still  go north (8°), 163 px, 1 openings, 0 marks TO MARKER
+  15.10 s  OBJECTIVE MARKER at (2,82), north-west of the player
+  15.10 s  MARKER at (2,82) in the box, north-west of the player
+  15.10 s  contrast 19.5  shift  -2, +0 score 0.85 placed   moving still  go north (14°), 163 px, 1 openings, 0 marks TO MARKER
+  15.31 s  contrast 19.5  shift  +0, +0 score 0.85 placed   moving still  go north (14°), 163 px, 1 openings, 0 marks TO MARKER
+  15.53 s  TIMER 146
+  15.53 s  FACING 150 -106
+  15.53 s  contrast 19.2  shift  -1, +1 score 0.80 placed   moving west  go north (17°), 167 px, 1 openings, 0 marks TO MARKER
+  15.74 s  contrast 19.2  shift  -1, +0 score 0.81 placed   moving still  go north (21°), 167 px, 1 openings, 0 marks TO MARKER
+  15.96 s  contrast 19.5  shift  +2, -1 score 0.86 placed   moving still  go north (9°), 158 px, 1 openings, 0 marks TO MARKER
+  16.16 s  FACING -153 89
+  16.16 s  contrast 19.2  shift  +2, +0 score 0.85 placed   moving east  go north (1°), 165 px, 1 openings, 0 marks TO MARKER
+  16.37 s  FACING -142 92
+  16.37 s  contrast 18.5  shift  +2, +0 score 0.85 placed   moving east  go north (-18°), 201 px, 1 openings, 0 marks TO MARKER
+  16.58 s  TIMER 145
+  16.58 s  FACING 42 109
+  16.58 s  contrast 18.3  shift  +0, +0 score 0.87 placed   moving east  go north (-20°), 201 px, 1 openings, 0 marks TO MARKER
+  16.78 s  contrast 18.3  shift  +0, +0 score 0.88 placed   moving still  go north (9°), 191 px, 1 openings, 0 marks TO MARKER
+  16.98 s  FACING 174 -60
+  16.98 s  contrast 18.3  shift  +0, +0 score 0.89 placed   moving north-west  go north (0°), 149 px, 1 openings, 0 marks TO MARKER
+  17.19 s  FACING 173 -68
+  17.19 s  contrast 18.5  shift  -1, +0 score 0.90 placed   moving west  go north (3°), 155 px, 1 openings, 0 marks TO MARKER
+  17.39 s  FACING 147 -75
+  17.39 s  contrast 19.1  shift  -1, +0 score 0.90 placed   moving west  go north (9°), 156 px, 1 openings, 0 marks TO MARKER
+  17.60 s  TIMER 144
+  17.60 s  FACING 138 -103
+  17.60 s  contrast 19.5  shift  -2, +0 score 0.92 placed   moving west  go north (15°), 164 px, 1 openings, 0 marks TO MARKER
+  17.81 s  FACING 132 -106
+  17.81 s  contrast 18.7  shift  -4, +1 score 0.93 placed   moving west  go north (20°), 165 px, 1 openings, 0 marks TO MARKER
+  18.01 s  FACING 150 -75
+  18.01 s  contrast 18.2  shift  -4, -4 score 0.93 placed   moving west  go north (20°), 157 px, 1 openings, 0 marks TO MARKER
+  18.21 s  FACING 164 -26
+  18.21 s  contrast 17.1  shift  -3, -4 score 0.88 placed   moving north-west  go north (16°), 162 px, 1 openings, 0 marks TO MARKER
+  18.42 s  FACING 166 3
+  18.42 s  contrast 18.4  shift  -1, -6 score 0.92 placed   moving north  go north (17°), 159 px, 1 openings, 0 marks TO MARKER
+  18.62 s  TIMER 143
+  18.62 s  FACING 180 6
+  18.62 s  contrast 18.8  shift  -1, -5 score 0.93 placed   moving north  go north (16°), 167 px, 1 openings, 0 marks TO MARKER
+  18.83 s  FACING -168 21
+  18.83 s  contrast 18.7  shift  +1, -5 score 0.92 placed   moving north  go north (-3°), 164 px, 1 openings, 0 marks TO MARKER
+  19.03 s  FACING -158 32
+  19.03 s  contrast 18.9  shift  +2, -5 score 0.92 placed   moving north-east  go north (-10°), 161 px, 1 openings, 0 marks TO MARKER
+  19.24 s  FACING -168 36
+  19.24 s  contrast 19.3  shift  +4, -5 score 0.89 placed   moving north-east  go north (-9°), 159 px, 1 openings, 0 marks TO MARKER
+  19.45 s  FACING -171 29
+  19.45 s  contrast 18.9  shift  +3, -3 score 0.90 placed   moving north-east  go north (-10°), 159 px, 1 openings, 0 marks TO MARKER
+  19.65 s  TIMER 142
+  19.65 s  FACING -171 34
+  19.65 s  contrast 17.4  shift  +4, -4 score 0.91 placed   moving north-east  go north (-18°), 155 px, 1 openings, 0 marks TO MARKER
+  19.89 s  FACING -159 51
+  19.89 s  contrast 17.8  shift  +3, -3 score 0.92 placed   moving north-east  go north (-16°), 157 px, 1 openings, 3 marks (nearest 265 px) TO MARKER
+  20.11 s  OBJECTIVE MARKER at (0,101), west of the player
+  20.11 s  MARKER at (0,101) in the box, west of the player
+  20.11 s  FACING -135 73
+  20.11 s  contrast 18.7  shift  +6, -5 score 0.92 placed   moving east  go north-west (-32°), 164 px, 1 openings, 0 marks TO MARKER
+  20.34 s  FACING -155 55
+  20.34 s  contrast 18.3  shift  +2, -5 score 0.85 placed   moving north-east  go north-west (-34°), 155 px, 1 openings, 0 marks TO MARKER
+  20.56 s  FACING -171 18
+  20.56 s  contrast 18.6  shift  +1, -7 score 0.89 placed   moving north  go north-west (-30°), 144 px, 1 openings, 0 marks TO MARKER
+  20.76 s  TIMER 140
+  20.76 s  FACING -172 -11
+  20.76 s  contrast 17.2  shift  +1, -6 score 0.93 placed   moving north  go north-west (-41°), 151 px, 1 openings, 0 marks TO MARKER
+  20.98 s  FACING -172 -4
+  20.98 s  contrast 16.7  shift  +1, -5 score 0.92 placed   moving north  go north-west (-40°), 148 px, 1 openings, 0 marks TO MARKER
+  21.21 s  FACING 168 -11
+  21.21 s  contrast 15.8  shift  -1, -6 score 0.91 placed   moving north  go north-west (-38°), 142 px, 1 openings, 0 marks TO MARKER
+  21.42 s  FACING 151 -40
+  21.42 s  contrast 15.9  shift  -2, -4 score 0.91 placed   moving north-west  go north-west (-43°), 148 px, 1 openings, 0 marks TO MARKER
+  21.64 s  FACING -37 -52
+  21.64 s  contrast 17.9  shift  -5, -6 score 0.90 placed   moving north-west  go north-west (-45°), 147 px, 1 openings, 0 marks TO MARKER
+  21.85 s  TIMER 139
+  21.85 s  FACING 136 -59
+  21.85 s  contrast 18.6  shift  -3, -4 score 0.88 placed   moving north-west  go north-west (-29°), 148 px, 1 openings, 1 marks (nearest 248 px) TO MARKER
+  22.09 s  FACING -46 -55
+  22.09 s  contrast 19.2  shift  -5, -4 score 0.87 placed   moving north-west  go north-west (-27°), 148 px, 1 openings, 1 marks (nearest 241 px) TO MARKER
+  22.33 s  FACING 129 -56
+  22.33 s  contrast 18.7  shift  -4, -4 score 0.88 placed   moving north-west  go north-west (-27°), 148 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  22.55 s  FACING 118 -68
+  22.55 s  LANDMARK Arch north-west of the player, 267 px
+  22.55 s  contrast 18.8  shift  +0, +0 score 0.88 placed   moving west  go north-west (-26°), 156 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  22.75 s  contrast 18.9  shift  +0, +0 score 0.89 placed   moving still  go north-west (-25°), 156 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  22.96 s  TIMER 138
+  22.96 s  contrast 18.9  shift  +0, +0 score 0.89 placed   moving still  go north-west (-25°), 156 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  23.16 s  contrast 18.9  shift  +0, +0 score 0.89 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  23.36 s  contrast 18.9  shift  +0, +0 score 0.91 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  23.59 s  contrast 18.9  shift  +0, +0 score 0.91 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  23.81 s  contrast 18.9  shift  +0, +0 score 0.92 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  24.05 s  TIMER 137
+  24.05 s  contrast 18.9  shift  +0, +0 score 0.92 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  24.29 s  contrast 18.9  shift  +0, +0 score 0.93 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  24.57 s  contrast 18.9  shift  +0, +0 score 0.94 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  24.79 s  contrast 19.0  shift  +0, +0 score 0.94 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  25.01 s  contrast 19.0  shift  +0, +0 score 0.94 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  25.22 s  TIMER 136
+  25.22 s  OBJECTIVE MARKER at (27,77), north-west of the player
+  25.22 s  MARKER at (27,77) in the box, north-west of the player
+  25.22 s  contrast 19.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  25.46 s  contrast 19.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  25.69 s  contrast 19.0  shift  +0, +0 score 0.96 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  25.91 s  contrast 19.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-32°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  26.16 s  contrast 19.0  shift  +0, +0 score 0.96 placed   moving still  go north-west (-25°), 158 px, 1 openings, 1 marks (nearest 238 px) TO MARKER
+  26.38 s  TIMER 135
+  26.38 s  contrast 19.0  shift  +0, +0 score 0.96 placed   moving still  go north-west (-23°), 158 px, 1 openings, 1 marks (nearest 239 px) TO MARKER
+  26.58 s  contrast 19.0  shift  +0, +0 score 0.97 placed   moving still  go north-west (-30°), 154 px, 1 openings, 1 marks (nearest 238 px) TO MARKER
+  26.79 s  contrast 19.0  shift  +0, +0 score 0.97 placed   moving still  go north-west (-30°), 154 px, 1 openings, 1 marks (nearest 238 px) TO MARKER
+  27.00 s  contrast 19.0  shift  +0, +0 score 0.97 placed   moving still  go north-west (-30°), 154 px, 1 openings, 1 marks (nearest 238 px) TO MARKER
+  27.21 s  contrast 19.0  shift  +0, +0 score 0.97 placed   moving still  go north-west (-31°), 154 px, 1 openings, 1 marks (nearest 237 px) TO MARKER
+  27.46 s  TIMER 134
+  27.46 s  contrast 18.5  shift  -3, -1 score 0.95 placed   moving still  go north-west (-26°), 155 px, 1 openings, 2 marks (nearest 233 px) TO MARKER
+  27.67 s  FACING 115 -53
+  27.67 s  contrast 18.2  shift  -5, -3 score 0.93 placed   moving north-west  go north-west (-25°), 151 px, 1 openings, 2 marks (nearest 228 px) TO MARKER
+  27.88 s  FACING 115 -66
+  27.88 s  contrast 17.7  shift  -6, -2 score 0.92 placed   moving north-west  go west (-68°), 154 px, 1 openings, 2 marks (nearest 222 px) TO MARKER
+  28.08 s  FACING 118 -60
+  28.08 s  contrast 17.4  shift  -5, -3 score 0.91 placed   moving north-west  go west (-69°), 153 px, 1 openings, 2 marks (nearest 215 px) TO MARKER
+  28.28 s  FACING 118 -59
+  28.28 s  contrast 17.3  shift  -5, -3 score 0.91 placed   moving north-west  go north-west (-67°), 157 px, 1 openings, 2 marks (nearest 210 px) TO MARKER
+  28.52 s  TIMER 133
+  28.52 s  FACING -50 -59
+  28.52 s  contrast 17.4  shift  -5, -2 score 0.92 placed   moving north-west  go west (-69°), 156 px, 1 openings, 3 marks (nearest 205 px) TO MARKER
+  28.73 s  FACING 108 -84
+  28.73 s  contrast 17.4  shift  -7, -1 score 0.91 placed   moving west  go north-west (-47°), 145 px, 1 openings, 3 marks (nearest 201 px) TO MARKER
+  28.94 s  FACING 104 -101
+  28.94 s  contrast 17.4  shift  -3, +1 score 0.90 placed   moving west  go north-west (-48°), 145 px, 1 openings, 3 marks (nearest 201 px) TO MARKER
+  29.14 s  FACING -123 173
+  29.14 s  contrast 17.5  shift  -2, +4 score 0.92 placed   moving south  go north-west (-54°), 165 px, 1 openings, 3 marks (nearest 213 px) TO MARKER
+  29.39 s  FACING -125 148
+  29.39 s  contrast 17.3  shift  -2, +4 score 0.91 placed   moving south-east  go north-west (-51°), 166 px, 1 openings, 3 marks (nearest 215 px) TO MARKER
+  29.59 s  TIMER 132
+  29.59 s  FACING -111 160
+  29.59 s  contrast 16.9  shift  -6, +4 score 0.92 placed   moving south  go north-west (-43°), 162 px, 1 openings, 3 marks (nearest 213 px) TO MARKER
+  29.80 s  FACING 83 -105
+  29.80 s  contrast 16.9  shift  -6, +0 score 0.92 placed   moving west  go north-west (-35°), 152 px, 1 openings, 3 marks (nearest 200 px) TO MARKER
+  30.02 s  FACING 120 -80
+  30.02 s  contrast 16.6  shift  -4, -2 score 0.92 placed   moving west  go north-west (-41°), 142 px, 1 openings, 3 marks (nearest 192 px) TO MARKER
+  30.23 s  OBJECTIVE MARKER at (0,108), west of the player
+  30.23 s  MARKER at (0,108) in the box, west of the player
+  30.23 s  FACING 141 -53
+  30.23 s  contrast 16.6  shift  -4, -4 score 0.92 placed   moving north-west  go north-west (-44°), 141 px, 1 openings, 3 marks (nearest 185 px) TO MARKER
+  30.46 s  FACING 150 -6
+  30.46 s  contrast 16.6  shift  -4, -6 score 0.92 placed   moving north  go north-west (-42°), 145 px, 1 openings, 3 marks (nearest 179 px) TO MARKER
+  30.66 s  TIMER 130
+  30.66 s  FACING 150 -14
+  30.66 s  contrast 16.7  shift  -3, -5 score 0.91 placed   moving north  go north-west (-43°), 141 px, 1 openings, 4 marks (nearest 174 px) TO MARKER
+  30.88 s  FACING 152 -21
+  30.88 s  contrast 16.6  shift  -2, -5 score 0.92 placed   moving north  go north-west (-40°), 145 px, 1 openings, 4 marks (nearest 169 px) TO MARKER
+  31.08 s  FACING 156 -24
+  31.08 s  contrast 16.4  shift  -3, -5 score 0.90 placed   moving north-west  go north-west (-44°), 141 px, 2 openings, 4 marks (nearest 163 px) TO MARKER
+  31.28 s  FACING 162 -19
+  31.28 s  contrast 16.4  shift  -2, -5 score 0.91 placed   moving north  go north-west (-47°), 148 px, 1 openings, 4 marks (nearest 159 px) TO MARKER
+  31.50 s  FACING 161 -18
+  31.50 s  contrast 16.2  shift  -2, -6 score 0.91 placed   moving north  go north-west (-50°), 146 px, 1 openings, 4 marks (nearest 154 px) TO MARKER
+  31.70 s  TIMER 129
+  31.70 s  FACING 136 -46
+  31.70 s  contrast 16.0  shift  -4, -4 score 0.91 placed   moving north-west  go north-west (-47°), 144 px, 1 openings, 4 marks (nearest 148 px) TO MARKER
+  31.91 s  FACING 124 -62
+  31.91 s  LANDMARK Arch north-west of the player, 266 px
+  31.91 s  contrast 15.9  shift  -4, -4 score 0.90 placed   moving north-west  go north-west (-44°), 141 px, 1 openings, 4 marks (nearest 140 px) TO MARKER
+  32.12 s  FACING 125 -78
+  32.12 s  contrast 16.1  shift  -3, -1 score 0.91 placed   moving west  go north-west (-46°), 147 px, 1 openings, 4 marks (nearest 139 px) TO MARKER
+  32.33 s  FACING 125 -79
+  32.33 s  contrast 16.0  shift  -1, +1 score 0.91 placed   moving west  go north-west (-51°), 149 px, 1 openings, 4 marks (nearest 138 px) TO MARKER
+  32.54 s  contrast 16.0  shift  +0, +0 score 0.92 placed   moving still  go north-west (-43°), 151 px, 1 openings, 5 marks (nearest 137 px) TO MARKER
+  32.77 s  TIMER 128
+  32.77 s  contrast 16.0  shift  -1, +1 score 0.91 placed   moving still  go north-west (-41°), 149 px, 1 openings, 5 marks (nearest 138 px) TO MARKER
+  32.98 s  contrast 16.0  shift  +0, -1 score 0.91 placed   moving still  go north-west (-41°), 149 px, 1 openings, 6 marks (nearest 137 px) TO MARKER
+  33.18 s  contrast 16.1  shift  +0, +0 score 0.91 placed   moving still  go north-west (-39°), 153 px, 1 openings, 6 marks (nearest 137 px) TO MARKER
+  33.39 s  contrast 16.1  shift  +0, +1 score 0.91 placed   moving still  go north-west (-38°), 153 px, 1 openings, 6 marks (nearest 137 px) TO MARKER
+  33.59 s  FACING -131 129
+  33.59 s  contrast 16.0  shift  +0, +0 score 0.90 placed   moving south-east  go north-west (-40°), 166 px, 1 openings, 6 marks (nearest 151 px) TO MARKER
+  33.84 s  TIMER 127
+  33.84 s  FACING -133 130
+  33.84 s  contrast 16.0  shift  +0, +0 score 0.92 placed   moving south-east  go north-west (-45°), 164 px, 1 openings, 6 marks (nearest 151 px) TO MARKER
+  34.05 s  FACING -133 123
+  34.05 s  contrast 16.0  shift  +0, -1 score 0.92 placed   moving south-east  go north-west (-46°), 164 px, 1 openings, 6 marks (nearest 151 px) TO MARKER
+  34.26 s  contrast 16.0  shift  +0, +1 score 0.92 placed   moving still  go north-west (-45°), 164 px, 1 openings, 6 marks (nearest 151 px) TO MARKER
+  34.46 s  contrast 16.0  shift  +0, +0 score 0.93 placed   moving still  go north-west (-45°), 164 px, 1 openings, 6 marks (nearest 151 px) TO MARKER
+  34.68 s  contrast 16.0  shift  +0, +0 score 0.93 placed   moving still  go north-west (-43°), 164 px, 1 openings, 6 marks (nearest 151 px) TO MARKER
+  34.88 s  TIMER 126
+  34.88 s  contrast 16.0  shift  +0, +0 score 0.93 placed   moving still  go north-west (-43°), 168 px, 1 openings, 6 marks (nearest 153 px) TO MARKER
+  35.09 s  contrast 16.0  shift  +0, +0 score 0.93 placed   moving still  go north-west (-43°), 168 px, 1 openings, 6 marks (nearest 153 px) TO MARKER
+  35.31 s  OBJECTIVE MARKER at (25,78), north-west of the player
+  35.31 s  MARKER at (25,78) in the box, north-west of the player
+  35.31 s  contrast 16.0  shift  +0, +0 score 0.93 placed   moving still  go north-west (-42°), 168 px, 1 openings, 6 marks (nearest 152 px) TO MARKER
+  35.51 s  contrast 16.1  shift  +0, +0 score 0.93 placed   moving still  go north-west (-45°), 164 px, 1 openings, 6 marks (nearest 151 px) TO MARKER
+  35.74 s  FACING 110 -60
+  35.74 s  contrast 16.1  shift  +0, +0 score 0.94 placed   moving north-west  go north-west (-44°), 153 px, 1 openings, 6 marks (nearest 139 px) TO MARKER
+  35.95 s  TIMER 125
+  35.95 s  FACING 135 -31
+  35.95 s  contrast 16.1  shift  +0, +0 score 0.95 placed   moving north-west  go north-west (-46°), 151 px, 1 openings, 6 marks (nearest 137 px) TO MARKER
+  36.16 s  FACING 157 -21
+  36.16 s  contrast 16.2  shift  +0, +0 score 0.94 placed   moving north  go north-west (-50°), 155 px, 1 openings, 6 marks (nearest 139 px) TO MARKER
+  36.36 s  FACING 162 50
+  36.36 s  contrast 16.2  shift  +0, +0 score 0.94 placed   moving north-east  go north-west (-51°), 155 px, 1 openings, 6 marks (nearest 139 px) TO MARKER
+  36.58 s  contrast 16.2  shift  +0, +0 score 0.95 placed   moving still  go north-west (-51°), 155 px, 1 openings, 6 marks (nearest 139 px) TO MARKER
+  36.80 s  contrast 16.2  shift  +0, +0 score 0.95 placed   moving still  go north-west (-50°), 155 px, 1 openings, 6 marks (nearest 140 px) TO MARKER
+  37.01 s  TIMER 124
+  37.01 s  contrast 16.1  shift  +0, -1 score 0.95 placed   moving still  go north-west (-47°), 155 px, 1 openings, 6 marks (nearest 138 px) TO MARKER
+  37.23 s  contrast 16.1  shift  +1, +1 score 0.95 placed   moving still  go north-west (-43°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  37.49 s  contrast 16.1  shift  +1, -1 score 0.94 placed   moving still  go north-west (-49°), 155 px, 1 openings, 7 marks (nearest 139 px) TO MARKER
+  37.71 s  contrast 16.1  shift  +0, -2 score 0.94 placed   moving still  go north-west (-53°), 153 px, 1 openings, 7 marks (nearest 140 px) TO MARKER
+  37.91 s  FACING 161 53
+  37.91 s  contrast 16.1  shift  +3, -1 score 0.93 placed   moving north-east  go north-west (-53°), 153 px, 1 openings, 7 marks (nearest 138 px) TO MARKER
+  38.12 s  TIMER 123
+  38.12 s  contrast 16.1  shift  +0, +0 score 0.94 placed   moving still  go north-west (-49°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  38.32 s  contrast 16.1  shift  +0, +0 score 0.94 placed   moving still  go north-west (-46°), 151 px, 1 openings, 7 marks (nearest 136 px) TO MARKER
+  38.54 s  contrast 16.0  shift  -1, +0 score 0.95 placed   moving still  go north-west (-46°), 147 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  38.74 s  contrast 16.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 138 px) TO MARKER
+  38.95 s  contrast 16.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 138 px) TO MARKER
+  39.15 s  TIMER 122
+  39.15 s  contrast 16.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 138 px) TO MARKER
+  39.35 s  contrast 16.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 138 px) TO MARKER
+  39.56 s  contrast 16.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 138 px) TO MARKER
+  39.76 s  contrast 16.0  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 138 px) TO MARKER
+  39.97 s  contrast 15.9  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  40.21 s  TIMER 121
+  40.21 s  contrast 15.9  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  40.48 s  OBJECTIVE MARKER at (25,80), north-west of the player
+  40.48 s  MARKER at (25,80) in the box, north-west of the player
+  40.48 s  contrast 15.9  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  40.69 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  40.90 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  41.10 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  41.31 s  TIMER 120
+  41.31 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  41.51 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-48°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  41.73 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-49°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  41.94 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-49°), 151 px, 1 openings, 7 marks (nearest 137 px) TO MARKER
+  42.15 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-46°), 147 px, 1 openings, 7 marks (nearest 132 px) TO MARKER
+  42.36 s  TIMER 119
+  42.36 s  contrast 15.9  shift  -1, +1 score 0.96 placed   moving still  go north-west (-42°), 151 px, 1 openings, 7 marks (nearest 129 px) TO MARKER
+  42.57 s  FACING 111 -140
+  42.57 s  contrast 16.0  shift  -1, +1 score 0.96 placed   moving south-west  go north-west (-43°), 151 px, 1 openings, 7 marks (nearest 126 px) TO MARKER
+  42.77 s  FACING 97 -146
+  42.77 s  contrast 15.9  shift  -2, +2 score 0.94 placed   moving south-west  go north-west (-43°), 151 px, 1 openings, 7 marks (nearest 123 px) TO MARKER
+  42.99 s  FACING 97 -142
+  42.99 s  contrast 15.7  shift  -2, +2 score 0.94 placed   moving south-west  go north-west (-50°), 151 px, 1 openings, 8 marks (nearest 118 px) TO MARKER
+  43.19 s  FACING -113 153
+  43.19 s  contrast 15.3  shift  -4, +3 score 0.93 placed   moving south-east  go north-west (-46°), 164 px, 1 openings, 8 marks (nearest 124 px) TO MARKER
+  43.40 s  TIMER 118
+  43.40 s  FACING -117 151
+  43.40 s  contrast 15.2  shift  -3, +4 score 0.93 placed   moving south-east  go north-west (-46°), 164 px, 1 openings, 8 marks (nearest 121 px) TO MARKER
+  43.61 s  FACING -102 164
+  43.61 s  contrast 14.9  shift  -5, +4 score 0.92 placed   moving south  go north-west (-43°), 162 px, 1 openings, 8 marks (nearest 118 px) TO MARKER
+  43.81 s  TIME TARGET afflicted at (227,104), 14 icons, 118 s left
+  43.81 s  FACING -117 -137
+  43.81 s  contrast 14.9  shift  -3, +4 score 0.91 placed   moving south-west  go north (-22°), 128 px, 1 openings, 9 marks (nearest 116 px) TO MARKER IN VIEW
+  44.02 s  FACING -133 -134
+  44.02 s  contrast 15.0  shift  -5, +5 score 0.89 placed   moving south-west  go north-west (-29°), 174 px, 1 openings, 9 marks (nearest 113 px) TO MARKER
+  44.24 s  FACING -116 -138
+  44.24 s  LANDMARK Arch north of the player, 162 px
+  44.24 s  contrast 13.8  shift  -3, +4 score 0.86 placed   moving south-west  go north (-15°), 186 px, 1 openings, 10 marks (nearest 112 px) TO MARKER
+  44.45 s  TIMER 117
+  44.45 s  FACING -116 -142
+  44.45 s  contrast 12.7  shift  -2, +4 score 0.80 placed   moving south-west  go north (4°), 125 px, 1 openings, 10 marks (nearest 113 px) TO MARKER IN VIEW
+  44.66 s  FACING -150 -140
+  44.66 s  contrast 14.5  shift  -5, +4 score 0.78 placed   moving south-west  go north (5°), 142 px, 1 openings, 10 marks (nearest 113 px) TO MARKER IN VIEW
+  44.88 s  FACING 110 -99
+  44.88 s  contrast 15.5  shift  -2, +0 score 0.78 placed   moving west  go north-east (40°), 150 px, 2 openings, 10 marks (nearest 103 px) TO MARKER IN VIEW
+  45.08 s  FACING -46 -76
+  45.08 s  contrast 15.6  shift  +0, +0 score 0.82 placed   moving west  go north-east (33°), 127 px, 1 openings, 10 marks (nearest 95 px) TO MARKER IN VIEW
+  45.28 s  FACING 135 -46
+  45.28 s  contrast 15.8  shift  +0, +0 score 0.81 placed   moving north-west  no opening
+  45.51 s  TIMER 116
+  45.51 s  OBJECTIVE MARKER at (15,98), north-west of the player
+  45.51 s  MARKER at (255,102) in the box, north of the player
+  45.51 s  contrast 15.6  shift  +0, +0 score 0.80 placed   moving still  no opening
+  45.74 s  contrast 15.6  shift  +1, +0 score 0.77 placed   moving still  no opening
+  45.94 s  contrast 15.9  shift  +0, +0 score 0.73 placed   moving still  go north-east (25°), 107 px, 3 openings, 12 marks (nearest 84 px) TO MARKER IN VIEW
+  46.15 s  FACING 162 57
+  46.15 s  contrast 14.1  shift  +2, -2 score 0.74 placed   moving north-east  go north (6°), 88 px, 5 openings, 12 marks (nearest 82 px) TO MARKER IN VIEW
+  46.35 s  FACING 167 56
+  46.35 s  contrast 13.9  shift  +0, -1 score 0.78 placed   moving north-east  go north (-5°), 83 px, 5 openings, 12 marks (nearest 80 px) TO MARKER IN VIEW
+  46.56 s  illegible: contrast 28.3 floor 1% arrow yes busy 0.29
+  46.77 s  TIMER 114
+  46.77 s  FACING -178 60
+  46.77 s  contrast 14.7  shift  +6, -5 score 0.86 placed   moving north-east  go north (4°), 84 px, 5 openings, 13 marks (nearest 71 px) TO MARKER IN VIEW
+  46.97 s  FACING -178 55
+  46.97 s  contrast 15.7  shift  +4, -5 score 0.89 placed   moving north-east  go north (4°), 79 px, 5 openings, 14 marks (nearest 65 px) TO MARKER IN VIEW
+  47.19 s  FACING -166 55
+  47.19 s  contrast 15.2  shift  +4, -4 score 0.92 placed   moving north-east  go north (-4°), 71 px, 5 openings, 14 marks (nearest 61 px) TO MARKER IN VIEW
+  47.40 s  FACING -163 50
+  47.40 s  contrast 15.2  shift  +4, -4 score 0.92 placed   moving north-east  go north (-11°), 76 px, 5 openings, 14 marks (nearest 60 px) TO MARKER IN VIEW
+  47.61 s  FACING -153 62
+  47.61 s  contrast 15.2  shift  +2, -2 score 0.92 placed   moving north-east  go north (-3°), 68 px, 5 openings, 14 marks (nearest 56 px) TO MARKER IN VIEW
+  47.83 s  TIMER 113
+  47.83 s  FACING -154 66
+  47.83 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving north-east  go north (-3°), 68 px, 5 openings, 15 marks (nearest 54 px) TO MARKER IN VIEW
+  48.03 s  contrast 15.1  shift  +0, +0 score 0.92 placed   moving still  go north (-3°), 68 px, 5 openings, 15 marks (nearest 55 px) TO MARKER IN VIEW
+  48.24 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north (-3°), 68 px, 1 openings, 14 marks (nearest 55 px) TO MARKER IN VIEW
+  48.45 s  FACING 100 -149
+  48.45 s  contrast 15.1  shift  +0, +0 score 0.92 placed   moving south-west  go north (-2°), 79 px, 1 openings, 15 marks (nearest 70 px) TO MARKER IN VIEW
+  48.66 s  FACING -43 -144
+  48.66 s  contrast 15.7  shift  +0, +0 score 0.92 placed   moving south-west  go north (-1°), 79 px, 1 openings, 14 marks (nearest 69 px) TO MARKER IN VIEW
+  48.86 s  TIMER 112
+  48.86 s  TIME TARGET afflicted at (274,148), 18 icons, 112 s left
+  48.86 s  FACING 136 -143
+  48.86 s  contrast 15.6  shift  +0, +0 score 0.92 placed   moving south-west  go north (-1°), 79 px, 1 openings, 13 marks (nearest 68 px) TO MARKER IN VIEW
+  49.11 s  contrast 15.4  shift  +0, +0 score 0.92 placed   moving still  go north (-5°), 88 px, 1 openings, 13 marks (nearest 66 px) TO MARKER IN VIEW
+  49.31 s  contrast 15.3  shift  +0, +0 score 0.91 placed   moving still  go north (-5°), 74 px, 1 openings, 13 marks (nearest 67 px) TO MARKER IN VIEW
+  49.53 s  contrast 15.2  shift  +0, +0 score 0.92 placed   moving still  go north (-2°), 88 px, 1 openings, 13 marks (nearest 67 px) TO MARKER IN VIEW
+  49.73 s  contrast 15.0  shift  +0, +0 score 0.93 placed   moving still  go north (-2°), 88 px, 1 openings, 13 marks (nearest 67 px) TO MARKER IN VIEW
+  49.93 s  TIMER 111
+  49.93 s  FACING -149 41
+  49.93 s  contrast 15.2  shift  +0, +0 score 0.93 placed   moving north-east  go north (-13°), 70 px, 1 openings, 12 marks (nearest 53 px) TO MARKER IN VIEW
+  50.13 s  FACING -141 52
+  50.13 s  contrast 15.2  shift  +0, +0 score 0.93 placed   moving north-east  go north (-15°), 73 px, 1 openings, 12 marks (nearest 54 px) TO MARKER IN VIEW
+  50.34 s  FACING 59 64
+  50.34 s  contrast 15.2  shift  +0, +0 score 0.93 placed   moving north-east  go north (21°), 89 px, 1 openings, 12 marks (nearest 56 px) TO MARKER IN VIEW
+  50.55 s  OBJECTIVE MARKER at (-2,110), west of the player
+  50.55 s  MARKER at (307,148) in the box, north-east of the player
+  50.55 s  contrast 15.2  shift  +0, +0 score 0.93 placed   moving still  go north-east (25°), 72 px, 1 openings, 12 marks (nearest 60 px) TO MARKER IN VIEW
+  50.76 s  contrast 15.3  shift  +0, +0 score 0.92 placed   moving still  go north-east (25°), 72 px, 1 openings, 11 marks (nearest 56 px) TO MARKER IN VIEW
+  50.96 s  TIMER 110
+  50.96 s  contrast 15.3  shift  +0, +0 score 0.93 placed   moving still  go north (21°), 66 px, 1 openings, 11 marks (nearest 53 px) TO MARKER IN VIEW
+  51.16 s  contrast 15.1  shift  +0, +0 score 0.93 placed   moving still  go north-east (42°), 55 px, 1 openings, 11 marks (nearest 51 px) TO MARKER IN VIEW
+  51.41 s  contrast 15.1  shift  +0, +0 score 0.92 placed   moving still  go north (9°), 81 px, 5 openings, 11 marks (nearest 51 px) TO MARKER IN VIEW
+  51.61 s  contrast 15.2  shift  +0, +0 score 0.94 placed   moving still  go north-east (52°), 48 px, 5 openings, 11 marks (nearest 48 px) TO MARKER IN VIEW
+  51.81 s  contrast 15.9  shift  +0, +0 score 0.91 placed   moving still  go north-east (49°), 49 px, 5 openings, 11 marks (nearest 49 px) TO MARKER IN VIEW
+  52.02 s  TIMER 109
+  52.02 s  FACING 61 -122
+  52.02 s  contrast 15.7  shift  +0, +0 score 0.90 placed   moving south-west  go north-east (51°), 65 px, 5 openings, 11 marks (nearest 65 px) TO MARKER IN VIEW
+  52.23 s  contrast 15.2  shift  +3, -3 score 0.93 placed   moving still  go north-east (48°), 49 px, 5 openings, 11 marks (nearest 44 px) TO MARKER IN VIEW
+  52.43 s  FACING 40 16
+  52.43 s  contrast 15.8  shift  +4, -3 score 0.94 placed   moving north  go north-west (-50°), 169 px, 6 openings, 13 marks (nearest 39 px) TO MARKER
+  52.66 s  FACING -132 50
+  52.66 s  contrast 15.7  shift  +5, -5 score 0.94 placed   moving north-east  go north-west (-59°), 177 px, 1 openings, 13 marks (nearest 33 px) TO MARKER
+  52.86 s  FACING 127 9
+  52.86 s  contrast 15.7  shift  +4, -3 score 0.96 placed   moving north  go north-west (-54°), 135 px, 1 openings, 13 marks (nearest 3 px) TO MARKER
+  53.06 s  TIMER 108
+  53.06 s  FACING -34 -1
+  53.06 s  contrast 15.7  shift  +5, -2 score 0.94 placed   moving north  go north-west (-60°), 147 px, 1 openings, 14 marks (nearest 2 px) TO MARKER
+  53.27 s  FACING -43 15
+  53.27 s  contrast 15.9  shift  +5, -1 score 0.93 placed   moving north  go north-west (-60°), 177 px, 1 openings, 14 marks (nearest 2 px) TO MARKER
+  53.48 s  contrast 16.4  shift  +5, -2 score 0.93 placed   moving still  go north-west (-66°), 164 px, 1 openings, 14 marks (nearest 7 px) TO MARKER
+  53.73 s  FACING 135 127
+  53.73 s  contrast 16.8  shift  +3, -5 score 0.93 placed   moving south-east  go north-west (-66°), 179 px, 1 openings, 14 marks (nearest 3 px) TO MARKER
+  53.93 s  contrast 16.8  shift  +1, +0 score 0.93 placed   moving still  go north-west (-65°), 179 px, 1 openings, 13 marks (nearest 2 px) TO MARKER
+  54.14 s  TIMER 110
+  54.14 s  FACING 147 117
+  54.14 s  contrast 16.6  shift  +5, -1 score 0.93 placed   moving south-east  go north-west (-61°), 181 px, 1 openings, 13 marks (nearest 2 px) TO MARKER
+  54.34 s  FACING -38 -11
+  54.34 s  contrast 16.6  shift  +0, -1 score 0.93 placed   moving north  go west (-78°), 163 px, 1 openings, 13 marks (nearest 2 px) TO MARKER
+  54.56 s  FACING -48 -11
+  54.56 s  contrast 16.6  shift  +0, +0 score 0.93 placed   moving north  go west (-74°), 164 px, 1 openings, 13 marks (nearest 1 px) TO MARKER
+  54.76 s  FACING -46 -18
+  54.76 s  contrast 16.6  shift  +0, +0 score 0.93 placed   moving north  go north-west (-67°), 166 px, 1 openings, 14 marks (nearest 2 px) TO MARKER
+  54.96 s  FACING 139 155
+  54.96 s  contrast 16.6  shift  +0, +0 score 0.93 placed   moving south-east  go west (-68°), 185 px, 5 openings, 14 marks (nearest 7 px) TO MARKER
+  55.17 s  TIMER 112
+  55.17 s  contrast 16.7  shift  +0, +0 score 0.94 placed   moving still  go west (-75°), 170 px, 5 openings, 14 marks (nearest 2 px) TO MARKER
+  55.38 s  FACING 37 -178
+  55.38 s  contrast 16.7  shift  +0, +0 score 0.94 placed   moving south  go north-west (-63°), 171 px, 5 openings, 14 marks (nearest 1 px) TO MARKER
+  55.59 s  OBJECTIVE MARKER at (14,88), west of the player
+  55.59 s  MARKER at (14,88) in the box, west of the player
+  55.59 s  FACING -32 -61
+  55.59 s  contrast 16.7  shift  +0, +0 score 0.94 placed   moving north-west  go north-west (-63°), 171 px, 5 openings, 14 marks (nearest 1 px) TO MARKER
+  55.81 s  FACING -34 -178
+  55.81 s  contrast 16.7  shift  +0, +0 score 0.94 placed   moving south  go north-west (-63°), 171 px, 5 openings, 14 marks (nearest 2 px) TO MARKER
+  56.01 s  contrast 16.5  shift  +0, +0 score 0.94 placed   moving still  go north-west (-63°), 171 px, 5 openings, 12 marks (nearest 1 px) TO MARKER
+  56.22 s  TIMER 114
+  56.22 s  LANDMARK Arch south-east of the player, 32 px
+  56.22 s  contrast 16.5  shift  +0, +0 score 0.95 placed   moving still  go north-west (-63°), 171 px, 5 openings, 12 marks (nearest 1 px) TO MARKER
+  56.42 s  contrast 16.5  shift  +0, +0 score 0.95 placed   moving still  go north-west (-63°), 171 px, 5 openings, 12 marks (nearest 1 px) TO MARKER
+  56.62 s  contrast 16.5  shift  +0, +0 score 0.95 placed   moving still  go north-west (-63°), 171 px, 5 openings, 12 marks (nearest 1 px) TO MARKER
+  56.83 s  contrast 16.5  shift  +0, +0 score 0.95 placed   moving still  go north-west (-65°), 175 px, 5 openings, 12 marks (nearest 2 px) TO MARKER
+  57.03 s  FACING 157 143
+  57.03 s  contrast 16.4  shift  +0, -1 score 0.94 placed   moving south-east  go north-west (-58°), 192 px, 6 openings, 12 marks (nearest 12 px) TO MARKER
+  57.24 s  FACING 168 151
+  57.24 s  contrast 16.5  shift  +1, +0 score 0.94 placed   moving south-east  go north-west (-55°), 192 px, 6 openings, 7 marks (nearest 155 px) TO MARKER
+  57.51 s  FACING 169 157
+  57.51 s  contrast 16.6  shift  +0, +0 score 0.94 placed   moving south-east  go north-west (-55°), 192 px, 6 openings, 7 marks (nearest 153 px) TO MARKER
+  57.71 s  contrast 16.6  shift  +0, +0 score 0.94 placed   moving still  go north-west (-55°), 192 px, 6 openings, 7 marks (nearest 153 px) TO MARKER
+  57.91 s  FACING -51 -122
+  57.91 s  contrast 16.7  shift  -1, +0 score 0.93 placed   moving south-west  go north-west (-43°), 194 px, 6 openings, 7 marks (nearest 147 px) TO MARKER
+  58.12 s  FACING 81 -133
+  58.12 s  contrast 16.9  shift  -4, +3 score 0.94 placed   moving south-west  go north-west (-60°), 181 px, 6 openings, 7 marks (nearest 148 px) TO MARKER
+  58.33 s  FACING -98 -160
+  58.33 s  LANDMARK Healing well north-west of the player, 144 px
+  58.33 s  contrast 16.8  shift  -4, +1 score 0.94 placed   moving south  go west (-72°), 193 px, 6 openings, 7 marks (nearest 156 px) TO MARKER
+  58.53 s  FACING -98 175
+  58.53 s  contrast 16.5  shift  -5, +3 score 0.94 placed   moving south  go west (-69°), 189 px, 6 openings, 7 marks (nearest 154 px) TO MARKER
+  58.75 s  contrast 16.2  shift  -6, +2 score 0.95 placed   moving still  go north-west (-66°), 183 px, 6 openings, 7 marks (nearest 151 px) TO MARKER
+  58.95 s  FACING -132 -118
+  58.95 s  contrast 15.9  shift  -4, +4 score 0.95 placed   moving south-west  go north-west (-67°), 180 px, 6 openings, 7 marks (nearest 151 px) TO MARKER
+  59.16 s  FACING 50 -122
+  59.16 s  contrast 15.9  shift  -4, +4 score 0.96 placed   moving south-west  go north-west (-48°), 178 px, 6 openings, 7 marks (nearest 153 px) TO MARKER
+  59.37 s  TIMER 120
+  59.37 s  FACING -133 -136
+  59.37 s  contrast 15.6  shift  -3, +4 score 0.95 placed   moving south-west  go north-west (-49°), 176 px, 6 openings, 7 marks (nearest 154 px) TO MARKER
+  59.61 s  FACING -140 -137
+  59.61 s  contrast 15.2  shift  -5, +5 score 0.95 placed   moving south-west  go north-west (-48°), 173 px, 6 openings, 7 marks (nearest 157 px) TO MARKER
+  59.81 s  FACING -141 -139
+  59.81 s  contrast 15.4  shift  -3, +4 score 0.93 placed   moving south-west  go north-west (-48°), 171 px, 6 openings, 7 marks (nearest 158 px) TO MARKER
+  60.02 s  FACING -125 -133
+  60.02 s  contrast 15.4  shift  -5, +3 score 0.93 placed   moving south-west  go north-west (-43°), 173 px, 6 openings, 7 marks (nearest 160 px) TO MARKER
+  60.23 s  FACING -120 -134
+  60.23 s  contrast 15.2  shift  -4, +4 score 0.89 placed   moving south-west  go north-west (-35°), 179 px, 1 openings, 7 marks (nearest 159 px) TO MARKER
+  60.43 s  TIMER 119
+  60.43 s  FACING 92 -107
+  60.43 s  contrast 15.3  shift  -4, +2 score 0.90 placed   moving west  go north (-2°), 194 px, 1 openings, 7 marks (nearest 152 px) TO MARKER
+  60.63 s  OBJECTIVE MARKER at (4,369), south-west of the player
+  60.63 s  MARKER at (4,369) in the box, south-west of the player
+  60.63 s  FACING 110 -95
+  60.63 s  contrast 15.0  shift  -1, +1 score 0.90 placed   moving west  go north-west (-29°), 153 px, 1 openings, 6 marks (nearest 163 px) TO MARKER
+  60.83 s  FACING 118 -81
+  60.83 s  contrast 14.7  shift  -1, +1 score 0.90 placed   moving west  go north-west (-29°), 153 px, 1 openings, 6 marks (nearest 147 px) TO MARKER
+  61.04 s  contrast 14.4  shift  -1, +1 score 0.90 placed   moving still  go north-west (-29°), 153 px, 1 openings, 6 marks (nearest 147 px) TO MARKER
+  61.26 s  contrast 13.6  shift  -2, +1 score 0.85 placed   moving still  no opening
+  61.48 s  illegible: contrast 27.4 floor 1% arrow yes busy 0.29
+  61.68 s  TIMER 117
+  61.68 s  FACING 94 -141
+  61.68 s  contrast 14.1  shift  -4, +4 score 0.83 placed   moving south-west  no opening
+  61.89 s  FACING 156 46
+  61.89 s  contrast 13.9  shift  +1, -1 score 0.82 placed   moving north-east  go north-west (-31°), 153 px, 1 openings, 5 marks (nearest 162 px) TO MARKER
+  62.09 s  FACING 167 57
+  62.09 s  contrast 13.1  shift  +2, -1 score 0.82 placed   moving north-east  go north-west (-35°), 158 px, 1 openings, 5 marks (nearest 147 px) TO MARKER
+  62.30 s  FACING -154 61
+  62.30 s  contrast 14.8  shift  +4, -4 score 0.91 placed   moving north-east  go north-west (-44°), 165 px, 1 openings, 5 marks (nearest 151 px) TO MARKER
+  62.50 s  FACING 42 79
+  62.50 s  contrast 15.8  shift  +3, -3 score 0.91 placed   moving east  go north-west (-48°), 171 px, 1 openings, 5 marks (nearest 154 px) TO MARKER
+  62.72 s  TIMER 116
+  62.72 s  FACING -141 72
+  62.72 s  contrast 15.7  shift  +5, -5 score 0.92 placed   moving east  go north-west (-50°), 173 px, 1 openings, 5 marks (nearest 153 px) TO MARKER
+  62.93 s  FACING -167 29
+  62.93 s  contrast 16.0  shift  +3, -4 score 0.94 placed   moving north-east  go north-west (-50°), 166 px, 1 openings, 5 marks (nearest 146 px) TO MARKER
+  63.13 s  FACING 173 11
+  63.13 s  contrast 16.2  shift  +3, -3 score 0.94 placed   moving north  go north-west (-48°), 168 px, 1 openings, 5 marks (nearest 142 px) TO MARKER
+  63.33 s  FACING 168 -10
+  63.33 s  contrast 16.4  shift  +3, -2 score 0.95 placed   moving north  go north-west (-46°), 167 px, 1 openings, 5 marks (nearest 140 px) TO MARKER
+  63.54 s  contrast 16.5  shift  +0, -1 score 0.95 placed   moving still  go north-west (-48°), 163 px, 1 openings, 5 marks (nearest 139 px) TO MARKER
+  63.75 s  TIMER 115
+  63.75 s  contrast 16.4  shift  +1, -2 score 0.95 placed   moving still  go north-west (-50°), 159 px, 1 openings, 5 marks (nearest 138 px) TO MARKER
+  63.96 s  contrast 16.3  shift  +1, +0 score 0.95 placed   moving still  go north-west (-49°), 159 px, 1 openings, 5 marks (nearest 138 px) TO MARKER
+  64.17 s  contrast 16.3  shift  +0, +0 score 0.95 placed   moving still  go north-west (-48°), 163 px, 1 openings, 5 marks (nearest 138 px) TO MARKER
+  64.41 s  contrast 16.3  shift  +0, +0 score 0.95 placed   moving still  go north-west (-46°), 159 px, 1 openings, 5 marks (nearest 137 px) TO MARKER
+  64.61 s  FACING 105 -141
+  64.61 s  contrast 16.2  shift  -1, +1 score 0.95 placed   moving south-west  go north-west (-47°), 158 px, 1 openings, 5 marks (nearest 140 px) TO MARKER
+  64.81 s  TIMER 114
+  64.81 s  FACING 97 -141
+  64.81 s  contrast 16.0  shift  -2, +2 score 0.94 placed   moving south-west  go north-west (-44°), 156 px, 1 openings, 5 marks (nearest 144 px) TO MARKER
+  65.03 s  FACING 97 -146
+  65.03 s  contrast 15.8  shift  -2, +2 score 0.94 placed   moving south-west  go north-west (-42°), 158 px, 1 openings, 5 marks (nearest 144 px) TO MARKER
+  65.23 s  contrast 15.8  shift  +0, +0 score 0.94 placed   moving still  go north-west (-47°), 156 px, 1 openings, 5 marks (nearest 139 px) TO MARKER
+  65.44 s  FACING 140 28
+  65.44 s  contrast 15.8  shift  +0, -1 score 0.94 placed   moving north-east  go north-west (-48°), 156 px, 1 openings, 5 marks (nearest 139 px) TO MARKER
+  65.64 s  OBJECTIVE MARKER at (-2,112), west of the player
+  65.64 s  MARKER at (-2,112) in the box, west of the player
+  65.64 s  FACING 130 26
+  65.64 s  contrast 15.8  shift  +0, +0 score 0.94 placed   moving north-east  go north-west (-47°), 152 px, 1 openings, 5 marks (nearest 139 px) TO MARKER
+  65.84 s  TIMER 113
+  65.84 s  contrast 15.8  shift  +0, +1 score 0.93 placed   moving still  go north-west (-47°), 154 px, 1 openings, 5 marks (nearest 140 px) TO MARKER
+  66.05 s  FACING 118 -137
+  66.05 s  contrast 15.8  shift  -1, +1 score 0.93 placed   moving south-west  go north-west (-45°), 154 px, 1 openings, 5 marks (nearest 140 px) TO MARKER
+  66.26 s  contrast 15.7  shift  -1, +1 score 0.94 placed   moving still  go north-west (-44°), 154 px, 1 openings, 5 marks (nearest 140 px) TO MARKER
+  66.47 s  contrast 15.6  shift  -1, +0 score 0.93 placed   moving still  go north-west (-44°), 154 px, 3 openings, 5 marks (nearest 141 px) TO MARKER
+  66.69 s  contrast 15.6  shift  +0, +1 score 0.92 placed   moving still  go north-west (-44°), 154 px, 3 openings, 5 marks (nearest 141 px) TO MARKER
+  66.89 s  TIMER 112
+  66.89 s  contrast 15.6  shift  +0, +0 score 0.92 placed   moving still  go north-west (-47°), 154 px, 3 openings, 5 marks (nearest 140 px) TO MARKER
+  67.10 s  contrast 15.6  shift  +0, +0 score 0.93 placed   moving still  go north-west (-49°), 154 px, 3 openings, 5 marks (nearest 140 px) TO MARKER
+  67.30 s  contrast 15.7  shift  +0, -1 score 0.93 placed   moving still  go north-west (-50°), 154 px, 3 openings, 5 marks (nearest 140 px) TO MARKER
+  67.53 s  contrast 15.6  shift  +1, +0 score 0.94 placed   moving still  go north-west (-48°), 158 px, 3 openings, 5 marks (nearest 139 px) TO MARKER
+  67.73 s  contrast 15.6  shift  +0, +0 score 0.94 placed   moving still  go north-west (-50°), 154 px, 3 openings, 5 marks (nearest 139 px) TO MARKER
+  67.93 s  TIMER 111
+  67.93 s  contrast 15.6  shift  +0, +0 score 0.94 placed   moving still  go north-west (-49°), 154 px, 3 openings, 5 marks (nearest 139 px) TO MARKER
+  68.15 s  contrast 15.6  shift  +0, +0 score 0.94 placed   moving still  go north-west (-45°), 156 px, 3 openings, 5 marks (nearest 140 px) TO MARKER
+  68.35 s  contrast 15.6  shift  +0, +0 score 0.94 placed   moving still  go north-west (-45°), 156 px, 3 openings, 5 marks (nearest 140 px) TO MARKER
+  68.56 s  FACING 102 -144
+  68.56 s  contrast 15.6  shift  +0, +0 score 0.93 placed   moving south-west  go north-west (-39°), 158 px, 3 openings, 5 marks (nearest 144 px) TO MARKER
+  68.76 s  contrast 15.6  shift  +0, +0 score 0.93 placed   moving still  go north-west (-39°), 158 px, 3 openings, 5 marks (nearest 145 px) TO MARKER
+  68.97 s  TIMER 110
+  68.97 s  FACING -99 121
+  68.97 s  contrast 15.6  shift  +0, +0 score 0.93 placed   moving south-east  go north-west (-48°), 171 px, 3 openings, 5 marks (nearest 153 px) TO MARKER
+  69.17 s  FACING -113 118
+  69.17 s  contrast 15.5  shift  -4, +4 score 0.91 placed   moving south-east  go north-west (-40°), 169 px, 3 openings, 5 marks (nearest 155 px) TO MARKER
+  69.41 s  FACING -123 144
+  69.41 s  contrast 15.8  shift  -4, +5 score 0.89 placed   moving south-east  go north-west (-36°), 173 px, 3 openings, 5 marks (nearest 156 px) TO MARKER
+  69.61 s  FACING -125 -135
+  69.61 s  contrast 15.1  shift  -4, +4 score 0.90 placed   moving south-west  go north-west (-29°), 179 px, 3 openings, 5 marks (nearest 161 px) TO MARKER
+  69.82 s  FACING -119 -139
+  69.82 s  contrast 13.5  shift  -3, +4 score 0.83 placed   moving south-west  go north (-22°), 185 px, 3 openings, 5 marks (nearest 160 px) TO MARKER
+  70.03 s  TIMER 109
+  70.03 s  FACING -113 -137
+  70.03 s  contrast 14.9  shift  -4, +3 score 0.77 placed   moving south-west  go north (-14°), 190 px, 3 openings, 5 marks (nearest 177 px) TO MARKER
+  70.23 s  FACING -130 -145
+  70.23 s  contrast 16.1  shift  -1, +5 score 0.80 placed   moving south-west  go north (-7°), 194 px, 3 openings, 4 marks (nearest 179 px) TO MARKER
+  70.45 s  FACING -140 -143
+  70.45 s  contrast 16.7  shift  -2, +2 score 0.75 placed   moving south-west  go north (-4°), 198 px, 3 openings, 0 marks TO MARKER
+  70.66 s  OBJECTIVE MARKER at (15,96), north-west of the player
+  70.66 s  MARKER at (15,96) in the box, north-west of the player
+  70.66 s  FACING -159 -147
+  70.66 s  contrast 16.8  shift  +0, +0 score 0.76 placed   moving south-west  go north (-4°), 198 px, 3 openings, 0 marks TO MARKER
+  70.86 s  FACING 115 -69
+  70.86 s  contrast 16.3  shift  +0, -2 score 0.77 placed   moving west  no opening
+  71.06 s  TIMER 108
+  71.06 s  FACING 155 -7
+  71.06 s  contrast 16.1  shift  +2, -1 score 0.79 placed   moving north  go north (-13°), 185 px, 3 openings, 2 marks (nearest 164 px) TO MARKER
+  71.27 s  FACING 164 5
+  71.27 s  contrast 15.4  shift  -1, -4 score 0.79 placed   moving north  go north-west (-31°), 153 px, 1 openings, 2 marks (nearest 164 px) TO MARKER
+  71.47 s  FACING -177 55
+  71.47 s  contrast 14.1  shift  +5, -2 score 0.82 placed   moving north-east  go north-west (-35°), 168 px, 1 openings, 2 marks (nearest 149 px) TO MARKER
+  71.69 s  FACING -177 52
+  71.69 s  contrast 14.7  shift  +2, -4 score 0.87 placed   moving north-east  go north-west (-40°), 164 px, 1 openings, 2 marks (nearest 148 px) TO MARKER
+  71.89 s  FACING -170 56
+  71.89 s  contrast 16.5  shift  +4, -4 score 0.91 placed   moving north-east  go north-west (-45°), 161 px, 3 openings, 3 marks (nearest 147 px) TO MARKER
+  72.09 s  TIMER 107
+  72.09 s  FACING 176 34
+  72.09 s  contrast 16.3  shift  +3, -3 score 0.92 placed   moving north-east  go north-west (-48°), 160 px, 3 openings, 3 marks (nearest 144 px) TO MARKER
+  72.31 s  contrast 16.2  shift  +1, -1 score 0.93 placed   moving still  go north-west (-42°), 154 px, 3 openings, 3 marks (nearest 142 px) TO MARKER
+  72.52 s  FACING 136 -84
+  72.52 s  contrast 16.1  shift  +0, +0 score 0.93 placed   moving west  go north-west (-40°), 154 px, 3 openings, 3 marks (nearest 142 px) TO MARKER
+  72.73 s  FACING 127 -107
+  72.73 s  contrast 16.0  shift  -1, +0 score 0.93 placed   moving west  go north-west (-38°), 156 px, 3 openings, 3 marks (nearest 143 px) TO MARKER
+  72.93 s  FACING 106 -140
+  72.93 s  contrast 16.1  shift  -1, +2 score 0.91 placed   moving south-west  go north-west (-32°), 155 px, 3 openings, 3 marks (nearest 161 px) TO MARKER
+  73.13 s  TIMER 106
+  73.13 s  FACING -98 163
+  73.13 s  contrast 15.6  shift  -3, +5 score 0.91 placed   moving south  go north-west (-31°), 181 px, 3 openings, 3 marks (nearest 158 px) TO MARKER
+  73.38 s  FACING 111 -144
+  73.38 s  contrast 13.9  shift  -4, +3 score 0.84 placed   moving south-west  no opening
+  73.59 s  contrast 14.3  shift  +1, -2 score 0.89 placed   moving still  go north-west (-34°), 158 px, 3 openings, 3 marks (nearest 145 px) TO MARKER
+  73.80 s  FACING 161 -15
+  73.80 s  contrast 15.2  shift  +2, -1 score 0.91 placed   moving north  go north-west (-39°), 160 px, 1 openings, 3 marks (nearest 146 px) TO MARKER
+  74.04 s  FACING 162 48
+  74.04 s  contrast 16.0  shift  +1, -2 score 0.91 placed   moving north-east  go north-west (-41°), 160 px, 1 openings, 3 marks (nearest 145 px) TO MARKER
+  74.25 s  TIMER 105
+  74.25 s  FACING 163 56
+  74.25 s  contrast 16.2  shift  +2, -2 score 0.92 placed   moving north-east  go north-west (-43°), 157 px, 1 openings, 3 marks (nearest 144 px) TO MARKER
+  74.45 s  contrast 16.1  shift  +1, -1 score 0.92 placed   moving still  go north-west (-44°), 157 px, 3 openings, 3 marks (nearest 143 px) TO MARKER
+  74.66 s  contrast 16.0  shift  +1, -1 score 0.93 placed   moving still  go north-west (-44°), 157 px, 3 openings, 3 marks (nearest 142 px) TO MARKER
+  74.86 s  contrast 16.0  shift  +0, +0 score 0.93 placed   moving still  go north-west (-41°), 156 px, 3 openings, 3 marks (nearest 142 px) TO MARKER
+  75.07 s  contrast 16.0  shift  +0, +0 score 0.92 placed   moving still  go north-west (-37°), 158 px, 3 openings, 3 marks (nearest 143 px) TO MARKER
+  75.28 s  TIMER 104
+  75.28 s  FACING 122 -127
+  75.28 s  contrast 16.0  shift  +0, +1 score 0.92 placed   moving south-west  go north-west (-36°), 158 px, 3 openings, 3 marks (nearest 143 px) TO MARKER
+  75.49 s  contrast 16.0  shift  -1, +0 score 0.92 placed   moving still  go north-west (-35°), 158 px, 3 openings, 3 marks (nearest 143 px) TO MARKER
+  75.72 s  OBJECTIVE MARKER at (-2,107), west of the player
+  75.72 s  MARKER at (-2,107) in the box, west of the player
+  75.72 s  contrast 16.0  shift  +0, +0 score 0.92 placed   moving still  go north-west (-35°), 158 px, 3 openings, 3 marks (nearest 143 px) TO MARKER
+  75.92 s  contrast 16.0  shift  -1, +1 score 0.91 placed   moving still  go north-west (-35°), 155 px, 3 openings, 3 marks (nearest 145 px) TO MARKER
+  76.13 s  contrast 16.0  shift  +0, +0 score 0.92 placed   moving still  go north-west (-34°), 155 px, 3 openings, 3 marks (nearest 144 px) TO MARKER
+  76.33 s  TIMER 103
+  76.33 s  contrast 15.8  shift  +0, +1 score 0.92 placed   moving still  go north-west (-34°), 155 px, 3 openings, 3 marks (nearest 144 px) TO MARKER
+  76.54 s  contrast 15.7  shift  -1, +0 score 0.91 placed   moving still  go north-west (-33°), 155 px, 3 openings, 3 marks (nearest 143 px) TO MARKER
+  76.74 s  contrast 15.7  shift  -1, +1 score 0.90 placed   moving still  go north-west (-29°), 155 px, 3 openings, 3 marks (nearest 148 px) TO MARKER
+  76.99 s  FACING -103 157
+  76.99 s  contrast 13.4  shift  -4, +5 score 0.84 placed   moving south-east  go north-west (-23°), 186 px, 3 openings, 3 marks (nearest 160 px) TO MARKER
+  77.19 s  FACING -114 168
+  77.19 s  contrast 14.6  shift  -3, +4 score 0.80 placed   moving south  go north (-18°), 188 px, 3 openings, 3 marks (nearest 162 px) TO MARKER
+  77.41 s  TIMER 102
+  77.41 s  FACING -112 169
+  77.41 s  contrast 15.9  shift  -4, +2 score 0.80 placed   moving south  go north (-6°), 196 px, 3 openings, 3 marks (nearest 178 px) TO MARKER
+  77.61 s  FACING -99 -137
+  77.61 s  contrast 15.9  shift  +0, +1 score 0.80 placed   moving south-west  go north (-6°), 196 px, 3 openings, 3 marks (nearest 180 px) TO MARKER
+  77.81 s  contrast 16.2  shift  +0, +1 score 0.82 placed   moving still  go north (-6°), 200 px, 3 openings, 3 marks (nearest 180 px) TO MARKER
+  78.03 s  FACING 105 -78
+  78.03 s  contrast 16.0  shift  -1, -1 score 0.79 placed   moving west  go north-east (42°), 218 px, 3 openings, 3 marks (nearest 171 px) TO MARKER
+  78.24 s  FACING 137 -34
+  78.24 s  contrast 16.0  shift  +2, -1 score 0.81 placed   moving north-west  no opening
+  78.46 s  TIMER 101
+  78.46 s  FACING 156 -8
+  78.46 s  contrast 16.1  shift  +2, +0 score 0.80 placed   moving north  go south-west (-118°), 180 px, 9 openings, 3 marks (nearest 149 px) TO MARKER
+  78.67 s  FACING 167 54
+  78.67 s  contrast 14.8  shift  +0, -2 score 0.81 placed   moving north-east  go south-west (-127°), 192 px, 1 openings, 3 marks (nearest 163 px) TO MARKER
+  78.88 s  FACING 166 60
+  78.88 s  contrast 14.1  shift  +2, -2 score 0.81 placed   moving north-east  go south-west (-128°), 192 px, 1 openings, 3 marks (nearest 162 px) TO MARKER
+  79.09 s  FACING 170 51
+  79.09 s  contrast 13.5  shift  +2, -2 score 0.82 placed   moving north-east  go south-west (-139°), 207 px, 1 openings, 3 marks (nearest 147 px) TO MARKER
+  79.29 s  FACING 40 74
+  79.29 s  contrast 15.3  shift  +3, -4 score 0.89 placed   moving east  go south-west (-123°), 199 px, 9 openings, 3 marks (nearest 152 px) TO MARKER
+  79.52 s  TIMER 100
+  79.52 s  FACING -132 82
+  79.52 s  contrast 16.3  shift  +5, -4 score 0.91 placed   moving east  go south-west (-123°), 205 px, 9 openings, 3 marks (nearest 156 px) TO MARKER
+  79.72 s  FACING -154 63
+  79.72 s  contrast 16.3  shift  +4, -4 score 0.94 placed   moving north-east  go south-west (-130°), 213 px, 9 openings, 3 marks (nearest 149 px) TO MARKER
+  79.92 s  FACING 154 -20
+  79.92 s  contrast 16.4  shift  +1, -1 score 0.94 placed   moving north  go south-west (-141°), 209 px, 9 openings, 3 marks (nearest 141 px) TO MARKER
+  80.13 s  FACING 151 -50
+  80.13 s  contrast 16.3  shift  +0, -1 score 0.95 placed   moving north-west  go south-west (-143°), 209 px, 9 openings, 3 marks (nearest 141 px) TO MARKER
+  80.33 s  FACING 142 -80
+  80.33 s  contrast 16.2  shift  +0, -1 score 0.95 placed   moving west  go south-west (-146°), 211 px, 9 openings, 3 marks (nearest 140 px) TO MARKER
+  80.56 s  TIMER 99
+  80.56 s  contrast 16.1  shift  +0, +1 score 0.95 placed   moving still  go south-west (-145°), 207 px, 9 openings, 3 marks (nearest 140 px) TO MARKER
+  80.76 s  OBJECTIVE MARKER at (-1,109), west of the player
+  80.76 s  MARKER at (-1,109) in the box, west of the player
+  80.76 s  contrast 16.0  shift  +0, +0 score 0.95 placed   moving still  go south-west (-145°), 209 px, 9 openings, 3 marks (nearest 140 px) TO MARKER
+  80.97 s  contrast 15.9  shift  +0, +1 score 0.94 placed   moving still  go south-west (-144°), 209 px, 9 openings, 3 marks (nearest 141 px) TO MARKER
+  81.18 s  contrast 15.9  shift  -1, +0 score 0.94 placed   moving still  go south-west (-145°), 207 px, 9 openings, 3 marks (nearest 143 px) TO MARKER
+  81.38 s  FACING 91 -147
+  81.38 s  contrast 15.7  shift  -3, +3 score 0.92 placed   moving south-west  go south-west (-129°), 192 px, 9 openings, 3 marks (nearest 147 px) TO MARKER
+  81.64 s  TIMER 98
+  81.64 s  FACING -121 171
+  81.64 s  contrast 15.5  shift  -5, +5 score 0.90 placed   moving south  go south-west (-113°), 188 px, 9 openings, 3 marks (nearest 158 px) TO MARKER
+  81.86 s  FACING -111 176
+  81.86 s  contrast 13.3  shift  -4, +5 score 0.83 placed   moving south  go north (-18°), 188 px, 3 openings, 3 marks (nearest 159 px) TO MARKER
+  82.06 s  FACING -100 165
+  82.06 s  contrast 14.4  shift  -3, +3 score 0.82 placed   moving south  go north (-11°), 193 px, 3 openings, 3 marks (nearest 162 px) TO MARKER
+  82.28 s  FACING 99 -112
+  82.28 s  contrast 16.2  shift  -3, +3 score 0.78 placed   moving west  go north-east (39°), 218 px, 3 openings, 3 marks (nearest 157 px) TO MARKER
+  82.48 s  FACING 108 -99
+  82.48 s  contrast 15.9  shift  -1, +0 score 0.79 placed   moving west  go north-east (33°), 213 px, 3 openings, 3 marks (nearest 170 px) TO MARKER
+  82.69 s  TIMER 96
+  82.69 s  FACING 107 -88
+  82.69 s  contrast 15.9  shift  +0, +0 score 0.80 placed   moving west  go north-east (33°), 213 px, 3 openings, 3 marks (nearest 170 px) TO MARKER
+  82.89 s  contrast 15.9  shift  +0, +0 score 0.80 placed   moving still  go north-east (33°), 213 px, 3 openings, 3 marks (nearest 170 px) TO MARKER
+  83.11 s  FACING 133 41
+  83.11 s  contrast 16.2  shift  +1, +0 score 0.79 placed   moving north-east  go north-east (37°), 217 px, 3 openings, 3 marks (nearest 165 px) TO MARKER
+  83.33 s  FACING 173 59
+  83.33 s  contrast 14.8  shift  +3, -2 score 0.81 placed   moving north-east  go north-west (-25°), 176 px, 3 openings, 3 marks (nearest 164 px) TO MARKER
+  83.57 s  FACING -168 57
+  83.57 s  contrast 14.2  shift  +4, -6 score 0.86 placed   moving north-east  go north-west (-35°), 168 px, 3 openings, 3 marks (nearest 163 px) TO MARKER
+  83.79 s  TIMER 95
+  83.79 s  FACING -154 65
+  83.79 s  contrast 16.1  shift  +4, -3 score 0.92 placed   moving north-east  go north-west (-42°), 168 px, 3 openings, 3 marks (nearest 150 px) TO MARKER
+  84.00 s  FACING -154 56
+  84.00 s  contrast 16.1  shift  +4, -5 score 0.94 placed   moving north-east  go north-west (-48°), 168 px, 9 openings, 3 marks (nearest 149 px) TO MARKER
+  84.20 s  FACING -156 57
+  84.20 s  contrast 16.4  shift  +4, -4 score 0.96 placed   moving north-east  go north-west (-48°), 170 px, 9 openings, 3 marks (nearest 150 px) TO MARKER
+  84.41 s  FACING -154 49
+  84.41 s  contrast 16.6  shift  +5, -4 score 0.95 placed   moving north-east  go north-west (-56°), 176 px, 9 openings, 3 marks (nearest 148 px) TO MARKER
+  84.61 s  FACING 163 4
+  84.61 s  contrast 16.8  shift  +2, -3 score 0.95 placed   moving north  go north-west (-49°), 163 px, 8 openings, 3 marks (nearest 139 px) TO MARKER
+  84.81 s  TIMER 94
+  84.81 s  FACING 155 -34
+  84.81 s  contrast 16.8  shift  +1, +0 score 0.95 placed   moving north-west  go north-west (-47°), 163 px, 8 openings, 3 marks (nearest 139 px) TO MARKER
+  85.03 s  FACING 159 -57
+  85.03 s  contrast 16.8  shift  +0, -1 score 0.96 placed   moving north-west  go north-west (-49°), 163 px, 7 openings, 3 marks (nearest 139 px) TO MARKER
+  85.23 s  FACING 124 -120
+  85.23 s  contrast 16.5  shift  -1, +1 score 0.95 placed   moving south-west  go north-west (-47°), 156 px, 7 openings, 3 marks (nearest 138 px) TO MARKER
+  85.44 s  FACING 80 -142
+  85.44 s  contrast 16.2  shift  -3, +3 score 0.94 placed   moving south-west  go north-west (-35°), 164 px, 7 openings, 3 marks (nearest 146 px) TO MARKER
+  85.64 s  FACING -101 -172
+  85.64 s  contrast 15.9  shift  -4, +3 score 0.93 placed   moving south  go north-west (-42°), 172 px, 7 openings, 3 marks (nearest 154 px) TO MARKER
+  85.85 s  TIMER 93
+  85.85 s  OBJECTIVE MARKER at (1,108), west of the player
+  85.85 s  MARKER at (1,108) in the box, west of the player
+  85.85 s  FACING -102 173
+  85.85 s  contrast 15.7  shift  -3, +4 score 0.91 placed   moving south  go north-west (-36°), 176 px, 7 openings, 3 marks (nearest 155 px) TO MARKER
+  86.06 s  FACING -123 159
+  86.06 s  contrast 15.7  shift  -4, +5 score 0.92 placed   moving south  go north-west (-30°), 178 px, 1 openings, 3 marks (nearest 160 px) TO MARKER
+  86.26 s  FACING -141 -137
+  86.26 s  contrast 14.1  shift  -4, +5 score 0.88 placed   moving south-west  go north (-20°), 188 px, 1 openings, 3 marks (nearest 158 px) TO MARKER
+  86.46 s  FACING -142 -138
+  86.46 s  contrast 13.4  shift  -2, +3 score 0.81 placed   moving south-west  go north (-17°), 189 px, 1 openings, 3 marks (nearest 161 px) TO MARKER
+  86.67 s  FACING 43 -137
+  86.67 s  contrast 15.2  shift  -5, +4 score 0.79 placed   moving south-west  go north (-4°), 197 px, 1 openings, 3 marks (nearest 162 px) TO MARKER
+  86.89 s  TIMER 92
+  86.89 s  FACING -98 -143
+  86.89 s  contrast 15.7  shift  -1, +1 score 0.81 placed   moving south-west  go north (-3°), 197 px, 1 openings, 3 marks (nearest 164 px) TO MARKER
+  87.11 s  FACING 127 -75
+  87.11 s  contrast 15.7  shift  -1, -1 score 0.81 placed   moving west  go north-east (43°), 218 px, 1 openings, 3 marks (nearest 167 px) TO MARKER
+  87.31 s  FACING 141 -43
+  87.31 s  contrast 15.8  shift  +0, +0 score 0.81 placed   moving north-west  no opening
+  87.52 s  FACING 140 -34
+  87.52 s  contrast 16.1  shift  +1, +0 score 0.80 placed   moving north-west  no opening
+  87.72 s  contrast 16.0  shift  +0, +0 score 0.81 placed   moving still  no opening
+  87.94 s  TIMER 91
+  87.94 s  FACING 157 66
+  87.94 s  contrast 15.4  shift  +1, -1 score 0.81 placed   moving north-east  go north-west (-28°), 155 px, 6 openings, 3 marks (nearest 149 px) TO MARKER
+  88.14 s  FACING 177 61
+  88.14 s  contrast 14.2  shift  +2, -3 score 0.85 placed   moving north-east  go north-west (-25°), 176 px, 1 openings, 3 marks (nearest 149 px) TO MARKER
+  88.35 s  FACING -176 63
+  88.35 s  contrast 13.4  shift  +3, -2 score 0.83 placed   moving north-east  go north-west (-32°), 168 px, 1 openings, 3 marks (nearest 147 px) TO MARKER
+  88.56 s  FACING -154 69
+  88.56 s  contrast 15.3  shift  +3, -4 score 0.92 placed   moving east  go north-west (-40°), 172 px, 1 openings, 3 marks (nearest 151 px) TO MARKER
+  88.76 s  FACING -162 57
+  88.76 s  contrast 16.2  shift  +4, -4 score 0.92 placed   moving north-east  go north-west (-44°), 164 px, 6 openings, 3 marks (nearest 147 px) TO MARKER
+  89.01 s  TIMER 90
+  89.01 s  FACING 166 35
+  89.01 s  contrast 16.0  shift  +3, -2 score 0.94 placed   moving north-east  go north-west (-44°), 162 px, 6 openings, 3 marks (nearest 143 px) TO MARKER
+  89.21 s  FACING 158 -13
+  89.21 s  contrast 16.2  shift  +1, -2 score 0.95 placed   moving north  go north-west (-45°), 158 px, 6 openings, 3 marks (nearest 143 px) TO MARKER
+  89.42 s  contrast 16.1  shift  +1, -1 score 0.95 placed   moving still  go north-west (-44°), 158 px, 6 openings, 3 marks (nearest 141 px) TO MARKER
+  89.63 s  contrast 16.1  shift  +0, +0 score 0.95 placed   moving still  go north-west (-43°), 158 px, 6 openings, 3 marks (nearest 141 px) TO MARKER
+  89.83 s  contrast 16.0  shift  +1, -1 score 0.95 placed   moving still  go north-west (-43°), 156 px, 6 openings, 3 marks (nearest 141 px) TO MARKER
+  90.03 s  TIMER 89
+  90.03 s  FACING 106 -136
+  90.03 s  contrast 15.9  shift  -1, +2 score 0.95 placed   moving south-west  go north-west (-31°), 163 px, 6 openings, 3 marks (nearest 144 px) TO MARKER
+  90.24 s  FACING 115 -132
+  90.24 s  contrast 15.8  shift  -2, +1 score 0.94 placed   moving south-west  go north-west (-35°), 155 px, 6 openings, 3 marks (nearest 144 px) TO MARKER
+  90.44 s  contrast 15.8  shift  +0, +0 score 0.94 placed   moving still  go north-west (-40°), 160 px, 6 openings, 3 marks (nearest 141 px) TO MARKER
+  90.65 s  FACING -175 55
+  90.65 s  contrast 15.9  shift  +3, -3 score 0.96 placed   moving north-east  go north-west (-48°), 166 px, 6 openings, 3 marks (nearest 143 px) TO MARKER
+  90.86 s  OBJECTIVE MARKER at (-2,111), west of the player
+  90.86 s  MARKER at (-2,111) in the box, west of the player
+  90.86 s  FACING -158 65
+  90.86 s  contrast 16.0  shift  +3, -3 score 0.96 placed   moving north-east  go north-west (-46°), 172 px, 6 openings, 3 marks (nearest 147 px) TO MARKER
+  91.06 s  TIMER 88
+  91.06 s  FACING -155 70
+  91.06 s  contrast 16.5  shift  +5, -4 score 0.95 placed   moving east  go north-west (-57°), 175 px, 6 openings, 3 marks (nearest 146 px) TO MARKER
+  91.26 s  FACING -155 62
+  91.26 s  contrast 16.5  shift  +3, -4 score 0.95 placed   moving north-east  go north-west (-67°), 180 px, 6 openings, 3 marks (nearest 146 px) TO MARKER
+  91.47 s  FACING -149 53
+  91.47 s  contrast 16.5  shift  +5, -4 score 0.94 placed   moving north-east  go west (-68°), 184 px, 6 openings, 3 marks (nearest 147 px) TO MARKER
+  91.68 s  FACING -136 62
+  91.68 s  contrast 16.3  shift  +3, -4 score 0.94 placed   moving north-east  go west (-84°), 194 px, 6 openings, 3 marks (nearest 152 px) TO MARKER
+  91.89 s  FACING -154 46
+  91.89 s  contrast 15.6  shift  +4, -3 score 0.92 placed   moving north-east  go west (-87°), 196 px, 6 openings, 3 marks (nearest 146 px) TO MARKER
+  92.09 s  TIMER 87
+  92.09 s  FACING 161 -27
+  92.09 s  contrast 15.5  shift  +1, -1 score 0.91 placed   moving north-west  go west (-90°), 190 px, 6 openings, 3 marks (nearest 137 px) TO MARKER
+  92.29 s  FACING 97 -98
+  92.29 s  contrast 15.5  shift  -2, +1 score 0.93 placed   moving west  go north-west (-58°), 165 px, 6 openings, 3 marks (nearest 138 px) TO MARKER
+  92.50 s  FACING -132 -141
+  92.50 s  contrast 16.1  shift  -3, +4 score 0.94 placed   moving south-west  go north-west (-57°), 179 px, 6 openings, 3 marks (nearest 148 px) TO MARKER
+  92.70 s  FACING -132 -165
+  92.70 s  contrast 16.1  shift  -5, +4 score 0.95 placed   moving south  go north-west (-57°), 176 px, 6 openings, 3 marks (nearest 149 px) TO MARKER
+  92.91 s  FACING -123 163
+  92.91 s  contrast 15.9  shift  -3, +3 score 0.95 placed   moving south  go north-west (-47°), 174 px, 6 openings, 3 marks (nearest 151 px) TO MARKER
+  93.11 s  TIMER 86
+  93.11 s  FACING -117 -133
+  93.11 s  contrast 15.8  shift  -4, +3 score 0.95 placed   moving south-west  go north-west (-48°), 172 px, 6 openings, 3 marks (nearest 152 px) TO MARKER
+  93.32 s  FACING -117 -137
+  93.32 s  contrast 15.5  shift  -4, +5 score 0.95 placed   moving south-west  go north-west (-45°), 169 px, 6 openings, 3 marks (nearest 152 px) TO MARKER
+  93.53 s  FACING -99 -138
+  93.53 s  contrast 15.3  shift  -3, +3 score 0.93 placed   moving south-west  go north-west (-41°), 172 px, 6 openings, 3 marks (nearest 155 px) TO MARKER
+  93.73 s  FACING 127 -91
+  93.73 s  contrast 15.4  shift  -1, +1 score 0.94 placed   moving west  go north-west (-37°), 159 px, 6 openings, 3 marks (nearest 141 px) TO MARKER
+  93.93 s  FACING 126 -72
+  93.93 s  contrast 15.4  shift  +0, +0 score 0.94 placed   moving west  go north-west (-38°), 159 px, 6 openings, 3 marks (nearest 141 px) TO MARKER
+  94.14 s  TIMER 85
+  94.14 s  FACING 119 -72
+  94.14 s  contrast 15.4  shift  -1, +1 score 0.94 placed   moving west  go north-west (-33°), 163 px, 6 openings, 3 marks (nearest 142 px) TO MARKER
+  94.35 s  contrast 15.4  shift  -1, +1 score 0.93 placed   moving still  go north-west (-35°), 155 px, 6 openings, 3 marks (nearest 144 px) TO MARKER
+  94.55 s  FACING 116 -141
+  94.55 s  contrast 15.4  shift  -1, +1 score 0.93 placed   moving south-west  go north-west (-29°), 163 px, 6 openings, 3 marks (nearest 144 px) TO MARKER
+  94.79 s  contrast 16.0  shift  +0, +0 score 0.93 placed   moving still  go north-west (-29°), 163 px, 6 openings, 3 marks (nearest 133 px) TO MARKER
+  95.01 s  contrast 16.2  shift  +0, +0 score 0.93 placed   moving still  go north-west (-29°), 163 px, 6 openings, 3 marks (nearest 133 px) TO MARKER
+  95.21 s  TIMER 84
+  95.21 s  contrast 15.5  shift  +0, +0 score 0.93 placed   moving still  go north-west (-29°), 163 px, 6 openings, 3 marks (nearest 133 px) TO MARKER
+  95.47 s  contrast 15.5  shift  +0, +0 score 0.92 placed   moving still  go north-west (-29°), 163 px, 6 openings, 3 marks (nearest 133 px) TO MARKER
+  95.68 s  FACING -100 135
+  95.68 s  contrast 15.4  shift  -4, +4 score 0.91 placed   moving south-east  go north-west (-28°), 180 px, 6 openings, 3 marks (nearest 146 px) TO MARKER
+  95.88 s  OBJECTIVE MARKER at (13,103), north-west of the player
+  95.88 s  MARKER at (13,103) in the box, north-west of the player
+  95.88 s  FACING -101 163
+  95.88 s  contrast 13.0  shift  -5, +6 score 0.86 placed   moving south  go north (-19°), 189 px, 6 openings, 3 marks (nearest 148 px) TO MARKER
+  96.11 s  FACING -101 177
+  96.11 s  contrast 14.9  shift  -4, +5 score 0.79 placed   moving south  go north (-6°), 197 px, 6 openings, 3 marks (nearest 152 px) TO MARKER
+  96.32 s  TIMER 83
+  96.32 s  FACING -101 -140
+  96.32 s  contrast 16.0  shift  -3, +3 score 0.82 placed   moving south-west  go north (3°), 203 px, 6 openings, 3 marks (nearest 155 px) TO MARKER
+  96.56 s  FACING -101 -138
+  96.56 s  contrast 16.0  shift  +0, +0 score 0.82 placed   moving south-west  go north (3°), 203 px, 6 openings, 3 marks (nearest 155 px) TO MARKER
+  96.77 s  contrast 16.4  shift  +0, +3 score 0.79 placed   moving still  go north (3°), 203 px, 6 openings, 3 marks (nearest 156 px) TO MARKER
+  96.97 s  contrast 16.5  shift  +0, +0 score 0.76 placed   moving still  go north (4°), 203 px, 4 openings, 3 marks (nearest 157 px) TO MARKER
+  97.17 s  contrast 16.7  shift  +0, +0 score 0.77 placed   moving still  go north (5°), 203 px, 4 openings, 3 marks (nearest 157 px) TO MARKER
+  97.41 s  TIMER 82
+  97.41 s  contrast 16.7  shift  +0, +0 score 0.76 placed   moving still  go north (3°), 203 px, 4 openings, 3 marks (nearest 157 px) TO MARKER
+  97.62 s  FACING 118 -56
+  97.62 s  contrast 16.3  shift  +0, -1 score 0.80 placed   moving north-west  go north-east (43°), 218 px, 4 openings, 1 marks (nearest 144 px) TO MARKER
+  97.83 s  FACING 145 -15
+  97.83 s  contrast 16.0  shift  +1, -3 score 0.80 placed   moving north  go north-east (66°), 234 px, 4 openings, 3 marks (nearest 139 px) TO MARKER
+  98.03 s  FACING 166 3
+  98.03 s  contrast 15.0  shift  +1, -3 score 0.81 placed   moving north  go north (-18°), 184 px, 4 openings, 3 marks (nearest 138 px) TO MARKER
+  98.24 s  FACING -171 56
+  98.24 s  contrast 13.9  shift  +6, -4 score 0.85 placed   moving north-east  go north-west (-33°), 168 px, 4 openings, 3 marks (nearest 137 px) TO MARKER
+  98.51 s  TIMER 81
+  98.51 s  FACING -162 60
+  98.51 s  contrast 16.1  shift  +5, -6 score 0.92 placed   moving north-east  go north-west (-42°), 168 px, 4 openings, 3 marks (nearest 137 px) TO MARKER
+  98.71 s  FACING -132 71
+  98.71 s  contrast 16.3  shift  +6, -7 score 0.95 placed   moving east  go north-west (-49°), 177 px, 4 openings, 3 marks (nearest 143 px) TO MARKER
+  98.92 s  FACING -131 66
+  98.92 s  contrast 16.5  shift  +5, -4 score 0.95 placed   moving north-east  go north-west (-47°), 178 px, 4 openings, 3 marks (nearest 142 px) TO MARKER
+  99.12 s  FACING -161 44
+  99.12 s  contrast 16.9  shift  +5, -5 score 0.95 placed   moving north-east  go north-west (-58°), 175 px, 4 openings, 3 marks (nearest 131 px) TO MARKER
+  99.36 s  FACING 148 -27
+  99.36 s  contrast 16.8  shift  +0, -1 score 0.95 placed   moving north-west  go north-west (-48°), 163 px, 4 openings, 3 marks (nearest 126 px) TO MARKER
+  99.58 s  TIMER 80
+  99.58 s  FACING 115 -79
+  99.58 s  contrast 16.6  shift  +0, +1 score 0.95 placed   moving west  go north-west (-47°), 158 px, 4 openings, 3 marks (nearest 127 px) TO MARKER
+  99.78 s  FACING -143 -153
+  99.78 s  contrast 16.1  shift  -3, +4 score 0.94 placed   moving south-west  go north-west (-47°), 173 px, 4 openings, 3 marks (nearest 140 px) TO MARKER
+  99.98 s  FACING -159 180
+  99.98 s  contrast 15.9  shift  -2, +4 score 0.94 placed   moving south  go north-west (-42°), 173 px, 4 openings, 3 marks (nearest 145 px) TO MARKER
+ 100.19 s  FACING -159 165
+ 100.19 s  contrast 15.2  shift  -2, +6 score 0.93 placed   moving south  go north-west (-37°), 181 px, 4 openings, 3 marks (nearest 148 px) TO MARKER
+ 100.43 s  FACING -151 -159
+ 100.43 s  contrast 14.5  shift  -2, +5 score 0.91 placed   moving south  go north-west (-32°), 184 px, 4 openings, 3 marks (nearest 152 px) TO MARKER
+ 100.64 s  TIMER 78
+ 100.64 s  FACING -151 -158
+ 100.64 s  contrast 14.5  shift  -3, +6 score 0.84 placed   moving south  go north-west (-26°), 186 px, 4 openings, 3 marks (nearest 156 px) TO MARKER
+ 100.85 s  FACING -151 -156
+ 100.85 s  contrast 15.5  shift  -2, +5 score 0.84 placed   moving south-west  go north (-20°), 194 px, 4 openings, 3 marks (nearest 159 px) TO MARKER
+ 101.05 s  OBJECTIVE MARKER at (4,98), north-west of the player
+ 101.05 s  MARKER at (4,98) in the box, north-west of the player
+ 101.05 s  FACING -147 -157
+ 101.05 s  contrast 17.1  shift  -2, +5 score 0.79 placed   moving south-west  go north (-14°), 200 px, 4 openings, 2 marks (nearest 164 px) TO MARKER
+ 101.28 s  FACING -160 -158
+ 101.28 s  contrast 18.3  shift  +0, +2 score 0.81 placed   moving south  go north (-13°), 200 px, 4 openings, 0 marks TO MARKER
+ 101.48 s  contrast 18.3  shift  -1, +0 score 0.81 placed   moving still  go north (-12°), 200 px, 5 openings, 0 marks TO MARKER
+ 101.69 s  TIMER 77
+ 101.69 s  FACING 115 -68
+ 101.69 s  contrast 16.3  shift  -5, -2 score 0.82 placed   moving west  go north-east (24°), 213 px, 5 openings, 1 marks (nearest 150 px) TO MARKER
+ 101.91 s  FACING 178 -11
+ 101.91 s  contrast 14.5  shift  -1, -5 score 0.85 placed   moving north  go north-west (-23°), 184 px, 5 openings, 2 marks (nearest 170 px) TO MARKER
+ 102.11 s  FACING -172 0
+ 102.11 s  contrast 13.8  shift  +2, -5 score 0.80 placed   moving north  go north-west (-31°), 176 px, 4 openings, 2 marks (nearest 141 px) TO MARKER
+ 102.34 s  FACING -172 39
+ 102.34 s  contrast 14.3  shift  +0, -5 score 0.87 placed   moving north-east  go north-west (-35°), 168 px, 4 openings, 3 marks (nearest 136 px) TO MARKER
+ 102.55 s  FACING -174 33
+ 102.55 s  contrast 16.3  shift  +4, -3 score 0.92 placed   moving north-east  go north-west (-40°), 166 px, 4 openings, 3 marks (nearest 135 px) TO MARKER
+ 102.75 s  TIMER 76
+ 102.75 s  FACING -172 31
+ 102.75 s  contrast 16.5  shift  +3, -4 score 0.93 placed   moving north-east  go north-west (-44°), 164 px, 4 openings, 3 marks (nearest 134 px) TO MARKER
+ 102.96 s  FACING -173 46
+ 102.96 s  contrast 16.6  shift  +5, -5 score 0.95 placed   moving north-east  go north-west (-49°), 166 px, 4 openings, 3 marks (nearest 133 px) TO MARKER
+ 103.16 s  FACING -172 41
+ 103.16 s  contrast 16.8  shift  +4, -4 score 0.94 placed   moving north-east  go north-west (-49°), 168 px, 4 openings, 3 marks (nearest 131 px) TO MARKER
+ 103.37 s  FACING 165 30
+ 103.37 s  contrast 16.9  shift  +2, -2 score 0.94 placed   moving north-east  go north-west (-46°), 167 px, 4 openings, 3 marks (nearest 128 px) TO MARKER
+ 103.58 s  contrast 16.8  shift  +1, -1 score 0.93 placed   moving still  go north-west (-47°), 163 px, 4 openings, 3 marks (nearest 126 px) TO MARKER
+ 103.78 s  TIMER 75
+ 103.78 s  FACING 112 -116
+ 103.78 s  contrast 16.6  shift  -1, +1 score 0.95 placed   moving south-west  go north-west (-42°), 160 px, 4 openings, 3 marks (nearest 129 px) TO MARKER
+ 103.99 s  FACING 108 -129
+ 103.99 s  contrast 16.3  shift  -2, +2 score 0.95 placed   moving south-west  go north-west (-38°), 160 px, 4 openings, 3 marks (nearest 131 px) TO MARKER
+ 104.19 s  FACING 108 -136
+ 104.19 s  contrast 16.1  shift  -2, +2 score 0.96 placed   moving south-west  go north-west (-38°), 160 px, 4 openings, 3 marks (nearest 132 px) TO MARKER
+ 104.40 s  FACING 81 -143
+ 104.40 s  contrast 15.8  shift  -3, +3 score 0.94 placed   moving south-west  go north (-21°), 184 px, 4 openings, 3 marks (nearest 137 px) TO MARKER
+ 104.61 s  FACING -98 153
+ 104.61 s  contrast 15.8  shift  -4, +4 score 0.92 placed   moving south-east  go north-west (-34°), 174 px, 4 openings, 3 marks (nearest 144 px) TO MARKER
+ 104.81 s  TIMER 74
+ 104.81 s  FACING 103 -137
+ 104.81 s  contrast 15.9  shift  -2, +2 score 0.92 placed   moving south-west  go north-west (-27°), 155 px, 4 openings, 3 marks (nearest 137 px) TO MARKER
+ 105.01 s  contrast 15.9  shift  +0, +0 score 0.92 placed   moving still  go north-west (-27°), 155 px, 4 openings, 3 marks (nearest 138 px) TO MARKER
+ 105.22 s  FACING 96 -91
+ 105.22 s  contrast 15.9  shift  +0, +0 score 0.92 placed   moving west  go north-west (-27°), 155 px, 4 openings, 3 marks (nearest 138 px) TO MARKER
+ 105.42 s  contrast 15.9  shift  +0, +0 score 0.93 placed   moving still  go north-west (-31°), 159 px, 4 openings, 3 marks (nearest 133 px) TO MARKER
+ 105.63 s  FACING 172 50
+ 105.63 s  contrast 15.9  shift  +0, +0 score 0.93 placed   moving north-east  go north-west (-40°), 160 px, 4 openings, 3 marks (nearest 132 px) TO MARKER
+ 105.84 s  TIMER 73
+ 105.84 s  FACING 138 35
+ 105.84 s  contrast 15.9  shift  +0, +0 score 0.93 placed   moving north-east  go north-west (-35°), 159 px, 4 openings, 3 marks (nearest 132 px) TO MARKER
+ 106.04 s  contrast 15.7  shift  +0, +1 score 0.93 placed   moving still  go north-west (-30°), 159 px, 4 openings, 3 marks (nearest 133 px) TO MARKER
+ 106.25 s  OBJECTIVE MARKER at (-20,394), south-west of the player
+ 106.25 s  MARKER at (-20,394) in the box, south-west of the player
+ 106.25 s  contrast 15.9  shift  +0, -1 score 0.93 placed   moving still  go north-west (-36°), 160 px, 4 openings, 3 marks (nearest 131 px) TO MARKER
+ 106.46 s  contrast 15.9  shift  +1, +0 score 0.93 placed   moving still  go north-west (-39°), 160 px, 4 openings, 3 marks (nearest 131 px) TO MARKER
+ 106.66 s  FACING -176 58
+ 106.66 s  contrast 15.7  shift  +4, -5 score 0.95 placed   moving north-east  go north-west (-48°), 162 px, 4 openings, 3 marks (nearest 133 px) TO MARKER
+ 106.86 s  TIMER 72
+ 106.86 s  FACING -177 60
+ 106.86 s  contrast 15.9  shift  +3, -4 score 0.95 placed   moving north-east  go north-west (-48°), 164 px, 4 openings, 3 marks (nearest 131 px) TO MARKER
+ 107.07 s  FACING 173 55
+ 107.07 s  contrast 16.2  shift  +4, -3 score 0.95 placed   moving north-east  go north-west (-47°), 167 px, 4 openings, 3 marks (nearest 130 px) TO MARKER
+ 107.31 s  FACING 173 45
+ 107.31 s  contrast 16.6  shift  +4, -4 score 0.95 placed   moving north-east  go north-west (-55°), 169 px, 4 openings, 3 marks (nearest 129 px) TO MARKER
+ 107.56 s  FACING 174 43
+ 107.56 s  contrast 16.5  shift  +3, -3 score 0.94 placed   moving north-east  go west (-70°), 173 px, 4 openings, 3 marks (nearest 128 px) TO MARKER
+ 107.77 s  FACING -178 43
+ 107.77 s  contrast 16.5  shift  +4, -3 score 0.93 placed   moving north-east  go north-west (-61°), 167 px, 4 openings, 3 marks (nearest 128 px) TO MARKER
+ 107.98 s  TIMER 71
+ 107.98 s  FACING 164 20
+ 107.98 s  contrast 16.4  shift  +1, -2 score 0.93 placed   moving north  go west (-69°), 169 px, 4 openings, 3 marks (nearest 125 px) TO MARKER
+ 108.25 s  contrast 16.3  shift  +0, +0 score 0.93 placed   moving still  go north-west (-58°), 167 px, 4 openings, 3 marks (nearest 123 px) TO MARKER
+ 108.46 s  contrast 16.3  shift  +1, +0 score 0.94 placed   moving still  go north-west (-58°), 167 px, 4 openings, 3 marks (nearest 124 px) TO MARKER
+ 108.69 s  FACING 109 -131
+ 108.69 s  contrast 16.2  shift  -3, +1 score 0.94 placed   moving south-west  go north-west (-48°), 159 px, 4 openings, 3 marks (nearest 127 px) TO MARKER
+ 108.89 s  FACING -132 171
+ 108.89 s  contrast 16.0  shift  -3, +4 score 0.95 placed   moving south  go north-west (-49°), 174 px, 4 openings, 3 marks (nearest 138 px) TO MARKER
+ 109.09 s  TIMER 70
+ 109.09 s  FACING -146 -177
+ 109.09 s  contrast 16.0  shift  -3, +4 score 0.95 placed   moving south  go north-west (-49°), 172 px, 4 openings, 3 marks (nearest 141 px) TO MARKER
+ 109.30 s  FACING -146 159
+ 109.30 s  contrast 15.6  shift  -2, +5 score 0.94 placed   moving south  go north-west (-47°), 173 px, 4 openings, 3 marks (nearest 144 px) TO MARKER
+ 109.51 s  FACING -148 -152
+ 109.51 s  contrast 15.5  shift  -3, +6 score 0.95 placed   moving south-west  go north-west (-41°), 177 px, 4 openings, 3 marks (nearest 150 px) TO MARKER
+ 109.71 s  FACING -151 -155
+ 109.71 s  contrast 15.0  shift  -2, +4 score 0.93 placed   moving south-west  go north-west (-36°), 181 px, 4 openings, 3 marks (nearest 153 px) TO MARKER
+ 109.91 s  FACING -143 -150
+ 109.91 s  contrast 14.3  shift  -3, +5 score 0.89 placed   moving south-west  go north-west (-31°), 184 px, 4 openings, 3 marks (nearest 175 px) TO MARKER
+ 110.12 s  TIMER 69
+ 110.12 s  FACING 104 -109
+ 110.12 s  contrast 14.8  shift  -5, +1 score 0.83 placed   moving west  go north (-10°), 189 px, 4 openings, 3 marks (nearest 147 px) TO MARKER
+ 110.33 s  FACING -53 -89
+ 110.33 s  contrast 14.2  shift  -4, -1 score 0.88 placed   moving west  no opening
+ 110.54 s  FACING 145 -52
+ 110.54 s  contrast 14.6  shift  +0, +0 score 0.90 placed   moving north-west  go north-west (-32°), 159 px, 4 openings, 3 marks (nearest 137 px) TO MARKER
+ 110.75 s  FACING 139 13
+ 110.75 s  contrast 14.8  shift  +0, -1 score 0.91 placed   moving north  go north-west (-31°), 159 px, 1 openings, 3 marks (nearest 137 px) TO MARKER
+ 110.96 s  contrast 14.7  shift  +0, +0 score 0.90 placed   moving still  go north-west (-28°), 155 px, 1 openings, 3 marks (nearest 139 px) TO MARKER
+ 111.17 s  TIMER 68
+ 111.17 s  FACING 118 -119
+ 111.17 s  contrast 14.3  shift  -1, +0 score 0.88 placed   moving south-west  go north-west (-26°), 155 px, 1 openings, 3 marks (nearest 139 px) TO MARKER
+ 111.38 s  OBJECTIVE MARKER at (-7,360), south-west of the player
+ 111.38 s  MARKER at (-7,360) in the box, south-west of the player
+ 111.38 s  contrast 14.6  shift  +0, +0 score 0.90 placed   moving still  go north-west (-32°), 159 px, 4 openings, 3 marks (nearest 150 px) TO MARKER
+ 111.59 s  FACING 162 61
+ 111.59 s  contrast 15.5  shift  +2, -1 score 0.94 placed   moving north-east  go north-west (-35°), 164 px, 4 openings, 3 marks (nearest 151 px) TO MARKER
+ 111.80 s  FACING 163 56
+ 111.80 s  contrast 15.6  shift  +1, -2 score 0.93 placed   moving north-east  go north-west (-37°), 164 px, 4 openings, 3 marks (nearest 151 px) TO MARKER
+ 112.00 s  FACING 104 -141
+ 112.00 s  contrast 15.5  shift  -1, +1 score 0.92 placed   moving south-west  no opening
+ 112.24 s  TIMER 67
+ 112.24 s  FACING -116 -177
+ 112.24 s  contrast 13.3  shift  -3, +5 score 0.83 placed   moving south  go south-west (-139°), 164 px, 4 openings, 3 marks (nearest 165 px) TO MARKER
+ 112.44 s  FACING -148 -168
+ 112.44 s  contrast 14.4  shift  -3, +4 score 0.82 placed   moving south  go south-west (-130°), 158 px, 2 openings, 4 marks (nearest 168 px) TO MARKER
+ 112.66 s  FACING -155 166
+ 112.66 s  contrast 15.6  shift  -4, +5 score 0.84 placed   moving south  go south-west (-135°), 148 px, 1 openings, 4 marks (nearest 172 px) TO MARKER
+ 112.93 s  FACING -151 -150
+ 112.93 s  contrast 16.6  shift  +0, +4 score 0.80 placed   moving south-west  go south-west (-126°), 150 px, 1 openings, 0 marks TO MARKER
+ 113.14 s  FACING -150 -161
+ 113.14 s  contrast 16.2  shift  +1, +0 score 0.82 placed   moving south  go south-west (-128°), 154 px, 4 openings, 0 marks TO MARKER
+ 113.38 s  TIMER 66
+ 113.38 s  contrast 15.7  shift  +0, +0 score 0.84 placed   moving still  go south-west (-128°), 154 px, 4 openings, 0 marks TO MARKER
+ 113.61 s  FACING -129 63
+ 113.61 s  contrast 15.9  shift  -1, +0 score 0.83 placed   moving north-east  go south-west (-122°), 166 px, 4 openings, 0 marks TO MARKER
+ 113.81 s  FACING 120 -60
+ 113.81 s  contrast 16.4  shift  -1, -2 score 0.78 placed   moving north-west  go south-west (-144°), 143 px, 4 openings, 0 marks TO MARKER
+ 114.02 s  FACING 161 -6
+ 114.02 s  contrast 15.9  shift  +1, -4 score 0.83 placed   moving north  go south-west (-143°), 162 px, 4 openings, 1 marks (nearest 163 px) TO MARKER
+ 114.22 s  FACING -170 -20
+ 114.22 s  contrast 14.5  shift  +3, -5 score 0.85 placed   moving north  go south-west (-143°), 176 px, 4 openings, 2 marks (nearest 164 px) TO MARKER
+ 114.43 s  TIMER 65
+ 114.43 s  FACING -167 54
+ 114.43 s  contrast 13.7  shift  +3, -2 score 0.83 placed   moving north-east  go south-west (-137°), 180 px, 4 openings, 2 marks (nearest 164 px) TO MARKER
+ 114.66 s  FACING -163 56
+ 114.66 s  contrast 16.3  shift  +4, -5 score 0.93 placed   moving north-east  go south-west (-137°), 185 px, 4 openings, 2 marks (nearest 162 px) TO MARKER
+ 114.88 s  FACING -163 55
+ 114.88 s  contrast 16.5  shift  +5, -4 score 0.94 placed   moving north-east  go south-west (-136°), 193 px, 4 openings, 2 marks (nearest 161 px) TO MARKER
+ 115.08 s  FACING -163 43
+ 115.08 s  contrast 16.5  shift  +3, -5 score 0.94 placed   moving north-east  go north-west (-49°), 166 px, 4 openings, 2 marks (nearest 159 px) TO MARKER
+ 115.33 s  FACING -163 45
+ 115.33 s  contrast 16.8  shift  +5, -4 score 0.95 placed   moving north-east  go north-west (-47°), 172 px, 4 openings, 3 marks (nearest 158 px) TO MARKER
+ 115.54 s  TIMER 64
+ 115.54 s  FACING -163 44
+ 115.54 s  contrast 17.1  shift  +5, -4 score 0.93 placed   moving north-east  go north-west (-59°), 175 px, 4 openings, 3 marks (nearest 157 px) TO MARKER
+ 115.75 s  FACING 161 20
+ 115.75 s  contrast 17.0  shift  +1, -2 score 0.92 placed   moving north  go north-west (-59°), 165 px, 4 openings, 3 marks (nearest 152 px) TO MARKER
+ 115.97 s  FACING 137 -57
+ 115.97 s  contrast 16.9  shift  +1, +0 score 0.95 placed   moving north-west  go north-west (-48°), 163 px, 4 openings, 3 marks (nearest 150 px) TO MARKER
+ 116.17 s  FACING 125 -101
+ 116.17 s  contrast 16.8  shift  -2, +0 score 0.95 placed   moving west  go north-west (-48°), 160 px, 4 openings, 4 marks (nearest 151 px) TO MARKER
+ 116.38 s  OBJECTIVE MARKER at (-3,114), west of the player
+ 116.38 s  MARKER at (-3,114) in the box, west of the player
+ 116.38 s  FACING 118 -123
+ 116.38 s  contrast 16.6  shift  +0, +1 score 0.95 placed   moving south-west  go north-west (-49°), 156 px, 4 openings, 4 marks (nearest 151 px) TO MARKER
+ 116.58 s  TIMER 63
+ 116.58 s  contrast 16.6  shift  +0, +1 score 0.95 placed   moving still  go north-west (-47°), 160 px, 4 openings, 4 marks (nearest 151 px) TO MARKER
+ 116.81 s  FACING 96 -152
+ 116.81 s  contrast 16.3  shift  -2, +1 score 0.94 placed   moving south-west  go north-west (-41°), 160 px, 4 openings, 4 marks (nearest 156 px) TO MARKER
+ 117.01 s  FACING 85 -152
+ 117.01 s  contrast 16.1  shift  -1, +1 score 0.94 placed   moving south-west  go north-west (-38°), 164 px, 4 openings, 4 marks (nearest 158 px) TO MARKER
+ 117.22 s  FACING 85 -150
+ 117.22 s  contrast 16.0  shift  +0, +1 score 0.94 placed   moving south-west  go north-west (-37°), 164 px, 4 openings, 4 marks (nearest 159 px) TO MARKER
+ 117.42 s  FACING -99 129
+ 117.42 s  contrast 15.8  shift  -5, +4 score 0.93 placed   moving south-east  go north-west (-42°), 173 px, 4 openings, 4 marks (nearest 168 px) TO MARKER
+ 117.62 s  TIMER 62
+ 117.62 s  FACING -98 140
+ 117.62 s  contrast 15.6  shift  -4, +4 score 0.92 placed   moving south-east  go north-west (-37°), 176 px, 4 openings, 4 marks (nearest 170 px) TO MARKER
+ 117.83 s  FACING -111 166
+ 117.83 s  contrast 15.7  shift  -4, +4 score 0.91 placed   moving south  go north-west (-31°), 178 px, 4 openings, 4 marks (nearest 171 px) TO MARKER
+ 118.04 s  FACING -118 -135
+ 118.04 s  contrast 14.5  shift  -3, +4 score 0.88 placed   moving south-west  go north-west (-24°), 184 px, 4 openings, 4 marks (nearest 172 px) TO MARKER
+ 118.26 s  FACING 43 -135
+ 118.26 s  contrast 14.6  shift  +0, +0 score 0.89 placed   moving south-west  go north-west (-25°), 184 px, 4 openings, 4 marks (nearest 172 px) TO MARKER
+ 118.48 s  contrast 14.6  shift  +0, +0 score 0.89 placed   moving still  go north-west (-25°), 184 px, 4 openings, 4 marks (nearest 171 px) TO MARKER
+ 118.71 s  TIMER 60
+ 118.71 s  contrast 13.1  shift  -3, +4 score 0.82 placed   moving still  go north (-18°), 189 px, 4 openings, 4 marks (nearest 174 px) TO MARKER
+ 118.92 s  FACING -131 -137
+ 118.92 s  contrast 14.4  shift  -3, +3 score 0.80 placed   moving south-west  go north (-11°), 191 px, 4 openings, 4 marks (nearest 174 px) TO MARKER
+ 119.13 s  FACING -152 -142
+ 119.13 s  contrast 16.2  shift  -3, +5 score 0.82 placed   moving south-west  go north (3°), 203 px, 5 openings, 4 marks (nearest 178 px) TO MARKER
+ 119.44 s  FACING -172 -150
+ 119.44 s  contrast 16.4  shift  +0, +4 score 0.80 placed   moving south-west  go north (3°), 205 px, 5 openings, 3 marks (nearest 183 px) TO MARKER
+ 119.66 s  FACING 157 -168
+ 119.66 s  LANDMARK Healing well west of the player, 258 px
+ 119.66 s  contrast 15.4  shift  +2, +2 score 0.79 placed   moving south  go north (6°), 207 px, 5 openings, 3 marks (nearest 185 px) TO MARKER
+ 119.87 s  TIMER 59
+ 119.87 s  contrast 15.4  shift  +1, -1 score 0.78 placed   moving still  go north (0°), 203 px, 5 openings, 3 marks (nearest 185 px) TO MARKER
+ 120.09 s  contrast 15.4  shift  +0, +0 score 0.78 placed   moving still  go north (0°), 203 px, 5 openings, 3 marks (nearest 185 px) TO MARKER
+ 120.29 s  contrast 15.4  shift  +0, +0 score 0.79 placed   moving still  go north (0°), 203 px, 5 openings, 3 marks (nearest 185 px) TO MARKER
+ 120.50 s  contrast 15.5  shift  +0, +0 score 0.79 placed   moving still  go north (0°), 203 px, 5 openings, 3 marks (nearest 185 px) TO MARKER
+ 120.72 s  contrast 15.5  shift  +0, +0 score 0.79 placed   moving still  go north (0°), 203 px, 6 openings, 3 marks (nearest 185 px) TO MARKER
+ 120.93 s  TIMER 58
+ 120.93 s  contrast 15.5  shift  +0, +0 score 0.79 placed   moving still  go north (0°), 203 px, 6 openings, 3 marks (nearest 185 px) TO MARKER
+ 121.14 s  contrast 15.5  shift  +0, +0 score 0.79 placed   moving still  go north (0°), 203 px, 6 openings, 3 marks (nearest 185 px) TO MARKER
+ 121.34 s  contrast 15.5  shift  -1, +0 score 0.78 placed   moving still  go north (1°), 203 px, 6 openings, 3 marks (nearest 185 px) TO MARKER
+ 121.55 s  OBJECTIVE MARKER at (14,95), north-west of the player
+ 121.55 s  MARKER at (14,95) in the box, north-west of the player
+ 121.55 s  contrast 15.5  shift  +0, +0 score 0.78 placed   moving still  go north (1°), 203 px, 6 openings, 3 marks (nearest 185 px) TO MARKER
+ 121.76 s  contrast 15.6  shift  +0, +0 score 0.79 placed   moving still  go north (1°), 203 px, 6 openings, 3 marks (nearest 185 px) TO MARKER
+ 122.00 s  TIMER 57
+ 122.00 s  contrast 15.6  shift  +0, -1 score 0.79 placed   moving still  go north (1°), 203 px, 6 openings, 0 marks TO MARKER
+ 122.20 s  FACING 88 -77
+ 122.20 s  contrast 16.5  shift  -4, -2 score 0.77 placed   moving west  go north-east (41°), 221 px, 6 openings, 0 marks TO MARKER
+ 122.41 s  FACING 116 -57
+ 122.41 s  contrast 16.3  shift  +0, -1 score 0.79 placed   moving north-west  go north-east (44°), 218 px, 6 openings, 0 marks TO MARKER
+ 122.63 s  FACING 129 -36
+ 122.63 s  contrast 15.9  shift  +1, -4 score 0.81 placed   moving north-west  go north-east (44°), 217 px, 6 openings, 1 marks (nearest 163 px) TO MARKER
+ 122.84 s  FACING 140 28
+ 122.84 s  contrast 16.2  shift  +0, +0 score 0.80 placed   moving north-east  go east (112°), 250 px, 6 openings, 1 marks (nearest 162 px) TO MARKER
+ 123.05 s  TIMER 56
+ 123.05 s  FACING 138 38
+ 123.05 s  contrast 16.2  shift  +1, +1 score 0.79 placed   moving north-east  go north-east (40°), 217 px, 6 openings, 1 marks (nearest 164 px) TO MARKER
+ 123.25 s  contrast 16.0  shift  -1, -1 score 0.81 placed   moving still  go north-east (59°), 226 px, 6 openings, 1 marks (nearest 164 px) TO MARKER
+ 123.45 s  contrast 16.0  shift  +0, +0 score 0.80 placed   moving still  go north-east (57°), 226 px, 6 openings, 1 marks (nearest 165 px) TO MARKER
+ 123.66 s  contrast 16.0  shift  +0, +0 score 0.80 placed   moving still  go north-east (47°), 218 px, 6 openings, 1 marks (nearest 165 px) TO MARKER
+ 123.87 s  contrast 15.9  shift  +0, +0 score 0.80 placed   moving still  go north-east (46°), 218 px, 6 openings, 1 marks (nearest 166 px) TO MARKER
+ 124.08 s  TIMER 55
+ 124.08 s  contrast 16.2  shift  +1, +1 score 0.79 placed   moving still  go north-east (40°), 217 px, 6 openings, 1 marks (nearest 164 px) TO MARKER
+ 124.29 s  FACING -162 66
+ 124.29 s  contrast 14.7  shift  +3, -4 score 0.83 placed   moving north-east  go north-west (-28°), 176 px, 7 openings, 1 marks (nearest 166 px) TO MARKER
+ 124.49 s  FACING -155 68
+ 124.49 s  contrast 13.8  shift  +4, -3 score 0.86 placed   moving east  go north-west (-35°), 174 px, 7 openings, 2 marks (nearest 165 px) TO MARKER
+ 124.70 s  FACING -155 63
+ 124.70 s  contrast 16.1  shift  +3, -4 score 0.93 placed   moving north-east  go north-west (-40°), 172 px, 7 openings, 2 marks (nearest 165 px) TO MARKER
+ 124.91 s  FACING -154 54
+ 124.91 s  contrast 16.5  shift  +4, -4 score 0.94 placed   moving north-east  go north-west (-46°), 169 px, 7 openings, 2 marks (nearest 163 px) TO MARKER
+ 125.12 s  TIMER 54
+ 125.12 s  FACING -154 37
+ 125.12 s  contrast 16.4  shift  +3, -4 score 0.94 placed   moving north-east  go north-west (-48°), 172 px, 7 openings, 2 marks (nearest 161 px) TO MARKER
+ 125.33 s  FACING -155 48
+ 125.33 s  contrast 16.6  shift  +5, -4 score 0.95 placed   moving north-east  go north-west (-49°), 174 px, 7 openings, 3 marks (nearest 162 px) TO MARKER
+ 125.53 s  FACING -135 62
+ 125.53 s  contrast 16.8  shift  +3, -4 score 0.93 placed   moving north-east  go north-west (-63°), 182 px, 7 openings, 4 marks (nearest 166 px) TO MARKER
+ 125.74 s  FACING -148 50
+ 125.74 s  contrast 17.0  shift  +4, -4 score 0.92 placed   moving north-east  go north-west (-59°), 179 px, 7 openings, 4 marks (nearest 160 px) TO MARKER
+ 125.95 s  FACING 178 6
+ 125.95 s  contrast 16.9  shift  +3, -3 score 0.94 placed   moving north  go north-west (-58°), 167 px, 7 openings, 4 marks (nearest 153 px) TO MARKER
+ 126.16 s  TIMER 53
+ 126.16 s  FACING 151 -39
+ 126.16 s  contrast 16.8  shift  +1, -1 score 0.93 placed   moving north-west  go north-west (-60°), 165 px, 7 openings, 4 marks (nearest 149 px) TO MARKER
+ 126.36 s  FACING -133 -141
+ 126.36 s  contrast 16.6  shift  -3, +4 score 0.94 placed   moving south-west  go north-west (-47°), 174 px, 7 openings, 4 marks (nearest 164 px) TO MARKER
+ 126.57 s  OBJECTIVE MARKER at (-2,112), west of the player
+ 126.57 s  MARKER at (-2,112) in the box, west of the player
+ 126.57 s  FACING -160 -166
+ 126.57 s  contrast 16.2  shift  -2, +4 score 0.93 placed   moving south  go north-west (-50°), 173 px, 7 openings, 4 marks (nearest 167 px) TO MARKER
+ 126.77 s  FACING -161 -175
+ 126.77 s  contrast 15.8  shift  -2, +6 score 0.94 placed   moving south  go north-west (-44°), 175 px, 7 openings, 4 marks (nearest 171 px) TO MARKER
+ 126.98 s  FACING -161 -160
+ 126.98 s  contrast 15.6  shift  -1, +5 score 0.94 placed   moving south  go north-west (-40°), 177 px, 7 openings, 4 marks (nearest 175 px) TO MARKER
+ 127.18 s  TIMER 52
+ 127.18 s  FACING -160 -166
+ 127.18 s  contrast 15.1  shift  -1, +6 score 0.87 placed   moving south  go north-west (-35°), 185 px, 7 openings, 4 marks (nearest 178 px) TO MARKER
+ 127.39 s  FACING -158 -167
+ 127.39 s  contrast 15.3  shift  -2, +5 score 0.85 placed   moving south  go north-west (-31°), 189 px, 7 openings, 4 marks (nearest 183 px) TO MARKER
+ 127.61 s  FACING 52 -161
+ 127.61 s  contrast 15.9  shift  -3, +5 score 0.83 placed   moving south  go north-west (-25°), 192 px, 7 openings, 3 marks (nearest 186 px) TO MARKER
+ 127.81 s  FACING -100 -143
+ 127.81 s  contrast 15.4  shift  -6, +2 score 0.84 placed   moving south-west  go north (-20°), 194 px, 7 openings, 3 marks (nearest 185 px) TO MARKER
+ 128.03 s  FACING 88 -101
+ 128.03 s  contrast 14.3  shift  -4, -1 score 0.82 placed   moving west  go north-east (23°), 213 px, 7 openings, 0 marks TO MARKER
+ 128.23 s  TIMER 51
+ 128.23 s  FACING -141 -108
+ 128.23 s  contrast 15.0  shift  -5, +4 score 0.79 placed   moving west  go north (-6°), 199 px, 7 openings, 1 marks (nearest 182 px) TO MARKER
+ 128.44 s  FACING -151 -112
+ 128.44 s  contrast 15.2  shift  -2, +2 score 0.80 placed   moving west  go north (1°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 128.64 s  FACING -150 130
+ 128.64 s  contrast 15.2  shift  +1, +0 score 0.80 placed   moving south-east  go north (-0°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 128.86 s  contrast 15.2  shift  -1, -1 score 0.79 placed   moving still  go north (1°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 129.06 s  contrast 15.2  shift  +1, +1 score 0.80 placed   moving still  go north (-0°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 129.27 s  TIMER 50
+ 129.27 s  contrast 15.3  shift  -1, +0 score 0.80 placed   moving still  go north (1°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 129.47 s  contrast 15.3  shift  +0, +0 score 0.80 placed   moving still  go north (1°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 129.68 s  contrast 15.3  shift  +0, +0 score 0.80 placed   moving still  go north (1°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 129.88 s  contrast 15.4  shift  +0, +0 score 0.80 placed   moving still  go north (1°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 130.09 s  contrast 15.7  shift  -1, +0 score 0.84 placed   moving still  go north (1°), 203 px, 7 openings, 0 marks TO MARKER
+ 130.29 s  TIMER 49
+ 130.29 s  FACING 115 -60
+ 130.29 s  contrast 16.3  shift  -3, -3 score 0.79 placed   moving north-west  go north-east (39°), 217 px, 7 openings, 1 marks (nearest 169 px) TO MARKER
+ 130.50 s  FACING 132 -33
+ 130.50 s  contrast 15.9  shift  +1, -5 score 0.82 placed   moving north-west  go east (68°), 234 px, 7 openings, 1 marks (nearest 162 px) TO MARKER
+ 130.71 s  FACING 130 -34
+ 130.71 s  contrast 15.9  shift  +0, +0 score 0.82 placed   moving north-west  go north-east (43°), 217 px, 7 openings, 1 marks (nearest 163 px) TO MARKER
+ 130.92 s  FACING 147 36
+ 130.92 s  contrast 15.8  shift  +0, +1 score 0.81 placed   moving north-east  go north (3°), 195 px, 7 openings, 1 marks (nearest 163 px) TO MARKER
+ 131.14 s  contrast 15.9  shift  +2, -1 score 0.82 placed   moving still  go north (-4°), 195 px, 7 openings, 1 marks (nearest 161 px) TO MARKER
+ 131.34 s  TIMER 48
+ 131.34 s  FACING 157 61
+ 131.34 s  contrast 15.3  shift  +0, -1 score 0.81 placed   moving north-east  go north (-7°), 195 px, 7 openings, 1 marks (nearest 169 px) TO MARKER
+ 131.57 s  OBJECTIVE MARKER at (14,100), west of the player
+ 131.57 s  MARKER at (14,100) in the box, west of the player
+ 131.57 s  contrast 14.9  shift  +0, -2 score 0.82 placed   moving still  go north (-2°), 195 px, 7 openings, 1 marks (nearest 160 px) TO MARKER
+ 131.79 s  FACING 108 -133
+ 131.79 s  contrast 15.8  shift  -1, +3 score 0.80 placed   moving south-west  go north-east (44°), 218 px, 7 openings, 1 marks (nearest 166 px) TO MARKER
+ 131.99 s  FACING -145 179
+ 131.99 s  contrast 16.4  shift  -1, +4 score 0.83 placed   moving south  go north (4°), 203 px, 7 openings, 1 marks (nearest 178 px) TO MARKER
+ 132.19 s  FACING 163 172
+ 132.19 s  contrast 16.5  shift  +1, +3 score 0.82 placed   moving south  go north (4°), 205 px, 7 openings, 0 marks TO MARKER
+ 132.43 s  TIMER 47
+ 132.43 s  FACING 141 131
+ 132.43 s  contrast 15.9  shift  +2, +2 score 0.86 placed   moving south-east  go north (6°), 207 px, 7 openings, 1 marks (nearest 186 px) TO MARKER
+ 132.64 s  contrast 16.6  shift  +3, +0 score 0.79 placed   moving still  go north (3°), 207 px, 7 openings, 0 marks TO MARKER
+ 132.85 s  FACING 141 109
+ 132.85 s  contrast 17.2  shift  +3, +0 score 0.78 placed   moving east  go north (-5°), 205 px, 7 openings, 1 marks (nearest 195 px) TO MARKER
+ 133.06 s  FACING 136 96
+ 133.06 s  contrast 17.8  shift  +4, +1 score 0.79 placed   moving east  go north (-13°), 204 px, 7 openings, 0 marks TO MARKER
+ 133.26 s  FACING 133 106
+ 133.26 s  contrast 18.7  shift  +5, +2 score 0.86 placed   moving east  go north (-13°), 202 px, 7 openings, 1 marks (nearest 194 px) TO MARKER
+ 133.47 s  TIMER 46
+ 133.47 s  FACING 137 102
+ 133.47 s  contrast 18.8  shift  +0, -1 score 0.86 placed   moving east  go north (-14°), 202 px, 7 openings, 0 marks TO MARKER
+ 133.67 s  contrast 18.8  shift  +0, +0 score 0.86 placed   moving still  go north (-14°), 202 px, 7 openings, 0 marks TO MARKER
+ 133.87 s  contrast 18.9  shift  -1, +1 score 0.86 placed   moving still  go north (-13°), 202 px, 7 openings, 0 marks TO MARKER
+ 134.09 s  contrast 19.1  shift  -2, -1 score 0.83 placed   moving still  go north (-12°), 202 px, 7 openings, 0 marks TO MARKER
+ 134.29 s  contrast 19.0  shift  -1, +0 score 0.82 placed   moving still  go north (-11°), 202 px, 7 openings, 1 marks (nearest 191 px) TO MARKER
+ 134.50 s  TIMER 45
+ 134.50 s  contrast 18.3  shift  -2, -2 score 0.79 placed   moving still  go north (-13°), 200 px, 7 openings, 0 marks TO MARKER
+ 134.70 s  FACING -97 -88
+ 134.70 s  contrast 17.5  shift  -7, +2 score 0.75 placed   moving west  go north (-3°), 205 px, 7 openings, 1 marks (nearest 187 px) TO MARKER
+ 134.91 s  FACING -125 -80
+ 134.91 s  contrast 16.0  shift  -1, -2 score 0.81 placed   moving west  go north (-1°), 203 px, 7 openings, 0 marks TO MARKER
+ 135.11 s  FACING -147 -85
+ 135.11 s  contrast 15.9  shift  -1, -1 score 0.81 placed   moving west  go north (0°), 203 px, 7 openings, 1 marks (nearest 185 px) TO MARKER
+ 135.32 s  contrast 17.0  shift  +2, +2 score 0.82 placed   moving still  go north (4°), 207 px, 7 openings, 1 marks (nearest 188 px) TO MARKER
+ 135.56 s  TIMER 44
+ 135.56 s  contrast 17.8  shift  +7, -3 score 0.80 placed   moving still  go north (-13°), 204 px, 7 openings, 0 marks TO MARKER
+ 135.76 s  FACING 67 95
+ 135.76 s  contrast 17.8  shift  +7, -1 score 0.84 placed   moving east  go north (-20°), 200 px, 7 openings, 1 marks (nearest 199 px) TO MARKER
+ 135.97 s  FACING 67 77
+ 135.97 s  contrast 16.9  shift  +6, -2 score 0.88 placed   moving east  go north-west (-26°), 201 px, 7 openings, 0 marks TO MARKER
+ 136.18 s  FACING -129 63
+ 136.18 s  contrast 16.1  shift  +3, -2 score 0.90 placed   moving north-east  go north-west (-44°), 196 px, 7 openings, 1 marks (nearest 193 px) TO MARKER
+ 136.38 s  FACING -146 46
+ 136.38 s  contrast 16.6  shift  +4, -5 score 0.92 placed   moving north-east  go north-west (-48°), 194 px, 7 openings, 0 marks TO MARKER
+ 136.58 s  TIMER 43
+ 136.58 s  OBJECTIVE MARKER at (-1,107), west of the player
+ 136.58 s  MARKER at (-1,107) in the box, west of the player
+ 136.58 s  FACING -134 45
+ 136.58 s  contrast 16.3  shift  +3, -4 score 0.93 placed   moving north-east  go north-west (-47°), 197 px, 7 openings, 2 marks (nearest 185 px) TO MARKER
+ 136.79 s  contrast 16.1  shift  +6, +0 score 0.94 placed   moving still  go north-west (-43°), 196 px, 7 openings, 3 marks (nearest 190 px) TO MARKER
+ 136.99 s  FACING 161 -177
+ 136.99 s  contrast 16.2  shift  +2, +5 score 0.92 placed   moving south  go north-west (-42°), 202 px, 7 openings, 3 marks (nearest 196 px) TO MARKER
+ 137.20 s  FACING 177 -166
+ 137.20 s  contrast 16.4  shift  +0, +5 score 0.92 placed   moving south  go north-west (-41°), 206 px, 7 openings, 3 marks (nearest 201 px) TO MARKER
+ 137.41 s  FACING -165 175
+ 137.41 s  contrast 16.8  shift  -1, +6 score 0.91 placed   moving south  go north-west (-34°), 208 px, 7 openings, 0 marks TO MARKER
+ 137.62 s  TIMER 42
+ 137.62 s  FACING -162 -174
+ 137.62 s  contrast 16.9  shift  -1, +6 score 0.91 placed   moving south  go north-west (-29°), 216 px, 7 openings, 0 marks TO MARKER
+ 137.83 s  FACING -161 -170
+ 137.83 s  contrast 17.1  shift  -1, +5 score 0.90 placed   moving south  go north-west (-24°), 220 px, 7 openings, 0 marks TO MARKER
+ 138.04 s  FACING -161 180
+ 138.04 s  contrast 17.1  shift  +2, +2 score 0.90 placed   moving south  go north-west (-27°), 224 px, 7 openings, 0 marks TO MARKER
+ 138.26 s  FACING -160 161
+ 138.26 s  contrast 17.1  shift  +2, +2 score 0.89 placed   moving south  go north-west (-24°), 226 px, 7 openings, 0 marks TO MARKER
+ 138.47 s  contrast 17.0  shift  +1, +1 score 0.89 placed   moving still  go north-west (-26°), 226 px, 7 openings, 0 marks TO MARKER
+ 138.69 s  TIMER 40
+ 138.69 s  FACING 108 -77
+ 138.69 s  contrast 16.9  shift  -3, -3 score 0.90 placed   moving west  go north (-20°), 215 px, 7 openings, 0 marks TO MARKER
+ 138.89 s  TIME TARGET afflicted at (147,36), 1 icons, 40 s left
+ 138.89 s  FACING 125 -50
+ 138.89 s  contrast 16.8  shift  -3, -3 score 0.92 placed   moving north-west  go north-west (-26°), 207 px, 7 openings, 0 marks TO MARKER
+ 139.09 s  FACING 123 -49
+ 139.09 s  contrast 16.8  shift  -4, -4 score 0.92 placed   moving north-west  go north-west (-26°), 201 px, 7 openings, 0 marks TO MARKER
+ 139.30 s  FACING 124 -28
+ 139.30 s  contrast 16.8  shift  -4, -3 score 0.91 placed   moving north-west  go north (-21°), 196 px, 7 openings, 1 marks (nearest 187 px) TO MARKER
+ 139.50 s  FACING 118 -51
+ 139.50 s  contrast 16.6  shift  -4, -4 score 0.91 placed   moving north-west  go north (-19°), 199 px, 7 openings, 1 marks (nearest 182 px) TO MARKER IN VIEW
+ 139.71 s  TIMER 39
+ 139.71 s  FACING 124 -50
+ 139.71 s  contrast 17.5  shift  -6, -5 score 0.83 placed   moving north-west  go north (-11°), 197 px, 7 openings, 1 marks (nearest 176 px) TO MARKER IN VIEW
+ 139.91 s  FACING 144 -25
+ 139.91 s  contrast 15.4  shift  -2, -3 score 0.85 placed   moving north-west  go north (-22°), 185 px, 7 openings, 2 marks (nearest 171 px) TO MARKER IN VIEW
+ 140.12 s  FACING 149 -9
+ 140.12 s  contrast 15.0  shift  -2, -6 score 0.84 placed   moving north  go north-west (-31°), 177 px, 7 openings, 2 marks (nearest 164 px) TO MARKER IN VIEW
+ 140.33 s  FACING 139 -15
+ 140.33 s  contrast 16.5  shift  -4, -4 score 0.90 placed   moving north  go north-west (-29°), 171 px, 7 openings, 2 marks (nearest 158 px) TO MARKER IN VIEW
+ 140.53 s  FACING 138 -40
+ 140.53 s  contrast 16.6  shift  -1, -1 score 0.93 placed   moving north-west  go north-west (-31°), 178 px, 7 openings, 2 marks (nearest 158 px) TO MARKER IN VIEW
+ 140.74 s  TIMER 38
+ 140.74 s  FACING 115 -100
+ 140.74 s  contrast 16.0  shift  -1, +1 score 0.92 placed   moving west  go north (-6°), 204 px, 7 openings, 2 marks (nearest 159 px) TO MARKER IN VIEW
+ 140.94 s  FACING -122 -141
+ 140.94 s  contrast 14.1  shift  -3, +4 score 0.84 placed   moving south-west  go north-east (35°), 224 px, 6 openings, 2 marks (nearest 166 px) TO MARKER IN VIEW
+ 141.15 s  FACING -123 178
+ 141.15 s  contrast 14.3  shift  -4, +2 score 0.82 placed   moving south  go north (-10°), 197 px, 6 openings, 2 marks (nearest 175 px) TO MARKER IN VIEW
+ 141.36 s  FACING -134 169
+ 141.36 s  contrast 16.0  shift  -3, +4 score 0.81 placed   moving south  go north (-7°), 204 px, 6 openings, 2 marks (nearest 174 px) TO MARKER IN VIEW
+ 141.58 s  FACING -131 141
+ 141.58 s  contrast 16.5  shift  -1, +5 score 0.80 placed   moving south-east  go north (8°), 209 px, 6 openings, 0 marks TO MARKER IN VIEW
+ 141.78 s  TIMER 37
+ 141.78 s  OBJECTIVE MARKER at (15,94), north-west of the player
+ 141.78 s  MARKER at (187,51) in the box, north of the player
+ 141.78 s  FACING 83 -111
+ 141.78 s  contrast 16.5  shift  -1, -1 score 0.76 placed   moving west  go north-east (41°), 226 px, 6 openings, 1 marks (nearest 179 px) TO MARKER IN VIEW
+ 141.98 s  FACING 142 -42
+ 141.98 s  contrast 16.0  shift  +1, -4 score 0.83 placed   moving north-west  go east (78°), 247 px, 6 openings, 1 marks (nearest 162 px) TO MARKER IN VIEW
+ 142.19 s  FACING 168 1
+ 142.19 s  contrast 15.7  shift  +2, -1 score 0.80 placed   moving north  go north (-9°), 204 px, 5 openings, 1 marks (nearest 163 px) TO MARKER IN VIEW
+ 142.40 s  FACING 161 43
+ 142.40 s  contrast 15.0  shift  +1, -1 score 0.82 placed   moving north-east  go north (-11°), 204 px, 5 openings, 1 marks (nearest 161 px) TO MARKER IN VIEW
+ 142.61 s  FACING 157 58
+ 142.61 s  contrast 14.7  shift  +0, -1 score 0.85 placed   moving north-east  go north (-10°), 201 px, 5 openings, 2 marks (nearest 161 px) TO MARKER IN VIEW
+ 142.81 s  TIMER 36
+ 142.81 s  contrast 14.5  shift  +1, -1 score 0.85 placed   moving still  go north (-3°), 201 px, 5 openings, 2 marks (nearest 162 px) TO MARKER IN VIEW
+ 143.06 s  contrast 14.3  shift  +0, +0 score 0.85 placed   moving still  go north (-3°), 204 px, 5 openings, 2 marks (nearest 160 px) TO MARKER IN VIEW
+ 143.26 s  contrast 14.0  shift  +1, -1 score 0.81 placed   moving still  go north (-7°), 202 px, 5 openings, 3 marks (nearest 159 px) TO MARKER IN VIEW
+ 143.47 s  contrast 14.3  shift  -1, +1 score 0.85 placed   moving still  go east (81°), 243 px, 5 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 143.68 s  FACING -51 -135
+ 143.68 s  contrast 14.7  shift  -1, +1 score 0.84 placed   moving south-west  go north-east (42°), 226 px, 5 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 143.89 s  TIMER 35
+ 143.89 s  FACING 125 -133
+ 143.89 s  contrast 15.0  shift  -1, +1 score 0.82 placed   moving south-west  go north-east (43°), 225 px, 5 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 144.09 s  TIME TARGET afflicted at (205,44), 3 icons, 35 s left
+ 144.09 s  contrast 15.5  shift  +0, +2 score 0.78 placed   moving still  go north-east (45°), 226 px, 6 openings, 3 marks (nearest 164 px) TO MARKER IN VIEW
+ 144.30 s  contrast 16.3  shift  -2, +1 score 0.81 placed   moving still  go north-east (46°), 224 px, 6 openings, 3 marks (nearest 167 px) TO MARKER IN VIEW
+ 144.50 s  contrast 16.0  shift  +0, -1 score 0.82 placed   moving still  go east (68°), 239 px, 6 openings, 3 marks (nearest 164 px) TO MARKER IN VIEW
+ 144.71 s  contrast 16.0  shift  +0, +1 score 0.82 placed   moving still  go north (2°), 201 px, 6 openings, 3 marks (nearest 170 px) TO MARKER IN VIEW
+ 144.93 s  TIMER 34
+ 144.93 s  contrast 16.0  shift  -1, -1 score 0.81 placed   moving still  go east (69°), 239 px, 6 openings, 3 marks (nearest 170 px) TO MARKER IN VIEW
+ 145.13 s  contrast 16.0  shift  +1, +0 score 0.81 placed   moving still  go north-east (43°), 222 px, 6 openings, 3 marks (nearest 170 px) TO MARKER IN VIEW
+ 145.36 s  contrast 16.0  shift  +0, +0 score 0.81 placed   moving still  go north-east (43°), 222 px, 6 openings, 3 marks (nearest 170 px) TO MARKER IN VIEW
+ 145.57 s  contrast 16.0  shift  +0, +0 score 0.81 placed   moving still  go east (68°), 239 px, 6 openings, 3 marks (nearest 170 px) TO MARKER IN VIEW
+ 145.78 s  contrast 16.0  shift  +0, +0 score 0.81 placed   moving still  go north-east (47°), 224 px, 6 openings, 3 marks (nearest 172 px) TO MARKER IN VIEW
+ 145.98 s  TIMER 33
+ 145.98 s  contrast 16.0  shift  +0, +0 score 0.80 placed   moving still  go north-east (47°), 224 px, 6 openings, 3 marks (nearest 173 px) TO MARKER IN VIEW
+ 146.19 s  contrast 16.0  shift  +0, +0 score 0.80 placed   moving still  go north-east (53°), 230 px, 6 openings, 3 marks (nearest 171 px) TO MARKER IN VIEW
+ 146.40 s  contrast 16.0  shift  +0, +0 score 0.81 placed   moving still  go north-east (53°), 230 px, 6 openings, 3 marks (nearest 171 px) TO MARKER IN VIEW
+ 146.62 s  contrast 16.0  shift  +0, +0 score 0.81 placed   moving still  go north-east (53°), 228 px, 6 openings, 3 marks (nearest 171 px) TO MARKER IN VIEW
+ 146.83 s  OBJECTIVE MARKER at (15,98), west of the player
+ 146.83 s  MARKER at (197,49) in the box, north-west of the player
+ 146.83 s  FACING 150 54
+ 146.83 s  contrast 15.9  shift  +1, -1 score 0.80 placed   moving north-east  go north (-1°), 204 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 147.04 s  TIMER 32
+ 147.04 s  FACING 156 56
+ 147.04 s  contrast 15.6  shift  +1, +0 score 0.80 placed   moving north-east  go north (-4°), 201 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 147.25 s  FACING 163 63
+ 147.25 s  contrast 14.9  shift  +2, -1 score 0.83 placed   moving north-east  go north (-12°), 202 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 147.46 s  contrast 14.5  shift  +0, -2 score 0.83 placed   moving still  go north (-8°), 201 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 147.69 s  FACING 110 -126
+ 147.69 s  contrast 14.8  shift  -1, +1 score 0.84 placed   moving south-west  go north-east (52°), 232 px, 6 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 147.89 s  FACING -112 -175
+ 147.89 s  contrast 16.1  shift  -3, +3 score 0.84 placed   moving south  go north (-6°), 208 px, 6 openings, 3 marks (nearest 176 px) TO MARKER IN VIEW
+ 148.14 s  TIMER 31
+ 148.14 s  FACING -145 -178
+ 148.14 s  contrast 16.7  shift  -1, +5 score 0.80 placed   moving south  go north (10°), 212 px, 6 openings, 3 marks (nearest 180 px) TO MARKER IN VIEW
+ 148.35 s  FACING -151 144
+ 148.35 s  contrast 16.9  shift  +1, +0 score 0.80 placed   moving south-east  go north (9°), 209 px, 6 openings, 0 marks TO MARKER IN VIEW
+ 148.57 s  contrast 16.7  shift  +2, +2 score 0.82 placed   moving still  go north (1°), 212 px, 6 openings, 1 marks (nearest 182 px) TO MARKER IN VIEW
+ 148.78 s  contrast 16.7  shift  -2, -1 score 0.79 placed   moving still  go north (8°), 210 px, 6 openings, 0 marks TO MARKER IN VIEW
+ 148.98 s  FACING 121 -55
+ 148.98 s  contrast 16.4  shift  +0, -2 score 0.81 placed   moving north-west  go north-east (43°), 222 px, 6 openings, 1 marks (nearest 167 px) TO MARKER IN VIEW
+ 149.19 s  TIMER 30
+ 149.19 s  TIME TARGET afflicted at (196,49), 4 icons, 30 s left
+ 149.19 s  FACING 167 -1
+ 149.19 s  contrast 16.1  shift  +2, -4 score 0.81 placed   moving north  go north (-10°), 204 px, 6 openings, 1 marks (nearest 163 px) TO MARKER IN VIEW
+ 149.43 s  FACING -174 16
+ 149.43 s  contrast 14.2  shift  +4, -5 score 0.83 placed   moving north  go north-west (-29°), 171 px, 6 openings, 1 marks (nearest 163 px) TO MARKER IN VIEW
+ 149.63 s  FACING 168 50
+ 149.63 s  contrast 13.9  shift  +1, +0 score 0.83 placed   moving north-east  go north-west (-29°), 171 px, 6 openings, 2 marks (nearest 160 px) TO MARKER IN VIEW
+ 149.84 s  FACING 172 40
+ 149.84 s  contrast 14.7  shift  +1, -3 score 0.88 placed   moving north-east  go north-west (-31°), 171 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 150.04 s  contrast 14.7  shift  +0, +0 score 0.88 placed   moving still  go north-west (-31°), 177 px, 6 openings, 3 marks (nearest 161 px) TO MARKER IN VIEW
+ 150.29 s  TIMER 29
+ 150.29 s  FACING -171 52
+ 150.29 s  contrast 16.5  shift  +5, -5 score 0.93 placed   moving north-east  go north-west (-42°), 170 px, 6 openings, 3 marks (nearest 161 px) TO MARKER IN VIEW
+ 150.50 s  FACING -170 54
+ 150.50 s  contrast 16.4  shift  +3, -3 score 0.93 placed   moving north-east  go north-west (-43°), 172 px, 6 openings, 3 marks (nearest 159 px) TO MARKER IN VIEW
+ 150.70 s  FACING 165 39
+ 150.70 s  contrast 16.3  shift  +2, -2 score 0.94 placed   moving north-east  go north-west (-41°), 168 px, 6 openings, 3 marks (nearest 156 px) TO MARKER IN VIEW
+ 150.91 s  contrast 16.3  shift  +2, -2 score 0.95 placed   moving still  go north-west (-45°), 164 px, 6 openings, 3 marks (nearest 154 px) TO MARKER IN VIEW
+ 151.11 s  contrast 16.3  shift  +1, -1 score 0.95 placed   moving still  go north-west (-40°), 168 px, 6 openings, 3 marks (nearest 154 px) TO MARKER IN VIEW
+ 151.31 s  TIMER 28
+ 151.31 s  contrast 16.3  shift  +1, -1 score 0.95 placed   moving still  go north-west (-41°), 164 px, 6 openings, 3 marks (nearest 153 px) TO MARKER IN VIEW
+ 151.51 s  contrast 16.3  shift  +2, -2 score 0.95 placed   moving still  go north-west (-44°), 161 px, 6 openings, 3 marks (nearest 152 px) TO MARKER IN VIEW
+ 151.72 s  contrast 16.3  shift  +0, +0 score 0.95 placed   moving still  go north-west (-44°), 169 px, 6 openings, 3 marks (nearest 152 px) TO MARKER IN VIEW
+ 151.94 s  OBJECTIVE MARKER at (-1,111), west of the player
+ 151.94 s  MARKER at (175,73) in the box, north-west of the player
+ 151.94 s  contrast 16.3  shift  +0, +0 score 0.95 placed   moving still  go north-west (-44°), 164 px, 6 openings, 3 marks (nearest 153 px) TO MARKER IN VIEW
+ 152.16 s  contrast 16.3  shift  +0, +0 score 0.95 placed   moving still  go north-west (-44°), 164 px, 6 openings, 3 marks (nearest 152 px) TO MARKER IN VIEW
+ 152.41 s  TIMER 27
+ 152.41 s  contrast 16.3  shift  +1, -1 score 0.95 placed   moving still  go north-west (-40°), 159 px, 6 openings, 3 marks (nearest 152 px) TO MARKER IN VIEW
+ 152.62 s  contrast 16.2  shift  +1, -1 score 0.95 placed   moving still  go north-west (-42°), 161 px, 6 openings, 3 marks (nearest 151 px) TO MARKER IN VIEW
+ 152.83 s  FACING 118 -122
+ 152.83 s  contrast 16.1  shift  -1, +1 score 0.95 placed   moving south-west  go north-west (-43°), 173 px, 6 openings, 3 marks (nearest 153 px) TO MARKER IN VIEW
+ 153.06 s  FACING 111 -135
+ 153.06 s  contrast 15.9  shift  -1, +2 score 0.95 placed   moving south-west  go north-west (-24°), 166 px, 6 openings, 3 marks (nearest 155 px) TO MARKER IN VIEW
+ 153.26 s  FACING 99 -142
+ 153.26 s  contrast 15.8  shift  -3, +1 score 0.93 placed   moving south-west  go north-west (-31°), 168 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 153.49 s  TIMER 26
+ 153.49 s  FACING 94 -145
+ 153.49 s  contrast 15.7  shift  -2, +3 score 0.93 placed   moving south-west  go north-west (-30°), 174 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 153.71 s  FACING -122 164
+ 153.71 s  contrast 15.9  shift  -5, +5 score 0.92 placed   moving south  go north-west (-30°), 181 px, 6 openings, 3 marks (nearest 170 px) TO MARKER IN VIEW
+ 153.91 s  FACING -155 157
+ 153.91 s  contrast 15.4  shift  -1, +5 score 0.86 placed   moving south-east  go north (-14°), 189 px, 6 openings, 3 marks (nearest 173 px) TO MARKER IN VIEW
+ 154.12 s  FACING -162 163
+ 154.12 s  contrast 14.0  shift  -3, +7 score 0.78 placed   moving south  go north (-11°), 202 px, 6 openings, 3 marks (nearest 178 px) TO MARKER IN VIEW
+ 154.33 s  TIME TARGET afflicted at (177,53), 5 icons, 26 s left
+ 154.33 s  FACING -161 -161
+ 154.33 s  contrast 14.2  shift  +0, +4 score 0.82 placed   moving south  go north (-11°), 203 px, 6 openings, 3 marks (nearest 188 px) TO MARKER IN VIEW
+ 154.53 s  TIMER 25
+ 154.53 s  FACING -162 -164
+ 154.53 s  contrast 16.3  shift  -1, +6 score 0.79 placed   moving south  go north (-10°), 207 px, 6 openings, 3 marks (nearest 193 px) TO MARKER IN VIEW
+ 154.74 s  FACING -142 -159
+ 154.74 s  contrast 16.4  shift  -4, +2 score 0.78 placed   moving south  go north (-1°), 209 px, 6 openings, 3 marks (nearest 186 px) TO MARKER IN VIEW
+ 154.94 s  contrast 15.5  shift  -1, -2 score 0.80 placed   moving still  go north (-1°), 203 px, 6 openings, 3 marks (nearest 184 px) TO MARKER
+ 155.16 s  contrast 15.8  shift  -1, -1 score 0.84 placed   moving still  go north (-0°), 203 px, 6 openings, 0 marks TO MARKER
+ 155.36 s  contrast 15.7  shift  +2, +2 score 0.82 placed   moving still  go north (-1°), 203 px, 6 openings, 1 marks (nearest 184 px) TO MARKER
+ 155.56 s  TIMER 24
+ 155.56 s  contrast 15.9  shift  -1, -1 score 0.83 placed   moving still  go north (-1°), 203 px, 6 openings, 0 marks TO MARKER
+ 155.77 s  FACING 133 -46
+ 155.77 s  contrast 16.1  shift  -2, -2 score 0.80 placed   moving north-west  go north-east (33°), 221 px, 6 openings, 1 marks (nearest 174 px) TO MARKER IN VIEW
+ 155.97 s  FACING 171 -10
+ 155.97 s  contrast 15.7  shift  -1, -5 score 0.82 placed   moving north  go north (-9°), 204 px, 6 openings, 1 marks (nearest 171 px) TO MARKER IN VIEW
+ 156.21 s  FACING -170 7
+ 156.21 s  contrast 14.6  shift  +3, -3 score 0.82 placed   moving north  go north (-17°), 185 px, 6 openings, 2 marks (nearest 164 px) TO MARKER IN VIEW
+ 156.41 s  FACING -171 49
+ 156.41 s  contrast 14.2  shift  +4, -5 score 0.86 placed   moving north-east  go north-west (-32°), 174 px, 6 openings, 2 marks (nearest 163 px) TO MARKER IN VIEW
+ 156.62 s  TIMER 23
+ 156.62 s  FACING 178 44
+ 156.62 s  contrast 15.9  shift  +3, -3 score 0.89 placed   moving north-east  go north-west (-32°), 173 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 156.82 s  FACING 174 33
+ 156.82 s  contrast 16.7  shift  +2, -2 score 0.93 placed   moving north-east  go north-west (-24°), 175 px, 6 openings, 3 marks (nearest 159 px) TO MARKER IN VIEW
+ 157.03 s  OBJECTIVE MARKER at (-1,107), west of the player
+ 157.03 s  MARKER at (181,65) in the box, north-west of the player
+ 157.03 s  FACING -175 37
+ 157.03 s  contrast 16.4  shift  +3, -4 score 0.93 placed   moving north-east  go north-west (-43°), 172 px, 6 openings, 3 marks (nearest 158 px) TO MARKER IN VIEW
+ 157.23 s  FACING -170 49
+ 157.23 s  contrast 16.5  shift  +4, -4 score 0.94 placed   moving north-east  go north-west (-43°), 172 px, 6 openings, 3 marks (nearest 158 px) TO MARKER IN VIEW
+ 157.44 s  FACING -171 51
+ 157.44 s  contrast 16.6  shift  +3, -3 score 0.93 placed   moving north-east  go north-west (-41°), 172 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 157.64 s  TIMER 22
+ 157.64 s  FACING -174 43
+ 157.64 s  contrast 16.9  shift  +4, -4 score 0.91 placed   moving north-east  go north-west (-49°), 170 px, 6 openings, 3 marks (nearest 155 px) TO MARKER IN VIEW
+ 157.85 s  contrast 16.9  shift  +1, -1 score 0.91 placed   moving still  go north-west (-44°), 162 px, 6 openings, 3 marks (nearest 152 px) TO MARKER IN VIEW
+ 158.06 s  contrast 16.8  shift  +0, -1 score 0.94 placed   moving still  go north-west (-42°), 165 px, 6 openings, 3 marks (nearest 151 px) TO MARKER IN VIEW
+ 158.27 s  FACING 123 -110
+ 158.27 s  contrast 16.7  shift  +0, +1 score 0.94 placed   moving west  go north-west (-44°), 163 px, 6 openings, 3 marks (nearest 152 px) TO MARKER IN VIEW
+ 158.48 s  FACING 123 -119
+ 158.48 s  contrast 16.5  shift  -1, +0 score 0.95 placed   moving south-west  go north-west (-43°), 161 px, 6 openings, 3 marks (nearest 151 px) TO MARKER IN VIEW
+ 158.69 s  TIMER 20
+ 158.69 s  contrast 16.4  shift  +0, +1 score 0.95 placed   moving still  go north-west (-42°), 167 px, 6 openings, 3 marks (nearest 152 px) TO MARKER IN VIEW
+ 158.89 s  contrast 16.3  shift  -1, +1 score 0.94 placed   moving still  go north-west (-41°), 164 px, 6 openings, 3 marks (nearest 153 px) TO MARKER IN VIEW
+ 159.09 s  contrast 16.1  shift  -1, +1 score 0.95 placed   moving still  go north-west (-42°), 162 px, 6 openings, 3 marks (nearest 154 px) TO MARKER IN VIEW
+ 159.31 s  contrast 16.0  shift  -1, +0 score 0.95 placed   moving still  go north-west (-42°), 166 px, 6 openings, 3 marks (nearest 155 px) TO MARKER IN VIEW
+ 159.51 s  TIME TARGET afflicted at (173,65), 6 icons, 20 s left
+ 159.51 s  contrast 15.9  shift  -1, +2 score 0.93 placed   moving still  go north-west (-23°), 173 px, 6 openings, 3 marks (nearest 156 px) TO MARKER IN VIEW
+ 159.72 s  TIMER 19
+ 159.72 s  contrast 15.9  shift  -1, +1 score 0.94 placed   moving still  go north-west (-32°), 164 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 159.97 s  FACING 107 -148
+ 159.97 s  contrast 15.7  shift  -2, +2 score 0.93 placed   moving south-west  go north-west (-31°), 171 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 160.18 s  FACING 108 -144
+ 160.18 s  contrast 15.6  shift  -1, +2 score 0.93 placed   moving south-west  go north-west (-31°), 170 px, 6 openings, 3 marks (nearest 159 px) TO MARKER IN VIEW
+ 160.38 s  FACING 108 -137
+ 160.38 s  contrast 15.6  shift  -2, +1 score 0.92 placed   moving south-west  go north-west (-29°), 178 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 160.59 s  contrast 15.7  shift  -2, +2 score 0.91 placed   moving still  go north (-11°), 206 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 160.79 s  TIMER 18
+ 160.79 s  contrast 15.8  shift  -2, +2 score 0.92 placed   moving still  go north (-7°), 201 px, 6 openings, 3 marks (nearest 161 px) TO MARKER IN VIEW
+ 161.00 s  contrast 15.7  shift  -1, +1 score 0.93 placed   moving still  go north (-4°), 201 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 161.21 s  contrast 14.9  shift  -2, +3 score 0.89 placed   moving still  go north (-1°), 201 px, 6 openings, 3 marks (nearest 164 px) TO MARKER IN VIEW
+ 161.41 s  contrast 14.0  shift  -2, +1 score 0.89 placed   moving still  go north (2°), 204 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 161.65 s  contrast 13.2  shift  -1, +2 score 0.84 placed   moving still  go north-east (50°), 228 px, 5 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 161.86 s  TIMER 17
+ 161.86 s  contrast 13.6  shift  -1, +2 score 0.82 placed   moving still  go north (3°), 201 px, 5 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 162.06 s  OBJECTIVE MARKER at (13,101), north-west of the player
+ 162.06 s  MARKER at (193,53) in the box, north of the player
+ 162.06 s  contrast 14.0  shift  -2, +0 score 0.84 placed   moving still  go north-east (60°), 235 px, 5 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 162.28 s  contrast 14.4  shift  -1, +1 score 0.83 placed   moving still  go north-east (53°), 230 px, 5 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 162.47 s  contrast 14.7  shift  +0, +1 score 0.81 placed   moving still  go north-east (51°), 231 px, 5 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 162.71 s  contrast 15.0  shift  -1, -1 score 0.81 placed   moving still  go north-east (64°), 236 px, 5 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 162.91 s  TIMER 16
+ 162.91 s  FACING -167 69
+ 162.91 s  contrast 14.0  shift  +4, -1 score 0.85 placed   moving east  go north (-20°), 183 px, 6 openings, 3 marks (nearest 165 px) TO MARKER IN VIEW
+ 163.12 s  FACING 34 64
+ 163.12 s  contrast 14.5  shift  +3, -4 score 0.91 placed   moving north-east  go north-west (-32°), 179 px, 6 openings, 3 marks (nearest 164 px) TO MARKER IN VIEW
+ 163.33 s  FACING -164 64
+ 163.33 s  contrast 16.0  shift  +2, -4 score 0.94 placed   moving north-east  go north-west (-27°), 172 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 163.53 s  FACING -165 44
+ 163.53 s  contrast 16.0  shift  +1, +0 score 0.94 placed   moving north-east  go north-west (-42°), 173 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 163.74 s  contrast 16.4  shift  +0, +1 score 0.94 placed   moving still  go north-west (-41°), 173 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 163.98 s  TIMER 15
+ 163.98 s  contrast 16.2  shift  +0, +0 score 0.94 placed   moving still  go north-west (-41°), 173 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 164.22 s  contrast 15.9  shift  +0, +0 score 0.94 placed   moving still  go north-west (-41°), 173 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 164.43 s  FACING 146 -88
+ 164.43 s  contrast 16.2  shift  +0, -1 score 0.93 placed   moving west  go north-west (-30°), 171 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 164.66 s  TIME TARGET afflicted at (183,54), 4 icons, 15 s left
+ 164.66 s  FACING 145 -91
+ 164.66 s  contrast 16.0  shift  +1, +0 score 0.94 placed   moving west  go north-west (-30°), 175 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 164.86 s  FACING 145 -86
+ 164.86 s  contrast 16.0  shift  +0, -1 score 0.94 placed   moving west  go north-west (-31°), 171 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 165.07 s  TIMER 14
+ 165.07 s  contrast 16.0  shift  +1, -1 score 0.94 placed   moving still  go north-west (-32°), 168 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 165.33 s  contrast 15.8  shift  +0, +0 score 0.95 placed   moving still  go north-west (-33°), 171 px, 6 openings, 3 marks (nearest 156 px) TO MARKER IN VIEW
+ 165.54 s  contrast 15.8  shift  +1, +0 score 0.95 placed   moving still  go north-west (-33°), 171 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 165.75 s  contrast 15.8  shift  +0, +0 score 0.95 placed   moving still  go north-west (-32°), 167 px, 6 openings, 3 marks (nearest 156 px) TO MARKER IN VIEW
+ 165.95 s  contrast 15.8  shift  +0, +0 score 0.95 placed   moving still  go north-west (-33°), 170 px, 6 openings, 3 marks (nearest 156 px) TO MARKER IN VIEW
+ 166.15 s  TIMER 13
+ 166.15 s  contrast 15.8  shift  -1, +0 score 0.94 placed   moving still  go north-west (-30°), 170 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 166.36 s  contrast 15.8  shift  +0, +0 score 0.95 placed   moving still  go north-west (-30°), 167 px, 6 openings, 3 marks (nearest 158 px) TO MARKER IN VIEW
+ 166.60 s  FACING 111 -146
+ 166.60 s  contrast 15.8  shift  -1, +2 score 0.94 placed   moving south-west  go north (-13°), 204 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 166.81 s  FACING -61 -145
+ 166.81 s  contrast 15.7  shift  -2, +1 score 0.93 placed   moving south-west  go north (-8°), 203 px, 6 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 167.01 s  FACING 106 -145
+ 167.01 s  contrast 15.7  shift  +0, +0 score 0.93 placed   moving south-west  go north (-9°), 208 px, 6 openings, 3 marks (nearest 161 px) TO MARKER IN VIEW
+ 167.22 s  TIMER 12
+ 167.22 s  OBJECTIVE MARKER at (-2,372), south-west of the player
+ 167.22 s  MARKER at (195,53) in the box, north of the player
+ 167.22 s  contrast 15.7  shift  +0, +0 score 0.93 placed   moving still  go north (-9°), 201 px, 6 openings, 3 marks (nearest 161 px) TO MARKER IN VIEW
+ 167.43 s  contrast 15.1  shift  -2, +2 score 0.90 placed   moving still  go north (-5°), 197 px, 6 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 167.63 s  contrast 14.1  shift  -1, +2 score 0.89 placed   moving still  go north (-3°), 197 px, 6 openings, 3 marks (nearest 166 px) TO MARKER IN VIEW
+ 167.84 s  contrast 13.9  shift  -1, +0 score 0.87 placed   moving still  go north-east (51°), 232 px, 6 openings, 3 marks (nearest 164 px) TO MARKER IN VIEW
+ 168.04 s  contrast 13.6  shift  -1, +2 score 0.86 placed   moving still  go east (68°), 239 px, 5 openings, 3 marks (nearest 161 px) TO MARKER IN VIEW
+ 168.25 s  TIMER 11
+ 168.25 s  contrast 13.6  shift  +0, +0 score 0.86 placed   moving still  go east (76°), 239 px, 6 openings, 3 marks (nearest 159 px) TO MARKER IN VIEW
+ 168.46 s  FACING 161 54
+ 168.46 s  contrast 14.1  shift  +2, -1 score 0.90 placed   moving north-east  go north-west (-29°), 168 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 168.66 s  FACING 171 54
+ 168.66 s  contrast 15.1  shift  +1, -3 score 0.92 placed   moving north-east  go north-west (-29°), 172 px, 6 openings, 3 marks (nearest 161 px) TO MARKER IN VIEW
+ 168.86 s  FACING 170 58
+ 168.86 s  contrast 15.9  shift  +2, -2 score 0.93 placed   moving north-east  go north-west (-32°), 174 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 169.06 s  FACING -27 42
+ 169.06 s  contrast 16.0  shift  +2, -2 score 0.93 placed   moving north-east  go north-west (-40°), 179 px, 6 openings, 3 marks (nearest 159 px) TO MARKER IN VIEW
+ 169.27 s  TIMER 10
+ 169.27 s  FACING 176 49
+ 169.27 s  contrast 15.9  shift  +2, -2 score 0.95 placed   moving north-east  go north-west (-43°), 168 px, 6 openings, 3 marks (nearest 158 px) TO MARKER IN VIEW
+ 169.48 s  FACING 171 44
+ 169.48 s  contrast 15.8  shift  +2, -2 score 0.95 placed   moving north-east  go north-west (-40°), 171 px, 6 openings, 3 marks (nearest 157 px) TO MARKER IN VIEW
+ 169.71 s  TIME TARGET afflicted at (180,68), 4 icons, 10 s left
+ 169.71 s  contrast 15.9  shift  +2, -1 score 0.95 placed   moving still  go north-west (-40°), 165 px, 6 openings, 3 marks (nearest 155 px) TO MARKER IN VIEW
+ 169.91 s  contrast 15.9  shift  +0, -1 score 0.96 placed   moving still  go north-west (-40°), 171 px, 6 openings, 3 marks (nearest 155 px) TO MARKER IN VIEW
+ 170.11 s  contrast 15.9  shift  +0, +0 score 0.96 placed   moving still  go north-west (-43°), 172 px, 6 openings, 3 marks (nearest 156 px) TO MARKER IN VIEW
+ 170.31 s  TIMER 9
+ 170.31 s  FACING -49 -118
+ 170.31 s  contrast 15.8  shift  +0, +0 score 0.95 placed   moving south-west  go north-west (-30°), 175 px, 6 openings, 3 marks (nearest 156 px) TO MARKER IN VIEW
+ 170.56 s  FACING 120 -127
+ 170.56 s  contrast 15.8  shift  -1, +1 score 0.95 placed   moving south-west  go north-west (-32°), 171 px, 6 openings, 3 marks (nearest 156 px) TO MARKER IN VIEW
+ 170.76 s  FACING 96 -131
+ 170.76 s  contrast 15.7  shift  -1, +1 score 0.95 placed   moving south-west  go north-west (-29°), 173 px, 6 openings, 3 marks (nearest 160 px) TO MARKER IN VIEW
+ 170.97 s  FACING 92 -152
+ 170.97 s  contrast 15.6  shift  -2, +2 score 0.94 placed   moving south-west  go north (-14°), 208 px, 6 openings, 3 marks (nearest 162 px) TO MARKER IN VIEW
+ 171.18 s  FACING 86 -144
+ 171.18 s  contrast 15.8  shift  -4, +4 score 0.92 placed   moving south-west  go north (-6°), 199 px, 6 openings, 3 marks (nearest 164 px) TO MARKER IN VIEW
+ 171.38 s  FACING -98 153
+ 171.38 s  contrast 13.9  shift  -3, +5 score 0.87 placed   moving south-east  go north (-20°), 193 px, 6 openings, 3 marks (nearest 173 px) TO MARKER IN VIEW
+ 171.58 s  FACING -101 160
+ 171.58 s  contrast 14.5  shift  -4, +3 score 0.83 placed   moving south  go north (-10°), 197 px, 6 openings, 3 marks (nearest 176 px) TO MARKER IN VIEW
+ 171.79 s  FACING 93 -134
+ 171.79 s  contrast 16.2  shift  -4, +3 score 0.80 placed   moving south-west  go north-east (57°), 236 px, 6 openings, 3 marks (nearest 171 px) TO MARKER IN VIEW
+ 172.05 s  FACING 93 -103
+ 172.05 s  contrast 15.9  shift  +0, +0 score 0.80 placed   moving west  go north-east (57°), 241 px, 6 openings, 3 marks (nearest 169 px) TO MARKER IN VIEW
+ 172.25 s  OBJECTIVE MARKER at (14,98), north-west of the player
+ 172.25 s  MARKER at (184,56) in the box, north-west of the player
+ 172.25 s  FACING 141 -59
+ 172.25 s  contrast 16.2  shift  +1, +1 score 0.82 placed   moving north-west  go north (-3°), 197 px, 6 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 172.46 s  TIMER 7
+ 172.46 s  FACING 156 43
+ 172.46 s  contrast 16.2  shift  +0, -1 score 0.83 placed   moving north-east  go north (-8°), 197 px, 6 openings, 3 marks (nearest 161 px) TO MARKER IN VIEW
+ 172.67 s  FACING 164 48
+ 172.67 s  contrast 15.6  shift  +1, -1 score 0.82 placed   moving north-east  go north (-13°), 201 px, 6 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 172.88 s  contrast 14.0  shift  -1, +0 score 0.85 placed   moving still  go north (-11°), 201 px, 5 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 173.09 s  contrast 15.9  shift  +0, +0 score 0.90 placed   moving still  go north (-11°), 201 px, 5 openings, 3 marks (nearest 163 px) TO MARKER IN VIEW
+ 173.33 s  FACING 164 62
+ 173.33 s  contrast 15.1  shift +26,-13 score 0.57 placed   moving north-east  go north-west (-48°), 168 px, 5 openings, 1 marks (nearest 105 px) TO MARKER
+ 173.56 s  TIMER 6
+ 173.56 s  FACING 165 21
+ 173.56 s  contrast 16.0  shift  -9,-30 score 0.61 placed   moving north  go north-west (-43°), 127 px, 6 openings, 3 marks (nearest 98 px) TO MARKER IN VIEW
+ 173.79 s  FACING 160 -12
+ 173.79 s  contrast 15.8  shift -30,-22 score 0.74 placed   moving north  go north (-21°), 107 px, 7 openings, 3 marks (nearest 94 px) TO MARKER IN VIEW
+ 174.06 s  FACING 150 -40
+ 174.06 s  contrast 15.2  shift -11,-11 score 0.86 placed   moving north-west  go north (-19°), 89 px, 9 openings, 5 marks (nearest 84 px) TO MARKER IN VIEW
+ 174.27 s  FACING 154 -50
+ 174.27 s  contrast 15.2  shift  -5, -8 score 0.85 placed   moving north-west  go north (-20°), 89 px, 6 openings, 5 marks (nearest 75 px) TO MARKER IN VIEW
+ 174.48 s  FACING -11 -20
+ 174.48 s  contrast 15.3  shift  -3, -6 score 0.87 placed   moving north  go north-west (-63°), 58 px, 9 openings, 5 marks (nearest 44 px) TO MARKER IN VIEW
+ 174.69 s  TIMER 4
+ 174.69 s  FACING 157 -8
+ 174.69 s  contrast 15.4  shift  -2, -7 score 0.88 placed   moving north  go north-west (-58°), 60 px, 8 openings, 5 marks (nearest 42 px) TO MARKER IN VIEW
+ 174.91 s  TIME TARGET afflicted at (233,156), 5 icons, 4 s left
+ 174.91 s  FACING 135 -21
+ 174.91 s  contrast 15.0  shift  -4, -8 score 0.87 placed   moving north  go north-west (-36°), 46 px, 7 openings, 5 marks (nearest 35 px) TO MARKER IN VIEW
+ 175.11 s  FACING 134 -99
+ 175.11 s  contrast 15.1  shift  -2, -7 score 0.89 placed   moving west  go north (-17°), 45 px, 10 openings, 5 marks (nearest 25 px) TO MARKER IN VIEW
+ 175.31 s  FACING 139 -58
+ 175.31 s  contrast 15.3  shift  -2, -4 score 0.89 placed   moving north-west  go north-west (-50°), 44 px, 8 openings, 5 marks (nearest 15 px) TO MARKER IN VIEW
+ 175.52 s  FACING 144 -14
+ 175.52 s  contrast 15.4  shift  +0, +0 score 0.90 placed   moving north  go north (-13°), 47 px, 8 openings, 5 marks (nearest 15 px) TO MARKER IN VIEW
+ 175.74 s  TIMER 3
+ 175.74 s  FACING -49 -3
+ 175.74 s  contrast 15.4  shift  +0, +0 score 0.90 placed   moving north  go north (-18°), 49 px, 8 openings, 5 marks (nearest 11 px) TO MARKER IN VIEW
+ 175.94 s  contrast 15.5  shift  +0, +0 score 0.90 placed   moving still  go north-west (-44°), 40 px, 8 openings, 5 marks (nearest 2 px) TO MARKER IN VIEW
+ 176.15 s  FACING 170 -23
+ 176.15 s  contrast 15.5  shift  +0, +0 score 0.91 placed   moving north-west  go south-east (137°), 360 px, 4 openings, 5 marks (nearest 11 px) TO MARKER
+ 176.35 s  FACING 48 -23
+ 176.35 s  contrast 15.5  shift  +0, +0 score 0.91 placed   moving north-west  go south-east (137°), 360 px, 5 openings, 5 marks (nearest 10 px) TO MARKER
+ 176.56 s  FACING 175 19
+ 176.56 s  contrast 15.5  shift  +0, +0 score 0.92 placed   moving north  go south-east (139°), 356 px, 5 openings, 5 marks (nearest 9 px) TO MARKER
+ 176.77 s  TIMER 6
+ 176.77 s  contrast 15.5  shift  +0, +0 score 0.92 placed   moving still  go south-east (138°), 356 px, 5 openings, 6 marks (nearest 8 px) TO MARKER
+ 176.98 s  contrast 15.6  shift  +0, +0 score 0.90 placed   moving still  go south-east (138°), 356 px, 7 openings, 6 marks (nearest 7 px) TO MARKER
+ 177.19 s  contrast 15.6  shift  +0, +0 score 0.90 placed   moving still  go south-east (139°), 352 px, 7 openings, 7 marks (nearest 9 px) TO MARKER
+ 177.40 s  OBJECTIVE MARKER at (15,102), west of the player
+ 177.40 s  MARKER at (20,279) in the box, west of the player
+ 177.40 s  FACING 141 160
+ 177.40 s  contrast 15.6  shift  +0, +0 score 0.90 placed   moving south  go south-east (155°), 333 px, 7 openings, 7 marks (nearest 21 px) TO MARKER
+ 177.60 s  contrast 15.6  shift  +0, +0 score 0.90 placed   moving still  go south-east (135°), 362 px, 7 openings, 7 marks (nearest 9 px) TO MARKER
+ 177.83 s  TIMER 5
+ 177.83 s  contrast 15.7  shift  +0, +0 score 0.91 placed   moving still  go south-east (136°), 362 px, 7 openings, 7 marks (nearest 10 px) TO MARKER
+ 178.04 s  FACING 61 -31
+ 178.04 s  contrast 15.6  shift  -6, -3 score 0.89 placed   moving north-west  go south-east (156°), 329 px, 6 openings, 7 marks (nearest 13 px) TO MARKER
+ 178.25 s  contrast 15.6  shift  -5, -2 score 0.89 placed   moving still  go west (-91°), 151 px, 6 openings, 8 marks (nearest 13 px) TO MARKER
+ 178.45 s  contrast 15.8  shift  -4, -2 score 0.89 placed   moving still  go west (-92°), 156 px, 6 openings, 9 marks (nearest 12 px) TO MARKER
+ 178.71 s  FACING -137 -171
+ 178.71 s  contrast 15.6  shift  -5, -5 score 0.88 placed   moving south  go west (-92°), 150 px, 7 openings, 9 marks (nearest 16 px) TO MARKER
+ 178.91 s  TIMER 4
+ 178.91 s  contrast 15.6  shift  -3, -5 score 0.88 placed   moving still  go west (-101°), 159 px, 9 openings, 9 marks (nearest 6 px) TO MARKER IN VIEW
+ 179.12 s  FACING -142 -154
+ 179.12 s  contrast 15.7  shift  +0, +0 score 0.88 placed   moving south-west  go west (-98°), 159 px, 6 openings, 6 marks (nearest 18 px) TO MARKER
+ 179.33 s  contrast 15.7  shift  +0, +0 score 0.88 placed   moving still  go west (-98°), 159 px, 6 openings, 6 marks (nearest 17 px) TO MARKER
+ 179.54 s  contrast 15.7  shift  +0, +0 score 0.88 placed   moving still  go west (-98°), 159 px, 6 openings, 6 marks (nearest 16 px) TO MARKER
+ 179.76 s  contrast 15.6  shift  +0, +0 score 0.89 placed   moving still  go west (-102°), 155 px, 6 openings, 6 marks (nearest 17 px) TO MARKER
+ 179.97 s  TIME TARGET afflicted at (33,290), 6 icons, 4 s left
+ 179.97 s  contrast 15.5  shift  +0, +0 score 0.89 placed   moving still  go west (-102°), 155 px, 9 openings, 6 marks (nearest 17 px) TO MARKER
+ 180.19 s  contrast 15.6  shift  +0, +0 score 0.89 placed   moving still  go west (-102°), 155 px, 9 openings, 6 marks (nearest 17 px) TO MARKER
+ 180.41 s  contrast 15.7  shift  +0, +0 score 0.89 placed   moving still  go west (-102°), 155 px, 10 openings, 6 marks (nearest 17 px) TO MARKER
+ 180.68 s  contrast 15.7  shift  +0, +0 score 0.89 placed   moving still  go west (-102°), 155 px, 10 openings, 6 marks (nearest 17 px) TO MARKER
+ 180.90 s  contrast 15.7  shift  +0, +0 score 0.89 placed   moving still  go west (-98°), 159 px, 10 openings, 6 marks (nearest 16 px) TO MARKER
+ 181.10 s  contrast 15.7  shift  +0, +0 score 0.89 placed   moving still  go west (-102°), 155 px, 10 openings, 6 marks (nearest 16 px) TO MARKER
+ 181.34 s  contrast 15.8  shift  +0, +0 score 0.90 placed   moving still  go west (-102°), 155 px, 10 openings, 6 marks (nearest 17 px) TO MARKER
+ 181.55 s  contrast 15.7  shift  +0, +0 score 0.90 placed   moving still  go west (-102°), 155 px, 10 openings, 6 marks (nearest 17 px) TO MARKER
+ 181.76 s  contrast 15.5  shift  +0, +0 score 0.90 placed   moving still  go west (-102°), 155 px, 10 openings, 6 marks (nearest 15 px) TO MARKER
+ 181.96 s  contrast 15.6  shift  +0, +0 score 0.90 placed   moving still  go west (-99°), 159 px, 10 openings, 6 marks (nearest 13 px) TO MARKER
+ 182.19 s  TIMER 7
+ 182.19 s  FACING -54 36
+ 182.19 s  contrast 15.7  shift  +0, +0 score 0.90 placed   moving north-east  go west (-103°), 172 px, 9 openings, 4 marks (nearest 29 px) TO MARKER
+ 182.40 s  OBJECTIVE MARKER at (22,103), west of the player
+ 182.40 s  MARKER at (31,290) in the box, west of the player
+ 182.40 s  contrast 15.7  shift  +0, +0 score 0.90 placed   moving still  go west (-101°), 161 px, 9 openings, 4 marks (nearest 22 px) TO MARKER
+ 182.62 s  contrast 14.8  shift  -7, +3 score 0.88 placed   moving still  go west (-94°), 163 px, 8 openings, 3 marks (nearest 252 px) TO MARKER IN VIEW
+ 182.83 s  FACING -148 -142
+ 182.83 s  contrast 15.9  shift  -8, +5 score 0.89 placed   moving south-west  go west (-85°), 135 px, 8 openings, 4 marks (nearest 22 px) TO MARKER
+ 183.04 s  FACING -146 -119
+ 183.04 s  contrast 15.7  shift  -2, +1 score 0.88 placed   moving south-west  go west (-104°), 169 px, 9 openings, 4 marks (nearest 17 px) TO MARKER IN VIEW
+ 183.25 s  TIMER 6
+ 183.25 s  FACING 146 -104
+ 183.25 s  contrast 16.4  shift  +1, +0 score 0.89 placed   moving west  go west (-103°), 161 px, 9 openings, 4 marks (nearest 27 px) TO MARKER IN VIEW
+ 183.47 s  FACING 129 -41
+ 183.47 s  contrast 15.7  shift  +0, -1 score 0.89 placed   moving north-west  go south-west (-115°), 159 px, 9 openings, 3 marks (nearest 217 px) TO MARKER IN VIEW
+ 183.71 s  illegible: contrast 32.0 floor 2% arrow yes busy 0.34
+ 183.91 s  FACING 106 -136
+ 183.91 s  contrast 15.8  shift  +0, +0 score 0.89 placed   moving south-west  go south-west (-113°), 156 px, 9 openings, 3 marks (nearest 212 px) TO MARKER IN VIEW
+ 184.12 s  illegible: contrast 32.1 floor 1% arrow yes busy 0.34
+ 184.32 s  FACING -126 130
+ 184.32 s  contrast 15.7  shift  +0, +0 score 0.86 placed   moving south-east  go west (-100°), 174 px, 9 openings, 3 marks (nearest 224 px) TO MARKER IN VIEW
+ 184.54 s  FACING -126 103
+ 184.54 s  contrast 15.6  shift  +0, +0 score 0.86 placed   moving east  go west (-100°), 174 px, 9 openings, 3 marks (nearest 224 px) TO MARKER IN VIEW
+ 184.74 s  illegible: contrast 31.9 floor 1% arrow yes busy 0.33
+ 184.94 s  illegible: contrast 31.9 floor 1% arrow yes busy 0.34
+ 185.15 s  TIME TARGET afflicted at (50,281), 4 icons, 6 s left
+ 185.15 s  illegible: contrast 31.3 floor 1% arrow yes busy 0.34
+ 185.36 s  illegible: contrast 32.0 floor 1% arrow yes busy 0.33
+ 185.56 s  TIMER 7
+ 185.56 s  contrast 15.7  shift  +0, +0 score 0.87 placed   moving still  go west (-101°), 174 px, 9 openings, 3 marks (nearest 224 px) TO MARKER IN VIEW
+ 185.81 s  illegible: contrast 32.2 floor 1% arrow yes busy 0.33
+ 186.01 s  illegible: contrast 32.6 floor 2% arrow yes busy 0.32
+ 186.22 s  FACING -62 -92
+ 186.22 s  contrast 17.6  shift -10, +2 score 0.82 placed   moving west  go south-west (-116°), 147 px, 7 openings, 3 marks (nearest 202 px) TO MARKER IN VIEW
+ 186.46 s  illegible: contrast 38.5 floor 4% arrow yes busy 0.33
+ 186.71 s  TIMER 5
+ 186.71 s  FACING 129 -92
+ 186.71 s  contrast 34.6  shift -13, -7 score -0.41 REFUSED  moving west  go south-west (-116°), 147 px, 7 openings, 3 marks (nearest 201 px) TO MARKER IN VIEW
+ 186.91 s  FACING -46 -92
+ 186.91 s  contrast 31.7  shift -16,-10 score -0.38 REFUSED  moving west  go south-west (-116°), 147 px, 7 openings, 3 marks (nearest 201 px) TO MARKER IN VIEW
+ 187.12 s  FACING -46 -92
+ 187.12 s  contrast 22.3  shift -22,-13 score -0.37 REFUSED  moving west  go south-west (-116°), 147 px, 7 openings, 3 marks (nearest 197 px) TO MARKER IN VIEW
+ 187.32 s  FACING -46 -38
+ 187.32 s  contrast 17.4  shift -25,-19 score 0.88 placed   moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 196 px) TO MARKER IN VIEW
+ 187.53 s  OBJECTIVE MARKER at (8,103), north-west of the player
+ 187.53 s  MARKER at (86,301) in the box, south-west of the player
+ 187.53 s  FACING 110 -38
+ 187.53 s  contrast 29.1  shift  -3, -1 score -0.30 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 189 px) TO MARKER IN VIEW
+ 187.73 s  TIMER 4
+ 187.73 s  FACING -131 -38
+ 187.73 s  contrast 29.1  shift  -4, -1 score -0.30 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 199 px) TO MARKER IN VIEW
+ 187.93 s  FACING -98 -38
+ 187.93 s  contrast 29.2  shift  -4, -1 score -0.30 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 200 px) TO MARKER IN VIEW
+ 188.14 s  FACING 94 -38
+ 188.14 s  contrast 29.4  shift  -4, -1 score -0.29 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 186 px) TO MARKER IN VIEW
+ 188.34 s  FACING -99 -38
+ 188.34 s  contrast 29.4  shift  -4, -1 score -0.30 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 200 px) TO MARKER IN VIEW
+ 188.55 s  FACING -111 -38
+ 188.55 s  contrast 29.2  shift  -4, -1 score -0.29 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 200 px) TO MARKER IN VIEW
+ 188.77 s  TIMER 3
+ 188.77 s  FACING 81 -38
+ 188.77 s  contrast 28.8  shift  -4, -1 score -0.28 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 185 px) TO MARKER IN VIEW
+ 188.98 s  FACING -132 -38
+ 188.98 s  contrast 28.7  shift  -4, -1 score -0.29 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 213 px) TO MARKER IN VIEW
+ 189.18 s  FACING 65 -38
+ 189.18 s  contrast 27.6  shift  -4, -1 score -0.26 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 197 px) TO MARKER IN VIEW
+ 189.39 s  FACING 66 -38
+ 189.39 s  contrast 29.0  shift  -4, -1 score -0.29 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 197 px) TO MARKER IN VIEW
+ 189.62 s  FACING 69 -38
+ 189.62 s  contrast 28.0  shift  -4, -1 score -0.30 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 197 px) TO MARKER IN VIEW
+ 189.84 s  FACING 70 -38
+ 189.84 s  contrast 29.5  shift  -4, -1 score -0.30 REFUSED  moving north-west  go south-west (-131°), 151 px, 10 openings, 3 marks (nearest 197 px) TO MARKER IN VIEW
+ 190.07 s  fits nowhere for 2.5 s: new map
+ 190.07 s  contrast 29.2  shift  +0, +0 score 1.00 placed   moving still  no opening
+ 190.28 s  TIME TARGET afflicted at (88,298), 2 icons, 3 s left
+ 190.28 s  contrast 29.2  shift  -1,-25 score 1.00 placed   moving still  no opening
+ 190.50 s  contrast 29.2  shift -25,-28 score 1.00 placed   moving still  no opening
+ 190.72 s  FACING 173 -32
+ 190.72 s  contrast 28.7  shift  +0, +2 score 0.98 placed   moving north-west  no opening
+ 190.96 s  TIMER 2
+ 190.96 s  FACING 172 -41
+ 190.96 s  contrast 28.8  shift  +0, +0 score 0.97 placed   moving north-west  no opening
+ 191.18 s  contrast 28.9  shift  -3, -3 score 0.99 placed   moving still  no opening
+ 191.38 s  contrast 28.8  shift  +1, +0 score 0.99 placed   moving still  no opening
+ 191.60 s  contrast 28.8  shift  +0, -1 score 0.99 placed   moving still  no opening
+ 191.81 s  FACING 173 37
+ 191.81 s  contrast 30.6  shift +12,-16 score 0.99 placed   moving north-east  no opening
+ 192.01 s  FACING 172 37
+ 192.01 s  contrast 29.3  shift +24,-30 score 0.92 placed   moving north-east  no opening
+ 192.22 s  FACING 172 31
+ 192.22 s  contrast 29.4  shift  -2,-11 score 0.97 placed   moving north-east  no opening
+ 192.43 s  FACING 172 28
+ 192.43 s  contrast 29.1  shift  -1, +2 score 0.95 placed   moving north-east  no opening
+ 192.62 s  OBJECTIVE MARKER at (8,103), west of the player
+ 192.62 s  MARKER at (88,298) in the box, south-west of the player
+ 192.62 s  FACING 173 -17
+ 192.62 s  contrast 27.5  shift  +0, -1 score 0.88 placed   moving north  no opening
+ 192.83 s  contrast 27.6  shift  +1, +0 score 0.87 placed   moving still  no opening
+ 193.09 s  contrast 28.6  shift  -2, +5 score 0.88 placed   moving still  no opening
+ 193.34 s  FACING 173 -101
+ 193.34 s  contrast 29.1  shift -19, -1 score 0.96 placed   moving west  no opening
+ 193.56 s  FACING 173 -64
+ 193.56 s  contrast 28.7  shift -12,-20 score 0.97 placed   moving north-west  no opening
+ 193.76 s  FACING 173 -57
+ 193.76 s  contrast 28.6  shift  +3, +3 score 0.97 placed   moving north-west  no opening
+ 193.98 s  FACING 173 -6
+ 193.98 s  contrast 28.7  shift  +5,-19 score 0.97 placed   moving north  no opening
+ 194.20 s  FACING 173 -24
+ 194.20 s  contrast 29.1  shift -28,-28 score 1.00 placed   moving north-west  no opening
+ 194.42 s  FACING 146 -24
+ 194.42 s  contrast 16.0  shift +28,+28 score -0.64 REFUSED  moving north-west  no opening
+ 194.62 s  FACING 142 -24
+ 194.62 s  contrast 15.9  shift +28,+28 score -0.66 REFUSED  moving north-west  no opening
+ 194.86 s  FACING 119 -24
+ 194.86 s  contrast 17.4  shift +25,+27 score -0.68 REFUSED  moving north-west  no opening
+ 195.06 s  FACING -61 -24
+ 195.06 s  contrast 16.0  shift +22,+28 score -0.66 REFUSED  moving north-west  no opening
+ 195.26 s  FACING 81 -24
+ 195.26 s  contrast 16.2  shift +16,+28 score -0.65 REFUSED  moving north-west  no opening
+ 195.50 s  FACING -113 -24
+ 195.50 s  contrast 15.0  shift +11,+26 score -0.68 REFUSED  moving north-west  no opening
+ 195.71 s  FACING 127 -24
+ 195.71 s  contrast 14.9  shift  +2,+26 score -0.64 REFUSED  moving north-west  no opening
+ 195.91 s  FACING 134 -24
+ 195.91 s  contrast 15.0  shift  -4,+26 score -0.66 REFUSED  moving north-west  no opening
+ 196.12 s  FACING 108 -24
+ 196.12 s  contrast 15.0  shift  +0,+28 score -0.63 REFUSED  moving north-west  no opening
+ 196.34 s  FACING 109 -24
+ 196.34 s  contrast 15.1  shift  +0,+28 score -0.63 REFUSED  moving north-west  no opening
+ 196.54 s  FACING 109 -24
+ 196.54 s  contrast 15.1  shift  +0,+28 score -0.63 REFUSED  moving north-west  no opening
+ 196.76 s  FACING 109 -24
+ 196.76 s  contrast 15.1  shift  +0,+27 score -0.64 REFUSED  moving north-west  no opening
+ 196.97 s  fits nowhere for 2.5 s: new map
+ 196.97 s  contrast 15.1  shift  +0, +0 score 1.00 placed   moving still  no opening
+ 197.18 s  contrast 15.1  shift  +0, +0 score 1.00 placed   moving still  go south (179°), 153 px, 4 openings, 0 marks TO MARKER
+ 197.42 s  contrast 15.1  shift  +0, +0 score 1.00 placed   moving still  go south (179°), 153 px, 1 openings, 0 marks TO MARKER
+ 197.64 s  contrast 15.1  shift  +0, +0 score 1.00 placed   moving still  go south (179°), 153 px, 4 openings, 0 marks
+ 197.85 s  contrast 15.1  shift  +0, +0 score 1.00 placed   moving still  go south (179°), 153 px, 4 openings, 0 marks
+ 198.05 s  contrast 15.1  shift  +0, +0 score 1.00 placed   moving still  go south (179°), 153 px, 4 openings, 0 marks
+ 198.26 s  contrast 15.1  shift  +0, +0 score 1.00 placed   moving still  go south (179°), 153 px, 4 openings, 0 marks
+935 samples, 883 placed, 23 illegible, 0 re-centres. Output in ~/Desktop/XCode Projects/D4 Dungeon Guide/Reference/2026-09-29-0807

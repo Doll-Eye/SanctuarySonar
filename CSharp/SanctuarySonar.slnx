@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Cartography/Cartography.csproj" />
+  <Project Path="MapLab/MapLab.csproj" />
+  <Project Path="SanctuarySonar/SanctuarySonar.csproj" />
+</Solution>
