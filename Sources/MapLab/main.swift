@@ -340,4 +340,4 @@ while let buffer = output.copyNextSampleBuffer() {
 if let map = stitcher.picture(path: lastGuidance?.path ?? [], target: lastGuidance?.target) {
     Picture.write(map, to: outURL.appendingPathComponent("map-final.png"))
 }
-print("\(samples) samples, \(placed) placed, \(illegible) illegible, \(stitcher.recentres) re-centres. Output in \(outURL.path)")
+print("\(samples) samples, \(placed) placed, \(illegible) illegible, \(stitcher.recentres) re-centres. Output in \(outURL.path.replacingOccurrences(of: NSHomeDirectory(), with: "~"))")

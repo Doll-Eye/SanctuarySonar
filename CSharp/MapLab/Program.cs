@@ -268,7 +268,7 @@ while (ReadFrame())
     Console.WriteLine($"{time,7:F2} s  contrast {reading.contrast.ToString("F1", ci),4}  shift {Signed3(placement.dx)},{Signed3(placement.dy)} score {placement.score.ToString("F2", ci)} {(placement.placed ? "placed " : "REFUSED")}  moving {heading}  {guideText}");
 }
 ffmpeg.WaitForExit();
-Console.WriteLine($"{samples} samples, {placed} placed, {illegible} illegible, {stitcher.recentres} re-centres. Output in {Path.GetFullPath(outPath)}");
+Console.WriteLine($"{samples} samples, {placed} placed, {illegible} illegible, {stitcher.recentres} re-centres. Output in {Path.GetFullPath(outPath).Replace(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "~")}");
 return 0;
 
 // Swift's min(by:) returns the first minimal element.
