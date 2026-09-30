@@ -1219,8 +1219,10 @@ On the Shadow stream the fade frames were black and illegible, so this never sho
 - **Fix: nothing is stitched for `settleAfterReset` (2.5 s) after a floor change**
   (`LiveReader.settleUntil`, set in `newMap()`; the frames are published as illegible so the
   guide stays quiet; Swift, C#, and both MapLabs print "settling after the floor change").
-  Verify on this recording: floor 2's map should be the small blob and the first leads should
-  head south-west towards the pinned marker.
+  Verified on this recording: with the settling in, floor 2 replays at **1 / 0** (was 8 / 3),
+  12 frames settle, and the lead holds north-west / west at 100–127 px for the whole floor —
+  the corridor out of the arrival room, the only real exit; the marker is south-west but there
+  is no floor that way. Without the fix the same floor led east into the phantom at 46–190 px.
 - The owner's question was "what have you done wrong": nothing in this run's log points at
   yesterday's changes — the arrival rule fired once, correctly; the dead-end and steering rules
   behaved. The fault was a native-render transition frame, the same family as the busy gate
