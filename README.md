@@ -49,14 +49,17 @@ Choose the game's window from the menu bar item, then:
 
 | Key (Control-Shift-Command +) | Does |
 |---|---|
-| G | Guide on or off |
+| T | Guide on or off |
 | W | Where the beacon is leading, in words, and what else is unexplored |
 | D | Describe the map: wells, arches, marked spot, marked enemies, unexplored directions |
 | O | Say the objective, with its count |
-| S / B | Mark this spot / take me back to it |
+| X / B | Mark this spot / take me back to it |
 | N | Start a new map |
 | = / - | Beacon louder / quieter |
-| R / M / P | Record the window / mark the recording / save a picture |
+| F / M / P | Record the window / mark the recording / save a picture |
+
+(T, X and F rather than G, S and R because VOCR, which many VoiceOver users run, takes
+Control-Shift-Command with G, S and R for itself; its R starts real-time OCR of the screen.)
 | L / K | With the game's map open: read its points (waypoints, towns, dungeons, strongholds, Whispers) as a list, nearest first, and step to the next / previous |
 | J | Put the pointer on the chosen point and read the game's tooltip for it; J again within 15 s clicks it (a waypoint travels, anything else is pinned). The only thing the app ever sends to the game; needs the Accessibility permission |
 

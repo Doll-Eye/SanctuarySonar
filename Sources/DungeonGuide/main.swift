@@ -46,11 +46,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             }
             exit(0)
         }
-        HotKeys.register("guide", keyCode: kVK_ANSI_G) { [weak self] in self?.toggleGuide() }
+        // Keys are chosen clear of VOCR's (Control-Shift-Command + S, V, C, E, A, R, G, U, Q):
+        // found 30 Sep 2026 when every recording start also started VOCR's real-time OCR
+        // ("OCR recording started" in the system voice, then the whole screen read aloud).
+        HotKeys.register("guide", keyCode: kVK_ANSI_T) { [weak self] in self?.toggleGuide() }
         HotKeys.register("where", keyCode: kVK_ANSI_W) { [weak self] in self?.guide.sayWhere() }
         HotKeys.register("new map", keyCode: kVK_ANSI_N) { [weak self] in self?.guide.newMap() }
         HotKeys.register("objective", keyCode: kVK_ANSI_O) { [weak self] in self?.guide.sayObjective() }
-        HotKeys.register("mark spot", keyCode: kVK_ANSI_S) { [weak self] in self?.guide.markSpot() }
+        HotKeys.register("mark spot", keyCode: kVK_ANSI_X) { [weak self] in self?.guide.markSpot() }
         HotKeys.register("take me back", keyCode: kVK_ANSI_B) { [weak self] in self?.guide.takeMeBack() }
         HotKeys.register("describe", keyCode: kVK_ANSI_D) { [weak self] in self?.guide.describeMap() }
         HotKeys.register("louder", keyCode: kVK_ANSI_Equal) { [weak self] in self?.guide.louder() }
@@ -71,7 +74,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             guard let self else { return }
             Task { await self.mapPoints.goToPoint() }
         }
-        HotKeys.register("record", keyCode: kVK_ANSI_R) { [weak self] in self?.model.toggleRecording() }
+        HotKeys.register("record", keyCode: kVK_ANSI_F) { [weak self] in self?.model.toggleRecording() }
         HotKeys.register("mark", keyCode: kVK_ANSI_M) { [weak self] in self?.model.mark() }
         HotKeys.register("picture", keyCode: kVK_ANSI_P) { [weak self] in
             guard let self else { return }

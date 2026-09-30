@@ -11,9 +11,9 @@ struct ContentView: View {
     @ObservedObject var mapPoints: MapPointsController
 
     private static let keysHelp = """
-        While the game is in front, with Control-Shift-Command: G starts or stops the guide, \
-        O says the objective, W says where the guide leads, D describes what's on the map, S marks this spot, B takes you back to it, \
-        equals makes the beacon louder, minus quieter, N starts a new map, R starts or stops recording, \
+        While the game is in front, with Control-Shift-Command: T starts or stops the guide, \
+        O says the objective, W says where the guide leads, D describes what's on the map, X marks this spot, B takes you back to it, \
+        equals makes the beacon louder, minus quieter, N starts a new map, F starts or stops recording, \
         M marks the moment, P saves a picture, \
         L scans the open map's points and steps to the next, K steps back, J points at the chosen one and reads its tooltip, J again clicks it.
         """

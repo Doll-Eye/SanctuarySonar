@@ -1204,6 +1204,14 @@ hatched on both sides, the ends sealed (ledge lines), so the frontier had no ope
 the marker's point had no reachable floor within 20 px. "Dead end. No other openings in
 sight" was said, then silence.
 
+- **The "gibberish" was VOCR.** `com.chikim.VOCR` 3.0 runs on the owner's Mac and binds
+  Control-Shift-Command-**R** to real-time OCR ("OCR recording started", system voice, then
+  the whole screen read aloud for as long as the recording ran), plus -S (settings), -G, -V,
+  -C, -E, -A, -U, -Q (its table is in `defaults export com.chikim.VOCR`, key `userShortcuts`,
+  JSON). Both apps received the key. The guide's keys moved: **T** guide, **X** mark spot, **F**
+  record; Muteny's chords were rewritten to match (backup `bindings.json.before-vocr-keys`).
+  Any future hot key must avoid VOCR's set.
+
 - **Fix: with no opening anywhere and a marker known, the lead is a straight line at the
   marker** (`Navigator`, after the beeline block; `lastKind` 5, `beeline` + `toMarker`,
   `markerInView` when the point is in the box; Swift and C#). Last resort only, so it cannot
