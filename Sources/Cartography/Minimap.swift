@@ -166,6 +166,8 @@ public struct MinimapReading {
     public var arrow: CGPoint?
     /// Which way the arrow points — the character's facing — radians clockwise from up.
     public var facing: Double?
+    /// The arrow was not found and its position is the box's centre.
+    public var arrowAssumed = false
     public let threshold: UInt8
     /// Mean brightness of floor and of void; their gap is how legible this frame is.
     public let floorLevel: Double
@@ -361,7 +363,13 @@ public enum MinimapReader {
             }
         }
 
-        let arrow = findArrow(gray, bandTop: bandTop)
+        // The game keeps the player within a few pixels of the box's centre (measured x 209–236,
+        // y 147–173 of 446×320). When the arrow is too dim to find — grey in a starting bubble,
+        // and on the live capture generally darker than the same frame after the recorder's
+        // encode (30 Sep 2026: a nightmare dungeon the replay read on every frame and the live
+        // guide on none) — the centre stands in for it, and only the facing is lost.
+        let found = findArrow(gray, bandTop: bandTop)
+        let arrow: CGPoint? = found ?? (floorCount > 0 ? CGPoint(x: Double(w) / 2, y: Double(h) / 2) : nil)
         var reading = MinimapReading(floor: floor, ignore: ignore, width: w, height: h,
                               arrow: arrow,
                               threshold: threshold,
@@ -371,7 +379,8 @@ public enum MinimapReader {
         reading.busyFraction = Double(busyCount) / Double(w * h)
         reading.unseen = unseen
         reading.landmarks = LandmarkReader.find(gray, bandTop: bandTop, exclude: arrow)
-        if let arrow { reading.facing = arrowFacing(gray, at: arrow) }
+        if let found { reading.facing = arrowFacing(gray, at: found) }
+        reading.arrowAssumed = found == nil && arrow != nil
         return reading
     }
 

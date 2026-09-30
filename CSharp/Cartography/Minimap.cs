@@ -209,6 +209,8 @@ public struct MinimapReading
     public Pt? arrow;
     /// <summary>Which way the arrow points — the character's facing — radians clockwise from up.</summary>
     public double? facing;
+    /// <summary>The arrow was not found and its position is the box's centre.</summary>
+    public bool arrowAssumed;
     public readonly byte threshold;
     /// <summary>Mean brightness of floor and of void; their gap is how legible this frame is.</summary>
     public readonly double floorLevel;
@@ -462,7 +464,10 @@ public static class MinimapReader
             }
         }
 
-        Pt? arrow = findArrow(gray, bandTop);
+        // The game keeps the player near the box's centre: when the arrow is too dim to find, the
+        // centre stands in for it (30 Sep 2026; see the Swift note).
+        Pt? found = findArrow(gray, bandTop);
+        Pt? arrow = found ?? (floorCount > 0 ? new Pt((double)w / 2, (double)h / 2) : (Pt?)null);
         var reading = new MinimapReading(floor: floor, ignore: ignore, width: w, height: h,
                                          arrow: arrow,
                                          threshold: threshold,
@@ -472,7 +477,8 @@ public static class MinimapReader
         reading.busyFraction = (double)busyCount / (double)(w * h);
         reading.unseen = unseen;
         reading.landmarks = LandmarkReader.find(gray, bandTop, arrow);
-        if (arrow is Pt a) reading.facing = arrowFacing(gray, a);
+        if (found is Pt a) reading.facing = arrowFacing(gray, a);
+        reading.arrowAssumed = found == null && arrow != null;
         return reading;
     }
 

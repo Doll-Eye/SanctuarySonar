@@ -665,12 +665,19 @@ public final class Navigator {
                          c.x, c.y, b.x, b.y, currentTarget.map { "(\(Int($0.x)),\(Int($0.y)))" } ?? "-",
                          pending?.plans ?? 0, missedPlans, previousClosed ? "Y" : "n", usable.count))
         }
-        // Do not turn the player's back on a pinned objective marker (see `backOnMarkerAngle`).
-        if let marker, markerPoint == nil, let now = map.trail.last?.time {
+        // Do not turn the player's back on the objective marker (see `backOnMarkerAngle`). The
+        // marker's bearing comes from its point when it is on the minimap (reached this far only
+        // when no floor by it is reachable) and from the pinned bearing otherwise: on 30 Sep 2026
+        // (08:38, Cave District floor 2) the marker sat at the box's edge, flickered between the
+        // two states once a second, and the lead flipped west / south-east with it for 50 s.
+        // Once walking at the marker, keep to it until an opening within 90° of it appears.
+        let towardsMarker: Double? = markerPoint.map { atan2($0.x - player.x, -($0.y - player.y)) } ?? marker
+        if let towardsMarker, let now = map.trail.last?.time {
             let p = point(chosen)
-            var d = abs(atan2(p.x - player.x, -(p.y - player.y)) - marker).truncatingRemainder(dividingBy: 2 * .pi)
+            var d = abs(atan2(p.x - player.x, -(p.y - player.y)) - towardsMarker).truncatingRemainder(dividingBy: 2 * .pi)
             if d > .pi { d = 2 * .pi - d }
-            if d > Self.backOnMarkerAngle, now >= beelineRestUntil {
+            let threshold = beelineSince == nil ? Self.backOnMarkerAngle : Self.backOnMarkerAngle - 30 * .pi / 180
+            if d > threshold, now >= beelineRestUntil {
                 if beelineSince == nil { beelineSince = now }
                 // Stood still at it for `beelineStall`: rest the beeline, let the openings lead.
                 if let since = beelineSince, now - since >= Self.beelineStall,
@@ -679,10 +686,10 @@ public final class Navigator {
                     beelineRestUntil = now + Self.beelineRest
                     beelineSince = nil
                 } else {
-                    let end = CGPoint(x: player.x + sin(marker) * Self.beelineLook, y: player.y - cos(marker) * Self.beelineLook)
+                    let end = CGPoint(x: player.x + sin(towardsMarker) * Self.beelineLook, y: player.y - cos(towardsMarker) * Self.beelineLook)
                     currentTarget = nil
                     lastKind = 5
-                    var g = Guidance(bearing: marker, distance: Self.beelineLook, target: end, carrot: end, path: [player, end],
+                    var g = Guidance(bearing: towardsMarker, distance: Self.beelineLook, target: end, carrot: end, path: [player, end],
                                      openings: usable.count, mapEpoch: map.recentres, previousClosed: false, toMark: false,
                                      marks: markCount, toSpot: false, toArch: false, toWell: false)
                     g.toMarker = true

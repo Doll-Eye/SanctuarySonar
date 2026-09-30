@@ -170,6 +170,7 @@ final class Guide: ObservableObject {
     /// follows a swing within two seconds, turned with it ("a little lost around the portal").
     static let markerArrived = 30.0
     private var saidAtMarker = false
+    private var movedSinceMap = false
     /// An opening that disappears while its route is shorter than this was a dead end.
     /// 80, not 150, since 30 Sep 2026: on the native render openings close at 110–150 px as
     /// the fog fills in and the hatching settles, long before the player is at them, and the
@@ -263,6 +264,7 @@ final class Guide: ObservableObject {
             floorSeen = nil
             mapBegan = Date()   // no "blocked" or dead end in the first seconds of a run either (30 Sep: one 3 s in)
             saidAtMarker = false
+            movedSinceMap = false
             leaveToSay = nil
             announcedObjectives = []
             noOpeningSince = nil
@@ -400,7 +402,7 @@ final class Guide: ObservableObject {
         log("Floor: \(number) of \(of)")
         defer { floorSeen = number }
         guard isOn else { return }
-        if floorSeen != nil { reader.newMap(); mapBegan = Date(); saidAtMarker = false }
+        if floorSeen != nil { reader.newMap(); mapBegan = Date(); saidAtMarker = false; movedSinceMap = false }
         tell("Floor \(number) of \(of).", sound: "Glass")
     }
 
@@ -520,6 +522,8 @@ final class Guide: ObservableObject {
         let now = Date()
 
         guard snapshot.legible else {
+            // An unreadable stretch (the map screen, a menu) is not standing still against a wall.
+            pushingSince = nil
             beacon.silence()
             // A menu or banner over the screen: the tracker is not to be trusted either, and
             // the full map may be what is up — the map-screen watcher looks while this lasts.
@@ -550,7 +554,7 @@ final class Guide: ObservableObject {
             status = "Guide on."
             log("Map readable again")
         }
-        if snapshot.newMap { mapBegan = now; saidAtMarker = false; tell("New map.", sound: "Pop") }
+        if snapshot.newMap { mapBegan = now; saidAtMarker = false; movedSinceMap = false; tell("New map.", sound: "Pop") }
         // A timer not read for a while is gone (the run is over, or the badge is covered):
         // forget it, so nothing is said or routed on a stale count.
         if lastTimer != nil, freshTimer == nil {
@@ -707,7 +711,12 @@ final class Guide: ObservableObject {
             }
             // Micro steering: see the properties above. Decided before the beacon points.
             let enemyClose = (snapshot.nearestMark ?? .infinity) < Self.enemyNear
-            let stalled = snapshot.heading == nil && accuracy != .away && !enemyClose && !atMarker && now.timeIntervalSince(mapBegan) > 6
+            if snapshot.heading != nil { movedSinceMap = true }
+            // Standing in a floor's starting bubble is not being stuck: nothing steers until the
+            // player has moved since the map began (30 Sep 2026, 08:34: "Blocked for 16 s,
+            // steering east" in the bubble, the clock having run through the map screen too).
+            let stalled = snapshot.heading == nil && accuracy != .away && !enemyClose && !atMarker && movedSinceMap
+                && now.timeIntervalSince(mapBegan) > 6
             // Still, with a mark close: say so, because the beacon will not steer round it.
             if snapshot.heading == nil && enemyClose {
                 if enemiesCloseSince == nil { enemiesCloseSince = now }

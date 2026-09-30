@@ -127,6 +127,7 @@ public sealed class Guide
     /// beacon, "At the objective marker" once, no direction words or steering (30 Sep 2026).</summary>
     public static readonly double markerArrived = 30;
     bool saidAtMarker = false;
+    bool movedSinceMap = false;
     DateTime? enemiesCloseSince;
     DateTime lastEnemiesSaid = DateTime.MinValue;
     public static readonly double enemiesAfter = 4;
@@ -243,6 +244,7 @@ public sealed class Guide
         floorSeen = null;
         mapBegan = DateTime.UtcNow;   // no "blocked" or dead end in the first seconds of a run either
         saidAtMarker = false;
+        movedSinceMap = false;
         leaveToSay = null;
         announcedObjectives = new();
         noOpeningSince = null;
@@ -389,7 +391,7 @@ public sealed class Guide
         try
         {
             if (!isOn) return;
-            if (floorSeen != null) { reader.newMap(); mapBegan = DateTime.UtcNow; saidAtMarker = false; }
+            if (floorSeen != null) { reader.newMap(); mapBegan = DateTime.UtcNow; saidAtMarker = false; movedSinceMap = false; }
             tell($"Floor {number} of {of}.", "Glass");
         }
         finally
@@ -551,6 +553,7 @@ public sealed class Guide
 
         if (!snapshot.legible)
         {
+            pushingSince = null;   // an unreadable stretch (the map screen, a menu) is not standing against a wall
             beacon.silence();
             // A menu or banner over the screen: the tracker is not to be trusted either, and
             // the full map may be what is up — the map-screen watcher looks while this lasts.
@@ -586,7 +589,7 @@ public sealed class Guide
             status = "Guide on.";
             Log.log("Map readable again");
         }
-        if (snapshot.newMap) { mapBegan = now; saidAtMarker = false; tell("New map.", "Pop"); }
+        if (snapshot.newMap) { mapBegan = now; saidAtMarker = false; movedSinceMap = false; tell("New map.", "Pop"); }
         // A timer not read for a while is gone (the run is over, or the badge is covered):
         // forget it, so nothing is said or routed on a stale count.
         if (lastTimer != null && freshTimer == null) { Log.log("Timer: stale, forgotten"); lastTimer = null; reader.timeLeft = null; }
@@ -761,7 +764,10 @@ public sealed class Guide
             // A red mark nearer than enemyNear is a fight, not a wall (29 Sep 2026: the native render
             // shows a mark on most frames of the Undercity, and "no marks at all" never steered).
             bool enemyClose = (snapshot.nearestMark ?? double.PositiveInfinity) < enemyNear;
-            bool stalled = snapshot.heading == null && accuracy != BeaconAccuracy.away && !enemyClose && !atMarker && (now - mapBegan).TotalSeconds > 6;
+            if (snapshot.heading != null) movedSinceMap = true;
+            // Standing in a floor's starting bubble is not being stuck: nothing steers until the player has moved.
+            bool stalled = snapshot.heading == null && accuracy != BeaconAccuracy.away && !enemyClose && !atMarker && movedSinceMap
+                && (now - mapBegan).TotalSeconds > 6;
             // Still, with a mark close: say so, because the beacon will not steer round it.
             if (snapshot.heading == null && enemyClose)
             {

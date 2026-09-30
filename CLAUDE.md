@@ -1201,6 +1201,33 @@ first run…" and "Map points":
 - Not ported: the Windows Forms window (the Mac has its own), the Windows recorder (the Mac
   had one first), PrintWindow capture (ScreenCaptureKit already reads the window itself).
 
+## 30 Sep 2026, 08:34 run: the Undercity cleared again — and a nightmare dungeon with no beacon at all
+
+**Cleared:** floors at 08:37:47, 08:40:35, the arena at 08:41:17 (Cave District, 150 s start,
+two "not paying" calls heeded, packs bought +37 and +83 s). Messy in two places, both mine:
+- **08:34:47–08:35:01, "Blocked for 16 s, steering east" in the starting bubble.** The stall
+  clock ran while the owner stood in the bubble and had the map screen open (illegible
+  frames did not reset it). Now nothing steers until the player has moved since the map began
+  (`movedSinceMap`), and an unreadable frame resets `pushingSince`.
+- **08:38:08–08:38:57, the lead flipping west / south-east every two seconds.** The new
+  "don't turn your back" rule applied only to a *pinned* marker; the marker sat at the box's
+  edge and flickered between in-view and pinned once a second, so the rule went on and off
+  with it. The bearing now comes from the marker's point when it is on the map (that code is
+  reached only when no floor by it is reachable) and the pinned bearing otherwise, and once
+  taken the beeline holds until an opening within 90° of the marker appears.
+
+**Nightmare dungeon (08:56, Grinning Labyrinth / Binding Corridors, "Destroy the Demonic
+Corruption: 2"): every frame illegible, no beacon.** Contrast 16–22, floor 15–21 %, busy
+0.14 — legible on every count but the arrow. The replay tool read the same recording on
+every frame (197 placed) and would have led north. **The live capture is darker than the
+recording of it** (the arrow's luma peaks ~132–144 in the video; the live frames fell under
+the 100-luma / 60-pixel bar and under the dim pass too), so the arrow finder is now only a
+bonus: **when it fails, the player is taken to be at the box's centre** (`arrowAssumed`,
+Swift and C#), which is where the game keeps them within ±14 px, and only the facing is lost.
+Legibility rests on contrast, floor share and busyness alone. **MapLab cannot see this class
+of fault**; a live frame saver (`P` saves a picture of the window; a raw minimap dump would be
+better) is the tool for the next one.
+
 ## 30 Sep 2026, 08:10 run: "complete fail" — the arrow is grey in the starting bubble
 
 148 frames, every one `illegible` with contrast 19, floor 12 %, busy 0.16 — i.e. **no arrow**.

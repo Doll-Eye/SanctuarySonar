@@ -917,13 +917,15 @@ public sealed class Navigator
             debugChoice($"CHOICE ({F0(cp.x)},{F0(cp.y)}) best ({F0(bp.x)},{F0(bp.y)}) previous {previousWord} pending {pending?.plans ?? 0} missed {missedPlans} closed {(previousClosed ? "Y" : "n")} usable {usable.Count}");
         }
         // Do not turn the player's back on a pinned objective marker (see backOnMarkerAngle).
-        if (marker is double pinned && markerPoint == null && map.trail.Count > 0)
+        double? towardsMarker = markerPoint is Pt mpt ? (double?)M.Atan2(mpt.x - player.x, -(mpt.y - player.y)) : marker;
+        if (towardsMarker is double pinned && map.trail.Count > 0)
         {
             double now = map.trail[map.trail.Count - 1].time;
             var cp2 = point(chosen);
             double d = Math.Abs(M.Atan2(cp2.x - player.x, -(cp2.y - player.y)) - pinned) % (2 * Math.PI);
             if (d > Math.PI) d = 2 * Math.PI - d;
-            if (d > backOnMarkerAngle && now >= beelineRestUntil)
+            double threshold = beelineSince == null ? backOnMarkerAngle : backOnMarkerAngle - 30 * Math.PI / 180;
+            if (d > threshold && now >= beelineRestUntil)
             {
                 beelineSince ??= now;
                 Pt? earlierPoint = null;
