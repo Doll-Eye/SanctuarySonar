@@ -69,6 +69,8 @@ final class ObjectiveWatcher: NSObject, SCStreamOutput, SCStreamDelegate {
     /// has failed silently before (26 Sep: no lines, no error, for a whole run); the guide
     /// is told after a minute of it so the owner knows the objective is not being followed.
     private var emptyReads = 0
+    private var usingFast = false
+    private var lastRawLog = Date.distantPast
     var onTextTrouble: (() -> Void)?
 
     private let queue = DispatchQueue(label: "sanctuarysonar.objective")
@@ -131,6 +133,18 @@ final class ObjectiveWatcher: NSObject, SCStreamOutput, SCStreamDelegate {
         } else {
             if emptyReads >= 60 { log("Objective text: reading again") }
             emptyReads = 0
+        }
+        // Say in the log which recogniser produced these lines, when that changes: the fast
+        // one garbles the game's serif face ("Ziwrat District"), and on 30 Sep 2026 a run went
+        // by with no objective read and nothing to show why.
+        // The raw lines every 10 s, so a run's log shows what the recogniser actually returned.
+        if Date().timeIntervalSince(lastRawLog) >= 10 {
+            lastRawLog = Date()
+            log("Objective text: \(lines.count) lines" + (lines.isEmpty ? "" : " — " + lines.prefix(4).map { "\($0.text)" }.joined(separator: " | ")))
+        }
+        if TrackerReader.lastUsedFast != usingFast {
+            usingFast = TrackerReader.lastUsedFast
+            log(usingFast ? "Text recognition: FAST recogniser in use (\(TrackerReader.lastFastReason))" : "Text recognition: accurate recogniser back")
         }
         let changed = hud.update(lines)
         current.withLock { $0 = (hud.objective, hud.count) }

@@ -1201,6 +1201,30 @@ first run…" and "Map points":
 - Not ported: the Windows Forms window (the Mac has its own), the Windows recorder (the Mac
   had one first), PrintWindow capture (ScreenCaptureKit already reads the window itself).
 
+## 30 Sep 2026, 05:43–06:01: three runs "treated like a normal dungeon" — the Neural Engine compiler wedged
+
+The 05:21 run read objective, floor and timer; the 05:43, 05:46 and 05:58 runs read nothing
+or garbage ("Ziwrat District", "Ziggurat Distrirt" — the fast recogniser's spellings), so no
+`Intent`, no timed run, no marker. `sample` on the app showed `TrackerReader.warmUp` sitting
+in `e5rt_e5_compiler_compile` (Vision's `VNCRImageReaderDetector` compiling for the Neural
+Engine) holding the recogniser lock, with root's **ANECompilerService at 44–89 % of a core
+for forty minutes**. Every objective read waited on that lock for ever; once a compile failed
+instead, reads fell to the fast recogniser. MapLab in its own process compiled in 1 s at
+06:12, so the wedge is per compile job, not the whole machine — but every new app process
+after ~06:13 hung the same way. The CPU compute-device setting in `TrackerReader.request()`
+does not reach this stage. **ANECompilerService runs as root: only a restart of the Mac (or
+`sudo killall ANECompilerService aned` by the owner) clears it** — as on 27 Sep.
+
+- **The app no longer goes silent over it.** `TrackerReader.placed`/`recognise` wait at most
+  `lockTimeout` (3 s) for the lock; after that `accurateStuck` is set and every read runs the
+  fast recogniser outside the lock. `ObjectiveWatcher` logs "Text recognition: FAST recogniser
+  in use (…)" with the reason and, every 10 s, "Objective text: N lines — …" so the raw
+  reading is in the log. `MapLab --ocr <png>` prints what both recognisers make of a frame's
+  tracker column — the test for whether accurate recognition is alive on this Mac.
+- What likely wedged it: five OCR replays and four app relaunches in an hour, two of them
+  while a replay's or a previous instance's compile was in flight. Rule: **one Vision
+  process at a time**, and no relaunch within a minute of one.
+
 ## 30 Sep 2026, 05:21 run (4 min 52 s, Ziggurat District, recorded): floor 1 cleared, silent on floor 2
 
 Floor 1 in ~3:30 with the marker, steering ("Blocked for 2 s, steering …" four times — the

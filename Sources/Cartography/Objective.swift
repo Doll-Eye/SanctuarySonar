@@ -236,6 +236,11 @@ public enum TrackerReader {
 
     /// The last recognition error, for diagnosis.
     public nonisolated(unsafe) static var lastError: Error?
+    /// Whether the last recognition ended up using the fast recogniser (accurate threw or
+    /// returned nothing), and why — for the watchers to log, since the garbled spellings the
+    /// fast one produces ("Distrirt") are otherwise the only sign.
+    public nonisolated(unsafe) static var lastUsedFast = false
+    public nonisolated(unsafe) static var lastFastReason = ""
 
     /// A text request that runs on the CPU. On the Neural Engine, recognition started failing
     /// part-way through a long replay on 26 Sep — `CRImageReaderError.e5rtError(…create_
@@ -256,18 +261,49 @@ public enum TrackerReader {
         return request
     }
 
+    /// How long a read waits for the recogniser before giving up on the accurate one. On
+    /// 30 Sep 2026 the warm-up sat inside the Neural Engine compiler (`e5rt_e5_compiler_compile`,
+    /// ANECompilerService at 44 % of a core for forty minutes) holding this lock, and every
+    /// objective read behind it waited for ever: a whole run with no objective, no floor, no
+    /// timer, and nothing in the log to say why.
+    public static let lockTimeout: TimeInterval = 3
+    /// Set once a read has waited `lockTimeout` for the lock: from then on reads skip the lock
+    /// and use the fast recogniser, which does not go through that compiler.
+    public nonisolated(unsafe) static var accurateStuck = false
+
     private static func placed(_ handler: VNImageRequestHandler) -> [(text: String, x: Double, y: Double)] {
-        serial.lock(); defer { serial.unlock() }
+        if accurateStuck { return placedFast(handler) }
+        guard serial.lock(before: Date(timeIntervalSinceNow: lockTimeout)) else {
+            accurateStuck = true
+            lastUsedFast = true
+            lastFastReason = "accurate recogniser stuck in the Neural Engine compiler for \(Int(lockTimeout)) s — fast from now on; restarting the Mac clears the compiler"
+            return placedFast(handler)
+        }
+        defer { serial.unlock() }
         return placedNow(handler)
+    }
+
+    /// The fast recogniser alone, outside the lock: it runs on a different engine and two at
+    /// once do not trouble it.
+    private static func placedFast(_ handler: VNImageRequestHandler) -> [(text: String, x: Double, y: Double)] {
+        let fast = Self.request()
+        fast.recognitionLevel = .fast
+        lastUsedFast = true
+        do { try handler.perform([fast]) } catch { lastError = error; return [] }
+        return (fast.results ?? [])
+            .sorted { $0.boundingBox.midY > $1.boundingBox.midY }
+            .compactMap { o in o.topCandidates(1).first.map { ($0.string, Double(o.boundingBox.midX), 1 - Double(o.boundingBox.midY)) } }
     }
 
     private static func placedNow(_ handler: VNImageRequestHandler) -> [(text: String, x: Double, y: Double)] {
         var request = Self.request()
+        lastUsedFast = preferFast; lastFastReason = preferFast ? "preferred" : ""
         do { try handler.perform([request]) } catch {
             // The accurate recogniser's runtime can fail system-wide ("e5rt … 13", seen
             // 26 Sep until the machine is restarted). The fast recogniser uses a different
             // engine; worse on the game's serif font, far better than nothing.
             lastError = error
+            lastUsedFast = true; lastFastReason = "accurate threw: \(error)"
             request = Self.request()
             request.recognitionLevel = .fast
             do { try handler.perform([request]) } catch { lastError = error; return [] }
@@ -276,7 +312,10 @@ public enum TrackerReader {
             // It has also returned nothing with no error, for a whole run: try the fast one.
             let fast = Self.request()
             fast.recognitionLevel = .fast
-            if (try? handler.perform([fast])) != nil, !(fast.results?.isEmpty ?? true) { request = fast }
+            if (try? handler.perform([fast])) != nil, !(fast.results?.isEmpty ?? true) {
+                request = fast
+                lastUsedFast = true; lastFastReason = "accurate returned nothing"
+            }
         }
         return (request.results ?? [])
             .sorted { $0.boundingBox.midY > $1.boundingBox.midY }
@@ -284,7 +323,12 @@ public enum TrackerReader {
     }
 
     private static func recognise(_ handler: VNImageRequestHandler) -> [String] {
-        serial.lock(); defer { serial.unlock() }
+        if accurateStuck { return placedFast(handler).map(\.text) }
+        guard serial.lock(before: Date(timeIntervalSinceNow: lockTimeout)) else {
+            accurateStuck = true
+            return placedFast(handler).map(\.text)
+        }
+        defer { serial.unlock() }
         return recogniseNow(handler)
     }
 

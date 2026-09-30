@@ -19,6 +19,26 @@ if arguments.count >= 3 && arguments[1] == "--text" {
     try await TextLab.run(URL(fileURLWithPath: arguments[2]), titleBar: 57)
     exit(0)
 }
+// MapLab --ocr <png>…: the tracker column's text as the accurate and the fast recogniser read
+// it — the test for whether accurate recognition is working on this Mac right now.
+if arguments.count >= 3 && arguments[1] == "--ocr" {
+    for path in arguments.dropFirst(2) {
+        guard let image = NSImage(contentsOfFile: path)?.cgImage(forProposedRect: nil, context: nil, hints: nil) else {
+            print("no image at \(path)"); continue
+        }
+        let r = TrackerLayout.rect(windowWidth: image.width, windowHeight: image.height, titleBar: 0)
+        let crop = image.cropping(to: CGRect(x: r.x, y: r.y, width: r.width, height: r.height)) ?? image
+        for fast in [false, true] {
+            TrackerReader.preferFast = fast
+            let began = Date()
+            let lines = TrackerReader.placedLinesXY(in: crop)
+            print(String(format: "%@ (%.1f s): ", fast ? "fast" : "accurate", Date().timeIntervalSince(began))
+                  + lines.sorted { $0.y < $1.y }.map { String(format: "%.2f %@", $0.y, $0.text) }.joined(separator: " | "))
+            if let error = TrackerReader.lastError { print("  last error: \(error)"); TrackerReader.lastError = nil }
+        }
+    }
+    exit(0)
+}
 // MapLab --screen <png>…: is this picture of the window the full dungeon map, and what
 // areas does its panel list — with the accurate recogniser and with the fast fallback.
 if arguments.count >= 3 && arguments[1] == "--screen" {
