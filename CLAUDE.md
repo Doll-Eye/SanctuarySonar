@@ -1201,6 +1201,32 @@ first run…" and "Map points":
 - Not ported: the Windows Forms window (the Mac has its own), the Windows recorder (the Mac
   had one first), PrintWindow capture (ScreenCaptureKit already reads the window itself).
 
+## 30 Sep 2026, 10:00: the game's own settings, read live (Options → Accessibility)
+
+Read from window captures while the owner scrolled (he cannot answer while playing; the Mac's
+`say` voice carried the instructions). Nothing on the page changes how the minimap draws, and
+the live reader was healthy at the time (`--guide-test`: contrast 19, floor 25 %, arrow found,
+leading to the nightmare dungeon's marked corruption within 2 s), so **no setting was
+changed**. What the page holds, for the record:
+
+- Screen Reader (on, 3rd-party, WineStub voice), Text to Speech (off), Font/Cursor scale
+  (Large), High Contrast Cursor (on), Cursor Colour Picker, **Colour Blind Filter (Off)** —
+  a filter recolours the whole render, minimap icons included; the cyan/orange/red thresholds
+  are tuned for Off, so leave it.
+- **Navigation Assist: Auto-Pin New Quests (on; "Does not function in dungeons"), Pathfinder
+  (on), HUD Compass (on), High Contrast Arrow (on), Arrow Colour (white), Audio Navigation
+  Assistance (on, volume 100, interval 1).** Blizzard: the compass "circles around the player
+  and points towards their placed in-world pin"; the colour "can be changed". If a pin can be
+  placed in a dungeon, the compass would give the app a per-frame objective bearing drawn in
+  world space, in a colour of our choosing — far cleaner than the minimap's edge marker.
+  Tested once: the orange chevron ring seen at the dungeon entrance was the event's interact
+  marker (gone ten steps away), and a voice-directed manual pin (Start, right stick, X) left no
+  pin on the minimap and no compass — inconclusive, the pin may never have been placed. **Proper
+  test:** in the Undercity, `J` (map points) pins the boss marker with a real click; then look
+  for the chevrons round the player. Needs the Accessibility permission for the app.
+- Window captures of the game work (`screencapture -l <id>`); the computer-use display
+  screenshot shows the Wine window black, and its key presses did not open the game's menu.
+
 ## 30 Sep 2026, 08:34 run: the Undercity cleared again — and a nightmare dungeon with no beacon at all
 
 **Cleared:** floors at 08:37:47, 08:40:35, the arena at 08:41:17 (Cave District, 150 s start,
