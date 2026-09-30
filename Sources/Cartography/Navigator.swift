@@ -552,6 +552,23 @@ public final class Navigator {
             return g
         }
         let hadTarget = currentTarget != nil
+        // No opening anywhere, but the objective marker is known: point at it rather than go
+        // silent. 30 Sep 2026, floor 2 of the Ziggurat District: the marker was on the map but
+        // not reachable over known floor, the frontier had closed, and the beacon stopped for
+        // the last 45 s of the run. Walls in the way are the steering's business.
+        if usable.isEmpty, let bearing = markerPoint.map({ atan2($0.x - player.x, -($0.y - player.y)) }) ?? marker {
+            let distance = markerPoint.map { hypot($0.x - player.x, $0.y - player.y) } ?? Self.beelineLook
+            let end = CGPoint(x: player.x + sin(bearing) * distance, y: player.y - cos(bearing) * distance)
+            currentTarget = nil
+            lastKind = 5
+            var g = Guidance(bearing: bearing, distance: distance, target: end, carrot: end, path: [player, end],
+                             openings: 0, mapEpoch: map.recentres, previousClosed: false, toMark: false,
+                             marks: markCount, toSpot: false, toArch: false, toWell: false)
+            g.toMarker = true
+            g.beeline = true
+            g.markerInView = markerPoint != nil
+            return g
+        }
         guard !usable.isEmpty else { currentTarget = nil; return nil }
 
         // Dungeons follow a formula (TJ the Blind Gamer's guide): you start in one part of

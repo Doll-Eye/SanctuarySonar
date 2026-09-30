@@ -236,6 +236,7 @@ public sealed class Guide
         lastTimer = null;
         lastTimerRead = DateTime.MinValue; lastTimerRise = DateTime.MinValue; lastNotPaying = DateTime.MinValue;
         floorSeen = null;
+        mapBegan = DateTime.UtcNow;   // no "blocked" or dead end in the first seconds of a run either
         leaveToSay = null;
         announcedObjectives = new();
         noOpeningSince = null;

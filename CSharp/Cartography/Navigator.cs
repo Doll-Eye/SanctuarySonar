@@ -749,6 +749,23 @@ public sealed class Navigator
             }
         }
         bool hadTarget = currentTarget != null;
+        // No opening anywhere, but the objective marker is known: point at it rather than go
+        // silent (30 Sep 2026, floor 2 of the Ziggurat District: marker on the map, unreachable
+        // over known floor, frontier closed, beacon silent for 45 s). Walls are the steering's business.
+        if (usable.Count == 0 && (markerPoint is Pt mp ? (double?)M.Atan2(mp.x - player.x, -(mp.y - player.y)) : marker) is double lastBearing)
+        {
+            double lastDistance = markerPoint is Pt mp2 ? M.Hypot(mp2.x - player.x, mp2.y - player.y) : beelineLook;
+            var end = new Pt(player.x + Math.Sin(lastBearing) * lastDistance, player.y - Math.Cos(lastBearing) * lastDistance);
+            currentTarget = null;
+            lastKind = 5;
+            var lg = new Guidance(bearing: lastBearing, distance: lastDistance, target: end, carrot: end, path: new List<Pt> { player, end },
+                                  openings: 0, mapEpoch: map.recentres, previousClosed: false, toMark: false,
+                                  marks: markCount, toSpot: false, toArch: false, toWell: false);
+            lg.toMarker = true;
+            lg.beeline = true;
+            lg.markerInView = markerPoint != null;
+            return lg;
+        }
         if (usable.Count == 0) { currentTarget = null; return null; }
 
         // Dungeons follow a formula (TJ the Blind Gamer's guide): you start in one part of

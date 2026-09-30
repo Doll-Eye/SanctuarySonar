@@ -250,6 +250,7 @@ final class Guide: ObservableObject {
             lastTimer = nil
             lastTimerRead = .distantPast; lastTimerRise = .distantPast; lastNotPaying = .distantPast
             floorSeen = nil
+            mapBegan = Date()   // no "blocked" or dead end in the first seconds of a run either (30 Sep: one 3 s in)
             leaveToSay = nil
             announcedObjectives = []
             noOpeningSince = nil
