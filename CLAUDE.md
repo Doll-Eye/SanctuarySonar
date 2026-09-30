@@ -1193,6 +1193,33 @@ first run…" and "Map points":
 - Not ported: the Windows Forms window (the Mac has its own), the Windows recorder (the Mac
   had one first), PrintWindow capture (ScreenCaptureKit already reads the window itself).
 
+## 30 Sep 2026, 05:21 run (4 min 52 s, Ziggurat District, recorded): floor 1 cleared, silent on floor 2
+
+Floor 1 in ~3:30 with the marker, steering ("Blocked for 2 s, steering …" four times — the
+first ever on CrossOver) and two "Enemies close" (52 and 19 px). Floor 2 (05:24:31): after
+35 s the lead went **"no opening" for the last 45 s** — the beacon has nothing to play with no
+guidance — with the objective marker read *in the box* at (162,31), north-west, on every
+check. The minimap: the character on a narrow ziggurat ramp, the explored floor a thin strip
+hatched on both sides, the ends sealed (ledge lines), so the frontier had no openings, and
+the marker's point had no reachable floor within 20 px. "Dead end. No other openings in
+sight" was said, then silence.
+
+- **Fix: with no opening anywhere and a marker known, the lead is a straight line at the
+  marker** (`Navigator`, after the beeline block; `lastKind` 5, `beeline` + `toMarker`,
+  `markerInView` when the point is in the box; Swift and C#). Last resort only, so it cannot
+  flip-flop with openings; the steering handles what is in the way. Also `mapBegan` is set
+  when the guide starts, so no "blocked"/dead end in a run's first seconds (05:21:01 had one
+  3 s in).
+- **Open question: what the cyan icon at (162,31) was.** The enlarged crop shows a skull with
+  a cyan glow beside a blue flame — an elite marked as the objective (the district boss in
+  view?) or an Afflicted elite. `ObjectiveMarker.find` takes the largest bright-cyan blob and
+  has no shape test; a size cap and a near-player rule were tried and reverted on 27 Sep. If
+  it was the boss, the new last-resort lead is right; if not, it leads to an elite. The next
+  floor-2 recording with the map on Start would settle it (the boss room's name in the panel).
+- **The owner deletes recordings for space** (the four 29 Sep morning recordings went the same
+  day; the Movies folder held only 13:18 and this one on 30 Sep). The replays under
+  `Reference/` are what survives — write them the same day, every time.
+
 ## Working on the Shadow PC (from 28 Sep 2026)
 
 The owner moved the work onto the Windows machine itself so Sanctuary Sonar is built, run and
