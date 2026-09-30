@@ -136,6 +136,17 @@ public final class Navigator {
     /// Beeline: how far ahead must be free of wall, and how far off the marker's bearing an
     /// opening may be and still count as "towards it".
     static let beelineLook = 60.0
+    /// With the marker pinned, an opening more than this far round from it is the player's
+    /// back turned on the objective: walk at the marker instead (30 Sep 2026, 07:29, floor 3:
+    /// at the boss room's door the last north-east opening closed and the lead turned
+    /// south-east back down the ramp for the run's last fifty seconds).
+    static let backOnMarkerAngle = 120.0 * .pi / 180
+    /// Walking at the marker and not moving for this long means a wall the steering could not
+    /// get round: the openings get their turn for `beelineRest` s.
+    static let beelineStall = 20.0
+    static let beelineRest = 30.0
+    private var beelineSince: Double?
+    private var beelineRestUntil = -1.0
     static let beelineAngle = 50.0 * .pi / 180
     /// Off: added on 27 Sep after the good runs and not yet shown to help on its own. The
     /// runs that reached floor 3 (09:16–10:05) had no beeline; measure before turning it on.
@@ -653,6 +664,40 @@ public final class Navigator {
             debug(String(format: "CHOICE (%.0f,%.0f) best (%.0f,%.0f) previous %@ pending %d missed %d closed %@ usable %d",
                          c.x, c.y, b.x, b.y, currentTarget.map { "(\(Int($0.x)),\(Int($0.y)))" } ?? "-",
                          pending?.plans ?? 0, missedPlans, previousClosed ? "Y" : "n", usable.count))
+        }
+        // Do not turn the player's back on a pinned objective marker (see `backOnMarkerAngle`).
+        if let marker, markerPoint == nil, let now = map.trail.last?.time {
+            let p = point(chosen)
+            var d = abs(atan2(p.x - player.x, -(p.y - player.y)) - marker).truncatingRemainder(dividingBy: 2 * .pi)
+            if d > .pi { d = 2 * .pi - d }
+            if d > Self.backOnMarkerAngle, now >= beelineRestUntil {
+                if beelineSince == nil { beelineSince = now }
+                // Stood still at it for `beelineStall`: rest the beeline, let the openings lead.
+                if let since = beelineSince, now - since >= Self.beelineStall,
+                   let earlier = map.trail.last(where: { now - $0.time >= Self.beelineStall }),
+                   hypot(player.x - earlier.point.x, player.y - earlier.point.y) < 20 {
+                    beelineRestUntil = now + Self.beelineRest
+                    beelineSince = nil
+                } else {
+                    let end = CGPoint(x: player.x + sin(marker) * Self.beelineLook, y: player.y - cos(marker) * Self.beelineLook)
+                    currentTarget = nil
+                    lastKind = 5
+                    var g = Guidance(bearing: marker, distance: Self.beelineLook, target: end, carrot: end, path: [player, end],
+                                     openings: usable.count, mapEpoch: map.recentres, previousClosed: false, toMark: false,
+                                     marks: markCount, toSpot: false, toArch: false, toWell: false)
+                    g.toMarker = true
+                    g.beeline = true
+                    g.others = usable.map { o in
+                        let q = point(o.nearest)
+                        return (atan2(q.x - player.x, -(q.y - player.y)), cost[o.nearest] * pixelsPerCost)
+                    }
+                    return g
+                }
+            } else {
+                beelineSince = nil
+            }
+        } else {
+            beelineSince = nil
         }
         currentTarget = point(chosen)
         let others = usable.filter { $0.nearest != chosen }.map { o -> (bearing: Double, distance: Double) in

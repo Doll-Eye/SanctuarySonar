@@ -188,6 +188,13 @@ public sealed class Navigator
     /// <summary>Beeline: how far ahead must be free of wall, and how far off the marker's bearing an
     /// opening may be and still count as "towards it".</summary>
     internal const double beelineLook = 60.0;
+    /// <summary>With the marker pinned, an opening more than this far round from it is the player's
+    /// back turned on the objective: walk at the marker instead (30 Sep 2026, floor 3 of the 07:29 run).</summary>
+    internal static readonly double backOnMarkerAngle = 120.0 * Math.PI / 180;
+    internal const double beelineStall = 20.0;
+    internal const double beelineRest = 30.0;
+    private double? beelineSince;
+    private double beelineRestUntil = -1.0;
     internal const double beelineAngle = 50.0 * Math.PI / 180;
     /// <summary>Off: added on 27 Sep after the good runs and not yet shown to help on its own. The
     /// runs that reached floor 3 (09:16–10:05) had no beeline; measure before turning it on.</summary>
@@ -909,6 +916,42 @@ public sealed class Navigator
             string previousWord = currentTarget is Pt ct ? $"({(int)ct.x},{(int)ct.y})" : "-";
             debugChoice($"CHOICE ({F0(cp.x)},{F0(cp.y)}) best ({F0(bp.x)},{F0(bp.y)}) previous {previousWord} pending {pending?.plans ?? 0} missed {missedPlans} closed {(previousClosed ? "Y" : "n")} usable {usable.Count}");
         }
+        // Do not turn the player's back on a pinned objective marker (see backOnMarkerAngle).
+        if (marker is double pinned && markerPoint == null && map.trail.Count > 0)
+        {
+            double now = map.trail[map.trail.Count - 1].time;
+            var cp2 = point(chosen);
+            double d = Math.Abs(M.Atan2(cp2.x - player.x, -(cp2.y - player.y)) - pinned) % (2 * Math.PI);
+            if (d > Math.PI) d = 2 * Math.PI - d;
+            if (d > backOnMarkerAngle && now >= beelineRestUntil)
+            {
+                beelineSince ??= now;
+                Pt? earlierPoint = null;
+                for (int k = map.trail.Count - 1; k >= 0; k--) { if (now - map.trail[k].time >= beelineStall) { earlierPoint = map.trail[k].point; break; } }
+                if (now - beelineSince.Value >= beelineStall && earlierPoint is Pt ep && M.Hypot(player.x - ep.x, player.y - ep.y) < 20)
+                {
+                    beelineRestUntil = now + beelineRest;
+                    beelineSince = null;
+                }
+                else
+                {
+                    var end = new Pt(player.x + Math.Sin(pinned) * beelineLook, player.y - Math.Cos(pinned) * beelineLook);
+                    currentTarget = null;
+                    lastKind = 5;
+                    var bg2 = new Guidance(bearing: pinned, distance: beelineLook, target: end, carrot: end, path: new List<Pt> { player, end },
+                                           openings: usable.Count, mapEpoch: map.recentres, previousClosed: false, toMark: false,
+                                           marks: markCount, toSpot: false, toArch: false, toWell: false);
+                    bg2.toMarker = true;
+                    bg2.beeline = true;
+                    var oth = new List<(double bearing, double distance)>();
+                    foreach (var o in usable) { var q = point(o.nearest); oth.Add((M.Atan2(q.x - player.x, -(q.y - player.y)), cost[o.nearest] * pixelsPerCost)); }
+                    bg2.others = oth;
+                    return bg2;
+                }
+            }
+            else beelineSince = null;
+        }
+        else beelineSince = null;
         currentTarget = point(chosen);
         var othersLeft = new List<(double bearing, double distance)>();
         foreach (var o in usable)

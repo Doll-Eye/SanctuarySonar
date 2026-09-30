@@ -404,28 +404,45 @@ public enum MinimapReader {
         return atan2(cx - tip.0, -(cy - tip.1))
     }
 
+    /// The arrow as the game draws it while the player stands in a floor's starting bubble:
+    /// grey, not white (30 Sep 2026, 08:10 — luma peaking at 133 with 15 pixels over 100, against
+    /// the 60 the finder wanted; 148 frames "illegible", the objective never read, the guide
+    /// silent while the owner waited for it). The second pass takes a dimmer, smaller cluster,
+    /// and failing that the box's centre, where the game keeps the player anyway.
+    static let dimArrowLevel: UInt8 = 80
+    static let dimArrowMinimum = 12
+    /// The player is kept within this many pixels of the box's centre; a cluster farther out
+    /// than this on the dim pass is an icon, not the arrow.
+    static let dimArrowReach = 40.0
+
     static func findArrow(_ gray: Gray, bandTop: Int) -> CGPoint? {
+        if let bright = findArrow(gray, bandTop: bandTop, level: arrowLevel, minimum: 60, reach: arrowSearchRadius * Double(gray.height)) {
+            return bright
+        }
+        return findArrow(gray, bandTop: bandTop, level: dimArrowLevel, minimum: dimArrowMinimum, reach: dimArrowReach)
+    }
+
+    private static func findArrow(_ gray: Gray, bandTop: Int, level: UInt8, minimum: Int, reach: Double) -> CGPoint? {
         let w = gray.width
         let centre = (x: Double(w) / 2, y: Double(gray.height) / 2)
-        let reach = arrowSearchRadius * Double(gray.height)
         var seen = [Bool](repeating: false, count: w * gray.height)
         var best: (count: Int, sx: Int, sy: Int, gap: Double) = (0, 0, 0, .infinity)
-        for y in 0..<bandTop { for x in 0..<w where gray[x, y] >= arrowLevel && !seen[y * w + x] {
+        for y in 0..<bandTop { for x in 0..<w where gray[x, y] >= level && !seen[y * w + x] {
             var stack = [(x, y)], count = 0, sx = 0, sy = 0
             seen[y * w + x] = true
             while let (cx, cy) = stack.popLast() {
                 count += 1; sx += cx; sy += cy
                 for (nx, ny) in [(cx + 1, cy), (cx - 1, cy), (cx, cy + 1), (cx, cy - 1)]
-                where nx >= 0 && nx < w && ny >= 0 && ny < bandTop && !seen[ny * w + nx] && gray[nx, ny] >= arrowLevel {
+                where nx >= 0 && nx < w && ny >= 0 && ny < bandTop && !seen[ny * w + nx] && gray[nx, ny] >= level {
                     seen[ny * w + nx] = true
                     stack.append((nx, ny))
                 }
             }
-            guard count >= 60 else { continue }
+            guard count >= minimum else { continue }
             let gap = hypot(Double(sx) / Double(count) - centre.x, Double(sy) / Double(count) - centre.y)
             if gap < reach && gap < best.gap { best = (count, sx, sy, gap) }
         } }
-        guard best.count >= 60 else { return nil }
+        guard best.count >= minimum else { return nil }
         return CGPoint(x: Double(best.sx) / Double(best.count), y: Double(best.sy) / Double(best.count))
     }
 }

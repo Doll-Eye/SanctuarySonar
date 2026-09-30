@@ -216,7 +216,7 @@
 19.45	0.2732	138
 19.45	0.4699	Normal
 19.45	0.5431	Kurast Undercity
-19.45	0.5919	I II IV
+19.45	0.5919	I I IV
 19.45	0.6856	Reward Upgrades (0/4) •
 19.45	0.7409	& Attunement: Ignite Beacons, Slay
 19.45	0.7809	Monsters
@@ -1567,7 +1567,7 @@
 139.92	0.8247	& Time Bonus: Slay Afflicted Monsters
 139.92	0.8668	Reach District Boss before time expires •
 139.92	0.9192	District Run
-140.95	0.0636	)| 6:33 AN
+140.95	0.0636	| 6:33 AN
 140.95	0.0670	Ziggurat District ©
 140.95	0.1164	FLOOR
 140.95	0.1546	1/3
@@ -2949,7 +2949,7 @@
 253.69	0.8707	Reach District Boss before time expires
 253.69	0.9202	District Run
 254.82	0.0644	| 6:34 AM
-254.82	0.0670	Ziggurat District G
+254.82	0.0670	Ziggurat District ©
 254.82	0.1160	FLOOR
 254.82	0.1538	2/3
 254.82	0.2741	133
@@ -2962,7 +2962,7 @@
 254.82	0.8243	Z Time Bonus: Slay Afflicted Monsters
 254.82	0.8668	Reach District Boss before time expires *
 254.82	0.9192	District Run
-254.82	0.9888	Lond Shiit Rancon
+254.82	0.9888	rond Sni it Rancan
 255.91	0.0652	| 6:34 AN
 255.91	0.0662	Ziggurat District
 255.91	0.1168	FLOOR
@@ -3064,7 +3064,8 @@
 262.14	0.7801	Monsters
 262.14	0.8263	- Time Bonus: Slay Afflicted Monsters
 262.14	0.8603	Reach District Boss before time expires
-262.14	0.9178	District Run PY
+262.14	0.9178	District Run fY
+262.14	0.9888	Gmnd Sai ir Rancan
 263.19	0.0644	| 6:35 AN
 263.19	0.0662	Ziggurat District G
 263.19	0.1168	FLOOR
@@ -4819,7 +4820,7 @@
 395.00	0.8665	Reach District Boss before time expires •
 395.00	0.9192	District Run
 396.12	0.0654	| 6:37 AN
-396.12	0.0670	Ziggurat District G
+396.12	0.0670	Ziggurat District ©
 396.12	0.1168	FLOOR
 396.12	0.1538	3/3
 396.12	0.2741	32

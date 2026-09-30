@@ -233,8 +233,9 @@ while (ReadFrame())
         {
             Console.WriteLine($"{time,7:F2} s  fits nowhere for 2.5 s: new map");
             stitcher.reset(); navigator.forget();
-            placement = stitcher.add(reading, time);
             refusedSince = null;
+            settleUntil = time + 2.5;   // usually a fade: the new map begins after it settles
+            continue;
         }
     }
     else refusedSince = time;

@@ -1201,6 +1201,46 @@ first run…" and "Map points":
 - Not ported: the Windows Forms window (the Mac has its own), the Windows recorder (the Mac
   had one first), PrintWindow capture (ScreenCaptureKit already reads the window itself).
 
+## 30 Sep 2026, 08:10 run: "complete fail" — the arrow is grey in the starting bubble
+
+148 frames, every one `illegible` with contrast 19, floor 12 %, busy 0.16 — i.e. **no arrow**.
+The owner waited in the floor's safe bubble for the guide (as told); while the player stands
+in it the minimap draws the arrow grey (luma peak 133, 15 pixels ≥ 100 against the 60-pixel
+white cluster `findArrow` wanted). No arrow → illegible → no objective read (the tracker is
+read only on legible frames) → "Can't see the minimap" and silence. MapLab reads the same
+recording fine, because the H.264 pass brightens the arrow — **MapLab is not a faithful test
+of live arrow detection.** Fix: a second pass in `findArrow` (Swift and C#) accepts a dimmer
+(≥ 80) cluster of ≥ 12 pixels within 40 px of the centre.
+
+Verification batch of the beeline rule: 0729 floors 5/1, 5/1, 4/1 (floor 3 was 6/2), 26
+beeline leads; 0630 5/1, 6/1, 3/1 (unchanged within noise); 0703's replay **hung in Vision at
+74 s and was killed by its 1500 s alarm** — a per-process hang, the recogniser answered
+normally afterwards; keep the alarm on every replay. On 0729 floor 3 the rule fired at the
+door at ~280 s, the owner stood still, the 20 s stall rest handed the lead back to the
+openings behind — which is the wrong answer at a boss-room door. What blocks the door is not
+yet understood (see the design review, `docs/undercity-review.md`).
+
+## 30 Sep 2026, 07:29 run (5 min 35 s, Ziggurat District, recorded): floors 1 and 2 in 3:30, lost on floor 3
+
+Floors 1 and 2 went as designed (the arrival rule fired four times, the settling held). The
+owner's guess — "because I started moving straight away" — is not it: the first lead on floor 3
+was north-east 147 px, correct, and he closed to 60 px of the boss room's door by 275 s. Then
+the last north-east opening closed at the door (a threshold the reader sees as wall), the
+beeline held for one frame, and with the marker still pinned north-east **the lead turned
+south-east / south, 150–290 px back down the ramp, for the run's last fifty seconds** —
+because those were the only openings left. Also seen: floor 1 reset twice in five seconds at
+07:29:56 and 07:30:49 — a fade passing as legible and seeding a map that the next real frame
+could not fit — so the settling now applies after a fits-nowhere reset too.
+
+- **Rule: do not turn the player's back on a pinned marker** (`Navigator.backOnMarkerAngle`,
+  120°; Swift and C#). With the marker pinned and the chosen opening more than 120° round
+  from it, the lead is a straight line at the marker (`lastKind` 5, `beeline`), walls left to
+  the steering. If the player then stands still for `beelineStall` (20 s), the beeline rests
+  for `beelineRest` (30 s) and the openings lead. The 27 Sep beeline was retired because it
+  walked into walls before there was steering; this is its return under a narrower condition.
+- Verification pending: replays of 0729 (floor 3 should hold north-east), 0703 and 0630 (no
+  change expected — their chosen openings were within 120° of the marker).
+
 ## 30 Sep 2026, 07:03 run (6 min 28 s, Temple District, recorded): floor 1 clean, floor 2 lost to phantom floor
 
 Floor 1 worked as designed: marker called, led to, "At the objective marker" at 19 px, floor 2

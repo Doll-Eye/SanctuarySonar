@@ -305,8 +305,9 @@ while let buffer = output.copyNextSampleBuffer() {
         if time - since > 2.5 {
             print(String(format: "%7.2f s  fits nowhere for 2.5 s: new map", time))
             stitcher.reset(); navigator.forget()
-            placement = stitcher.add(reading, time: time)
             refusedSince = nil
+            settleUntil = time + 2.5   // usually a fade: the new map begins after it settles
+            continue
         }
     } else {
         refusedSince = time

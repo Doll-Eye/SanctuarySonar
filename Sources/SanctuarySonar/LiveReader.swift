@@ -390,9 +390,16 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
                            Self.newMapAfter, placement.score, reading.floorFraction * 100, reading.busyFraction, reading.contrast))
                 stitcher.reset()
                 navigator.forget()
-                _ = stitcher.add(reading, time: time)
                 refusedSince = nil
                 newMap = true
+                // Usually a fade: begin the new map from the first frame after it settles,
+                // not from this one (floor 1 of the 07:29 run reset twice in five seconds,
+                // at 6 % floor and then at 42 % when the real frame did not fit the fade).
+                settleUntil = time + Self.settleAfterReset
+                publish(Snapshot(legible: false, contrast: reading.contrast, floorFraction: reading.floorFraction,
+                                 busyFraction: reading.busyFraction, guidance: nil, heading: nil, newMap: true,
+                                 milliseconds: (CACurrentMediaTime() - began) * 1000))
+                return
             }
         } else {
             refusedSince = time

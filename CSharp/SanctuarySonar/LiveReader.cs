@@ -373,9 +373,12 @@ public sealed class LiveReader
                 Log.log($"Minimap fits nowhere for {newMapAfter.ToString(CultureInfo.InvariantCulture)} s (best score {placement.score.ToString("F2", CultureInfo.InvariantCulture)}): new map");
                 stitcher.reset();
                 navigator.forget();
-                _ = stitcher.add(reading, time);
                 refusedSince = null;
-                newMap = true;
+                // Usually a fade: begin the new map from the first frame after it settles.
+                settleUntil = startedAt.Elapsed.TotalSeconds + settleAfterReset;
+                publish(new Snapshot(legible: false, contrast: reading.contrast, guidance: null, heading: null, newMap: true,
+                                     milliseconds: began.Elapsed.TotalMilliseconds));
+                return;
             }
         }
         else

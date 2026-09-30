@@ -520,16 +520,27 @@ public static class MinimapReader
         return M.Atan2(cx - tip.Item1, -(cy - tip.Item2));
     }
 
+    /// <summary>The arrow as drawn while the player stands in a floor's starting bubble is grey, not
+    /// white (30 Sep 2026): a second pass takes a dimmer, smaller cluster near the centre.</summary>
+    internal const byte dimArrowLevel = 80;
+    internal const int dimArrowMinimum = 12;
+    internal const double dimArrowReach = 40.0;
+
     internal static Pt? findArrow(Gray gray, int bandTop)
+    {
+        return findArrow(gray, bandTop, arrowLevel, 60, arrowSearchRadius * (double)gray.height)
+            ?? findArrow(gray, bandTop, dimArrowLevel, dimArrowMinimum, dimArrowReach);
+    }
+
+    private static Pt? findArrow(Gray gray, int bandTop, byte level, int minimum, double reach)
     {
         int w = gray.width;
         var centre = (x: (double)w / 2, y: (double)gray.height / 2);
-        double reach = arrowSearchRadius * (double)gray.height;
         var seen = new bool[w * gray.height];
         (int count, int sx, int sy, double gap) best = (0, 0, 0, double.PositiveInfinity);
         for (int y = 0; y < bandTop; y++) for (int x = 0; x < w; x++)
         {
-            if (!(gray[x, y] >= arrowLevel && !seen[y * w + x])) continue;
+            if (!(gray[x, y] >= level && !seen[y * w + x])) continue;
             var stack = new Stack<(int, int)>(); stack.Push((x, y));
             int count = 0, sx = 0, sy = 0;
             seen[y * w + x] = true;
@@ -539,16 +550,16 @@ public static class MinimapReader
                 count += 1; sx += cx; sy += cy;
                 foreach (var (nx, ny) in new[] { (cx + 1, cy), (cx - 1, cy), (cx, cy + 1), (cx, cy - 1) })
                 {
-                    if (!(nx >= 0 && nx < w && ny >= 0 && ny < bandTop && !seen[ny * w + nx] && gray[nx, ny] >= arrowLevel)) continue;
+                    if (!(nx >= 0 && nx < w && ny >= 0 && ny < bandTop && !seen[ny * w + nx] && gray[nx, ny] >= level)) continue;
                     seen[ny * w + nx] = true;
                     stack.Push((nx, ny));
                 }
             }
-            if (!(count >= 60)) continue;
+            if (!(count >= minimum)) continue;
             double gap = M.Hypot((double)sx / (double)count - centre.x, (double)sy / (double)count - centre.y);
             if (gap < reach && gap < best.gap) best = (count, sx, sy, gap);
         }
-        if (!(best.count >= 60)) return null;
+        if (!(best.count >= minimum)) return null;
         return new Pt((double)best.sx / (double)best.count, (double)best.sy / (double)best.count);
     }
 }
