@@ -1201,6 +1201,31 @@ first run…" and "Map points":
 - Not ported: the Windows Forms window (the Mac has its own), the Windows recorder (the Mac
   had one first), PrintWindow capture (ScreenCaptureKit already reads the window itself).
 
+## 30 Sep 2026, 07:03 run (6 min 28 s, Temple District, recorded): floor 1 clean, floor 2 lost to phantom floor
+
+Floor 1 worked as designed: marker called, led to, "At the objective marker" at 19 px, floor 2
+eleven seconds later. Floor 2 then went nowhere for three minutes: every lead `to opening to
+marker` **east / south-east at 100–190 px** while the boss marker was pinned at the bottom
+edge (south-west), the player still for 109 of 166 s, "Blocked … steering" seven times. The
+map saved at the end shows why: the new map began as **a disc of "floor" the size of the
+whole minimap box**, with the real explored blob and the trail knotted inside it and the
+route running out across the phantom to the marker. The first frame after `Floor: 2 of 3`
+(07:07:02.6) read 33 % floor against 19–25 % for every frame after — the floor-change fade,
+which passes the legibility tests on the native render (the busy gate is 0.60 now, and the
+arrow is still drawn) — and the reset had just happened, so it was voted as the map's first
+frame over the whole reveal disc. Nothing later can outvote floor that far from the player.
+On the Shadow stream the fade frames were black and illegible, so this never showed.
+
+- **Fix: nothing is stitched for `settleAfterReset` (2.5 s) after a floor change**
+  (`LiveReader.settleUntil`, set in `newMap()`; the frames are published as illegible so the
+  guide stays quiet; Swift, C#, and both MapLabs print "settling after the floor change").
+  Verify on this recording: floor 2's map should be the small blob and the first leads should
+  head south-west towards the pinned marker.
+- The owner's question was "what have you done wrong": nothing in this run's log points at
+  yesterday's changes — the arrival rule fired once, correctly; the dead-end and steering rules
+  behaved. The fault was a native-render transition frame, the same family as the busy gate
+  and the timed-run flag.
+
 ## 30 Sep 2026, 06:30 run (7 min 28 s, Ziggurat District, recorded): floors 1 and 2 cleared, floor 3 reached with 71 s
 
 The first full-length run with the recogniser healthy again. "A little lost around the

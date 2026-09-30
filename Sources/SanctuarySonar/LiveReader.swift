@@ -138,6 +138,12 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
     private let stitcher = Stitcher()
     private let navigator = Navigator()
     private var refusedSince: Double?
+    /// After a floor change nothing is stitched until this time: the floor-change fade passes
+    /// the legibility tests on the native render (30 Sep 2026, 07:07: the first frame after
+    /// "Floor 2 of 3" read 33 % floor across the box, the new map began as a disc of phantom
+    /// floor, and every lead for three minutes was an "opening" 100–190 px into it).
+    private var settleUntil = 0.0
+    static let settleAfterReset = 2.5
     /// The last plan, for describing where the unexplored ground is.
     private var lastGuidance: Guidance?
     /// Where the minimap box sits inside the captured rectangle, and its size.
@@ -221,6 +227,7 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
             self.lastTimeTarget = nil
             self.doneTargets = []
             self.markerBearing = nil
+            self.settleUntil = CACurrentMediaTime() - self.startedAt + Self.settleAfterReset
         }
     }
 
@@ -359,6 +366,13 @@ final class LiveReader: NSObject, SCStreamOutput, SCStreamDelegate {
             }
         } else if markerBearing != nil, time - markerSeen > Self.markerHold {
             markerBearing = nil
+        }
+        // Settling after a floor change: read, but do not stitch or lead (see `settleUntil`).
+        if time < settleUntil {
+            publish(Snapshot(legible: false, contrast: reading.contrast, floorFraction: reading.floorFraction,
+                             busyFraction: reading.busyFraction, guidance: nil, heading: nil, newMap: false,
+                             milliseconds: (CACurrentMediaTime() - began) * 1000))
+            return
         }
         guard reading.isLegible else {
             publish(Snapshot(legible: false, contrast: reading.contrast, floorFraction: reading.floorFraction,

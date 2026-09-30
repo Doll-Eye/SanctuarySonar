@@ -144,6 +144,10 @@ public sealed class LiveReader
     private readonly Stitcher stitcher = new Stitcher();
     private readonly Navigator navigator = new Navigator();
     private double? refusedSince;
+    /// <summary>After a floor change nothing is stitched until this time: the fade frames pass the
+    /// legibility tests natively and seeded a map with phantom floor (30 Sep 2026).</summary>
+    private double settleUntil = 0.0;
+    public const double settleAfterReset = 2.5;
     /// <summary>The last plan, for describing where the unexplored ground is.</summary>
     private Guidance? lastGuidance;
     // PORT NOTE: the Swift kept `inset` and `box` (where the minimap box sits in the capture, and
@@ -210,6 +214,7 @@ public sealed class LiveReader
         lastTimeTarget = null;
         doneTargets = new List<Pt>();
         markerBearing = null;
+        settleUntil = startedAt.Elapsed.TotalSeconds + settleAfterReset;
     }
 
     // PORT NOTE: `saveMap(to:)` — the map and the last minimap as PNGs, for checking from outside —
@@ -349,7 +354,7 @@ public sealed class LiveReader
         {
             markerBearing = null;
         }
-        if (!reading.isLegible)
+        if (time < settleUntil || !reading.isLegible)   // settling after a floor change, or unreadable
         {
             publish(new Snapshot(legible: false, contrast: reading.contrast, guidance: null, heading: null, newMap: false,
                                  milliseconds: began.Elapsed.TotalMilliseconds));

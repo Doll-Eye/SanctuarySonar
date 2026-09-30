@@ -98,6 +98,7 @@ int samples = 0, placed = 0, illegible = 0;
 Guidance? lastGuidance = null;
 double? refusedSince = null;
 int? floorSeen = null;
+double settleUntil = -1.0;   // nothing stitched for 2.5 s after a floor change (30 Sep 2026)
 double beaconSaid = -10, markerSaid = -10, objectiveSaid = -10;
 var timeIcons = new List<(Pt, string)>();
 Pt? lastTimeTarget = null;
@@ -135,7 +136,7 @@ while (ReadFrame())
         if (changed.floor is var f && f.HasValue)
         {
             Console.WriteLine($"{time,7:F2} s  FLOOR {f.Value.number} of {f.Value.of}{(floorSeen == null ? "" : " — new map")}");
-            if (floorSeen != null) { stitcher.reset(); navigator.forget(); doneTargets.Clear(); lastTimeTarget = null; }
+            if (floorSeen != null) { stitcher.reset(); navigator.forget(); doneTargets.Clear(); lastTimeTarget = null; settleUntil = time + 2.5; }
             floorSeen = f.Value.number;
         }
         var newIntent = hud.objective?.intent(hud.area, hud.timedRun) ?? intent;
@@ -213,6 +214,11 @@ while (ReadFrame())
     }
     else if (markerBearing != null && time - markerSeen > 3) markerBearing = null;
     samples++;
+    if (time < settleUntil)
+    {
+        Console.WriteLine($"{time,7:F2} s  settling after the floor change");
+        continue;
+    }
     if (!reading.isLegible)
     {
         illegible++;

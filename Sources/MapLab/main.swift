@@ -137,6 +137,8 @@ var lastGuidance: Guidance?
 // Undercity replay of 27 Sep stitched the Helltide's minimap first and refused every frame after).
 var refusedSince: Double?
 var floorSeen: Int?
+// Nothing is stitched for this long after a floor change: the fade frames seeded phantom floor (30 Sep 2026).
+var settleUntil = -1.0
 var beaconSaid = -10.0
 var blueSaid = -10.0
 var timeIcons: [(CGPoint, String)] = []
@@ -188,7 +190,7 @@ while let buffer = output.copyNextSampleBuffer() {
             if let t = changed.timer { print(String(format: "%7.2f s  TIMER %d", time, t)) }
             if let f = changed.floor {
                 print(String(format: "%7.2f s  FLOOR %d of %d%@", time, f.number, f.of, floorSeen == nil ? "" : " — new map"))
-                if floorSeen != nil { stitcher.reset(); navigator.forget(); doneTargets = []; lastTimeTarget = nil }
+                if floorSeen != nil { stitcher.reset(); navigator.forget(); doneTargets = []; lastTimeTarget = nil; settleUntil = time + 2.5 }
                 floorSeen = f.number
             }
             let newIntent = hud.objective?.intent(currentArea: hud.area, timed: hud.timedRun) ?? intent
@@ -284,6 +286,10 @@ while let buffer = output.copyNextSampleBuffer() {
         markerBearing = nil
     }
     samples += 1
+    if time < settleUntil {
+        print(String(format: "%7.2f s  settling after the floor change", time))
+        continue
+    }
     guard reading.isLegible else {
         illegible += 1
         print(String(format: "%7.2f s  illegible: contrast %.1f floor %.0f%% arrow %@ busy %.2f",
