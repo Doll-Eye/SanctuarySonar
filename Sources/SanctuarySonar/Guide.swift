@@ -163,6 +163,13 @@ final class Guide: ObservableObject {
     static let noOpeningAfter: TimeInterval = 3
     static let noOpeningRepeat: TimeInterval = 30
     static let holdGap: TimeInterval = 2
+    /// Within this many minimap pixels of the objective marker's point, the player is there:
+    /// the beacon goes quiet and "At the objective marker" is said once. Found 30 Sep 2026: at
+    /// the district-boss marker the lead's target sat 4–8 px away, its bearing turned with
+    /// every step, and the beacon swung north / south / north for 45 s while the owner, who
+    /// follows a swing within two seconds, turned with it ("a little lost around the portal").
+    static let markerArrived = 30.0
+    private var saidAtMarker = false
     /// An opening that disappears while its route is shorter than this was a dead end.
     /// 80, not 150, since 30 Sep 2026: on the native render openings close at 110–150 px as
     /// the fog fills in and the hatching settles, long before the player is at them, and the
@@ -255,6 +262,7 @@ final class Guide: ObservableObject {
             lastTimerRead = .distantPast; lastTimerRise = .distantPast; lastNotPaying = .distantPast
             floorSeen = nil
             mapBegan = Date()   // no "blocked" or dead end in the first seconds of a run either (30 Sep: one 3 s in)
+            saidAtMarker = false
             leaveToSay = nil
             announcedObjectives = []
             noOpeningSince = nil
@@ -392,7 +400,7 @@ final class Guide: ObservableObject {
         log("Floor: \(number) of \(of)")
         defer { floorSeen = number }
         guard isOn else { return }
-        if floorSeen != nil { reader.newMap(); mapBegan = Date() }
+        if floorSeen != nil { reader.newMap(); mapBegan = Date(); saidAtMarker = false }
         tell("Floor \(number) of \(of).", sound: "Glass")
     }
 
@@ -542,7 +550,7 @@ final class Guide: ObservableObject {
             status = "Guide on."
             log("Map readable again")
         }
-        if snapshot.newMap { mapBegan = now; tell("New map.", sound: "Pop") }
+        if snapshot.newMap { mapBegan = now; saidAtMarker = false; tell("New map.", sound: "Pop") }
         // A timer not read for a while is gone (the run is over, or the badge is covered):
         // forget it, so nothing is said or routed on a stale count.
         if lastTimer != nil, freshTimer == nil {
@@ -669,6 +677,18 @@ final class Guide: ObservableObject {
                 accuracy = difference < Self.onCourseAngle ? .on : (difference < Self.nearAngle ? .near : .away)
             }
             let onCourse = accuracy == .on
+            // At the marker: nothing to steer towards any more. Quiet beacon, no direction
+            // words, no steering; said once until the player has moved off it.
+            let atMarker = g.markerInView && g.distance < Self.markerArrived
+            if atMarker {
+                if !saidAtMarker {
+                    saidAtMarker = true
+                    log("At the objective marker (\(Int(g.distance)) px)")
+                    tell("At the objective marker.", sound: "Glass")
+                }
+            } else if g.distance > Self.markerArrived * 2 {
+                saidAtMarker = false
+            }
             // The direction in words, whenever it settles on a new one.
             let word = Compass.word(g.bearing)
             if directionCandidate?.word != word { directionCandidate = (word, now) }
@@ -678,7 +698,7 @@ final class Guide: ObservableObject {
                 if d > .pi { d = 2 * .pi - d }
                 turned = d >= Self.directionTurn
             }
-            if word != spokenDirection, turned, let since = directionCandidate?.since,
+            if !atMarker, word != spokenDirection, turned, let since = directionCandidate?.since,
                now.timeIntervalSince(since) >= Self.directionHold, now.timeIntervalSince(lastDirectionSaid) >= Self.directionGap {
                 spokenDirection = word
                 spokenBearing = g.bearing
@@ -687,7 +707,7 @@ final class Guide: ObservableObject {
             }
             // Micro steering: see the properties above. Decided before the beacon points.
             let enemyClose = (snapshot.nearestMark ?? .infinity) < Self.enemyNear
-            let stalled = snapshot.heading == nil && accuracy != .away && !enemyClose && now.timeIntervalSince(mapBegan) > 6
+            let stalled = snapshot.heading == nil && accuracy != .away && !enemyClose && !atMarker && now.timeIntervalSince(mapBegan) > 6
             // Still, with a mark close: say so, because the beacon will not steer round it.
             if snapshot.heading == nil && enemyClose {
                 if enemiesCloseSince == nil { enemiesCloseSince = now }
@@ -732,7 +752,9 @@ final class Guide: ObservableObject {
                 steerBearing = nil
             }
             if !silentTest {
-                beacon.point(bearing: steerBearing ?? g.bearing, accuracy: steerBearing == nil ? accuracy : .near)
+                if atMarker { beacon.silence() } else {
+                    beacon.point(bearing: steerBearing ?? g.bearing, accuracy: steerBearing == nil ? accuracy : .near)
+                }
                 // On course: one glide on arriving there, then nothing — the double tick is
                 // already saying it. Off course: a tap a second towards the route.
                 if onCourse {

@@ -123,6 +123,10 @@ public sealed class Guide
     public static readonly double timeTargetGap = 20;
     /// <summary>A red mark nearer than this (minimap px) is a fight, not a wall: no steering.</summary>
     public static readonly double enemyNear = 60;
+    /// <summary>Within this many minimap px of the objective marker's point the player is there: quiet
+    /// beacon, "At the objective marker" once, no direction words or steering (30 Sep 2026).</summary>
+    public static readonly double markerArrived = 30;
+    bool saidAtMarker = false;
     DateTime? enemiesCloseSince;
     DateTime lastEnemiesSaid = DateTime.MinValue;
     public static readonly double enemiesAfter = 4;
@@ -238,6 +242,7 @@ public sealed class Guide
         lastTimerRead = DateTime.MinValue; lastTimerRise = DateTime.MinValue; lastNotPaying = DateTime.MinValue;
         floorSeen = null;
         mapBegan = DateTime.UtcNow;   // no "blocked" or dead end in the first seconds of a run either
+        saidAtMarker = false;
         leaveToSay = null;
         announcedObjectives = new();
         noOpeningSince = null;
@@ -384,7 +389,7 @@ public sealed class Guide
         try
         {
             if (!isOn) return;
-            if (floorSeen != null) { reader.newMap(); mapBegan = DateTime.UtcNow; }
+            if (floorSeen != null) { reader.newMap(); mapBegan = DateTime.UtcNow; saidAtMarker = false; }
             tell($"Floor {number} of {of}.", "Glass");
         }
         finally
@@ -581,7 +586,7 @@ public sealed class Guide
             status = "Guide on.";
             Log.log("Map readable again");
         }
-        if (snapshot.newMap) { mapBegan = now; tell("New map.", "Pop"); }
+        if (snapshot.newMap) { mapBegan = now; saidAtMarker = false; tell("New map.", "Pop"); }
         // A timer not read for a while is gone (the run is over, or the badge is covered):
         // forget it, so nothing is said or routed on a stale count.
         if (lastTimer != null && freshTimer == null) { Log.log("Timer: stale, forgotten"); lastTimer = null; reader.timeLeft = null; }
@@ -729,6 +734,12 @@ public sealed class Guide
             }
             bool onCourse = accuracy == BeaconAccuracy.on;
             // The direction in words, whenever it settles on a new one.
+            bool atMarker = g.markerInView && g.distance < markerArrived;
+            if (atMarker)
+            {
+                if (!saidAtMarker) { saidAtMarker = true; Log.log($"At the objective marker ({(int)g.distance} px)"); tell("At the objective marker.", "Glass"); }
+            }
+            else if (g.distance > markerArrived * 2) saidAtMarker = false;
             string word = Compass.word(g.bearing);
             if (directionCandidate?.word != word) directionCandidate = (word, now);
             bool turned = true;
@@ -738,7 +749,7 @@ public sealed class Guide
                 if (d > Math.PI) d = 2 * Math.PI - d;
                 turned = d >= directionTurn;
             }
-            if (word != spokenDirection && turned && directionCandidate?.since is DateTime candidateSince
+            if (!atMarker && word != spokenDirection && turned && directionCandidate?.since is DateTime candidateSince
                 && (now - candidateSince).TotalSeconds >= directionHold && (now - lastDirectionSaid).TotalSeconds >= directionGap)
             {
                 spokenDirection = word;
@@ -750,7 +761,7 @@ public sealed class Guide
             // A red mark nearer than enemyNear is a fight, not a wall (29 Sep 2026: the native render
             // shows a mark on most frames of the Undercity, and "no marks at all" never steered).
             bool enemyClose = (snapshot.nearestMark ?? double.PositiveInfinity) < enemyNear;
-            bool stalled = snapshot.heading == null && accuracy != BeaconAccuracy.away && !enemyClose && (now - mapBegan).TotalSeconds > 6;
+            bool stalled = snapshot.heading == null && accuracy != BeaconAccuracy.away && !enemyClose && !atMarker && (now - mapBegan).TotalSeconds > 6;
             // Still, with a mark close: say so, because the beacon will not steer round it.
             if (snapshot.heading == null && enemyClose)
             {
@@ -809,7 +820,8 @@ public sealed class Guide
             }
             if (!silentTest)
             {
-                beacon.point(steerBearing ?? g.bearing, steerBearing == null ? accuracy : BeaconAccuracy.near);
+                if (atMarker) beacon.silence();
+                else beacon.point(steerBearing ?? g.bearing, steerBearing == null ? accuracy : BeaconAccuracy.near);
                 // On course: one glide on arriving there, then nothing — the double tick is
                 // already saying it. Off course: a tap a second towards the route.
                 // Haptic cues here on the Mac: haptics.onCourse() once on arriving on course, else haptics.direction(bearing: g.bearing).

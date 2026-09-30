@@ -1201,6 +1201,27 @@ first run…" and "Map points":
 - Not ported: the Windows Forms window (the Mac has its own), the Windows recorder (the Mac
   had one first), PrintWindow capture (ScreenCaptureKit already reads the window itself).
 
+## 30 Sep 2026, 06:30 run (7 min 28 s, Ziggurat District, recorded): floors 1 and 2 cleared, floor 3 reached with 71 s
+
+The first full-length run with the recogniser healthy again. "A little lost around the
+portal": the log's per-second lines show the lead flipping through ~180° once a second for
+45 s on floor 1 (06:32:22–06:33:06) and again on floor 2, every time with `marker on map` at
+**4–8 px** — the player standing on the district-boss marker (the cyan icon is the arena; the
+screenshot at 125 s shows the Vengeful Spirit fight there), the in-view marker route's target
+a few pixels off their feet, its bearing turning with every step. Measured how the owner
+follows: still 33 / 58 / 48 % per floor; when moving, ~30 % within 45° of the lead, ~45 %
+sideways, ~25 % against; **median 1–2 s to turn onto a new bearing**. He follows every swing,
+so a steady lead matters more than a precise one.
+
+- **Arrival rule** (`Guide.markerArrived` 30 px, Swift and C#): within it the beacon is
+  silenced, "At the objective marker." is said once (reset when 60 px away or on a new map),
+  and no direction words or steering come. `Tools/steady.py` skips those leads too, so the
+  metric matches what is heard: this run re-scores from 34 / 13, 40 / 15, 3 / 1 with them to
+  the figures in `Reference/2026-09-30-0630`. Steering fired once in the run; the cane was not
+  the problem.
+- Floor 3 was lost in a fight by the boss room ("not paying" three times, 40 → 10 s). Nothing
+  new to build for that; the owner heard the calls.
+
 ## 30 Sep 2026, 05:43–06:01: three runs "treated like a normal dungeon" — the Neural Engine compiler wedged
 
 The 05:21 run read objective, floor and timer; the 05:43, 05:46 and 05:58 runs read nothing

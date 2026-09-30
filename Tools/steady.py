@@ -17,7 +17,10 @@ its three floors; the definitions above are the ones used then, rewritten from t
 """
 import re, sys
 
-lead = re.compile(r"^\s*([\d.]+) s .*?go [a-z-]+ \(([-\d]+)°\)")
+lead = re.compile(r"^\s*([\d.]+) s .*?go [a-z-]+ \(([-\d]+)°\), ([\d.]+) px.*?(TO MARKER IN VIEW)?\s*$")
+# Within markerArrived px of the marker in view the live guide holds the beacon quiet (30 Sep
+# 2026), so those leads are not swings anyone hears.
+markerArrived = 30.0
 floor = re.compile(r"^\s*([\d.]+) s\s+FLOOR (\d+) of (\d+)")
 noopen = re.compile(r"^\s*([\d.]+) s .*?no opening\s*$")
 newmap = re.compile(r"^\s*([\d.]+) s\s+fits nowhere")
@@ -44,7 +47,9 @@ def main(path):
             floors.append((f"floor {m.group(2)} of {m.group(3)}", [], 0, 0)); continue
         m = lead.match(line)
         name, leads, nolead, resets = floors[-1]
-        if m: leads.append((float(m.group(1)), int(m.group(2)))); continue
+        if m:
+            if m.group(4) and float(m.group(3)) < markerArrived: continue   # at the marker: beacon quiet
+            leads.append((float(m.group(1)), int(m.group(2)))); continue
         if noopen.match(line): floors[-1] = (name, leads, nolead + 1, resets); continue
         if newmap.match(line): floors[-1] = (name, leads, nolead, resets + 1)
     summary = []
